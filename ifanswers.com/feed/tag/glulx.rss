@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged glulx</title>
+<link>http://ifanswers.com/tag/glulx</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How does one change the User Style for hyperlinks when using Flexible Windows?</title>
+<link>http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</link>
+<description>&lt;p&gt;I've been setting up all the styles for text (using Table of User Styles (continued) in my source, but haven't been able to figure out the style name for hyperlinks..&lt;/p&gt;
+
+&lt;p&gt;I'm primarily just trying to remove the blue colour to black, to match the rest of the text - remaining underlined is fine (though not preferable).&lt;/p&gt;
+
+&lt;p&gt;If there's no style name for hyperlinks (which is what I'm guessing now), how would one go about changing this font colour?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</guid>
+<pubDate>Tue, 06 Oct 2015 05:05:28 +0000</pubDate>
+</item>
+<item>
+<title>Using the Flexible Windows extension, how can I depict a scaled image in my graphics window?</title>
+<link>http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</link>
+<description>&lt;p&gt;My game was working fine with Flexible Windows until something, somewhere broke it (it gave me errors when running, though both the I7- and I6-compilers ran fine). I updated the plugin and, after updating loads of others (dependencies, like Glulx Text Effects), finally got the thing to compile again. &lt;/p&gt;
+
+&lt;p&gt;However, the plugin has been rewritten from scratch in the meantime, improving or simplifying it in some ways but also taking away some functions (such as bordered windows). &lt;/p&gt;
+
+&lt;p&gt;Previously, I could display figures in the main window using Inform's standard &quot;display&quot;action, and depict them, scaled to fit, in my graphics window using the Flexible Windows &quot;depict&quot; action that was in one of the examples.&lt;/p&gt;
+
+&lt;p&gt;That 'depict' code no longer works. When compiling, the I6 compiler gives two errors:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;auto.inf(61696): Error:  No such constant as &quot;WindowSize&quot;
+auto.inf(61717): Error:  No such constant as &quot;ref_number&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the lump of mostly I6 code that hooks into the older version of Flexible Windows, but can't anymore because it's been rewritten.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To depict (f - a figure-name):
+    now the current image is f;
+    follow the window-drawing rules for the graphics-window.
+
+Window-drawing rule for the graphics-window (this is the draw scaled image rule):
+    if graphics-window is g-unpresent, rule fails;
+    clear the graphics-window;
+    draw scaled copy of current image in graphics-window.
+
+To draw scaled copy of (f - a figure-name) in (g - a g-window):
+    (- DrawScaled({f}, {g}); -).
+
+Include (-
+
+    ! Doing scaling calculations in I6 lets us handle bigger numbers
+
+    [ GetImageSize curimg index result;
+        result = glk_image_get_info( ResourceIDsOfFigures--&amp;gt;curimg, gg_arguments, gg_arguments+WORDSIZE);
+        return gg_arguments--&amp;gt;index;
+    ];
+
+    [ DrawScaled figure g w_total h_total graph_height graph_width w_offset h_offset;
+    graph_height = WindowSize(g, 1);
+    graph_width = gg_arguments--&amp;gt;0;
+    w_total = GetImageSize(figure, 0);
+    h_total = gg_arguments--&amp;gt;1;
+
+    if (graph_height - h_total &amp;lt; 0) ! if the image won't fit, find the scaling factor
+    {
+        w_total = (graph_height * w_total)/h_total;
+        h_total = graph_height;
+
+    }
+
+    if (graph_width - w_total &amp;lt; 0)
+    {
+        h_total = (graph_width * h_total)/w_total;
+        w_total = graph_width;
+    }
+
+    w_offset = (graph_width - w_total)/2; if (w_offset &amp;lt; 0) w_offset = 0;
+    h_offset = (graph_height - h_total)/2; if (h_offset &amp;lt; 0) h_offset = 0;
+
+    glk_image_draw_scaled(g.ref_number, ResourceIDsOfFigures--&amp;gt;figure, w_offset, h_offset, w_total, h_total);
+    ];
+
+-).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I'm not able to write I6 code myself, my question is as follows: how do I modify this code to work with &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.com/i7/extensions/blob/master/Jon%20Ingold/Flexible%20Windows.i7x&quot;&gt;the most recent version of Flexible Windows from Github&lt;/a&gt;, or what different code can I use to get the same results?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</guid>
+<pubDate>Fri, 17 Jul 2015 13:25:22 +0000</pubDate>
+</item>
+<item>
+<title>How do you test whether the player's interpreter will support windows created with Flexible Windows? (Inform 7)</title>
+<link>http://ifanswers.com/778/whether-players-interpreter-support-created-flexible-windows</link>
+<description>&lt;p&gt;So, e.g., in Parchment, you'd be able to display a message that says &quot;Your interpreter does not support this feature.&quot;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/778/whether-players-interpreter-support-created-flexible-windows</guid>
+<pubDate>Wed, 17 Jun 2015 13:21:15 +0000</pubDate>
+</item>
+<item>
+<title>When using hyperlinks, how do you make the command appear appear next to the &gt; instead of on the following line? (Inform 7)</title>
+<link>http://ifanswers.com/761/hyperlinks-command-appear-appear-instead-following-inform</link>
+<description>&lt;p&gt;I ran into this issue with three different extensions that support hyperlinks: Basic Hyperlinks by Emily Short, Inline Hyperlinks by Erik Temple, and Flexible Windows.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to make the text appear next to the &amp;gt; instead of on the following line?&lt;/p&gt;
+
+&lt;p&gt;Sample transcript of current behavior:&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;&lt;br&gt;
+take&lt;br&gt;
+What do you want to take?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/761/hyperlinks-command-appear-appear-instead-following-inform</guid>
+<pubDate>Sun, 14 Jun 2015 03:34:49 +0000</pubDate>
+</item>
+<item>
+<title>How do you use a hyperlink to paste text without (in effect) pressing enter? (Flexible Windows, Inform 7)</title>
+<link>http://ifanswers.com/750/hyperlink-without-effect-pressing-flexible-windows-inform</link>
+<description>&lt;p&gt;I'd like to use hyperlinks to paste partial commands at the prompt, and allow the player to finish typing the command, but when I use the built-in hyperlink behavior of Flexible Windows, clicking the link automatically submits the text as a complete command. Is there a way to just paste the text and leave it be?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/750/hyperlink-without-effect-pressing-flexible-windows-inform</guid>
+<pubDate>Fri, 12 Jun 2015 02:58:34 +0000</pubDate>
+</item>
+<item>
+<title>How to show window background color in Quixe: background color property or text background? (Flexible Windows, Inform 7)</title>
+<link>http://ifanswers.com/741/background-background-property-background-flexible-windows</link>
+<description>&lt;p&gt;I know you can use a custom CSS style sheet to set two custom text styles in Quixe. But I'm not sure if there's a way to make the background color &lt;em&gt;property&lt;/em&gt; show the appropriate custom color in Quixe.&lt;/p&gt;
+
+&lt;p&gt;Even if there is, I'm thinking using the text style (rather than using the actual background color property) may be the better way to go to specify a background color for a window, because then one of the styles in the CSS style sheet can be customized to reflect both background color and text color.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, defining a named custom style &quot;uses up&quot; one of the two style slots that the story author has available, and so maybe that would be a disadvantage if the author has other text styles they want to use for other things. (Unless the background color property also &quot;uses up&quot; one of the two custom style slots?)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/741/background-background-property-background-flexible-windows</guid>
+<pubDate>Thu, 11 Jun 2015 16:40:21 +0000</pubDate>
+</item>
+<item>
+<title>With Flexible Windows, can you specify whether a window will have a scroll bar? (Inform 7)</title>
+<link>http://ifanswers.com/740/with-flexible-windows-specify-whether-window-scroll-inform</link>
+<description>&lt;p&gt;It looks as though Quixe (and the Inform IDE) shows a scroll bar by default for a text window, and Glulxe and Gargoyle do not show a scroll bar. Is showing or not showing a scroll bar something under the story author's control, or is it dependent on the player's interpreter settings?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/740/with-flexible-windows-specify-whether-window-scroll-inform</guid>
+<pubDate>Thu, 11 Jun 2015 16:02:49 +0000</pubDate>
+</item>
+<item>
+<title>In Flexible Windows, is it acceptable to set, e.g., the window position at or after the start of play? (Inform 7)</title>
+<link>http://ifanswers.com/709/flexible-windows-acceptable-window-position-after-inform</link>
+<description>&lt;p&gt;With the extension Flexible Windows by Jon Ingold, is it okay to set attributes of the window at the start of play, or even after the start of play, as long as they are set before the window is opened for the first time? Documentation of the original extension seemed to say that changing some things during play could cause bugs (with restoring, for instance) so I wasn't sure what the boundaries are.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/709/flexible-windows-acceptable-window-position-after-inform</guid>
+<pubDate>Mon, 01 Jun 2015 22:04:46 +0000</pubDate>
+</item>
+<item>
+<title>How do you avoid an extra line break when refreshing a window with Flexible Windows (Inform 7)?</title>
+<link>http://ifanswers.com/690/avoid-extra-break-refreshing-window-flexible-windows-inform</link>
+<description>&lt;p&gt;This&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Flexible Windows by Jon Ingold.
+
+The sidebar is a g-window.
+The main window spawns the sidebar.
+The scale method of the sidebar is g-fixed-size.
+The measurement of the sidebar is 40.
+The position of the sidebar is g-placeleft.
+
+Every turn while the sidebar is g-present:
+    Refresh the sidebar.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;works fine. But adding this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rule for refreshing the sidebar:
+    say &quot;Text.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adds an extra line break in the main window every turn.&lt;/p&gt;
+
+&lt;p&gt;How can I avoid this? It reminds me of &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.intfiction.org/forum/viewtopic.php?f=7&amp;amp;t=17446&amp;amp;p=87531&quot;&gt;this rulebook break issue&lt;/a&gt; but I'm not sure if it's related.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/690/avoid-extra-break-refreshing-window-flexible-windows-inform</guid>
+<pubDate>Thu, 28 May 2015 17:16:52 +0000</pubDate>
+</item>
+<item>
+<title>With Flexible Windows by Jon Ingold, is there a way to make the text display at the top of the window, even in Gargoyle? (Inform 7)</title>
+<link>http://ifanswers.com/688/flexible-windows-ingold-there-display-window-gargoyle-inform</link>
+<description>&lt;p&gt;If you create a text window, can you make the text align with the top of the window instead of the bottom, even in Gargoyle?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/688/flexible-windows-ingold-there-display-window-gargoyle-inform</guid>
+<pubDate>Thu, 28 May 2015 14:26:25 +0000</pubDate>
+</item>
+<item>
+<title>Styling `box` to be as nice in Glulx as it is on ZMachine</title>
+<link>http://ifanswers.com/633/styling-box-to-be-as-nice-in-glulx-as-it-is-on-zmachine</link>
+<description>&lt;p&gt;The below Inform6 file is standalone (it doesn't include anything) and contains a copy of the Inform 6.33 definition of &lt;code&gt;Box__Routine&lt;/code&gt; for the Glulx case. My question is, how do I modify &lt;code&gt;Box__Routine&lt;/code&gt; so that the output (with e.g. Gargoyle) is as nice with Glulx as it is with the ZMachine backend? &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#IfDef TARGET_GLULX;
+Constant GG_MAINWIN_ROCK     201;
+Constant GG_QUOTEWIN_ROCK     202;
+Global gg_mainwin;
+Global gg_quotewin;
+
+#Ifdef VN_1630;
+Array gg_arguments buffer 28;
+#Ifnot;
+Array gg_arguments --&amp;gt; 8;
+#EndIf;
+
+
+#Stub InitGlkWindow 1;
+
+[ GGInitialise res;
+    @gestalt 4 2 res; ! Test if this interpreter has Glk.
+    if (res == 0) {
+      ! Without Glk, we're entirely screwed.
+      quit;
+    }
+    ! Set the VM's I/O system to be Glk.
+    @setiosys 2 0;
+
+    res = InitGlkWindow(0);
+    if (res ~= 0) return;
+
+    res = InitGlkWindow(GG_MAINWIN_ROCK);
+    if (res == 0)
+        gg_mainwin = glk($0023, 0, 0, 0, 3, GG_MAINWIN_ROCK); ! window_open
+    if (gg_mainwin == 0) {
+        ! If we can't even open one window, there's no point in going on.
+        quit;
+    }
+
+    glk($002F, gg_mainwin);
+    InitGlkWindow(1);
+];
+
+[ Box__Routine maxwid arr ix lines lastnl parwin;
+    maxwid = 0;
+    lines = arr--&amp;gt;0;
+
+    if (gg_quotewin == 0) {
+        gg_arguments--&amp;gt;0 = lines;
+        ix = InitGlkWindow(GG_QUOTEWIN_ROCK);
+        if (ix == false)
+            gg_quotewin = glk($0023, gg_mainwin, $12, lines, 3, GG_QUOTEWIN_ROCK); 
+    } else {
+        parwin = glk($0029, gg_quotewin); 
+        glk($0026, parwin, $12, lines, 0); 
+    }
+
+    lastnl = true;
+    if (gg_quotewin) {
+        glk($002A, gg_quotewin);
+        glk($002F, gg_quotewin);
+        lastnl = false;
+    }
+
+    ! If gg_quotewin is zero here, the quote just appears in the story window.
+
+    glk($0086, 7); ! set blockquote style
+    for (ix=0 : ix&amp;lt;lines : ix++) {
+        print (string) arr--&amp;gt;(ix+1);
+        if (ix &amp;lt; lines-1 || lastnl) new_line;
+    }
+    glk($0086, 0); ! set normal style
+
+    if (gg_quotewin) {
+        glk($002F, gg_mainwin); ! set_window
+    }
+];
+#EndIf;
+
+[ Main;
+    #IfDef TARGET_GLULX;
+    GGInitialise();
+    #EndIf;
+
+    box &quot;foo&quot; &quot;bar&quot;;    
+];    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Output with Glulx (compiled with &lt;code&gt;inform -G&lt;/code&gt;):&lt;br&gt;
+&lt;img src=&quot;http://i.imgur.com/110ySxB.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Output with ZMachine (compiled with &lt;code&gt;inform -v5&lt;/code&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/eicwg0I.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/633/styling-box-to-be-as-nice-in-glulx-as-it-is-on-zmachine</guid>
+<pubDate>Thu, 21 May 2015 13:45:41 +0000</pubDate>
+</item>
+<item>
+<title>How does one properly format italics/bold text in title entries in Menus by Emily Short?</title>
+<link>http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</link>
+<description>&lt;p&gt;I'm noticing some odd behavior when italicizing and bolding text in the title entries of a menu  created by the Menus extension in Glulx. Consider this code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Menus by Emily Short.
+
+Blank is a room.
+
+When play begins:
+    now the current menu is the Table of Issue;
+    carry out the displaying activity;
+    clear the screen.
+
+Table of Issue
+title   subtable    description toggle
+&quot;Foo&quot;   --  &quot;&quot;  --
+&quot;[italic type]Bar[roman type]&quot;  --  &quot;&quot;  --
+&quot;Baz&quot;   --  &quot;&quot;  --
+&quot;Qux&quot;   --  &quot;&quot;  --
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the game proper, the menu titles after the italicized one have a different style and aren't indented properly. This also happens for bold text.&lt;/p&gt;
+
+&lt;p&gt;Is there are a way to use italics or bold text in titles while having the formatting remain consistent?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</guid>
+<pubDate>Sat, 09 May 2015 23:43:27 +0000</pubDate>
+</item>
+<item>
+<title>What is Glulx?</title>
+<link>http://ifanswers.com/243/what-is-glulx</link>
+<description>What is Glulx? How is it different from Z-code?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/243/what-is-glulx</guid>
+<pubDate>Fri, 27 Mar 2015 23:04:56 +0000</pubDate>
+</item>
+<item>
+<title>How much can I hack the banner text?</title>
+<link>http://ifanswers.com/236/how-much-can-i-hack-the-banner-text</link>
+<description>&lt;p&gt;Often I feel the urge to do wacky stuff with banner text. Right now I want to change the story title on the fly.&lt;/p&gt;&lt;p&gt;In the Z-Machine, you can simply suppress the real banner text and print a fake&amp;nbsp;version with all the right information and&amp;nbsp;the title in bold type. Easy.&lt;/p&gt;&lt;p&gt;But Glulx treats the banner text a little differently than the Z-Machine does: The story title gets to appear in a slightly larger font. A faked banner is not going to hold up to scrutiny, and even if it fools the player, it still doesn't have the &lt;em&gt;majesty&lt;/em&gt; that accompanies a&amp;nbsp;bigger font.&lt;/p&gt;&lt;p&gt;Is it possible to make Inform 7 print title-styled text in non-banner contexts? Is it possible to change what the game thinks the title is in mid-game?&lt;/p&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/236/how-much-can-i-hack-the-banner-text</guid>
+<pubDate>Fri, 27 Mar 2015 19:11:02 +0000</pubDate>
+</item>
+</channel>
+</rss>

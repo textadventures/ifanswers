@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged reviews</title>
+<link>http://ifanswers.com/tag/reviews</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>What is IFDB?</title>
+<link>http://ifanswers.com/116/what-is-ifdb</link>
+<description></description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/116/what-is-ifdb</guid>
+<pubDate>Wed, 25 Mar 2015 13:26:06 +0000</pubDate>
+</item>
+<item>
+<title>How can I find a good Twine game?</title>
+<link>http://ifanswers.com/112/how-can-i-find-a-good-twine-game</link>
+<description></description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/112/how-can-i-find-a-good-twine-game</guid>
+<pubDate>Wed, 25 Mar 2015 13:09:03 +0000</pubDate>
+</item>
+<item>
+<title>Where can I find reviews and ratings of interactive fiction?</title>
+<link>http://ifanswers.com/93/where-can-i-find-reviews-and-ratings-of-interactive-fiction</link>
+<description>Where are some good places to find ratings and reviews?</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/93/where-can-i-find-reviews-and-ratings-of-interactive-fiction</guid>
+<pubDate>Tue, 24 Mar 2015 20:14:12 +0000</pubDate>
+</item>
+</channel>
+</rss>

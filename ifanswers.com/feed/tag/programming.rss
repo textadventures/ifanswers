@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged programming</title>
+<link>http://ifanswers.com/tag/programming</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Ghost that follows player, after being in specific room. Stop following when player is in other specific room.</title>
+<link>http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</link>
+<description>&lt;p&gt;Hello,&lt;br&gt;
+i want to program a ghost that follows the player after going to into a specific room. &lt;br&gt;
+For example the kitchen. The ghost then follows the player until the player reaches another specific room. For example the bathroom. After entering the bathroom the ghost vanishes and is back in the kitchen.&lt;/p&gt;
+
+&lt;p&gt;This is my code right now:&lt;/p&gt;
+
+&lt;p&gt;Ghost is a man. It is in kitchen.&lt;/p&gt;
+
+&lt;p&gt;Every turn:&lt;br&gt;
+    if the location of Ghost is not the location of the player: &lt;br&gt;
+        let the way be the best route from the location of Ghost to the location of the player, using doors; &lt;br&gt;
+        try Ghost going the way;&lt;br&gt;
+    if player is in bathroom:&lt;br&gt;
+        move Geist to ktichen.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</guid>
+<pubDate>Thu, 22 Oct 2015 13:09:59 +0000</pubDate>
+</item>
+<item>
+<title>How do you center images in Quest?</title>
+<link>http://ifanswers.com/1237/how-do-you-center-images-in-quest</link>
+<description>&lt;p&gt;I was wondering if anyone knows the code to center images in quest? The way it is currently set up, the immage is automatically set to the left side of the screen. So if you are using small pictures, it looks kind of weird. Is there a simple code to center an image?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1237/how-do-you-center-images-in-quest</guid>
+<pubDate>Wed, 14 Oct 2015 15:15:13 +0000</pubDate>
+</item>
+<item>
+<title>How do I use the create exit command properly in Quest</title>
+<link>http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</link>
+<description>&lt;p&gt;The code I'm using gives me an error when I play my game and doesn't create the exit.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</guid>
+<pubDate>Wed, 07 Oct 2015 23:53:15 +0000</pubDate>
+</item>
+<item>
+<title>Show amount of gold in inventory</title>
+<link>http://ifanswers.com/1222/show-amount-of-gold-in-inventory</link>
+<description>&lt;p&gt;Hey there!&lt;/p&gt;
+
+&lt;p&gt;Can anyone tell me what code should i write for showing the amount of gold in my inventory upon looking at it? The way I added gold into my game was via attributes/integrers. Whenever I find gold I just write the following code: &lt;br&gt;
+player.gold = player.gold + 100 -&amp;gt; And then i get 100 gold. &lt;/p&gt;
+
+&lt;p&gt;It appears neatly in my bar under the health, but I wish to be able to write a command: &quot;examine gold/look at gold&quot; and then get a description: &quot;You have xx amount of gold in your inventory.&quot;&lt;/p&gt;
+
+&lt;p&gt;Can anyone help me with that? There has to be a simple code to show this. I tried ListObjectContents (this), but this only gives me a list of objects i am carrying in my inventory. Basically it just tells me &quot;You are carrying gold&quot;, but it doesnt tell me the amount. Thanks in advance.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1222/show-amount-of-gold-in-inventory</guid>
+<pubDate>Wed, 07 Oct 2015 20:07:05 +0000</pubDate>
+</item>
+<item>
+<title>How can I set the player smell in Inform 6?</title>
+<link>http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6</link>
+<description>&lt;p&gt;I can set the player description using, well, &lt;code&gt;player.description&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;But how can I set the smell? As in &lt;code&gt;&amp;gt; smell self&lt;/code&gt;.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6</guid>
+<pubDate>Thu, 17 Sep 2015 10:36:32 +0000</pubDate>
+</item>
+<item>
+<title>Copying the location of a thing to a variable when it's in something other than a room.</title>
+<link>http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</link>
+<description>&lt;p&gt;I'm using this to get the place where each object start the game and save to a variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A thing have an object called initial position.
+
+When play begins:
+    repeat with x running through all things:
+        now the initial position of x is the location of x.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, take a look at what this does then the thing is in a container, on a supporter, etc...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;showme ball
+...
+location: in the box in Room 101
+...
+initial position: Room 101
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;it only copies only the room, not the entire location. Is there a way to make this work?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</guid>
+<pubDate>Sun, 30 Aug 2015 23:09:04 +0000</pubDate>
+</item>
+<item>
+<title>How would I find out what program the LIFELINE game was done/written in?</title>
+<link>http://ifanswers.com/1077/would-find-out-what-program-the-lifeline-game-was-done-written</link>
+<description>
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1077/would-find-out-what-program-the-lifeline-game-was-done-written</guid>
+<pubDate>Sat, 22 Aug 2015 16:12:41 +0000</pubDate>
+</item>
+<item>
+<title>How can I make use of the health variable in Quest through the editor</title>
+<link>http://ifanswers.com/1053/how-can-make-use-the-health-variable-quest-through-the-editor</link>
+<description>&lt;p&gt;The player attribute 'health' can be turned on using the game features tab in the editor. It then displays 100% in the status window, and I can find how to raise or lower it using scripts, but when it reaches 0 nothing happens, and I want to be able to print a message and end the game when that happens.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1053/how-can-make-use-the-health-variable-quest-through-the-editor</guid>
+<pubDate>Sat, 15 Aug 2015 01:56:25 +0000</pubDate>
+</item>
+<item>
+<title>Is there a maximum rules limit in Inform 6?</title>
+<link>http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</link>
+<description>&lt;p&gt;I have a very large inform 7 project (378k words &amp;amp; 4 years in the making), the support for developing which I use to live off!  And I have today hit a huge huge block - I can't make any more rules.  Whenever I try to make a new rule, regardless of how simple or complex the rule is, regardless of whether is it's a &quot;To&quot; rule, a &quot;To say&quot; rule, or four or more &quot;This is the bla bla bla rule&quot;s, Inform 7 successfully compiles, telling me that the code is fine, but then it comes up with an error: &lt;em&gt;&quot;Translating the Source - Failed&lt;br&gt;
+The application ran your source text through the Inform 7 compiler, as usual, and it found no problems translating the source. Something must have gone wrong all the same, because the second stage of the process - using the Inform 6 compiler to turn this translated source into a viable story file - turned up errors. This should not happen. The errors are written out on the Progress tab, but will only make sense to experienced Inform 6 users (if even to them).&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The error is simply &lt;em&gt;&quot;C:\Program Files (x86)\Inform 7\Compilers\inform-632 \&lt;br&gt;
+    -kwSDG +include_path=..\Source,.\ auto.inf output.ulx&lt;br&gt;
+Compiler finished with code 10&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How do I know the issue is specifically rules?&lt;/p&gt;
+
+&lt;p&gt;If I comment out a rule in my code, it will let me add one or more rules before this appears.&lt;/p&gt;
+
+&lt;p&gt;The complexity and size of the rule seems to have some impact, but the number of rules seems to be the biggest limiting factor.&lt;/p&gt;
+
+&lt;p&gt;I have tried this on 3 different machines, with different specifications and running different OSs: Windows 7 and 8 and 10 and the result is always the same, so the computer is not to blame.&lt;/p&gt;
+
+&lt;p&gt;NB. I am using 6G60 because the latest version broke several extensions that my game relies on.  So if the latest version does fix this issue, then please let me know and I guess I can work hard to resolve the migration issues, but it looks to me like a hard limit of i6?&lt;/p&gt;
+
+&lt;p&gt;Anyway, this is awful awful news for me since I rely on this game's development to support living at the moment.  Any answers, advice or other inputs people have as to how best I should try and resolve this issue, please do reply!!!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</guid>
+<pubDate>Fri, 07 Aug 2015 10:15:23 +0000</pubDate>
+</item>
+<item>
+<title>Using the Flexible Windows extension, how can I depict a scaled image in my graphics window?</title>
+<link>http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</link>
+<description>&lt;p&gt;My game was working fine with Flexible Windows until something, somewhere broke it (it gave me errors when running, though both the I7- and I6-compilers ran fine). I updated the plugin and, after updating loads of others (dependencies, like Glulx Text Effects), finally got the thing to compile again. &lt;/p&gt;
+
+&lt;p&gt;However, the plugin has been rewritten from scratch in the meantime, improving or simplifying it in some ways but also taking away some functions (such as bordered windows). &lt;/p&gt;
+
+&lt;p&gt;Previously, I could display figures in the main window using Inform's standard &quot;display&quot;action, and depict them, scaled to fit, in my graphics window using the Flexible Windows &quot;depict&quot; action that was in one of the examples.&lt;/p&gt;
+
+&lt;p&gt;That 'depict' code no longer works. When compiling, the I6 compiler gives two errors:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;auto.inf(61696): Error:  No such constant as &quot;WindowSize&quot;
+auto.inf(61717): Error:  No such constant as &quot;ref_number&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the lump of mostly I6 code that hooks into the older version of Flexible Windows, but can't anymore because it's been rewritten.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To depict (f - a figure-name):
+    now the current image is f;
+    follow the window-drawing rules for the graphics-window.
+
+Window-drawing rule for the graphics-window (this is the draw scaled image rule):
+    if graphics-window is g-unpresent, rule fails;
+    clear the graphics-window;
+    draw scaled copy of current image in graphics-window.
+
+To draw scaled copy of (f - a figure-name) in (g - a g-window):
+    (- DrawScaled({f}, {g}); -).
+
+Include (-
+
+    ! Doing scaling calculations in I6 lets us handle bigger numbers
+
+    [ GetImageSize curimg index result;
+        result = glk_image_get_info( ResourceIDsOfFigures--&amp;gt;curimg, gg_arguments, gg_arguments+WORDSIZE);
+        return gg_arguments--&amp;gt;index;
+    ];
+
+    [ DrawScaled figure g w_total h_total graph_height graph_width w_offset h_offset;
+    graph_height = WindowSize(g, 1);
+    graph_width = gg_arguments--&amp;gt;0;
+    w_total = GetImageSize(figure, 0);
+    h_total = gg_arguments--&amp;gt;1;
+
+    if (graph_height - h_total &amp;lt; 0) ! if the image won't fit, find the scaling factor
+    {
+        w_total = (graph_height * w_total)/h_total;
+        h_total = graph_height;
+
+    }
+
+    if (graph_width - w_total &amp;lt; 0)
+    {
+        h_total = (graph_width * h_total)/w_total;
+        w_total = graph_width;
+    }
+
+    w_offset = (graph_width - w_total)/2; if (w_offset &amp;lt; 0) w_offset = 0;
+    h_offset = (graph_height - h_total)/2; if (h_offset &amp;lt; 0) h_offset = 0;
+
+    glk_image_draw_scaled(g.ref_number, ResourceIDsOfFigures--&amp;gt;figure, w_offset, h_offset, w_total, h_total);
+    ];
+
+-).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I'm not able to write I6 code myself, my question is as follows: how do I modify this code to work with &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.com/i7/extensions/blob/master/Jon%20Ingold/Flexible%20Windows.i7x&quot;&gt;the most recent version of Flexible Windows from Github&lt;/a&gt;, or what different code can I use to get the same results?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</guid>
+<pubDate>Fri, 17 Jul 2015 13:25:22 +0000</pubDate>
+</item>
+<item>
+<title>How do I move an item I have more of in the world (since it's a kind of thing)?</title>
+<link>http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</link>
+<description>&lt;p&gt;I want to create something like this:&lt;/p&gt;
+
+&lt;p&gt;An apple is a kind of thing.&lt;br&gt;
+The Orchard is a room. In the Orchard is a tree. In the Orchard is a basket. &lt;br&gt;
+The basket is a container. In the basket are three apples.&lt;br&gt;
+instead of attacking the tree:&lt;br&gt;
+        now an apple is in the Orchard;&lt;br&gt;
+        say &quot;You violently shake the tree, and apple falls down!&quot;&lt;/p&gt;
+
+&lt;p&gt;But this results in an error, because &quot;now an apple is in the Orchard&quot; is not specific enough. However, I haven't been able to find a way for the game to just put a new apple in the room.&lt;br&gt;
+The compiler error can be circumvented by saying &quot;now a random apple is in the Orchard&quot;, but that will take one of the apples from the basket.&lt;/p&gt;
+
+&lt;p&gt;How can I get Inform to spawn a new apple into the orchard every time the player attacks the tree?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</guid>
+<pubDate>Wed, 08 Jul 2015 10:07:14 +0000</pubDate>
+</item>
+<item>
+<title>calculating the value of a variable</title>
+<link>http://ifanswers.com/873/calculating-the-value-of-a-variable</link>
+<description>&lt;p&gt;This feels like an embarrassingly basic question, but I can't find a clear answer (at least that I understand) in the I7 documentation.&lt;/p&gt;
+
+&lt;p&gt;I want to calculate the value of a variable from two other variables - e.g. Z = X - Y.&lt;/p&gt;
+
+&lt;p&gt;The first part seemed easy enough. I used:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;X is a number that varies. X is initially -30.
+
+Y is a number that varies. Y is initially 10.
+
+Z is a number that varies.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I tried what to my untutored eye seemed the most intuitive way of assigning a value to Z:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Z is X minus Y.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But inform wouldn't compile. So after looking over a couple of examples in the Inform 7 Handbook I tried:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To decide which number is Z:  
+    let Z be X minus Y;
+    decide on Z.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which compiled fine, but later on when I try to use Z in a description - something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;On the video-screen it says: the value of Z is [Z].&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Instead of returning what I expected, which is -40, it returns 0.&lt;/p&gt;
+
+&lt;p&gt;Obviously I'm doing something very stupid, so would appreciate any help.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/873/calculating-the-value-of-a-variable</guid>
+<pubDate>Fri, 03 Jul 2015 15:28:35 +0000</pubDate>
+</item>
+<item>
+<title>How to set up a condition involving the presence of a character.</title>
+<link>http://ifanswers.com/845/how-to-set-up-condition-involving-the-presence-of-character</link>
+<description>&lt;p&gt;I'm trying to make it so that if the player passes through a metal detector while carrying a metal thing it goes off and they get arrested, but only if an authority is nearby.  Right now I have:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To detect the player:
+    say &quot;You pass through a metal detector.&quot;;
+    if the player is carrying a metal thing:
+        say &quot;The metal detector blares annoyingly.&quot;;
+        if in the presence of an authority: 
+            say &quot;The guard grabs you and ends the story&quot;;
+            end the story.;
+        otherwise:
+            say &quot;Nobody is around to do anything about it though&quot;;
+    Otherwise:
+        say &quot;You pass through it unmolested.&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A person can be an authority.  A person is usually not an authority.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;In the Embassy Front Lawn is a man called a guard.  The indefinite article of Guard is &quot;a&quot;.  A guard is an authority.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And finally:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Instead of going south from the Embassy Front Lawn:
+    say &quot;You'll have to go through a security checkpoint.  It seems to have a metal detector, keep going?&quot;;
+    if the player consents, detect the player.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It all works without the presence of the authority bit, but I can't inform to recognize that I only want the last bit of code to fire if there's an authority around.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/845/how-to-set-up-condition-involving-the-presence-of-character</guid>
+<pubDate>Thu, 25 Jun 2015 18:23:44 +0000</pubDate>
+</item>
+<item>
+<title>Squiffy: Extracting Data From Objects Variables.</title>
+<link>http://ifanswers.com/716/squiffy-extracting-data-from-objects-variables</link>
+<description>&lt;p&gt;I have lately been looking at questions asked by people who have been using Squiffy to create their projects. It seems that Objects are the hot topic of the week. My question can be viewed here. Simply copy and paste into the Squiffy Scratchpad (&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/squiffy/scratchpad/):&quot;&gt;http://docs.textadventures.co.uk/squiffy/scratchpad/):&lt;/a&gt; &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    function item(name, amount, type, returnAmount, descri){
+        this.name = name;
+        this.itemAmount = amount;
+        this.type = type; 
+        this.returnVaule = returnAmount; 
+        this.description = descri; 
+    }
+
+    function person(name, hp, dex, str){ 
+        this.name = name; 
+        this.healthPoints = hp; 
+        this.dexPoints = dex;
+        this.strPoints = str;
+    }
+
+    var self = new person(&quot;You&quot;, 10, 5, 5)
+
+    var other = new person(&quot;Other Guy&quot;, 20, 8, 8)
+
+    var healthPotion = new item(&quot;Health Potion&quot;, 0, &quot;potion&quot;, 5, &quot;Heals you for five health points&quot;)
+
+    var strengthPotion = new item(&quot;Strength Potion&quot;, 0, &quot;potion&quot;, 3, &quot;Adds three points of Strength for one point of Dexterity&quot;)
+
+[Test]
+
+[Test]: 
+@clear
+
+Viewing the this.name of self variable: 
+[View](V1)
+
+Viewing the this.healthPoints of self variable: 
+[View](V2)
+
+Viewing the two variables together: 
+[View](V3)
+
+[V1]: 
+    alert(self.name)
+
+[V2]: 
+    alert(self.healthPoints)
+
+[V3]:
+@clear
+    alert(self.name + &quot; have &quot; + self.healthPoints + &quot; Health Tokens.&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How can I get self.name to appear here? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/716/squiffy-extracting-data-from-objects-variables</guid>
+<pubDate>Wed, 03 Jun 2015 22:17:33 +0000</pubDate>
+</item>
+<item>
+<title>How do I choose random things with custom values? (Inform 7)</title>
+<link>http://ifanswers.com/653/how-do-i-choose-random-things-with-custom-values-inform-7</link>
+<description>&lt;p&gt;So I have a color value defined as follows, with some basic setup information. This is just a test for my curiosity, not any larger project.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Color is a kind of value. A thing has a color. The colors are red, blue, and black.
+
+The Chamber of Secrets is a room. The chair is in the Chamber. The chair is black. The book is a red thing in the Chamber. The chess set is a blue thing in the Chamber.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I would like to choose a random color, and then a random thing of that color, like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Every turn:
+let hue be a random color;
+say &quot;You see [a random hue thing].&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have tried several variations on this, and it works if I use a specific color instead of hue. (e.g. a random blue thing). How can I fix this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/653/how-do-i-choose-random-things-with-custom-values-inform-7</guid>
+<pubDate>Sun, 24 May 2015 03:46:24 +0000</pubDate>
+</item>
+<item>
+<title>TADS3 - How to suppress output</title>
+<link>http://ifanswers.com/652/tads3-how-to-suppress-output</link>
+<description>&lt;p&gt;So I've migrated to TADS, and I seem to have a lot of flexibility and everything is wonderful. The trouble is, I can't seem to find the equivalent of Inform7's &quot;Reject the player's command;&quot; in TADS3. How can I suppress arbitrary outputs?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/652/tads3-how-to-suppress-output</guid>
+<pubDate>Sun, 24 May 2015 00:27:11 +0000</pubDate>
+</item>
+<item>
+<title>How do I set up an &quot;If&quot; for a container to have multiple objects?</title>
+<link>http://ifanswers.com/617/how-do-i-set-up-an-if-for-a-container-to-have-multiple-objects</link>
+<description>&lt;p&gt;I am wanting to make a if script in my game were you make a kettle of tea. I have it that you put the tea in the kettle then when you put it on the fire it tells you you have made tea. I want to make it that you need tea and water for it to say you have made tea. How do I put two objects into the if?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/617/how-do-i-set-up-an-if-for-a-container-to-have-multiple-objects</guid>
+<pubDate>Tue, 19 May 2015 21:28:03 +0000</pubDate>
+</item>
+<item>
+<title>Inform6 from the ground up -- Actions not working</title>
+<link>http://ifanswers.com/610/inform6-from-the-ground-up-actions-not-working</link>
+<description>&lt;p&gt;I am recreating an ancient adventure game in Inform6 so that it can be easily played on modern platforms. My aim is to recreate not just the plot/puzzles but also the parser. Also, the game is not in English so I don't expect the standard library to be that useful anyway.&lt;/p&gt;
+
+&lt;p&gt;By copy-pasting relevant-looking bits from the standard Inform6 library, I was able to get parsing working for the very simplistic model that I plan to support: because I only have &lt;em&gt;verb&lt;/em&gt;, &lt;em&gt;verb noun&lt;/em&gt; and &lt;em&gt;verb noun1 noun2&lt;/em&gt;  rules anyway, I thought I'd skip implementing pattern matching for proper grammar rules, and just key everything to the verbs only; e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Verb 'x' 'examine' * -&amp;gt; Examine;
+[ExamineSub;
+  ! just error out if noun1 is not set
+];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works good enough: I can get the actions from the grammar table and then run them by looking up the corresponding callback function from &lt;code&gt;#actions_table&lt;/code&gt;. &lt;strong&gt;However, I must be missing something because I can't get the &lt;code&gt;&amp;lt;action&amp;gt;&lt;/code&gt; syntax working.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Below is a minimal example showing my problem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Verb 'l' 'look' * -&amp;gt; Look;
+
+[ LookSub;
+    &quot;This is LookSub&quot;;
+];
+
+[ Main;
+  &amp;lt;Look&amp;gt;;
+];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I would expect this to print &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;This is LookSub 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when run; however, instead I am getting the following output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Action &amp;lt;0 0 0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What are my actions missing?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/610/inform6-from-the-ground-up-actions-not-working</guid>
+<pubDate>Sat, 16 May 2015 06:48:41 +0000</pubDate>
+</item>
+<item>
+<title>How does one properly format italics/bold text in title entries in Menus by Emily Short?</title>
+<link>http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</link>
+<description>&lt;p&gt;I'm noticing some odd behavior when italicizing and bolding text in the title entries of a menu  created by the Menus extension in Glulx. Consider this code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Menus by Emily Short.
+
+Blank is a room.
+
+When play begins:
+    now the current menu is the Table of Issue;
+    carry out the displaying activity;
+    clear the screen.
+
+Table of Issue
+title   subtable    description toggle
+&quot;Foo&quot;   --  &quot;&quot;  --
+&quot;[italic type]Bar[roman type]&quot;  --  &quot;&quot;  --
+&quot;Baz&quot;   --  &quot;&quot;  --
+&quot;Qux&quot;   --  &quot;&quot;  --
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the game proper, the menu titles after the italicized one have a different style and aren't indented properly. This also happens for bold text.&lt;/p&gt;
+
+&lt;p&gt;Is there are a way to use italics or bold text in titles while having the formatting remain consistent?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</guid>
+<pubDate>Sat, 09 May 2015 23:43:27 +0000</pubDate>
+</item>
+<item>
+<title>Stopping a message from being said multiple times (Inform 7)?</title>
+<link>http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7</link>
+<description>&lt;p&gt;My code is probably pretty atrocious because I'm just learning Inform 7 and messing around by expanding some of the examples in the documentation, so pardon that.&lt;/p&gt;
+
+&lt;p&gt;I have a case which contains multiple fishing rods and I don't want the player to be able to take a second one if they've already got one in their inventory, so this is the code I've written:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Before taking a fishing rod:
+    if the player carries a fishing rod:
+        say &quot;You only need one fishing rod.&quot;;
+        stop the action.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works really well unless the player wants to take more than one fishing rod at once. If, for instance, the player types &quot;take all fishing rods&quot;, it will only place one in their inventory, but it will print out one success message and then a message of &quot;You only need one fishing rod&quot; for each remaining fishing rod in the case.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;fishing rod: Taken.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This isn't world-ending, especially since there are only six, but it is a little sloppy. Is there a way to stop it after one print and/or a better way around it? The examples in the documentation about dispensers weren't very helpful because I want the case to have a finite number of fishing rods.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7</guid>
+<pubDate>Thu, 30 Apr 2015 20:17:21 +0000</pubDate>
+</item>
+<item>
+<title>How can I check the user's command?</title>
+<link>http://ifanswers.com/533/how-can-i-check-the-users-command</link>
+<description>&lt;p&gt;I have a turn script that I need to be conditional depending on what the user's command entry is.&lt;br&gt;
+I still want to parse the command, but I want additional code to run depending on what the user just did...&lt;/p&gt;
+
+&lt;p&gt;As an arbitrary example, print a message admonishing the player for looking around idly when their life is in mortal danger this very moment.&lt;/p&gt;
+
+&lt;p&gt;Or actually in the specific case, not counting Look At [enemy] as a full turn, but counting any kid of physical action as a turn. Since looking at something doesn't necessarily take a long time, I don't want to end a player's combat turn when using Look At once. (repeated stares of course I'll punish later once I know how to differentiate)&lt;/p&gt;
+
+&lt;p&gt;I'd like to avoid passing everything through Get Input, as I've found it doesn't always work correctly. (Sometimes the text entered doesn't get processed and needs to be entered a second time. I experienced this frequently with the Character Naming script I made)&lt;/p&gt;
+
+&lt;p&gt;so can anyone help?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/533/how-can-i-check-the-users-command</guid>
+<pubDate>Thu, 23 Apr 2015 04:53:41 +0000</pubDate>
+</item>
+<item>
+<title>For Quest: Can A Template Return A Function?</title>
+<link>http://ifanswers.com/527/for-quest-can-a-template-return-a-function</link>
+<description>&lt;p&gt;I want to change the default responses of the engine, for example the &quot;NotCarrying&quot;-dynamic template. What do I have to enter in &quot;Text:&quot; so that it accesses the function &quot;es&quot;?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/527/for-quest-can-a-template-return-a-function</guid>
+<pubDate>Wed, 22 Apr 2015 11:44:00 +0000</pubDate>
+</item>
+<item>
+<title>How do I force Inform's listing to separate out identical items?</title>
+<link>http://ifanswers.com/508/how-do-force-informs-listing-to-separate-out-identical-items</link>
+<description>&lt;p&gt;I have a stock of non-descript items of a kind which are given attributes on set-up to differentiate them. They have specific names via a &quot;printing the name of&quot; rule. But when I try to list of the items, I get &quot;You can see two foo here&quot; -- because Inform thinks they are nondescript items. &lt;/p&gt;
+
+&lt;p&gt;So how do I force Inform to not group them together?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/508/how-do-force-informs-listing-to-separate-out-identical-items</guid>
+<pubDate>Sun, 19 Apr 2015 21:45:14 +0000</pubDate>
+</item>
+<item>
+<title>How to make a thing that can be seen from every room?</title>
+<link>http://ifanswers.com/503/how-to-make-a-thing-that-can-be-seen-from-every-room</link>
+<description>&lt;p&gt;Let's say I want to be able to examine the sky. If I'm in a room marked outside, or a room with a window, I get the description of the sky. Otherwise, I get a message that says I can't see the sky from here. The sky itself has some complex rules that changes its appearance now and then, and it may affect other things (such as people's moods). How can I make the sky consistent no matter where I'm observing it from?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/503/how-to-make-a-thing-that-can-be-seen-from-every-room</guid>
+<pubDate>Sun, 19 Apr 2015 19:31:22 +0000</pubDate>
+</item>
+<item>
+<title>What's the best way to ask if any of a kind has a certain value for a property?</title>
+<link>http://ifanswers.com/502/whats-the-best-way-ask-any-kind-has-certain-value-for-property</link>
+<description>&lt;p&gt;I find myself writing a lot of code like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A person has a number called house number.
+
+To knock on a door:
+  ... 
+  if N is the house number of any person:
+        ... 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but this doesn't work. So what's the easiest way in Inform 7 to do this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/502/whats-the-best-way-ask-any-kind-has-certain-value-for-property</guid>
+<pubDate>Sun, 19 Apr 2015 12:55:32 +0000</pubDate>
+</item>
+<item>
+<title>How can I prevent appending (open), (closed) etc. to an object in Inform 7?</title>
+<link>http://ifanswers.com/489/how-can-prevent-appending-open-closed-etc-an-object-in-inform</link>
+<description>&lt;p&gt;There are some cases where they work, but other cases where appending (open) and similar descriptions are unnecessary, and at least one point in the game I'm working on where having an object obviously be a container gives away a puzzle.  How can I stop Inform 7 from describing the state of an object this way?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/489/how-can-prevent-appending-open-closed-etc-an-object-in-inform</guid>
+<pubDate>Fri, 17 Apr 2015 16:02:34 +0000</pubDate>
+</item>
+<item>
+<title>How do I modify script commands?</title>
+<link>http://ifanswers.com/446/how-do-i-modify-script-commands</link>
+<description>&lt;p&gt;Let's say I want to modify the &quot;wait&quot; script command very slightly. If I wanted to change it so it says &quot;Press any key to continue...&quot; instead of &quot;Continue...&quot; while waiting for input. &lt;/p&gt;
+
+&lt;p&gt;Is there any way to do that, or are script commands just built into the engine and impossible to modify?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/446/how-do-i-modify-script-commands</guid>
+<pubDate>Thu, 09 Apr 2015 06:07:00 +0000</pubDate>
+</item>
+<item>
+<title>What are some factors to consider if someone's deciding whether/how to use profanity in IF?</title>
+<link>http://ifanswers.com/430/some-factors-consider-someones-deciding-whether-profanity</link>
+<description>&lt;p&gt;Does it really make a writer look tough? When does it work, and when does it utterly fail? Will it totally turn people off? Is optional profanity an option?&lt;/p&gt;
+
+&lt;p&gt;(Note: this is a loaded question as I'm usually opposed to it unless there's a good reason.)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/430/some-factors-consider-someones-deciding-whether-profanity</guid>
+<pubDate>Tue, 07 Apr 2015 23:41:33 +0000</pubDate>
+</item>
+<item>
+<title>Quest 5 vs. Inform 7</title>
+<link>http://ifanswers.com/405/quest-5-vs-inform-7</link>
+<description>&lt;p&gt;I'm new to IF and have taken it for granted that I7 was the authoring system of choice for most folks, but took a look at Q5 over the last couple of days, and it seems really nice: built-in web support, cross-platform capability with support for audio, graphics, embedded video, etc, unlimited undo, a friendly editor, styling, etc.  The world model and capabilities of the two authoring systems seem pretty similar. I'd be interested to see a comparison list.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/405/quest-5-vs-inform-7</guid>
+<pubDate>Fri, 03 Apr 2015 20:40:44 +0000</pubDate>
+</item>
+<item>
+<title>Is there a way to reduce the right margin for a play-in-browser website released by Inform 7?</title>
+<link>http://ifanswers.com/387/there-reduce-right-margin-browser-website-released-inform</link>
+<description>&lt;p&gt;When you choose to release a game with a website and interpreter in Inform 7, it generates two pages: index.html and play.html.&lt;/p&gt;
+
+&lt;p&gt;The index page looks nice. The text has a preset width and stops far away from the right margin.&lt;/p&gt;
+
+&lt;p&gt;But with the play page, the text has a wrap-around effect and it runs all the way to the right margin, which I don't think looks any good. &lt;/p&gt;
+
+&lt;p&gt;This question probably isn't related to Inform at all, and I imagine you have to edit the CSS files somehow. I'm a complete amateur. Any help would be appreciated!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/387/there-reduce-right-margin-browser-website-released-inform</guid>
+<pubDate>Wed, 01 Apr 2015 15:39:27 +0000</pubDate>
+</item>
+<item>
+<title>How do I debug in Inform 7?</title>
+<link>http://ifanswers.com/353/how-do-i-debug-in-inform-7</link>
+<description>&lt;p&gt;Plastering &quot;say&quot; all over works, but it has some risks: this code may seep into a release version.&lt;/p&gt;
+
+&lt;p&gt;What can I type to narrow down where something is not quite working, with a parser command or with code?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/353/how-do-i-debug-in-inform-7</guid>
+<pubDate>Tue, 31 Mar 2015 10:24:37 +0000</pubDate>
+</item>
+<item>
+<title>How do I debug in Quest?</title>
+<link>http://ifanswers.com/352/how-do-i-debug-in-quest</link>
+<description>&lt;p&gt;I'd be interested in reading about basic debugging techniques beyond just throwing in text you need to remove later so the player doesn't see it. Because debugging is one of those 5 dollar words that are not so bad once you know a few tricks.&lt;/p&gt;
+
+&lt;p&gt;Is there a parser command authors can use in a debug build? Is there something in Quest source that may say &quot;print to debug&quot; but not &quot;print?&quot;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/352/how-do-i-debug-in-quest</guid>
+<pubDate>Tue, 31 Mar 2015 10:18:33 +0000</pubDate>
+</item>
+<item>
+<title>Are there any shortcuts for typing character formatting in Inform?</title>
+<link>http://ifanswers.com/349/are-there-shortcuts-for-typing-character-formatting-inform</link>
+<description>&lt;p&gt;Typing [bold text] and so forth becomes really tiresome. Can this be cut down?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/349/are-there-shortcuts-for-typing-character-formatting-inform</guid>
+<pubDate>Tue, 31 Mar 2015 10:09:29 +0000</pubDate>
+</item>
+<item>
+<title>I'm a programmer, and I want to write a text adventure. What languages / systems would be familiar to me?</title>
+<link>http://ifanswers.com/285/programmer-write-adventure-languages-systems-would-familiar</link>
+<description>&lt;p&gt;I'm really familiar with C, C++, and whatnot. I've been using Inform 7, but I've also seen things which look more like C, which I presume is Inform 6. I'd also like to build the compiler and do things with my command line, because I'm a bit of a prude. (= What limitations would using Inform 6 have, and would it afford me more control over what happens in my adventure? I feel like Inform 7 is somewhat loose, and is occasionally harder for me understand than something else might be. I'd also maybe find it easier to use more C-like variables and types, C++ like classes, and whatnot. Any advice or suggestions / alternatives would be appreciated.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/285/programmer-write-adventure-languages-systems-would-familiar</guid>
+<pubDate>Sun, 29 Mar 2015 23:40:27 +0000</pubDate>
+</item>
+<item>
+<title>What are the exact details and relations concerning the player, yourself, and your former self in Inform 7?</title>
+<link>http://ifanswers.com/258/details-relations-concerning-player-yourself-former-inform</link>
+<description>So, in my experience with Inform 7 I have observed three terms which I do not fully understand: the player, yourself, and your former self (the latter two change name in other story viewpoints, although the “self” in former self remains singular).&lt;br /&gt;
+&lt;br /&gt;
+As far as I can tell, “the player” is a person that varies, “yourself” is the printed name of the current player character, and “your former self” is the default value that “the player” takes, which is a person who has a description of “As good-looking as ever.” The phrase “former self” is observed when you change the value of player without defining the original player as being a particular person. &lt;br /&gt;
+&lt;br /&gt;
+Are there any subtle issues and exceptions concerning these that I should be aware of, particularly in games involving switching between characters?&lt;br /&gt;
+&lt;br /&gt;
+(This question is specifically for 6L38)</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/258/details-relations-concerning-player-yourself-former-inform</guid>
+<pubDate>Sat, 28 Mar 2015 02:53:23 +0000</pubDate>
+</item>
+<item>
+<title>How do I find the default parser verbs in Quest?</title>
+<link>http://ifanswers.com/247/how-do-i-find-the-default-parser-verbs-in-quest</link>
+<description>Is there anywhere in the documentation? It would be nice to have a checklist, so I don't surprise the player with generic responses that don't work with the game.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/247/how-do-i-find-the-default-parser-verbs-in-quest</guid>
+<pubDate>Fri, 27 Mar 2015 23:57:35 +0000</pubDate>
+</item>
+<item>
+<title>How do I find the default parser verbs in Inform?</title>
+<link>http://ifanswers.com/245/how-do-i-find-the-default-parser-verbs-in-inform</link>
+<description></description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/245/how-do-i-find-the-default-parser-verbs-in-inform</guid>
+<pubDate>Fri, 27 Mar 2015 23:56:34 +0000</pubDate>
+</item>
+<item>
+<title>Is there any way to see the map of a story?</title>
+<link>http://ifanswers.com/223/is-there-any-way-to-see-the-map-of-a-story</link>
+<description>&lt;p&gt;Another words I&amp;nbsp;want to get the graph of story &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.berksan.com/images/sitemap.jpg&quot;&gt;like that&lt;/a&gt;&lt;/p&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/223/is-there-any-way-to-see-the-map-of-a-story</guid>
+<pubDate>Fri, 27 Mar 2015 11:28:04 +0000</pubDate>
+</item>
+<item>
+<title>What are some of the classic Inform 7 mistakes to look out for?</title>
+<link>http://ifanswers.com/132/what-are-some-of-the-classic-inform-7-mistakes-to-look-out-for</link>
+<description>In my work in Inform 7 and in my testing of works made in Inform 7, I've noticed a few problems that are easy to forget about while coding. It would be nice if there was just a solid checklist of well-known and common subtle issues to go over. I'm looking less for problems in Inform 7 code that prevent compiling but more for problems in Inform 7 that lead to bugs in a successfully compiled work.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/132/what-are-some-of-the-classic-inform-7-mistakes-to-look-out-for</guid>
+<pubDate>Wed, 25 Mar 2015 15:56:08 +0000</pubDate>
+</item>
+<item>
+<title>What are canonical &quot;done-before&quot; puzzles, and can they still be reused?</title>
+<link>http://ifanswers.com/97/what-canonical-done-before-puzzles-and-can-they-still-reused</link>
+<description></description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/97/what-canonical-done-before-puzzles-and-can-they-still-reused</guid>
+<pubDate>Tue, 24 Mar 2015 21:48:51 +0000</pubDate>
+</item>
+<item>
+<title>What debugging/research should I try before asking for help on the various technical forums?</title>
+<link>http://ifanswers.com/70/debugging-research-before-asking-various-technical-forums</link>
+<description>It's tough to balance doing enough checking vs finally asking the question. Roadblocks appear when we don't ask a timely question, but we all recognize asking repeated frivolous/trivial questions can be annoying. How can we find a happy medium?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/70/debugging-research-before-asking-various-technical-forums</guid>
+<pubDate>Tue, 24 Mar 2015 01:45:09 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged lists</title>
+<link>http://ifanswers.com/tag/lists</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest: &quot;Check Inventory&quot;</title>
+<link>http://ifanswers.com/889/quest-check-inventory</link>
+<description>&lt;p&gt;Hey All,&lt;/p&gt;
+
+&lt;p&gt;I'm trying to make a Command in quest, where the player can type Check Inventory, and it will list the player inventory.&lt;/p&gt;
+
+&lt;p&gt;Only problem is, I'm used to only using the basics of the Quest program, and I know nothing about 'Variable, Object, Attribute and Function' which I assume have something to do with it.&lt;/p&gt;
+
+&lt;p&gt;Anyone got any advice?&lt;/p&gt;
+
+&lt;p&gt;The reason I'm doing this, is because I want to use the 'Retro' theme, and get rid of the pane at the right, as it does not blend in.&lt;/p&gt;
+
+&lt;p&gt;Thanks,&lt;/p&gt;
+
+&lt;p&gt;Anna&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/889/quest-check-inventory</guid>
+<pubDate>Tue, 07 Jul 2015 20:00:23 +0000</pubDate>
+</item>
+<item>
+<title>How do I work with lists in Quest?</title>
+<link>http://ifanswers.com/854/how-do-i-work-with-lists-in-quest</link>
+<description>&lt;p&gt;Within the Quest tool, how would I go about working with lists?&lt;/p&gt;
+
+&lt;p&gt;I have had answers with instructions in code form, but since I'm pretty new to this, I have no clue what to do with them.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/854/how-do-i-work-with-lists-in-quest</guid>
+<pubDate>Sat, 27 Jun 2015 09:23:37 +0000</pubDate>
+</item>
+</channel>
+</rss>

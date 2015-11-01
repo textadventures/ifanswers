@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged inform7</title>
+<link>http://ifanswers.com/tag/inform7</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Ghost that follows player, after being in specific room. Stop following when player is in other specific room.</title>
+<link>http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</link>
+<description>&lt;p&gt;Hello,&lt;br&gt;
+i want to program a ghost that follows the player after going to into a specific room. &lt;br&gt;
+For example the kitchen. The ghost then follows the player until the player reaches another specific room. For example the bathroom. After entering the bathroom the ghost vanishes and is back in the kitchen.&lt;/p&gt;
+
+&lt;p&gt;This is my code right now:&lt;/p&gt;
+
+&lt;p&gt;Ghost is a man. It is in kitchen.&lt;/p&gt;
+
+&lt;p&gt;Every turn:&lt;br&gt;
+    if the location of Ghost is not the location of the player: &lt;br&gt;
+        let the way be the best route from the location of Ghost to the location of the player, using doors; &lt;br&gt;
+        try Ghost going the way;&lt;br&gt;
+    if player is in bathroom:&lt;br&gt;
+        move Geist to ktichen.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</guid>
+<pubDate>Thu, 22 Oct 2015 13:09:59 +0000</pubDate>
+</item>
+<item>
+<title>How does one change the User Style for hyperlinks when using Flexible Windows?</title>
+<link>http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</link>
+<description>&lt;p&gt;I've been setting up all the styles for text (using Table of User Styles (continued) in my source, but haven't been able to figure out the style name for hyperlinks..&lt;/p&gt;
+
+&lt;p&gt;I'm primarily just trying to remove the blue colour to black, to match the rest of the text - remaining underlined is fine (though not preferable).&lt;/p&gt;
+
+&lt;p&gt;If there's no style name for hyperlinks (which is what I'm guessing now), how would one go about changing this font colour?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</guid>
+<pubDate>Tue, 06 Oct 2015 05:05:28 +0000</pubDate>
+</item>
+<item>
+<title>[Inform 7]Timers, daemons, switchon &amp; switchoff</title>
+<link>http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff</link>
+<description>&lt;p&gt;I'm converting an old Inform 6 game to Inform 7 but am having some trouble finding the new way of doing things.&lt;/p&gt;
+
+&lt;p&gt;For example, I previously had a button I could SwitchOn and SwitchOff, but I can't find any topic in the Index that covers the Inform7 way of handling on &amp;amp; off.  I tried looking for everything obvious such as &quot;Switches&quot;, &quot;Buttons&quot;, &quot;On-Off state&quot;, &quot;On&quot;, &quot;Off&quot;, etc, only to find nothing and remain baffled.&lt;/p&gt;
+
+&lt;p&gt;To save exasperation, can anyone please help me with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Switches - how to turn things on &amp;amp; off&lt;/li&gt;
+&lt;li&gt;Timers - how to trigger an event after a certain number of turns; also how to interrupt the timer (StopTimer in I6)&lt;/li&gt;
+&lt;li&gt;Daemons - making things happen turn-by-turn, whether &quot;on screen&quot; (e.g. telling the player footsteps are getting nearer each turn) or background stuff (calculating the amount of petrol left as the player drives about).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If someone can kindly tell me what the new equivalents are I can look them up, but any additional information/explanation is appreciated - especially if it is to say &quot;X&quot; doesn't have a direct equivalent, it's now handled by doing Y and Z.&quot;&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance. &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff</guid>
+<pubDate>Thu, 24 Sep 2015 14:22:08 +0000</pubDate>
+</item>
+<item>
+<title>Forcing the player to be on a vehicle when entering a room</title>
+<link>http://ifanswers.com/1196/forcing-the-player-to-be-on-a-vehicle-when-entering-a-room</link>
+<description>&lt;p&gt;I want the player to only be able to enter the Wastelands if he's on the horse, however it won't let me enter the Wastelands whether I'm mounted or not.&lt;/p&gt;
+
+&lt;p&gt;I've included all code I think is possibly relevant. I've split it down to this barebones model and it still won't work. It's practically a direct copy of the Peugeot example from the documentation so I'm clueless as to why it's not working.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Rideable Vehicles by Graham Nelson.
+
+The Ruins of Dundee is a room. &quot;Everyone's dead yo.&quot;
+
+A rideable animal called swift steed is here. &quot;Your swift steed rests here.&quot; The indefinite article of the swift steed is &quot;your&quot;. Understand &quot;horse&quot; as the swift steed.
+
+The Wastelands is north of Ruins of Dundee. &quot;To the north you see the Faraway Mountains. To the south, you see the burning rubble of Dundee.&quot;
+
+Instead of going to The Wastelands when the player is not on the swift steed:
+    say &quot;You should get on your horse if you're going to be traveling very far.&quot;
+
+test me with &quot;mount horse /  n&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1196/forcing-the-player-to-be-on-a-vehicle-when-entering-a-room</guid>
+<pubDate>Sun, 20 Sep 2015 20:39:52 +0000</pubDate>
+</item>
+<item>
+<title>How do I get the Inanimate Listener to respond to &quot;Computer, hello&quot;?</title>
+<link>http://ifanswers.com/1179/how-get-the-inanimate-listener-to-respond-to-computer-hello</link>
+<description>&lt;p&gt;Thank you - &lt;/p&gt;
+
+&lt;p&gt;Instead of asking Computer about something, say &quot;'Voice print not recognised.'&quot;&lt;/p&gt;
+
+&lt;p&gt;works.&lt;/p&gt;
+
+&lt;p&gt;I was expecting however that it would work for any comments directed at the computer, but it doesn't.&lt;/p&gt;
+
+&lt;p&gt;ASK COMPUTER ABOUT THE DOOR gets the right response but&lt;/p&gt;
+
+&lt;p&gt;COMPUTER, HELLO does not.&lt;/p&gt;
+
+&lt;p&gt;I can see that the second command is not an asking-type action.  I assume this is why it falls outside the rule we've made.&lt;/p&gt;
+
+&lt;p&gt;Is there a simple way to get the computer to respond to anything said to it?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1179/how-get-the-inanimate-listener-to-respond-to-computer-hello</guid>
+<pubDate>Sun, 13 Sep 2015 06:00:21 +0000</pubDate>
+</item>
+<item>
+<title>[Inform 7] How to implement a blanket 'not understood' comment for an Inanimate Listener</title>
+<link>http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener</link>
+<description>&lt;p&gt;I have two computers in different locations.  Both can be talked to thanks to the Inanimate Listener extension.  My intention is to have one computer that will accept commands from the player while the other will not.&lt;/p&gt;
+
+&lt;p&gt;I can't work out how to provide a universal &quot;I can't do that&quot; response from the stubborn computer.&lt;/p&gt;
+
+&lt;p&gt;E.g.:&lt;/p&gt;
+
+&lt;p&gt;Instead of asking Stubborn_Computer about anything, say &quot;'Voice print not recognised.'&quot;&lt;/p&gt;
+
+&lt;p&gt;This doesn't work because Inform regards 'anything' as a specific topic rather than a global 'everything'.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener</guid>
+<pubDate>Sat, 12 Sep 2015 23:35:11 +0000</pubDate>
+</item>
+<item>
+<title>How to make pictures show up when playing online.</title>
+<link>http://ifanswers.com/1162/how-to-make-pictures-show-up-when-playing-online</link>
+<description>&lt;p&gt;I recently submitted a game to IFComp, and I noticed when trying the 'play online' option that pictures aren't showing up -- instead I get lines that say [Picture 3 goes here], etc.  The file should include the proper materials (they show up fine in the download version), so I'm not sure why they're not appearing when playing online.  Has anyone else experienced this issue?&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1162/how-to-make-pictures-show-up-when-playing-online</guid>
+<pubDate>Tue, 08 Sep 2015 20:37:45 +0000</pubDate>
+</item>
+<item>
+<title>Can I seriously not use comparatives/superlatives with enumerated values?</title>
+<link>http://ifanswers.com/1156/seriously-comparatives-superlatives-with-enumerated-values</link>
+<description>&lt;p&gt;In many cases enumerated values can be treated like numbers (like with comparisons) and successor, predecessor relations. (though you use &lt;code&gt;next ...&lt;/code&gt; instead of &lt;code&gt;increment ...&lt;/code&gt;, but it's the same basically)&lt;/p&gt;
+
+&lt;p&gt;This does not work, but I feel like it should.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Military rank is a kind of value.
+The military ranks are rank private, specialist, corporal, seargent, master seargent, seargent major.
+A person has a military rank.
+
+Definition: A person is noble if his military rank is master seargent or more.
+
+The beaches of Normandy is a room.
+
+McGilliguddy is a rank private man. He is here.
+Sarge Stewart is a master seargent man. He is here.
+
+when play begins:
+    say &quot;[the noblest man]&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is what I'm using as a work-around, but it feels janky.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Military rank is a kind of value.
+rank0 specifies a military rank.
+private rank is always rank0.
+specialist is always rank1.
+corporal is always rank2.
+seargent is always rank3.
+master seargent is always rank4.
+seargent major is always rank5.
+
+A person has a military rank.
+
+Definition: A person is noble if his military rank is rank4 or more.
+
+The beaches of Normandy is a room.
+
+McGilliguddy is a man. He is here. The military rank is private rank.
+Sarge Stewart is a man. He is here. The military rank is master seargent.
+
+when play begins:
+    say &quot;[the noblest man]&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1156/seriously-comparatives-superlatives-with-enumerated-values</guid>
+<pubDate>Mon, 07 Sep 2015 05:16:28 +0000</pubDate>
+</item>
+<item>
+<title>Open container that you can't see inside in Inform 7?</title>
+<link>http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7</link>
+<description>&lt;p&gt;Hi, I'm trying to have a small object which is inside another object that the player can't see. &lt;br&gt;
+However when looked at in game the &quot;container&quot; object is shown as either (closed) or the player can see what's inside it.&lt;/p&gt;
+
+&lt;p&gt;Here is my code for the objects in question:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;There is an object called a hat. a hat is wearable. a hat is opaque.
+
+There is an object called a tiny key. a tiny key is inside a hat.
+
+Before taking the hat:
+    if the tiny key is in the hat or a tiny key is not on the player:
+        move a tiny key to the bedroom;
+        say &quot;As you pick the hat up, a tiny key falls out of the hat and clatters on the floor.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In game it looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You can see a hat (in which is a tiny key) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I make the hat closed, then it shows it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You can see a hat (closed)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which I feel gives away that there's something hidden in the hat. Is there a way to show no suffix as to whether the hat is a container or not?&lt;/p&gt;
+
+&lt;p&gt;Another small question I had relates to moving the key to the same location as the hat. Obviously the current design of the puzzle means that attempting to move the hat would cause the key to drop, but what if I wanted the code to recognise what room the hat is in and then transport it's contents to that same room?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7</guid>
+<pubDate>Sun, 06 Sep 2015 17:55:57 +0000</pubDate>
+</item>
+<item>
+<title>Is there an easy way to loop text in Inform 7?</title>
+<link>http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7</link>
+<description>&lt;p&gt;I feel like there must be some simple method and I'm missing it (as usual). What I want is something like this:&lt;/p&gt;
+
+&lt;p&gt;Grazing is an action applying to nothing. &lt;br&gt;
+Understand &quot;graze&quot; as grazing. &lt;br&gt;
+Instead of grazing, say &quot;You eat an onion.&quot; then &quot;You nibble a carrot.&quot; then &quot;You consume a turnip.&quot; then &quot;You chomp a bagel.&quot;&lt;/p&gt;
+
+&lt;p&gt;I know the programming syntax would look nothing like that, but I wrote it like that to convey the idea. After &quot;You chomp a bagel.&quot; is displayed, then it should loop back and say &quot;You eat an onion.&quot; and continue to loop indefinitely whenever the player uses the &quot;graze&quot; command. In that specific order: onion, carrot, turnip, bagel. Over and over.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7</guid>
+<pubDate>Thu, 03 Sep 2015 16:22:17 +0000</pubDate>
+</item>
+<item>
+<title>Copying the location of a thing to a variable when it's in something other than a room.</title>
+<link>http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</link>
+<description>&lt;p&gt;I'm using this to get the place where each object start the game and save to a variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A thing have an object called initial position.
+
+When play begins:
+    repeat with x running through all things:
+        now the initial position of x is the location of x.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, take a look at what this does then the thing is in a container, on a supporter, etc...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;showme ball
+...
+location: in the box in Room 101
+...
+initial position: Room 101
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;it only copies only the room, not the entire location. Is there a way to make this work?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</guid>
+<pubDate>Sun, 30 Aug 2015 23:09:04 +0000</pubDate>
+</item>
+<item>
+<title>In the&quot;What do you want to ... with?&quot; phrase, replace 'my' with 'your'.</title>
+<link>http://ifanswers.com/1122/in-the-what-do-you-want-to-with-phrase-replace-my-with-your</link>
+<description>&lt;p&gt;I have this in my source:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Understand &quot;brush my teeth with [something]&quot; as brushing teeth with.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, this happens:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;brush my teeth
+What do you want to brush my teeth with?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This question &quot;What do you want...&quot;, I could not find it in the Rules, using the index. I would like it to change &quot;What do you want to brush MY teeth with?&quot; to &quot;What do you want to brush YOUR teeth with?&quot;. How can I fix this?&lt;/p&gt;
+
+&lt;p&gt;PS: I'm totally aware that expecting the player to brush his teeth in a game usually sucks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1122/in-the-what-do-you-want-to-with-phrase-replace-my-with-your</guid>
+<pubDate>Sun, 30 Aug 2015 05:33:17 +0000</pubDate>
+</item>
+<item>
+<title>Reset most of the things in the game to their initial conditions.</title>
+<link>http://ifanswers.com/1113/reset-most-of-the-things-in-the-game-their-initial-conditions</link>
+<description>&lt;p&gt;I'm working on a game where it's possible to go back in time. When it happens, things must all reset their position and properties. I created an activiy to reset stuff:&lt;/p&gt;
+
+&lt;p&gt;(just to be clear, you can only go back to the starting point, so there's no need to remember the position of things in a given time, just put them back on their initial positions)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Resetting the world is an activity.
+
+For resetting the world:
+    now the player is on your bed;
+    now the alarm clock is on the chest of drawers;
+    now your room's door is closed;
+    now ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem is, when the game is finished, this will probably have hundreds and hundreds of lines and will be quite hard to maintain. Is there a better way to do this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1113/reset-most-of-the-things-in-the-game-their-initial-conditions</guid>
+<pubDate>Thu, 27 Aug 2015 23:17:44 +0000</pubDate>
+</item>
+<item>
+<title>Make the player start the game on a supporter without showing anything before the banner.</title>
+<link>http://ifanswers.com/1089/player-start-supporter-without-showing-anything-before-banner</link>
+<description>&lt;p&gt;Here's a very small example code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Bedroom is a room. &quot;This is your bedroom.&quot;
+
+The bed is a scenery enterable supporter in the bedroom.
+
+When play begins:
+    now the player is on the bed.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The result is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Bedroom (on the bed)
+This is your bedroom.
+
+Welcome
+An Interactive Fiction
+Release 1 / Serial number 150823 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Bedroom (on the bed)
+This is your bedroom.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It shows Bedroom description twice when I put the player on the bed.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1089/player-start-supporter-without-showing-anything-before-banner</guid>
+<pubDate>Sun, 23 Aug 2015 16:27:08 +0000</pubDate>
+</item>
+<item>
+<title>Multiple issues in this code about putting things under a bed.</title>
+<link>http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed</link>
+<description>&lt;p&gt;I'm trying to learn Inform7, so some things here can be a little too noobish.. here is my source code of a room with a bed that can have things on it and under it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Room 1408 is a room.
+
+A bed is a kind of supporter. A underbed is a kind of container. It is a part of every bed.
+
+Understand &quot;examine under [something]&quot; as looking under.
+Instead of looking under a bed:
+    if there is nothing in a underbed (called underbed) which is part of the noun: 
+        say &quot;There's nothing under the [noun].&quot;; 
+    otherwise if there is something in a underbed (called underbed) which is part of the noun:
+        say &quot;Under the [noun] you see: [list of things in underbed].&quot;.
+
+Understand &quot;put [something] under [something]&quot; as hiding it under.
+Understand &quot;place [something] under [something]&quot; as hiding it under.
+Understand &quot;hide [something] under [something]&quot; as hiding it under. 
+Hiding it under is an action applying to two things. Report hiding something under something: say &quot;Under the [second noun] is probably not the best place to hide the [noun].&quot;.
+
+Instead of hiding something under a bed:
+    if there is a underbed (called underbed) which is part of the second noun:
+        now the noun is inside the underbed;
+        say &quot;You have placed the [noun] under the [second noun].&quot;.
+
+The wooden bed is a bed in room 1408. The pillow is on the wooden bed. The ball is in the wooden bed's underbed.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The issues:&lt;/p&gt;
+
+&lt;p&gt;1 - To make this possible, I created a strange object called underbed to represent the stuff under the bed. I would like to make it impossible for the player to refer to this object directly (e.g. examine underbed), so that the only way of interacting with it is using &quot;under the bed&quot;. How can I do this? (EDIT: One of the things I tried was to use 'A underbed is a privately-named kind of container', but it does not work)&lt;/p&gt;
+
+&lt;p&gt;2 - If I start the game and type 'take ball', it will work. But I would like to forbid this, because the player should not be able to take the ball before knowing that it is there (the ball is hidden under the bed). If the player enter 'take all', the ball should not be revealed also.. How can I do this?&lt;/p&gt;
+
+&lt;p&gt;EDIT: I was able to solve the second issue myself by putting the ball under the bed only after the player looks under the bed for the first time. Still, if there's a better way to do this, I would like to know.&lt;/p&gt;
+
+&lt;p&gt;3 - This is a smaller issue, but in the line that starts with 'otherwise...' I had to write all of that instead of just 'otherwise: ' because it would not recognize underbed, but I think it should, because of the &quot;(called underbed)&quot; in the if statement. It is working well the way it is now, but this looks like a bug to me. Is it?&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed</guid>
+<pubDate>Sat, 22 Aug 2015 04:38:37 +0000</pubDate>
+</item>
+<item>
+<title>How to output multiple messages without allowing actions in between?</title>
+<link>http://ifanswers.com/1073/output-multiple-messages-without-allowing-actions-between</link>
+<description>&lt;p&gt;I would like to make some parts in my game have long conversations happening. I would like it to print the conversation divided into parts and waiting for a keypress between them, but it's obviously important that the player can't type commands until the entire conversation is finished. Is there a way to do that in inform?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1073/output-multiple-messages-without-allowing-actions-between</guid>
+<pubDate>Fri, 21 Aug 2015 03:26:20 +0000</pubDate>
+</item>
+<item>
+<title>Centering an image in Inform 7</title>
+<link>http://ifanswers.com/1062/centering-an-image-in-inform-7</link>
+<description>&lt;p&gt;Using Basic Screen Effects by Emily Short I am able to center text very easily like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;center &quot;this is some text I want centered.&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is so easy and so wonderful.&lt;/p&gt;
+
+&lt;p&gt;Say I am displaying an image called the figure of the ocean by using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;display the figure of the ocean;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there an EASY way to display that image centered, like the text?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1062/centering-an-image-in-inform-7</guid>
+<pubDate>Tue, 18 Aug 2015 19:14:27 +0000</pubDate>
+</item>
+<item>
+<title>Is there a maximum rules limit in Inform 6?</title>
+<link>http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</link>
+<description>&lt;p&gt;I have a very large inform 7 project (378k words &amp;amp; 4 years in the making), the support for developing which I use to live off!  And I have today hit a huge huge block - I can't make any more rules.  Whenever I try to make a new rule, regardless of how simple or complex the rule is, regardless of whether is it's a &quot;To&quot; rule, a &quot;To say&quot; rule, or four or more &quot;This is the bla bla bla rule&quot;s, Inform 7 successfully compiles, telling me that the code is fine, but then it comes up with an error: &lt;em&gt;&quot;Translating the Source - Failed&lt;br&gt;
+The application ran your source text through the Inform 7 compiler, as usual, and it found no problems translating the source. Something must have gone wrong all the same, because the second stage of the process - using the Inform 6 compiler to turn this translated source into a viable story file - turned up errors. This should not happen. The errors are written out on the Progress tab, but will only make sense to experienced Inform 6 users (if even to them).&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The error is simply &lt;em&gt;&quot;C:\Program Files (x86)\Inform 7\Compilers\inform-632 \&lt;br&gt;
+    -kwSDG +include_path=..\Source,.\ auto.inf output.ulx&lt;br&gt;
+Compiler finished with code 10&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How do I know the issue is specifically rules?&lt;/p&gt;
+
+&lt;p&gt;If I comment out a rule in my code, it will let me add one or more rules before this appears.&lt;/p&gt;
+
+&lt;p&gt;The complexity and size of the rule seems to have some impact, but the number of rules seems to be the biggest limiting factor.&lt;/p&gt;
+
+&lt;p&gt;I have tried this on 3 different machines, with different specifications and running different OSs: Windows 7 and 8 and 10 and the result is always the same, so the computer is not to blame.&lt;/p&gt;
+
+&lt;p&gt;NB. I am using 6G60 because the latest version broke several extensions that my game relies on.  So if the latest version does fix this issue, then please let me know and I guess I can work hard to resolve the migration issues, but it looks to me like a hard limit of i6?&lt;/p&gt;
+
+&lt;p&gt;Anyway, this is awful awful news for me since I rely on this game's development to support living at the moment.  Any answers, advice or other inputs people have as to how best I should try and resolve this issue, please do reply!!!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</guid>
+<pubDate>Fri, 07 Aug 2015 10:15:23 +0000</pubDate>
+</item>
+<item>
+<title>How do I make this specific code work?</title>
+<link>http://ifanswers.com/1017/how-do-i-make-this-specific-code-work</link>
+<description>&lt;p&gt;The answer this question is related to was meant to solve a problem of mine.&lt;br&gt;
+Actually, the answer I got was helpful... for future cases, and I'm sure it was the best I answer I'd get so I gave him the honor(?).&lt;br&gt;
+But right now, this code keeps failing.&lt;/p&gt;
+
+&lt;p&gt;I have the same error I had in the first question:&lt;/p&gt;
+
+&lt;p&gt;I type a verb, the safety check to changes to 5 and displays a message, then I type 'wake children', getting a &quot;Snachala opens her eyes and growls, annoyed.&quot;. Then I happily send that command again. Nothing happens. &lt;/p&gt;
+
+&lt;p&gt;From there on, the only answer I get is my own helpless command standing atop nothing.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;wake children&lt;br&gt;
+  &quot;Snachala opens her eyes and growls, annoyed.&quot;&lt;br&gt;
+  wake children&lt;br&gt;
+  wake children&lt;br&gt;
+  etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;This is the code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Safety check is a number that varies. Safety check is 4.
+
+Your children is an animal in your cave.
+
+Things have a number called consciousness. The consciousness of a thing is usually 0. Your children has consciousness 0.
+
+Every turn rule:
+if consciousness of your children is 4,
+ move your children to the location of the player;
+if safety check is 4,
+say &quot;Today you must show your children once again the way to the river and teach them where can they eat where they cannot. Gotta wake them up and head outside.&quot;;
+increase safety check by one;
+
+Instead of waking your children:
+    if the safety check is less than 4,
+    say &quot;You'll have time for that after you make sure no big creature came into the cave. Check for any clues left&quot;;
+    if the safety check is 5:
+        if the consciousness of your children is 0:
+            say &quot;Snachala opens her eyes and growls, annoyed.&quot;;
+        if consciousness of your children is 1:
+            say &quot;Kogti turns his head, eyes wide open, startling you.[line break][line break] You always forget the weird way he wakes up.&quot;;
+        if consciousness of your children is 2:
+            say &quot;Nosa wakes up. He scratches her rear and turns her neck various times, making crack sounds.&quot;;
+        if consciousness of your children is 3:
+            say &quot;Detenysh finally pushes himself up and sits lazily on the rock floor.&quot;;
+        if consciousness of your children is 4:
+            say &quot;Woah, calm down, they're awake already!&quot;;
+        if consciousness of your children is less than 4:
+            increase the consciousness of your children by 1;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;If this code plays perfectly on your program, I'll asume it's a playfic.com problem.&lt;/p&gt;
+
+&lt;p&gt;P.S.: And I swear to god I typed the tabs. They don't seem to display here.&lt;br&gt;
+It actually looks like this: &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://s10.postimg.org/z1f1g8sc9/Clipboard01.jpg&quot; alt=&quot;Failed code&quot;&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1017/how-do-i-make-this-specific-code-work</guid>
+<pubDate>Thu, 06 Aug 2015 18:43:57 +0000</pubDate>
+</item>
+<item>
+<title>How do I make 'if's inside 'if's work?</title>
+<link>http://ifanswers.com/1015/how-do-i-make-ifs-inside-ifs-work</link>
+<description>&lt;p&gt;I need help from someone who fully understands Inform 7.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.4cdn.org/vr/1438641305882.jpg&quot; alt=&quot;My code&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The manual doesn't throw specifics about this.&lt;br&gt;
+As you can see, I got: &lt;br&gt;
+if [condition] begin;&lt;br&gt;
+[a load of 'if' commands]&lt;br&gt;
+end if&lt;/p&gt;
+
+&lt;p&gt;Inform seems to just read the first command from the whole and ignores the rest.&lt;/p&gt;
+
+&lt;p&gt;Which is the problem?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1015/how-do-i-make-ifs-inside-ifs-work</guid>
+<pubDate>Thu, 06 Aug 2015 11:00:51 +0000</pubDate>
+</item>
+<item>
+<title>Whence action processing internal rule response (J)?</title>
+<link>http://ifanswers.com/989/whence-action-processing-internal-rule-response-j</link>
+<description>&lt;p&gt;I was pawing through the list of responses in the Standard Rules and I found:&lt;/p&gt;
+
+&lt;p&gt;action processing internal rule response (J): &quot;(Since something dramatic has happened, your list of commands has been cut short.)&quot;&lt;/p&gt;
+
+&lt;p&gt;I gather that this interrupts an extended command along the lines of &quot;n. n. burn rope. jump.&quot; but I can't figure out what rule triggers this behavior.&lt;/p&gt;
+
+&lt;p&gt;Where does this response come from, and how can I use it to interrupt the players of my games?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/989/whence-action-processing-internal-rule-response-j</guid>
+<pubDate>Mon, 03 Aug 2015 05:01:57 +0000</pubDate>
+</item>
+<item>
+<title>Inform 7: Multiple instances of a kind of thing where some (but not all) change properties</title>
+<link>http://ifanswers.com/947/inform-multiple-instances-thing-where-some-change-properties</link>
+<description>&lt;p&gt;Just to play around beginning to learn Inform 7, I created a room, the Kitchen, in which there are various dishes, bowls, glasses, utensils, etc. lying around. The object of the &quot;game&quot; is to wash them all and put them away (in various cabinets and drawers) where they belong.&lt;/p&gt;
+
+&lt;p&gt;My question relates to (for example), a fork being clean or dirty. I included an action &quot;wash [something]&quot; which changes this property to &quot;clean.&quot; (The game prevents the user from putting away dirty dishes until they have been washed.)&lt;/p&gt;
+
+&lt;p&gt;The problem arises when I say &quot;On the counter are 2 forks, 3 spoons, and 7 knives.&quot; What is the best way to construct these objects so that the game will keep track of which ones are clean, and which ones the player is interacting with (examining, taking, washing, putting away, etc.) at any given time? Is there a particular chapter or example in the documentation that I should refer to for a case like this?&lt;/p&gt;
+
+&lt;p&gt;I found the example in the Inform manual where the player has to sort peas and lentils (Example 87 &quot;Sand&quot;), but in that case, every pea and every lentil was identical to all the others, and the only thing that mattered was their quantity and which container they were placed in... it wasn't a matter of changing the properties of any individual pea or lentil.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/947/inform-multiple-instances-thing-where-some-change-properties</guid>
+<pubDate>Tue, 21 Jul 2015 15:22:47 +0000</pubDate>
+</item>
+<item>
+<title>How to get rid of a rule that's blocking what I want the player to do?  (Inform 7)</title>
+<link>http://ifanswers.com/936/how-get-rid-rule-thats-blocking-what-want-the-player-do-inform</link>
+<description>&lt;p&gt;I'm trying to find a way to either get around or get rid of the rule preventing a player from talking to inanimate objects.   Here's how I put in the 'talking' action:&lt;/p&gt;
+
+&lt;p&gt;Understand the command &quot;talk&quot; as something new.  Understand &quot;talk to [someone]&quot; as talking.  Talking is an action applying to one thing.  Carry out talking: say &quot;You chat back and forth a bit.&quot;&lt;/p&gt;
+
+&lt;p&gt;And in the game there's an object you can talk to:&lt;/p&gt;
+
+&lt;p&gt;Instead of talking the sample object:&lt;br&gt;
+    display the Figure of Object1;&lt;br&gt;
+    switch to CYOA at HiObject.&lt;/p&gt;
+
+&lt;p&gt;But this code doesn't work in the game; instead, I get the message about inanimate objects.  Changing the 'instead of' to 'before' doesn't work either.  As a last resort, I tried getting rid of the entire rule, but &lt;/p&gt;
+
+&lt;p&gt;The can't talk to inanimate things rule is not listed in any rulebook.&lt;/p&gt;
+
+&lt;p&gt;gives me this error:&lt;/p&gt;
+
+&lt;p&gt;In 'The can't talk to inanimate things rule is not listed in any rulebook'  , you gave 'The can't talk to inanimate things rule' where a rule was required.&lt;/p&gt;
+
+&lt;p&gt;Can anyone help?  I know there's an extension for talking to inanimate objects, but I'd rather not add in another extension just for one little thing.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/936/how-get-rid-rule-thats-blocking-what-want-the-player-do-inform</guid>
+<pubDate>Sun, 19 Jul 2015 21:46:10 +0000</pubDate>
+</item>
+<item>
+<title>Using the Flexible Windows extension, how can I depict a scaled image in my graphics window?</title>
+<link>http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</link>
+<description>&lt;p&gt;My game was working fine with Flexible Windows until something, somewhere broke it (it gave me errors when running, though both the I7- and I6-compilers ran fine). I updated the plugin and, after updating loads of others (dependencies, like Glulx Text Effects), finally got the thing to compile again. &lt;/p&gt;
+
+&lt;p&gt;However, the plugin has been rewritten from scratch in the meantime, improving or simplifying it in some ways but also taking away some functions (such as bordered windows). &lt;/p&gt;
+
+&lt;p&gt;Previously, I could display figures in the main window using Inform's standard &quot;display&quot;action, and depict them, scaled to fit, in my graphics window using the Flexible Windows &quot;depict&quot; action that was in one of the examples.&lt;/p&gt;
+
+&lt;p&gt;That 'depict' code no longer works. When compiling, the I6 compiler gives two errors:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;auto.inf(61696): Error:  No such constant as &quot;WindowSize&quot;
+auto.inf(61717): Error:  No such constant as &quot;ref_number&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the lump of mostly I6 code that hooks into the older version of Flexible Windows, but can't anymore because it's been rewritten.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To depict (f - a figure-name):
+    now the current image is f;
+    follow the window-drawing rules for the graphics-window.
+
+Window-drawing rule for the graphics-window (this is the draw scaled image rule):
+    if graphics-window is g-unpresent, rule fails;
+    clear the graphics-window;
+    draw scaled copy of current image in graphics-window.
+
+To draw scaled copy of (f - a figure-name) in (g - a g-window):
+    (- DrawScaled({f}, {g}); -).
+
+Include (-
+
+    ! Doing scaling calculations in I6 lets us handle bigger numbers
+
+    [ GetImageSize curimg index result;
+        result = glk_image_get_info( ResourceIDsOfFigures--&amp;gt;curimg, gg_arguments, gg_arguments+WORDSIZE);
+        return gg_arguments--&amp;gt;index;
+    ];
+
+    [ DrawScaled figure g w_total h_total graph_height graph_width w_offset h_offset;
+    graph_height = WindowSize(g, 1);
+    graph_width = gg_arguments--&amp;gt;0;
+    w_total = GetImageSize(figure, 0);
+    h_total = gg_arguments--&amp;gt;1;
+
+    if (graph_height - h_total &amp;lt; 0) ! if the image won't fit, find the scaling factor
+    {
+        w_total = (graph_height * w_total)/h_total;
+        h_total = graph_height;
+
+    }
+
+    if (graph_width - w_total &amp;lt; 0)
+    {
+        h_total = (graph_width * h_total)/w_total;
+        w_total = graph_width;
+    }
+
+    w_offset = (graph_width - w_total)/2; if (w_offset &amp;lt; 0) w_offset = 0;
+    h_offset = (graph_height - h_total)/2; if (h_offset &amp;lt; 0) h_offset = 0;
+
+    glk_image_draw_scaled(g.ref_number, ResourceIDsOfFigures--&amp;gt;figure, w_offset, h_offset, w_total, h_total);
+    ];
+
+-).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I'm not able to write I6 code myself, my question is as follows: how do I modify this code to work with &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.com/i7/extensions/blob/master/Jon%20Ingold/Flexible%20Windows.i7x&quot;&gt;the most recent version of Flexible Windows from Github&lt;/a&gt;, or what different code can I use to get the same results?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</guid>
+<pubDate>Fri, 17 Jul 2015 13:25:22 +0000</pubDate>
+</item>
+<item>
+<title>How do I move an item I have more of in the world (since it's a kind of thing)?</title>
+<link>http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</link>
+<description>&lt;p&gt;I want to create something like this:&lt;/p&gt;
+
+&lt;p&gt;An apple is a kind of thing.&lt;br&gt;
+The Orchard is a room. In the Orchard is a tree. In the Orchard is a basket. &lt;br&gt;
+The basket is a container. In the basket are three apples.&lt;br&gt;
+instead of attacking the tree:&lt;br&gt;
+        now an apple is in the Orchard;&lt;br&gt;
+        say &quot;You violently shake the tree, and apple falls down!&quot;&lt;/p&gt;
+
+&lt;p&gt;But this results in an error, because &quot;now an apple is in the Orchard&quot; is not specific enough. However, I haven't been able to find a way for the game to just put a new apple in the room.&lt;br&gt;
+The compiler error can be circumvented by saying &quot;now a random apple is in the Orchard&quot;, but that will take one of the apples from the basket.&lt;/p&gt;
+
+&lt;p&gt;How can I get Inform to spawn a new apple into the orchard every time the player attacks the tree?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</guid>
+<pubDate>Wed, 08 Jul 2015 10:07:14 +0000</pubDate>
+</item>
+<item>
+<title>calculating the value of a variable</title>
+<link>http://ifanswers.com/873/calculating-the-value-of-a-variable</link>
+<description>&lt;p&gt;This feels like an embarrassingly basic question, but I can't find a clear answer (at least that I understand) in the I7 documentation.&lt;/p&gt;
+
+&lt;p&gt;I want to calculate the value of a variable from two other variables - e.g. Z = X - Y.&lt;/p&gt;
+
+&lt;p&gt;The first part seemed easy enough. I used:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;X is a number that varies. X is initially -30.
+
+Y is a number that varies. Y is initially 10.
+
+Z is a number that varies.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I tried what to my untutored eye seemed the most intuitive way of assigning a value to Z:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Z is X minus Y.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But inform wouldn't compile. So after looking over a couple of examples in the Inform 7 Handbook I tried:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To decide which number is Z:  
+    let Z be X minus Y;
+    decide on Z.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which compiled fine, but later on when I try to use Z in a description - something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;On the video-screen it says: the value of Z is [Z].&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Instead of returning what I expected, which is -40, it returns 0.&lt;/p&gt;
+
+&lt;p&gt;Obviously I'm doing something very stupid, so would appreciate any help.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/873/calculating-the-value-of-a-variable</guid>
+<pubDate>Fri, 03 Jul 2015 15:28:35 +0000</pubDate>
+</item>
+<item>
+<title>Alternative ways to interact with I7 stories?</title>
+<link>http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories</link>
+<description>&lt;p&gt;I would like to be able to take existing I7 stories, and play them outside of the standard I7 GUI.  The primary motivation for this is that I would like to integrate an I7 story into a chat bot.  This would allow myself and some friends to play the story together over chat.&lt;/p&gt;
+
+&lt;p&gt;I already have a chat bot which I have written in python.  I would like to be able to feed text input to I7 and have it return the response as text.  Any suggestions on which tools from the I7 toolset apply to me, or where I might start?&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories</guid>
+<pubDate>Tue, 30 Jun 2015 17:41:06 +0000</pubDate>
+</item>
+<item>
+<title>How can I have a colon as part of a room name?</title>
+<link>http://ifanswers.com/865/how-can-i-have-a-colon-as-part-of-a-room-name</link>
+<description>&lt;p&gt;I want to use a colon in the name of a room (e.g. Briefing room: Midday) but every time I7 sees the colon it assumes I want to provide a definition.&lt;/p&gt;
+
+&lt;p&gt;In Inform 6 there were certain characters substituted for others (such as the tilde for quotation marks to allow speech to be represented inside of a piece of text), so I'm guessing the answer lies along those lines.&lt;/p&gt;
+
+&lt;p&gt;I've looked in the General Index but can't find anything under 'colon', 'punctuation' or 'substitute'.  Punctuation has a sub entry &quot;apostrophe, meaning quotation mark&quot; which again makes me think there's some other character I can use instead.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/865/how-can-i-have-a-colon-as-part-of-a-room-name</guid>
+<pubDate>Tue, 30 Jun 2015 11:54:50 +0000</pubDate>
+</item>
+<item>
+<title>How to set up a condition involving the presence of a character.</title>
+<link>http://ifanswers.com/845/how-to-set-up-condition-involving-the-presence-of-character</link>
+<description>&lt;p&gt;I'm trying to make it so that if the player passes through a metal detector while carrying a metal thing it goes off and they get arrested, but only if an authority is nearby.  Right now I have:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To detect the player:
+    say &quot;You pass through a metal detector.&quot;;
+    if the player is carrying a metal thing:
+        say &quot;The metal detector blares annoyingly.&quot;;
+        if in the presence of an authority: 
+            say &quot;The guard grabs you and ends the story&quot;;
+            end the story.;
+        otherwise:
+            say &quot;Nobody is around to do anything about it though&quot;;
+    Otherwise:
+        say &quot;You pass through it unmolested.&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A person can be an authority.  A person is usually not an authority.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;In the Embassy Front Lawn is a man called a guard.  The indefinite article of Guard is &quot;a&quot;.  A guard is an authority.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And finally:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Instead of going south from the Embassy Front Lawn:
+    say &quot;You'll have to go through a security checkpoint.  It seems to have a metal detector, keep going?&quot;;
+    if the player consents, detect the player.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It all works without the presence of the authority bit, but I can't inform to recognize that I only want the last bit of code to fire if there's an authority around.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/845/how-to-set-up-condition-involving-the-presence-of-character</guid>
+<pubDate>Thu, 25 Jun 2015 18:23:44 +0000</pubDate>
+</item>
+<item>
+<title>How do I print two distinct objects from a list (Inform 7) in a description?</title>
+<link>http://ifanswers.com/837/how-print-two-distinct-objects-from-list-inform-description</link>
+<description>&lt;p&gt;I couldn't find the answer on the forums or the documentation -- it might be there, but I couldn't find the right combination of words to search for.&lt;/p&gt;
+
+&lt;p&gt;Anyways, my question is hopefully simple.  I'm using Inform 7.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A monkey is a kind of animal.
+Typewriter Chamber is a room.
+Alice, Bob, and Charlie are monkeys in Typewriter Chamber.
+Typewriter Chamber has the description &quot;[The random monkey in
+    Typewriter Chamber] is currently running around [the random
+    monkey in Typewriter Chamber].&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This allows the scenario in which both monkeys chosen are the same.  &lt;strong&gt;I want them to be distinct -- that is, I don't want it to ever choose the same monkey for both of the choices.&lt;/strong&gt;      What is the right way to do that?  Is this possible in Inform 7?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/837/how-print-two-distinct-objects-from-list-inform-description</guid>
+<pubDate>Wed, 24 Jun 2015 16:48:45 +0000</pubDate>
+</item>
+<item>
+<title>Is it possible to make kinds of kinds of values in inform 7?</title>
+<link>http://ifanswers.com/820/is-it-possible-to-make-kinds-of-kinds-of-values-in-inform-7</link>
+<description>&lt;p&gt;I want to do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A measurement is a kind of value.
+A waist size is a kind of measurement.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sadly, ni returns this problem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You wrote 'A waist size is a kind of measurement' ...
+but you are only allowed to create kinds of objects
+(things, rooms, and so on) and kinds of 'value' ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I take from this that it isn't possible to specialize values by making kinds of kinds of values?  How can I accomplish something similar?  My end goal is to make a property that can contain values from any of a certain set of kinds of values.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/820/is-it-possible-to-make-kinds-of-kinds-of-values-in-inform-7</guid>
+<pubDate>Mon, 22 Jun 2015 19:32:26 +0000</pubDate>
+</item>
+<item>
+<title>Write error to text</title>
+<link>http://ifanswers.com/818/write-error-to-text</link>
+<description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;I have an error (P32 wrong kind of thing to decide on) that occurs during a part of the game where menus are up and afterwards the screen is cleared, meaning I don't get to see the details of the error.&lt;/p&gt;
+
+&lt;p&gt;Is there some way I can write the details of the error to a text variable or some other way I can view the details of the error?&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/818/write-error-to-text</guid>
+<pubDate>Sun, 21 Jun 2015 21:07:34 +0000</pubDate>
+</item>
+<item>
+<title>How do you test whether the player's interpreter will support windows created with Flexible Windows? (Inform 7)</title>
+<link>http://ifanswers.com/778/whether-players-interpreter-support-created-flexible-windows</link>
+<description>&lt;p&gt;So, e.g., in Parchment, you'd be able to display a message that says &quot;Your interpreter does not support this feature.&quot;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/778/whether-players-interpreter-support-created-flexible-windows</guid>
+<pubDate>Wed, 17 Jun 2015 13:21:15 +0000</pubDate>
+</item>
+<item>
+<title>When should you include extensions in extensions? (Inform 7)</title>
+<link>http://ifanswers.com/770/when-should-you-include-extensions-in-extensions-inform-7</link>
+<description>&lt;p&gt;If you're writing an extension and it includes some optional features A and B that make use of other extensions (C and D), but some people may not want to use features A and B, do you go ahead and include extensions C and D, or not? On one hand, you want things to work out of the box. On the other hand, if you're a game author who doesn't want features A and B, there's no good way (that I know of) to un-include C and D without modifying the including extension directly.&lt;/p&gt;
+
+&lt;p&gt;Or is this a case where feature B should really be in a separate little add-on extension that can be used with the main extension, and the add-on extension would include the necessary other extension (D)?&lt;/p&gt;
+
+&lt;p&gt;In this case the extensions &quot;C&quot; and &quot;D&quot; are Basic Screen Effects by Emily Short and Rewrite the Command Line by Ron Newcomb, if that makes a difference.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/770/when-should-you-include-extensions-in-extensions-inform-7</guid>
+<pubDate>Mon, 15 Jun 2015 20:00:30 +0000</pubDate>
+</item>
+<item>
+<title>How do get an NPC's mood to worsen if I give it something it dislikes?</title>
+<link>http://ifanswers.com/766/how-do-get-npcs-mood-to-worsen-if-give-it-something-it-dislikes</link>
+<description>&lt;p&gt;I'm trying to re-author the giving action. I want an NPC to have a mood that goes up or down, depending on whether you give it something it likes or dislikes, but it will only accept things that interest it. &lt;/p&gt;
+
+&lt;p&gt;I can't get to seem the liking/disliking relation to work with kinds of things, i.e. snacks, but I need the apples and kiwis to be kinds of snacks because the player gets them from a vending machine, which can only be coded to bring kinds of things from off-stage.&lt;/p&gt;
+
+&lt;p&gt;I'm guessing this is why I can't get the Instead rule to fire?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The block giving rule is not listed in the check giving it to rulebook.
+
+A snack is a kind of thing. A snack is always edible.
+An apple is a kind of snack.
+A kiwi is a kind of snack.
+
+Mood is a kind of value. The moods are hostile, suspicious, indifferent, friendly, and adoring. A person has a mood. A person is usually indifferent.
+
+To improve the mood of (character - a person):
+    if the mood of character is less than adoring:
+        now the mood of the character is the mood after the mood of the character.
+
+To worsen the mood of (character - a person):
+    if the mood of character is not hostile:
+        now the mood of the character is the mood before the mood of the character.
+
+To decide whether (item - a thing) interests (character - a person):
+    if the character likes the item, yes;
+    if the item is edible, yes;
+    no.
+
+Liking relates one person to various things. The verb to like means the liking relation.
+
+Disliking relates one person to various things. The verb to dislike means the disliking relation.
+
+Instead of giving something to someone:
+    if the second noun dislikes the noun:
+        worsen the mood of the second noun;
+        say &quot;[The second noun] appears to hate that! [The second noun] is [mood of the second noun].&quot; instead;
+    otherwise:
+        continue the action.
+
+Check giving something to someone:
+    unless the noun interests the second noun:
+        say &quot;[The second noun] disdainfully refuses [the noun]. [The second noun] is still [mood of the second noun].&quot; instead;
+    otherwise if the second noun dislikes the noun:
+        worsen the mood of the second noun;
+        say &quot;[The second noun] appears to hate that! [The second noun] is [mood of the second noun].&quot; instead;
+    otherwise if the second noun likes the noun:
+        improve the mood of the second noun;
+        say &quot;[The second noun] looks happy to receive that. [The second noun] is [mood of the second noun].&quot;.   
+
+
+The Testing Room is A Room. The pawn broker is a person in the testing room. The player holds a rare coin  and a straw dog and an apple and a kiwi.
+
+The pawn broker likes the straw dog.
+The pawn broker dislikes the kiwi.
+
+Test me with &quot;give dog to broker / give coin to broker / give apple to broker / give kiwi to broker&quot;.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/766/how-do-get-npcs-mood-to-worsen-if-give-it-something-it-dislikes</guid>
+<pubDate>Sun, 14 Jun 2015 19:32:26 +0000</pubDate>
+</item>
+<item>
+<title>When using hyperlinks, how do you make the command appear appear next to the &gt; instead of on the following line? (Inform 7)</title>
+<link>http://ifanswers.com/761/hyperlinks-command-appear-appear-instead-following-inform</link>
+<description>&lt;p&gt;I ran into this issue with three different extensions that support hyperlinks: Basic Hyperlinks by Emily Short, Inline Hyperlinks by Erik Temple, and Flexible Windows.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to make the text appear next to the &amp;gt; instead of on the following line?&lt;/p&gt;
+
+&lt;p&gt;Sample transcript of current behavior:&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;&lt;br&gt;
+take&lt;br&gt;
+What do you want to take?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/761/hyperlinks-command-appear-appear-instead-following-inform</guid>
+<pubDate>Sun, 14 Jun 2015 03:34:49 +0000</pubDate>
+</item>
+<item>
+<title>Is there an easy way to port Inform 6 code (unfinished game) into Inform 7 to continue development?</title>
+<link>http://ifanswers.com/754/there-inform-unfinished-game-inform-continue-development</link>
+<description>&lt;p&gt;I've been working on a game in I6 off and on for many years.  I'd love to shift it over to I7 but doing it manually seems a daunting task.  I have working code and also a compiled .z8 file.&lt;/p&gt;
+
+&lt;p&gt;I seem to remember that when Inform 7 was first released, there was a way to port I6 code to I7, but only for Mac.  (I'm on PC, by the way.)  I don't think even that exists anymore so I'm expecting the answer 'no', but one lives in hope. &lt;/p&gt;
+
+&lt;p&gt;Alternatively, is there a rough guide for how to approach a conversion? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/754/there-inform-unfinished-game-inform-continue-development</guid>
+<pubDate>Fri, 12 Jun 2015 12:10:50 +0000</pubDate>
+</item>
+<item>
+<title>Can you use custom CSS files with games uploaded to textadvenures.co.uk?</title>
+<link>http://ifanswers.com/752/can-you-use-custom-files-with-games-uploaded-textadvenures</link>
+<description>&lt;p&gt;I released an Inform 7 game along with the Quixe  interpreter and set up a custom CSS file for it in the Interpreter folder. On my computer the stylesheet works, but when I zip the release folder and upload it to  textadventures.co.uk, playing it online brings up the default stylesheet.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/752/can-you-use-custom-files-with-games-uploaded-textadvenures</guid>
+<pubDate>Fri, 12 Jun 2015 10:59:45 +0000</pubDate>
+</item>
+<item>
+<title>How do you use a hyperlink to paste text without (in effect) pressing enter? (Flexible Windows, Inform 7)</title>
+<link>http://ifanswers.com/750/hyperlink-without-effect-pressing-flexible-windows-inform</link>
+<description>&lt;p&gt;I'd like to use hyperlinks to paste partial commands at the prompt, and allow the player to finish typing the command, but when I use the built-in hyperlink behavior of Flexible Windows, clicking the link automatically submits the text as a complete command. Is there a way to just paste the text and leave it be?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/750/hyperlink-without-effect-pressing-flexible-windows-inform</guid>
+<pubDate>Fri, 12 Jun 2015 02:58:34 +0000</pubDate>
+</item>
+<item>
+<title>How can I modify all room names but NOT in the status bar?</title>
+<link>http://ifanswers.com/745/how-can-i-modify-all-room-names-but-not-in-the-status-bar</link>
+<description>&lt;p&gt;I want add a list of exits after the room title but I don't want this to happen in the status line.&lt;/p&gt;
+
+&lt;p&gt;I know adding exits is hack. I'm gonna do it anyway!&lt;/p&gt;
+
+&lt;p&gt;Right now I have this, which changes it in the status line also:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;After printing the name of a room:
+    say &quot; (exits:[exit list])&quot;.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/745/how-can-i-modify-all-room-names-but-not-in-the-status-bar</guid>
+<pubDate>Fri, 12 Jun 2015 01:38:29 +0000</pubDate>
+</item>
+<item>
+<title>How to show window background color in Quixe: background color property or text background? (Flexible Windows, Inform 7)</title>
+<link>http://ifanswers.com/741/background-background-property-background-flexible-windows</link>
+<description>&lt;p&gt;I know you can use a custom CSS style sheet to set two custom text styles in Quixe. But I'm not sure if there's a way to make the background color &lt;em&gt;property&lt;/em&gt; show the appropriate custom color in Quixe.&lt;/p&gt;
+
+&lt;p&gt;Even if there is, I'm thinking using the text style (rather than using the actual background color property) may be the better way to go to specify a background color for a window, because then one of the styles in the CSS style sheet can be customized to reflect both background color and text color.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, defining a named custom style &quot;uses up&quot; one of the two style slots that the story author has available, and so maybe that would be a disadvantage if the author has other text styles they want to use for other things. (Unless the background color property also &quot;uses up&quot; one of the two custom style slots?)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/741/background-background-property-background-flexible-windows</guid>
+<pubDate>Thu, 11 Jun 2015 16:40:21 +0000</pubDate>
+</item>
+<item>
+<title>With Flexible Windows, can you specify whether a window will have a scroll bar? (Inform 7)</title>
+<link>http://ifanswers.com/740/with-flexible-windows-specify-whether-window-scroll-inform</link>
+<description>&lt;p&gt;It looks as though Quixe (and the Inform IDE) shows a scroll bar by default for a text window, and Glulxe and Gargoyle do not show a scroll bar. Is showing or not showing a scroll bar something under the story author's control, or is it dependent on the player's interpreter settings?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/740/with-flexible-windows-specify-whether-window-scroll-inform</guid>
+<pubDate>Thu, 11 Jun 2015 16:02:49 +0000</pubDate>
+</item>
+<item>
+<title>How to make the player specify which thing of a kind they mean? (Inform 7)</title>
+<link>http://ifanswers.com/717/how-make-the-player-specify-which-thing-kind-they-mean-inform</link>
+<description>&lt;p&gt;I just started programming with Inform 7, so maybe this is a trivial question.&lt;br&gt;
+However I'm struggling with the following problem and was not able to find an answer in the two manuals:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;There is a room called the Copenhagen Room.
+The miniature model is a supporter. It is in the Copenhagen room.
+The description is &quot;This is a miniature model of the Tivoli Gardens amusement park. You can see two rides: a roller-coaster called 'Rutschebanen' and a carousel named 'The Star Flyer'.&quot;
+A ride is a kind of thing. 
+The tiny roller-coaster is a ride. It is part of the miniature model.
+The tiny carousel is a ride. It is part of the miniature model.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now when the player enters 'examine ride' they will get the reaction 'You can't see any such thing.'&lt;br&gt;
+What do I have to do so that they will get the response 'Which ride do you mean, the tiny roller-coaster or the tiny carousel?' and then be able to specify the ride?&lt;/p&gt;
+
+&lt;p&gt;Thank you very much in advance for your answer.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/717/how-make-the-player-specify-which-thing-kind-they-mean-inform</guid>
+<pubDate>Wed, 03 Jun 2015 23:20:26 +0000</pubDate>
+</item>
+<item>
+<title>Inform: How do I find the word count for text the player can read?</title>
+<link>http://ifanswers.com/711/inform-how-do-find-the-word-count-for-text-the-player-can-read</link>
+<description>&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Is there a way in Inform to calculate the word count of a piece, but just the words that the player can see? (that is, prose, not code). &lt;/p&gt;
+
+&lt;p&gt;Any help would be appreciated!&lt;/p&gt;
+
+&lt;p&gt;Thanks,&lt;br&gt;
+Devi&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/711/inform-how-do-find-the-word-count-for-text-the-player-can-read</guid>
+<pubDate>Tue, 02 Jun 2015 00:16:12 +0000</pubDate>
+</item>
+<item>
+<title>In Flexible Windows, is it acceptable to set, e.g., the window position at or after the start of play? (Inform 7)</title>
+<link>http://ifanswers.com/709/flexible-windows-acceptable-window-position-after-inform</link>
+<description>&lt;p&gt;With the extension Flexible Windows by Jon Ingold, is it okay to set attributes of the window at the start of play, or even after the start of play, as long as they are set before the window is opened for the first time? Documentation of the original extension seemed to say that changing some things during play could cause bugs (with restoring, for instance) so I wasn't sure what the boundaries are.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/709/flexible-windows-acceptable-window-position-after-inform</guid>
+<pubDate>Mon, 01 Jun 2015 22:04:46 +0000</pubDate>
+</item>
+<item>
+<title>Carry Over A Save File</title>
+<link>http://ifanswers.com/695/carry-over-a-save-file</link>
+<description>&lt;p&gt;I would like to make more than one game. Preferably have them interconnect, with events of the first having repercussions in the sequels.&lt;/p&gt;
+
+&lt;p&gt;Like Mass Effect.&lt;/p&gt;
+
+&lt;p&gt;I want Mass Effect save file dark sorcery.&lt;/p&gt;
+
+&lt;p&gt;I remember reading about such a thing for IF once, but I can't seem to locate that information anymore.&lt;/p&gt;
+
+&lt;p&gt;Any help?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/695/carry-over-a-save-file</guid>
+<pubDate>Fri, 29 May 2015 05:49:46 +0000</pubDate>
+</item>
+<item>
+<title>How do you avoid an extra line break when refreshing a window with Flexible Windows (Inform 7)?</title>
+<link>http://ifanswers.com/690/avoid-extra-break-refreshing-window-flexible-windows-inform</link>
+<description>&lt;p&gt;This&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Flexible Windows by Jon Ingold.
+
+The sidebar is a g-window.
+The main window spawns the sidebar.
+The scale method of the sidebar is g-fixed-size.
+The measurement of the sidebar is 40.
+The position of the sidebar is g-placeleft.
+
+Every turn while the sidebar is g-present:
+    Refresh the sidebar.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;works fine. But adding this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rule for refreshing the sidebar:
+    say &quot;Text.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adds an extra line break in the main window every turn.&lt;/p&gt;
+
+&lt;p&gt;How can I avoid this? It reminds me of &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.intfiction.org/forum/viewtopic.php?f=7&amp;amp;t=17446&amp;amp;p=87531&quot;&gt;this rulebook break issue&lt;/a&gt; but I'm not sure if it's related.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/690/avoid-extra-break-refreshing-window-flexible-windows-inform</guid>
+<pubDate>Thu, 28 May 2015 17:16:52 +0000</pubDate>
+</item>
+<item>
+<title>With Flexible Windows by Jon Ingold, is there a way to make the text display at the top of the window, even in Gargoyle? (Inform 7)</title>
+<link>http://ifanswers.com/688/flexible-windows-ingold-there-display-window-gargoyle-inform</link>
+<description>&lt;p&gt;If you create a text window, can you make the text align with the top of the window instead of the bottom, even in Gargoyle?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/688/flexible-windows-ingold-there-display-window-gargoyle-inform</guid>
+<pubDate>Thu, 28 May 2015 14:26:25 +0000</pubDate>
+</item>
+<item>
+<title>Changing the subject of a verb</title>
+<link>http://ifanswers.com/684/changing-the-subject-of-a-verb</link>
+<description>&lt;p&gt;In inform 7, how can I manually change the subject of the a verb in adaptive text, in a situation where the assumed subject is incorrect?&lt;/p&gt;
+
+&lt;p&gt;And can I set the subject to be a counted number of things? IE, &quot;[Number of people in the room] set[s] of eyes [stare] accusingly at you.&quot; It does not seem to do this by default.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/684/changing-the-subject-of-a-verb</guid>
+<pubDate>Thu, 28 May 2015 02:39:59 +0000</pubDate>
+</item>
+<item>
+<title>What's the best way to test whether or not scoring is being used? (Inform 7)</title>
+<link>http://ifanswers.com/674/whats-the-best-way-test-whether-not-scoring-being-used-inform</link>
+<description>&lt;p&gt;The way I came up with to approximate this is &quot;if the maximum score is 0&quot; vs. &quot;if the maximum score is not 0.&quot; Is that the most direct way or is there a better one?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/674/whats-the-best-way-test-whether-not-scoring-being-used-inform</guid>
+<pubDate>Tue, 26 May 2015 12:11:34 +0000</pubDate>
+</item>
+</channel>
+</rss>

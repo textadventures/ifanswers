@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged status-attribute</title>
+<link>http://ifanswers.com/tag/status-attribute</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Online version of Quest: How do I change the value of Status Attributes?</title>
+<link>http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</link>
+<description>&lt;p&gt;First of all, I know that someone already asked a question about changing status attributes &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/623/quest-how-do-i-change-status-attributes?show=623#q623&quot;&gt;here&lt;/a&gt;, but the answers seemed to be specifically for the Windows desktop version of Quest, which I cannot access.&lt;/p&gt;
+
+&lt;p&gt;Initially, I was having difficulty with setting up a Status Attribute for &quot;cash,&quot; but hegemonkhan's answer to &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/969/i-need-help-with-attributes?show=969#q969&quot;&gt;this question&lt;/a&gt; helped me with that. Many thanks to him.&lt;/p&gt;
+
+&lt;p&gt;But now that I've set up my status attribute for cash, I'm not sure how to change the value of the variable. I want my player to start the game with $20, so I set the variable &quot;player.cash&quot; to 20, created a new string dictionary for &quot;player.statusattributes,&quot; and then added &quot;cash&quot; to that string dictionary. Like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/o4HujGa.png&quot; alt=&quot;An effective setup for &amp;quot;cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;That worked. On the right sidebar of my game, in the &quot;status&quot; panel, it says &quot;Cash: $20.&quot; Then, in an attempt to figure out how to increase the &quot;player.cash&quot; value during gameplay, I tried to create the command &quot;increase cash&quot; which I wanted to simply add $20 to the player's &quot;cash&quot; value. But I didn't really know how to do that, as you can see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/uP0gAX8.png&quot; alt=&quot;An ineffective setup for &amp;quot;increase cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;My attempt probably looks extremely laughable to those who actually know what they're doing. Can anyone help me figure out how to increase the &quot;player.cash&quot; variable in a way that is compatible with the online version of Quest?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</guid>
+<pubDate>Fri, 04 Sep 2015 03:42:47 +0000</pubDate>
+</item>
+<item>
+<title>Quest: Two Death Messages</title>
+<link>http://ifanswers.com/642/quest-two-death-messages</link>
+<description>&lt;p&gt;Hey everyone, &lt;/p&gt;
+
+&lt;p&gt;For some reason, after an encounter reduces player health to 0%, I get two death messages, and then a room description [as the encounter changes the player location]&lt;/p&gt;
+
+&lt;p&gt;I've no idea what is causing this, has anyone got any suggestions?&lt;/p&gt;
+
+&lt;p&gt;My script is to print a centered message and then finish the game.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/642/quest-two-death-messages</guid>
+<pubDate>Fri, 22 May 2015 17:56:14 +0000</pubDate>
+</item>
+<item>
+<title>Quest: How do I change status attributes?</title>
+<link>http://ifanswers.com/623/quest-how-do-i-change-status-attributes</link>
+<description>&lt;p&gt;Hi there; if a player's experience points start out as zero and is listed on the right as an object status attribute, would it be possible to add/subtract to the number when the player defeats a foe?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/623/quest-how-do-i-change-status-attributes</guid>
+<pubDate>Wed, 20 May 2015 04:54:50 +0000</pubDate>
+</item>
+</channel>
+</rss>

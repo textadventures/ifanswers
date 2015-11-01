@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged functions</title>
+<link>http://ifanswers.com/tag/functions</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Empty Function List Appearing in Quest</title>
+<link>http://ifanswers.com/705/empty-function-list-appearing-in-quest</link>
+<description>&lt;p&gt;I feel like an idiot, here. I'm unable to access any of the premade functions for Quest. I'm getting a completely blank list when I open the Functions box, and because the game seems to come with numerous functions (as listed in the help docs), I'm perplexed. &lt;/p&gt;
+
+&lt;p&gt;I even tried using the function I want &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GetRandomInt (1, 10)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;directly in a script, but it just generated an error for me. &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/705/empty-function-list-appearing-in-quest</guid>
+<pubDate>Sun, 31 May 2015 22:05:47 +0000</pubDate>
+</item>
+</channel>
+</rss>

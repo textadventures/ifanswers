@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged inform6</title>
+<link>http://ifanswers.com/tag/inform6</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How can I set the player smell in Inform 6?</title>
+<link>http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6</link>
+<description>&lt;p&gt;I can set the player description using, well, &lt;code&gt;player.description&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;But how can I set the smell? As in &lt;code&gt;&amp;gt; smell self&lt;/code&gt;.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6</guid>
+<pubDate>Thu, 17 Sep 2015 10:36:32 +0000</pubDate>
+</item>
+<item>
+<title>Is there a maximum rules limit in Inform 6?</title>
+<link>http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</link>
+<description>&lt;p&gt;I have a very large inform 7 project (378k words &amp;amp; 4 years in the making), the support for developing which I use to live off!  And I have today hit a huge huge block - I can't make any more rules.  Whenever I try to make a new rule, regardless of how simple or complex the rule is, regardless of whether is it's a &quot;To&quot; rule, a &quot;To say&quot; rule, or four or more &quot;This is the bla bla bla rule&quot;s, Inform 7 successfully compiles, telling me that the code is fine, but then it comes up with an error: &lt;em&gt;&quot;Translating the Source - Failed&lt;br&gt;
+The application ran your source text through the Inform 7 compiler, as usual, and it found no problems translating the source. Something must have gone wrong all the same, because the second stage of the process - using the Inform 6 compiler to turn this translated source into a viable story file - turned up errors. This should not happen. The errors are written out on the Progress tab, but will only make sense to experienced Inform 6 users (if even to them).&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The error is simply &lt;em&gt;&quot;C:\Program Files (x86)\Inform 7\Compilers\inform-632 \&lt;br&gt;
+    -kwSDG +include_path=..\Source,.\ auto.inf output.ulx&lt;br&gt;
+Compiler finished with code 10&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How do I know the issue is specifically rules?&lt;/p&gt;
+
+&lt;p&gt;If I comment out a rule in my code, it will let me add one or more rules before this appears.&lt;/p&gt;
+
+&lt;p&gt;The complexity and size of the rule seems to have some impact, but the number of rules seems to be the biggest limiting factor.&lt;/p&gt;
+
+&lt;p&gt;I have tried this on 3 different machines, with different specifications and running different OSs: Windows 7 and 8 and 10 and the result is always the same, so the computer is not to blame.&lt;/p&gt;
+
+&lt;p&gt;NB. I am using 6G60 because the latest version broke several extensions that my game relies on.  So if the latest version does fix this issue, then please let me know and I guess I can work hard to resolve the migration issues, but it looks to me like a hard limit of i6?&lt;/p&gt;
+
+&lt;p&gt;Anyway, this is awful awful news for me since I rely on this game's development to support living at the moment.  Any answers, advice or other inputs people have as to how best I should try and resolve this issue, please do reply!!!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</guid>
+<pubDate>Fri, 07 Aug 2015 10:15:23 +0000</pubDate>
+</item>
+<item>
+<title>Is there an easy way to port Inform 6 code (unfinished game) into Inform 7 to continue development?</title>
+<link>http://ifanswers.com/754/there-inform-unfinished-game-inform-continue-development</link>
+<description>&lt;p&gt;I've been working on a game in I6 off and on for many years.  I'd love to shift it over to I7 but doing it manually seems a daunting task.  I have working code and also a compiled .z8 file.&lt;/p&gt;
+
+&lt;p&gt;I seem to remember that when Inform 7 was first released, there was a way to port I6 code to I7, but only for Mac.  (I'm on PC, by the way.)  I don't think even that exists anymore so I'm expecting the answer 'no', but one lives in hope. &lt;/p&gt;
+
+&lt;p&gt;Alternatively, is there a rough guide for how to approach a conversion? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/754/there-inform-unfinished-game-inform-continue-development</guid>
+<pubDate>Fri, 12 Jun 2015 12:10:50 +0000</pubDate>
+</item>
+<item>
+<title>Getting the length of a string</title>
+<link>http://ifanswers.com/714/getting-the-length-of-a-string</link>
+<description>&lt;p&gt;How do I get the length of a string programmatically, in Inform 6?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/714/getting-the-length-of-a-string</guid>
+<pubDate>Wed, 03 Jun 2015 13:36:22 +0000</pubDate>
+</item>
+<item>
+<title>Styling `box` to be as nice in Glulx as it is on ZMachine</title>
+<link>http://ifanswers.com/633/styling-box-to-be-as-nice-in-glulx-as-it-is-on-zmachine</link>
+<description>&lt;p&gt;The below Inform6 file is standalone (it doesn't include anything) and contains a copy of the Inform 6.33 definition of &lt;code&gt;Box__Routine&lt;/code&gt; for the Glulx case. My question is, how do I modify &lt;code&gt;Box__Routine&lt;/code&gt; so that the output (with e.g. Gargoyle) is as nice with Glulx as it is with the ZMachine backend? &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#IfDef TARGET_GLULX;
+Constant GG_MAINWIN_ROCK     201;
+Constant GG_QUOTEWIN_ROCK     202;
+Global gg_mainwin;
+Global gg_quotewin;
+
+#Ifdef VN_1630;
+Array gg_arguments buffer 28;
+#Ifnot;
+Array gg_arguments --&amp;gt; 8;
+#EndIf;
+
+
+#Stub InitGlkWindow 1;
+
+[ GGInitialise res;
+    @gestalt 4 2 res; ! Test if this interpreter has Glk.
+    if (res == 0) {
+      ! Without Glk, we're entirely screwed.
+      quit;
+    }
+    ! Set the VM's I/O system to be Glk.
+    @setiosys 2 0;
+
+    res = InitGlkWindow(0);
+    if (res ~= 0) return;
+
+    res = InitGlkWindow(GG_MAINWIN_ROCK);
+    if (res == 0)
+        gg_mainwin = glk($0023, 0, 0, 0, 3, GG_MAINWIN_ROCK); ! window_open
+    if (gg_mainwin == 0) {
+        ! If we can't even open one window, there's no point in going on.
+        quit;
+    }
+
+    glk($002F, gg_mainwin);
+    InitGlkWindow(1);
+];
+
+[ Box__Routine maxwid arr ix lines lastnl parwin;
+    maxwid = 0;
+    lines = arr--&amp;gt;0;
+
+    if (gg_quotewin == 0) {
+        gg_arguments--&amp;gt;0 = lines;
+        ix = InitGlkWindow(GG_QUOTEWIN_ROCK);
+        if (ix == false)
+            gg_quotewin = glk($0023, gg_mainwin, $12, lines, 3, GG_QUOTEWIN_ROCK); 
+    } else {
+        parwin = glk($0029, gg_quotewin); 
+        glk($0026, parwin, $12, lines, 0); 
+    }
+
+    lastnl = true;
+    if (gg_quotewin) {
+        glk($002A, gg_quotewin);
+        glk($002F, gg_quotewin);
+        lastnl = false;
+    }
+
+    ! If gg_quotewin is zero here, the quote just appears in the story window.
+
+    glk($0086, 7); ! set blockquote style
+    for (ix=0 : ix&amp;lt;lines : ix++) {
+        print (string) arr--&amp;gt;(ix+1);
+        if (ix &amp;lt; lines-1 || lastnl) new_line;
+    }
+    glk($0086, 0); ! set normal style
+
+    if (gg_quotewin) {
+        glk($002F, gg_mainwin); ! set_window
+    }
+];
+#EndIf;
+
+[ Main;
+    #IfDef TARGET_GLULX;
+    GGInitialise();
+    #EndIf;
+
+    box &quot;foo&quot; &quot;bar&quot;;    
+];    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Output with Glulx (compiled with &lt;code&gt;inform -G&lt;/code&gt;):&lt;br&gt;
+&lt;img src=&quot;http://i.imgur.com/110ySxB.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Output with ZMachine (compiled with &lt;code&gt;inform -v5&lt;/code&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/eicwg0I.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/633/styling-box-to-be-as-nice-in-glulx-as-it-is-on-zmachine</guid>
+<pubDate>Thu, 21 May 2015 13:45:41 +0000</pubDate>
+</item>
+<item>
+<title>Inform6 from the ground up -- Actions not working</title>
+<link>http://ifanswers.com/610/inform6-from-the-ground-up-actions-not-working</link>
+<description>&lt;p&gt;I am recreating an ancient adventure game in Inform6 so that it can be easily played on modern platforms. My aim is to recreate not just the plot/puzzles but also the parser. Also, the game is not in English so I don't expect the standard library to be that useful anyway.&lt;/p&gt;
+
+&lt;p&gt;By copy-pasting relevant-looking bits from the standard Inform6 library, I was able to get parsing working for the very simplistic model that I plan to support: because I only have &lt;em&gt;verb&lt;/em&gt;, &lt;em&gt;verb noun&lt;/em&gt; and &lt;em&gt;verb noun1 noun2&lt;/em&gt;  rules anyway, I thought I'd skip implementing pattern matching for proper grammar rules, and just key everything to the verbs only; e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Verb 'x' 'examine' * -&amp;gt; Examine;
+[ExamineSub;
+  ! just error out if noun1 is not set
+];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works good enough: I can get the actions from the grammar table and then run them by looking up the corresponding callback function from &lt;code&gt;#actions_table&lt;/code&gt;. &lt;strong&gt;However, I must be missing something because I can't get the &lt;code&gt;&amp;lt;action&amp;gt;&lt;/code&gt; syntax working.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Below is a minimal example showing my problem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Verb 'l' 'look' * -&amp;gt; Look;
+
+[ LookSub;
+    &quot;This is LookSub&quot;;
+];
+
+[ Main;
+  &amp;lt;Look&amp;gt;;
+];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I would expect this to print &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;This is LookSub 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when run; however, instead I am getting the following output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Action &amp;lt;0 0 0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What are my actions missing?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/610/inform6-from-the-ground-up-actions-not-working</guid>
+<pubDate>Sat, 16 May 2015 06:48:41 +0000</pubDate>
+</item>
+<item>
+<title>I'm a programmer, and I want to write a text adventure. What languages / systems would be familiar to me?</title>
+<link>http://ifanswers.com/285/programmer-write-adventure-languages-systems-would-familiar</link>
+<description>&lt;p&gt;I'm really familiar with C, C++, and whatnot. I've been using Inform 7, but I've also seen things which look more like C, which I presume is Inform 6. I'd also like to build the compiler and do things with my command line, because I'm a bit of a prude. (= What limitations would using Inform 6 have, and would it afford me more control over what happens in my adventure? I feel like Inform 7 is somewhat loose, and is occasionally harder for me understand than something else might be. I'd also maybe find it easier to use more C-like variables and types, C++ like classes, and whatnot. Any advice or suggestions / alternatives would be appreciated.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/285/programmer-write-adventure-languages-systems-would-familiar</guid>
+<pubDate>Sun, 29 Mar 2015 23:40:27 +0000</pubDate>
+</item>
+<item>
+<title>How do I change 'if the player consents'? pre-Inform 6L or post-</title>
+<link>http://ifanswers.com/33/how-do-i-change-if-the-player-consents-pre-inform-6l-or-post</link>
+<description>This is something that prompted me to look into Inform 6, which isn't critical, but just knowing you can tinker helps get rid of some helplessness.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/33/how-do-i-change-if-the-player-consents-pre-inform-6l-or-post</guid>
+<pubDate>Mon, 23 Mar 2015 17:15:59 +0000</pubDate>
+</item>
+</channel>
+</rss>

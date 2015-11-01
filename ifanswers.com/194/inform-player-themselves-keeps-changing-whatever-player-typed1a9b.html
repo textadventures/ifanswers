@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Inform: How do I get the player to input a name for themselves? The name keeps changing to whatever the player typed last! - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="In Inform 7, there is a way to get the player to input a name at the first prompt with  ... the player to the location; reject the player's command.">
+		<meta name="keywords" content="Authoring,inform7,substituted-form,players-command,text">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="inform-player-themselves-keeps-changing-whatever-player-typed.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '194\/inform-player-themselves-keeps-changing-whatever-player-typed';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=194%2Finform-player-themselves-keeps-changing-whatever-player-typed%3Fshow%3D195" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446375182-ce835ed42142d21019293304eccf69c457e2ccbf" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register6b5f.html?to=194%2Finform-player-themselves-keeps-changing-whatever-player-typed%3Fshow%3D195" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="inform-player-themselves-keeps-changing-whatever-player-typed.html">
+							<span class="entry-title">Inform: How do I get the player to input a name for themselves? The name keeps changing to whatever the player typed last!</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q194">
+							<form method="post" action="http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed?show=195">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_194">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_194_1_q194" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">276</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446375182-60977038f1194b4b5c3d93e00bb696f7a78a8783">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed?show=195">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="inform-player-themselves-keeps-changing-whatever-player-typed.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-03-26T11:37:30+0000">Mar 26</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">121</span><span class="qa-q-view-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">recategorized</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-03-28T01:14:54+0000">Mar 27</span></span></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span><span class="qa-q-view-who-data"><a href="../user/Alex.html" class="qa-user-link url fn entry-title nickname">Alex</a></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="194"></a><div class="entry-content"><p>In Inform 7, there is a way to get the player to input a name at the first prompt with code like this, but if you use this exact code in Inform 6L02 and later then the player's name will always appear as the last command typed.</p><pre>the player name is some text that varies. 
+
+
+To decide whether collecting names:
+	if the command prompt is "What will your name be?  ", yes;
+	 no.
+
+When play begins:
+	now the command prompt is "What will your name be?  ";
+	
+After reading a command when collecting names:
+	now the player name is "[the player's command in title case]";	
+	now the command prompt is "&gt; ";
+	move the player to the location;
+	reject the player's command.
+
+</pre></div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/substituted-form.html" rel="tag" class="qa-tag-link">substituted-form</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/players-command.html" rel="tag" class="qa-tag-link">players-command</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/text.html" rel="tag" class="qa-tag-link">text</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c194_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446375182-733d8c27b8e5567a9ea053fb9d695a26e63cdf83">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a195">
+								<form method="post" action="http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed?show=195">
+									<div class="qa-voting qa-voting-net" id="voting_195">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_195_1_a195" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+3<span class="votes-up"><span class="value-title" title="3"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375182-60977038f1194b4b5c3d93e00bb696f7a78a8783">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="inform-player-themselves-keeps-changing-whatever-player-typed1a9b.html?show=195#a195" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-26T11:49:16+0000">Mar 26</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">121</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed?show=195">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="195"></a><div class="entry-content"><p>In Inform 6L02 and later versions, when you assign a variable or property to a string with a text substitution in it like "[the player's command]" then Inform by default views that as an instruction to evaluate that substitution anew every time. This lets us do things like set the description of a watch to include "[the time of day]" and have Inform automatically print out the time it is when we look at the watch.</p><p>In this case, this means that when we say</p><pre>now the player name is "[the player's command in title case]"
+</pre><p>Inform takes it that we will always want the player's name to be whatever "[the player's command in title case]" evaluates to at that moment. If the player has just typed "x me" Inform will evaluate the player name to me "X Me."</p><p>When we don't want that to happen, we use an operator called "the substituted form." This freezes the string to whatever text it inputs when evaluated right now, at the moment we're assigning it. So if we change that line to:</p><pre>now the player name is the substituted form of "[the player's command in title case]"
+</pre><p>then Inform will evaluate whatever the player's command just was (say, "biffalo buff"), put it in title case ("Biffalo Buff"), and then freeze the player name to be that exact text. So the player name will be "Biffalo Buff" forevermore (or until we change it again), as desired.</p></div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a195_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c195_list">
+											<div class="qa-c-list-item  hentry comment" id="c215">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="inform-player-themselves-keeps-changing-whatever-player-typed25b4.html?show=215#c215" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-27T01:26:39+0000">Mar 26</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="215"></a><div class="entry-content">I'm not really sure if this is a problem with my interpreter or with Inform, but in jzip, anyways, the text will not appear unless the 'in title case' is placed outside the quotes/brackets, as such:<br />
+<br />
+now the player name is the substituted form of &quot;[the player's command]&quot; in title case;</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item " id="q216">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<span class="qa-c-item-what">asked</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data">Mar 26</span>
+														</span>
+														<span class="qa-c-item-where">
+															<span class="qa-c-item-where-pad">in </span><span class="qa-c-item-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data">Mar 30</span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span>
+														</span>
+													</span>
+												</span>
+												<a href="../216/how-organize-events-sets-of-actions-execute-when-play-begins.html" class="qa-c-item-link">How do I organize events / sets of actions to execute when play begins?</a>
+												<div class="qa-c-item-footer">
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375182-8c7fd18a615355d9b686d8543bdea66bd9f3d4d5">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../936/how-get-rid-rule-thats-blocking-what-want-the-player-do-inform.html">How to get rid of a rule that's blocking what I want the player to do?  (Inform 7)</a></li>
+									<li class="qa-related-q-item"><a href="../245/how-do-i-find-the-default-parser-verbs-in-inform.html">How do I find the default parser verbs in Inform?</a></li>
+									<li class="qa-related-q-item"><a href="../711/inform-how-do-find-the-word-count-for-text-the-player-can-read.html">Inform: How do I find the word count for text the player can read?</a></li>
+									<li class="qa-related-q-item"><a href="../370/how-can-i-change-the-interface-to-look-like-beyond-zork.html">How can I change the interface to look like Beyond Zork?</a></li>
+									<li class="qa-related-q-item"><a href="../684/changing-the-subject-of-a-verb.html">Changing the subject of a verb</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

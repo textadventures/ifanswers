@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged players-command</title>
+<link>http://ifanswers.com/tag/players-command</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I find the default parser verbs in Quest?</title>
+<link>http://ifanswers.com/247/how-do-i-find-the-default-parser-verbs-in-quest</link>
+<description>Is there anywhere in the documentation? It would be nice to have a checklist, so I don't surprise the player with generic responses that don't work with the game.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/247/how-do-i-find-the-default-parser-verbs-in-quest</guid>
+<pubDate>Fri, 27 Mar 2015 23:57:35 +0000</pubDate>
+</item>
+<item>
+<title>How do I find the default parser verbs in Inform?</title>
+<link>http://ifanswers.com/245/how-do-i-find-the-default-parser-verbs-in-inform</link>
+<description></description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/245/how-do-i-find-the-default-parser-verbs-in-inform</guid>
+<pubDate>Fri, 27 Mar 2015 23:56:34 +0000</pubDate>
+</item>
+<item>
+<title>Inform: How do I get the player to input a name for themselves? The name keeps changing to whatever the player typed last!</title>
+<link>http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed</link>
+<description>&lt;p&gt;In Inform 7, there is a way to get the player to input a name at the first prompt with code like this, but if you use this exact code in Inform 6L02 and later then the player's name will always appear as the last command typed.&lt;/p&gt;&lt;pre&gt;the player name is some text that varies. 
+
+
+To decide whether collecting names:
+	if the command prompt is &quot;What will your name be?  &quot;, yes;
+	 no.
+
+When play begins:
+	now the command prompt is &quot;What will your name be?  &quot;;
+	
+After reading a command when collecting names:
+	now the player name is &quot;[the player's command in title case]&quot;;	
+	now the command prompt is &quot;&amp;gt; &quot;;
+	move the player to the location;
+	reject the player's command.
+
+&lt;/pre&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed</guid>
+<pubDate>Thu, 26 Mar 2015 11:37:30 +0000</pubDate>
+</item>
+</channel>
+</rss>

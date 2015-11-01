@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged sugarcube</title>
+<link>http://ifanswers.com/tag/sugarcube</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Twine with sugarcube: can you display visited links differently?</title>
+<link>http://ifanswers.com/477/twine-with-sugarcube-you-display-visited-links-differently</link>
+<description>&lt;p&gt;In &lt;a rel=&quot;nofollow&quot; href=&quot;http://twinery.org/&quot;&gt;Twine&lt;/a&gt; (1.4) using the &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.motoslave.net/sugarcube/&quot;&gt;Sugarcube&lt;/a&gt; story format, is there some way to display links to visited passages so they look different from unvisited links? They are &quot;a&quot; html anchors, but using a an &lt;code&gt;a:visited&lt;/code&gt; css selector does not cut it, I assume because the linking is done using javascript &quot;click&quot; events, not standard browser linking.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/477/twine-with-sugarcube-you-display-visited-links-differently</guid>
+<pubDate>Tue, 14 Apr 2015 07:27:23 +0000</pubDate>
+</item>
+<item>
+<title>How do I pass variables between Twine and javascript?</title>
+<link>http://ifanswers.com/471/how-do-i-pass-variables-between-twine-and-javascript</link>
+<description>&lt;p&gt;How do I pass variables between Twine and javascript? Is this different for different versions of Twine and/or different story formats?&lt;/p&gt;
+
+&lt;p&gt;In Twine 1.4 using the Sugarcane story format, Twine variables are in &lt;code&gt;state.history[0].variables&lt;/code&gt; javascript variable, but with SugarCube I guess they are somewhere else.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/471/how-do-i-pass-variables-between-twine-and-javascript</guid>
+<pubDate>Mon, 13 Apr 2015 04:39:19 +0000</pubDate>
+</item>
+</channel>
+</rss>

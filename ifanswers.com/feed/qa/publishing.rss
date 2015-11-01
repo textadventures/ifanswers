@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions and answers in Publishing</title>
+<link>http://ifanswers.com/qa/publishing</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Answered: How do I delete a game from the whole website?</title>
+<link>http://ifanswers.com/1228/how-do-i-delete-a-game-from-the-whole-website?show=1230#a1230</link>
+<description>&lt;p&gt;Fill in the contact form on the website, and include a link to the game, and I'll delete it for you.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1228/how-do-i-delete-a-game-from-the-whole-website?show=1230#a1230</guid>
+<pubDate>Fri, 09 Oct 2015 11:36:35 +0000</pubDate>
+</item>
+<item>
+<title>Selling games?</title>
+<link>http://ifanswers.com/1212/selling-games</link>
+<description>&lt;p&gt;Basically, it says you can sell the games you make. So can the windows version export EXE's or something? Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1212/selling-games</guid>
+<pubDate>Tue, 29 Sep 2015 02:40:44 +0000</pubDate>
+</item>
+<item>
+<title>Answered: No option to save a .quest file?</title>
+<link>http://ifanswers.com/1176/no-option-to-save-a-quest-file?show=1184#a1184</link>
+<description>&lt;p&gt;This looks like a bug in Quest where the window isn't displaying fully when you're using high DPI settings.&lt;/p&gt;
+
+&lt;p&gt;As a workaround, go into your display preferences and set display scaling to 100%. You should then be able to see the Publish button on that window.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, just hitting the Enter key when that window is open might work.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1176/no-option-to-save-a-quest-file?show=1184#a1184</guid>
+<pubDate>Tue, 15 Sep 2015 08:56:56 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How to make pictures show up when playing online.</title>
+<link>http://ifanswers.com/1162/how-to-make-pictures-show-up-when-playing-online?show=1166#a1166</link>
+<description>&lt;p&gt;Parchment doesn't support graphics.&lt;/p&gt;
+
+&lt;p&gt;I would try Quixe instead--see &lt;strong&gt;§25.11. A playable web page&lt;/strong&gt; in the manual to &quot;release along with an interpreter.&quot; You can try it on your own computer to see if it displays the pictures (the game doesn't have to be online--you can open it offline in a browser) and then if the pictures work, you could  ask the comp organizer whether it's possible to set up Quixe instead of Parchment for online play of your game.&lt;/p&gt;
+
+&lt;p&gt;There's a sample game here &lt;a rel=&quot;nofollow&quot; href=&quot;http://eblong.com/zarf/glulx/quixe/&quot;&gt;http://eblong.com/zarf/glulx/quixe/&lt;/a&gt; called &quot;Sensory Jam&quot; that shows graphics in Quixe, so it seems like it ought to be possible to display pictures. But the version of Quixe that comes with Inform isn't the latest, I don't think, so if that one doesn't support graphics you could try a more recent version of Quixe.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1162/how-to-make-pictures-show-up-when-playing-online?show=1166#a1166</guid>
+<pubDate>Wed, 09 Sep 2015 03:45:44 +0000</pubDate>
+</item>
+<item>
+<title>Can I supply my own CSS to the gs.tads.io server / interpreter?</title>
+<link>http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</link>
+<description>&lt;p&gt;Now that I know that I can &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website&quot;&gt;straight up send the gs.tads.io server my games&lt;/a&gt;, can I change the output in any way, or am I stuck with it's fonts, colors, etc.?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</guid>
+<pubDate>Mon, 07 Sep 2015 06:37:15 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Does Squiffy use the same MIT licence as Quest?</title>
+<link>http://ifanswers.com/1136/does-squiffy-use-the-same-mit-licence-as-quest?show=1137#a1137</link>
+<description>&lt;p&gt;Here's the license: &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.com/textadventures/squiffy/blob/master/LICENSE&quot;&gt;https://github.com/textadventures/squiffy/blob/master/LICENSE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can usually find the license with the source code, in a file named LICENSE&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1136/does-squiffy-use-the-same-mit-licence-as-quest?show=1137#a1137</guid>
+<pubDate>Mon, 31 Aug 2015 14:19:43 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Can I share an unfinished game?</title>
+<link>http://ifanswers.com/1032/can-i-share-an-unfinished-game?show=1033#a1033</link>
+<description>&lt;p&gt;Yes, when you go to publish the game, there is an option to leave the game unisted so that only those with the link can play.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1032/can-i-share-an-unfinished-game?show=1033#a1033</guid>
+<pubDate>Sun, 09 Aug 2015 03:21:32 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Is there a Javascript Interpreter for TADS that I can run on my website?</title>
+<link>http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website?show=993#a993</link>
+<description>&lt;p&gt;There aren't Javascript interpreters for TADS in the same way as there are for Inform games. You can play TADS 3 games in a browser, but they run on a server, so setting it up is a bit more complicated than just uploading some files to your website.&lt;/p&gt;
+
+&lt;p&gt;To begin with, you'll need to compile your TADS 3 game with the WebUI version of the library you're using. If you've already started writing the game with the standard UI version of the library, that's fine. The easiest way to switch is to start a new project using the WebUI version of the library, and then add your existing source code files to the new project. If you want to, you can then compile from both of the projects to get both a web version and a download version of the game. If you want to see how this works, you can look at the source code of my game It (&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/viewgame?id=clox1mlffo37xf2z&quot;&gt;&lt;/a&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/viewgame?id=clox1mlffo37xf2z&quot;&gt;http://ifdb.tads.org/viewgame?id=clox1mlffo37xf2z&lt;/a&gt;) which includes both standard UI and WebUI project files.&lt;/p&gt;
+
+&lt;p&gt;To use the IFDB online play feature, you just need to create an IFDB page for your game. In the Downloads section of the page, add a link to the WebUI version of your game, wherever it happens to be online (e.g. the IF Archive, your website) and select &quot;TADS 3 Web&quot; as the File Type. IFDB will automatically generate a Play Online button for the game. You can then link from your website to the IFDB Play Online page for your game.&lt;/p&gt;
+
+&lt;p&gt;One problem with this is that the link will go through IFDB first and invite players to log in before playing, so they can save their progress on the IFDB server. You don't have to log in to play the game, but it's still not very friendly to casual players. Plus, you may not want to create an IFDB page immediately, for instance if you just want to share the game with a few beta testers at first.&lt;/p&gt;
+
+&lt;p&gt;If you'd rather provide a way that people can jump straight into your game, you can use the gs.tads.io server instead of the IFDB. You just create a link to &lt;a rel=&quot;nofollow&quot; href=&quot;http://gs.tads.io/?storyfile=[url_of_your_game].&quot;&gt;http://gs.tads.io/?storyfile=[url_of_your_game].&lt;/a&gt; For instance, you can play It at &lt;a rel=&quot;nofollow&quot; href=&quot;http://gs.tads.io/?storyfile=http://boeghe.im/dl/it_web2.2.t3.&quot;&gt;http://gs.tads.io/?storyfile=http://boeghe.im/dl/it_web2.2.t3.&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website?show=993#a993</guid>
+<pubDate>Mon, 03 Aug 2015 11:49:15 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Upload a game from Inklewriter</title>
+<link>http://ifanswers.com/931/upload-a-game-from-inklewriter?show=932#a932</link>
+<description>&lt;p&gt;From the inklewriter editor, click the &quot;share&quot; link at the top. Then click the Release button on the window that pops up. This will take you through the submission process at textadventures.co.uk.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/931/upload-a-game-from-inklewriter?show=932#a932</guid>
+<pubDate>Fri, 17 Jul 2015 09:43:43 +0000</pubDate>
+</item>
+<item>
+<title>Ascii Art, Images and Music when publishing</title>
+<link>http://ifanswers.com/913/ascii-art-images-and-music-when-publishing</link>
+<description>&lt;p&gt;I assume the main places for publishing IF are through the text adventures site, through ifdb (often played through frotz) or as a separate website or app(converting html to an app).&lt;/p&gt;
+
+&lt;p&gt;I was wondering about using images, ascii art and music across different publishing platforms.&lt;/p&gt;
+
+&lt;p&gt;Does Frotz for iphone, iPad and Android support audio? I haven't played any IF that has used sound , images or ascii art using Frotz but I was unsure?&lt;/p&gt;
+
+&lt;p&gt;I am considering building a text adenture that uses lots of glitchy electronic music in different sections but wanted to find out if it would translate across different platforms.&lt;/p&gt;
+
+&lt;p&gt;Has anyone tried making a quest game (with music or images), changing the html to an app through 'Phonegap'. Have you had any success with this? I was just keen to explore this and wondered if anyone had tried it so I could learn from any mistakes or limitations.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/913/ascii-art-images-and-music-when-publishing</guid>
+<pubDate>Sun, 12 Jul 2015 04:06:40 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Which textadventures.co.uk category would best fit a stock market-like game?</title>
+<link>http://ifanswers.com/828/which-textadventures-category-would-stock-market-like-game?show=830#a830</link>
+<description>&lt;p&gt;I was contemplating jokes about why a stock market game could be considered &quot;fantasy&quot; or even &quot;comedy&quot; (or perhaps &quot;mystery&quot;), but that wouldn't be helpful for you. :)&lt;/p&gt;
+
+&lt;p&gt;I've had a similar problem to this with writing, where a story might not fit so neatly into a genre, or it straddles multiple ones. Rather than suggest a category for you (since it's really arbitrary and ultimately up to you), I'll offer a strategy:&lt;/p&gt;
+
+&lt;p&gt;Rather than look at your game and see which categories it fits (which could be many), I'd look at the categories and see where you'd like your game to be, both in terms of any connotations you might have about the category and what kind of audience might choose that category.&lt;/p&gt;
+
+&lt;p&gt;In other words, choose the category that allows your desired audience to find it most easily. If you were looking for your game (or a game like yours), where would you look for it first?&lt;/p&gt;
+
+&lt;p&gt;Just my take.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/828/which-textadventures-category-would-stock-market-like-game?show=830#a830</guid>
+<pubDate>Wed, 24 Jun 2015 06:40:29 +0000</pubDate>
+</item>
+<item>
+<title>Answered: QuestJS asked for a .quest file and when I save my Quest adventure it saves as a .aslx file</title>
+<link>http://ifanswers.com/813/questjs-asked-quest-file-save-quest-adventure-saves-aslx-file?show=814#a814</link>
+<description>&lt;p&gt;Well to answer that question Aslx was just the source code, It was so simple I tested it in the editor and didn't compile it&lt;br&gt;
+Paul&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/813/questjs-asked-quest-file-save-quest-adventure-saves-aslx-file?show=814#a814</guid>
+<pubDate>Sun, 21 Jun 2015 01:14:01 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Can you use custom CSS files with games uploaded to textadvenures.co.uk?</title>
+<link>http://ifanswers.com/752/can-you-use-custom-files-with-games-uploaded-textadvenures?show=753#a753</link>
+<description>&lt;p&gt;It &lt;em&gt;should&lt;/em&gt; work, as long as everything's in the ZIP file you uploaded.&lt;/p&gt;
+
+&lt;p&gt;Make sure your CSS is using relative and not absolute paths - because uploaded games have URLs of the form &lt;code&gt;media.textadventures.co.uk/gameid/...&lt;/code&gt;, so if you're linking to something like /mystyle.css then that won't work.&lt;/p&gt;
+
+&lt;p&gt;If you add a link to your game here I can look into it further.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/752/can-you-use-custom-files-with-games-uploaded-textadvenures?show=753#a753</guid>
+<pubDate>Fri, 12 Jun 2015 11:55:19 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How should you attribute an extensions you've made a small change to?</title>
+<link>http://ifanswers.com/640/how-should-you-attribute-extensions-youve-made-small-change?show=648#a648</link>
+<description>&lt;p&gt;As an author I would not want anything attributed to me that I haven't actually made. That includes minor direct edits. So in fact to me it is quite more fair to be credited as the original author of a modified extension even when the modification is superficial.&lt;/p&gt;
+
+&lt;p&gt;There are also other benefits to creating new versions of modified extensions: otherwise if you update the original or accidentally re-install it, you'll lose any custom modifications. Keeping the unmodified version around will also give you an easily accessible reference point when you forget what exactly it was that you changed. You'll also have the original version for use in other projects that don't need modifications.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/640/how-should-you-attribute-extensions-youve-made-small-change?show=648#a648</guid>
+<pubDate>Sat, 23 May 2015 07:14:19 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Can I edit a game that I have already published?</title>
+<link>http://ifanswers.com/599/can-i-edit-a-game-that-i-have-already-published?show=601#a601</link>
+<description>&lt;p&gt;Yes, just makes your edits and then publish it again.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/599/can-i-edit-a-game-that-i-have-already-published?show=601#a601</guid>
+<pubDate>Wed, 13 May 2015 12:21:29 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I delete a game?</title>
+<link>http://ifanswers.com/505/how-do-i-delete-a-game?show=506#a506</link>
+<description>&lt;p&gt;Are you are asking how to delete an Inform project from your computer?  If so...&lt;/p&gt;
+
+&lt;p&gt;Go to the folder where your Inform projects get saved (if you're not sure what folder that is, check to see what folder opens when you start Inform and click &quot;open an existing project&quot;).&lt;/p&gt;
+
+&lt;p&gt;Inside this folder there should be two folders associated with each project--one folder ending in .inform and one folder ending in .materials, but they'll both have the same filename otherwise--and you can delete those the way you'd delete any other folder, by dragging them to the recycle bin or what have you.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/505/how-do-i-delete-a-game?show=506#a506</guid>
+<pubDate>Sun, 19 Apr 2015 20:39:07 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Stupid Reviews on My Game!</title>
+<link>http://ifanswers.com/485/stupid-reviews-on-my-game?show=493#a493</link>
+<description>&lt;p&gt;PM Alex (quest creator) about it (he can fix~remove the bad review ~ not sure if the other mods of quest site have this power or not), as quest community and staff, is still brainstorming possibly better systems, to try to deal with the universal issues of review systems, as seen here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=5&amp;amp;t=4061&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=5&amp;amp;t=4061&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;this is a common issue for many people creating games with quest and all the other engines too (or any type of review, as it's not just limited to games, laughs).&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/485/stupid-reviews-on-my-game?show=493#a493</guid>
+<pubDate>Fri, 17 Apr 2015 21:05:20 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Why is my game still &quot;unlisted&quot; on textadventures.co.uk?</title>
+<link>http://ifanswers.com/444/why-is-my-game-still-unlisted-on-textadventures-co-uk?show=451#a451</link>
+<description>&lt;p&gt;To make a game public, you need to choose a category as well, so make sure you're doing that.&lt;/p&gt;
+
+&lt;p&gt;Once you've made a game public, it doesn't go into its category immediately. First, a moderator must check it. Games which are not of sufficient quality to qualify for their category will be placed in the Sandpit instead.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/444/why-is-my-game-still-unlisted-on-textadventures-co-uk?show=451#a451</guid>
+<pubDate>Thu, 09 Apr 2015 10:02:01 +0000</pubDate>
+</item>
+</channel>
+</rss>

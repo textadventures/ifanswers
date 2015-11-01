@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged restoring</title>
+<link>http://ifanswers.com/tag/restoring</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I print a Help message after the game is restored?</title>
+<link>http://ifanswers.com/280/how-do-i-print-a-help-message-after-the-game-is-restored</link>
+<description>&lt;p&gt;I would like to print a stock help message to remind the player after the game is loaded from a save file. In Inform7, if I use &lt;code&gt;check/carry out&lt;/code&gt; with &lt;code&gt;restoring the game&lt;/code&gt;, the game prints a message that the restore failed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;to say help:
+    say &quot;This is the HELP text for this game.&quot;
+
+carry out restoring the game:
+    say help;
+    continue the action;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/280/how-do-i-print-a-help-message-after-the-game-is-restored</guid>
+<pubDate>Sun, 29 Mar 2015 21:24:46 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged help</title>
+<link>http://ifanswers.com/tag/help</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Endless Loading [Quest]</title>
+<link>http://ifanswers.com/1039/endless-loading-quest</link>
+<description>&lt;p&gt;I pressed 'Edit Game', as usual, expecting for the editor to pop up again.  It did, but it was completely blank and grayed out, with a big &quot;Loading . . . &quot; in the middle.  I can't work on it at all; I tried waiting, refreshing, re-logging, and even shutting off my computer, yet nothing will work.  It still says &quot;Loading . . .&quot; right now, how do I get my project back?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1039/endless-loading-quest</guid>
+<pubDate>Tue, 11 Aug 2015 02:41:58 +0000</pubDate>
+</item>
+<item>
+<title>How can I run a command via script? [Quest]</title>
+<link>http://ifanswers.com/1025/how-can-i-run-a-command-via-script-quest</link>
+<description>&lt;p&gt;Title is quite self-explanatory. I want to have a script that runs a command for me so the user doesn't have to type it. More specifically I want it to use the &quot;look&quot; command so all the information about the room I defined in the game settings is displayed over again.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1025/how-can-i-run-a-command-via-script-quest</guid>
+<pubDate>Fri, 07 Aug 2015 18:54:11 +0000</pubDate>
+</item>
+</channel>
+</rss>

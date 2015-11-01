@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged glossary</title>
+<link>http://ifanswers.com/tag/glossary</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>What are the exact details and relations concerning the player, yourself, and your former self in Inform 7?</title>
+<link>http://ifanswers.com/258/details-relations-concerning-player-yourself-former-inform</link>
+<description>So, in my experience with Inform 7 I have observed three terms which I do not fully understand: the player, yourself, and your former self (the latter two change name in other story viewpoints, although the “self” in former self remains singular).&lt;br /&gt;
+&lt;br /&gt;
+As far as I can tell, “the player” is a person that varies, “yourself” is the printed name of the current player character, and “your former self” is the default value that “the player” takes, which is a person who has a description of “As good-looking as ever.” The phrase “former self” is observed when you change the value of player without defining the original player as being a particular person. &lt;br /&gt;
+&lt;br /&gt;
+Are there any subtle issues and exceptions concerning these that I should be aware of, particularly in games involving switching between characters?&lt;br /&gt;
+&lt;br /&gt;
+(This question is specifically for 6L38)</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/258/details-relations-concerning-player-yourself-former-inform</guid>
+<pubDate>Sat, 28 Mar 2015 02:53:23 +0000</pubDate>
+</item>
+<item>
+<title>What is Glulx?</title>
+<link>http://ifanswers.com/243/what-is-glulx</link>
+<description>What is Glulx? How is it different from Z-code?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/243/what-is-glulx</guid>
+<pubDate>Fri, 27 Mar 2015 23:04:56 +0000</pubDate>
+</item>
+<item>
+<title>What is IFDB?</title>
+<link>http://ifanswers.com/116/what-is-ifdb</link>
+<description></description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/116/what-is-ifdb</guid>
+<pubDate>Wed, 25 Mar 2015 13:26:06 +0000</pubDate>
+</item>
+<item>
+<title>What is IFComp?</title>
+<link>http://ifanswers.com/110/what-is-ifcomp</link>
+<description>Several answers mention this subject.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/110/what-is-ifcomp</guid>
+<pubDate>Wed, 25 Mar 2015 12:47:32 +0000</pubDate>
+</item>
+<item>
+<title>What is an interpreter?</title>
+<link>http://ifanswers.com/20/what-is-an-interpreter</link>
+<description>What's an interactive fiction interpreter?</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/20/what-is-an-interpreter</guid>
+<pubDate>Mon, 23 Mar 2015 02:18:17 +0000</pubDate>
+</item>
+</channel>
+</rss>

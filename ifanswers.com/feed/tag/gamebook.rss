@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged gamebook</title>
+<link>http://ifanswers.com/tag/gamebook</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>What script creates a link to a page?</title>
+<link>http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</link>
+<description>&lt;p&gt;Simple question. What script do I need to write to add a link to the current page which will take the player to the specified page if they click on it?&lt;/p&gt;
+
+&lt;p&gt;I am using Quest in gamebook mode and writing my pages as scripts and ignoring all the gibberish of the G.U.I. and just typing the code directly, nice and simple like, but I don't know how to add text that links to another page.&lt;/p&gt;
+
+&lt;p&gt;I don't want to just use text+script pages and add the links down at the bottom, because that's weak, as I can't put the link inside of other code to make it only run under certain circumstances. (approximate example: if object.attribute=1 { (link: &quot;this string&quot;, to page5) } )&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</guid>
+<pubDate>Sun, 18 Oct 2015 23:22:52 +0000</pubDate>
+</item>
+<item>
+<title>No option to save a .quest file?</title>
+<link>http://ifanswers.com/1176/no-option-to-save-a-quest-file</link>
+<description>&lt;p&gt;Hi everyone. &lt;/p&gt;
+
+&lt;p&gt;This is my first time using Quest, so I apologize if this question has been asked and/or answered before. &lt;/p&gt;
+
+&lt;p&gt;I spent about 5 days coding a storybook on the offline Quest editor, and when I finalized everything this afternoon, I clicked the publish option to finally upload it. However, when I went to save it from a .aslx file to a .quest file, it didn't give me an option to save at all. &lt;/p&gt;
+
+&lt;p&gt;This is the window that the editor gives me: &lt;a rel=&quot;nofollow&quot; href=&quot;http://prntscr.com/8flx9o&quot;&gt;1&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Without the option to save the .quest file, I'm not too sure how to go about uploading it. If you have any idea about how to fix this, please let me know! Thank you!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1176/no-option-to-save-a-quest-file</guid>
+<pubDate>Sat, 12 Sep 2015 20:27:47 +0000</pubDate>
+</item>
+<item>
+<title>Gamebook: How to include a player's attributes/stats?</title>
+<link>http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats</link>
+<description>&lt;p&gt;&lt;em&gt;I just discovered &quot;Quest&quot; and the Interactive Fictions and I am basically a complete newbie to the whole system. So please forgive me this very simple question, but the help files on the &quot;gamebook&quot; type seem not to be very helpful for me. In fact, I still struggle with the most basic questions on how to include simple script. If somebody could show me a few basic steps, I'd be very, very grateful. &lt;br&gt;
+I have two questions for the moment.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.) How do I include a player's attribute into the story?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically, I plan the following: I want to have an attribute like &quot;Happiness&quot;. It can start on 0. (I am already thinking of maybe including a random starting stat, but that's for later). How do I establish this in the first place? Where do I have to click to include it and what do I have to define?&lt;/p&gt;
+
+&lt;p&gt;I want to have this attribute or stat to increase and decrease at certain occasions. Player experiences something nice = Happiness +1. And so on. At the moment I plan for this to be a hidden stat, but I don't mind if somebody can explain me how to make it visible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.)  How can I make an attribute/stat influence the text being shown?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am pretty sure it has something to do with the &quot;IF&quot; command, but again, I struggle with the simple basic questions: Say the player enters a certain place, and if his happiness is &amp;gt;5, I want to add text to the paragraph like &quot;This is a beautiful place&quot;, whereas if his happiness is 0, the text should read &quot;You feel depressed by the dark colours of this place.&quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Again, I apologize for these very basic questions, and if somebody can guide me to a link with a comprehensible explanation that's just as fine. I searched the Wiki and this site here though, and most texts and answers seem to be directed at people who already know a bit what they are doing. I seem to lack the main understanding of: What do I have to click and write where to put the basic system in place.&lt;br&gt;
+Thank you so much in advance! :)&lt;br&gt;
+System is Windows Vista, Quest is 5.6.1.&lt;/em&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats</guid>
+<pubDate>Sun, 06 Sep 2015 14:25:08 +0000</pubDate>
+</item>
+<item>
+<title>In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</title>
+<link>http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</link>
+<description>&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As per the above forum topic, it appears that I'm receiving errors when Quest parses my game file that other people cannot reproduce (ie, it appears that Quest dislikes my syntax or something, but others don't know why). &lt;/p&gt;
+
+&lt;p&gt;I've uninstalled and reinstalled Quest to try to resolve the issue, but I continue to have the error. Maybe there's something I failed to initialize or a game setting I've failed to properly set?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</guid>
+<pubDate>Wed, 26 Aug 2015 04:47:12 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Can I allow players to choose their own name?</title>
+<link>http://ifanswers.com/956/quest-gamebook-can-i-allow-players-to-choose-their-own-name</link>
+<description>&lt;p&gt;As far as I can tell, gamebooks don't rely on any typing input by the players and all the players have to do is click links to go to the next page therefore I don't even know if this is possible at all.&lt;/p&gt;
+
+&lt;p&gt;I am super new to writing interactive fiction and my knowledge on script writing is slim to nil and I was wondering if it is possible to allow a player to input their name at the beginning of a gamebook and if so, how would I go about making it happen (like the code/script necessary). And then what kind of script would I need to make their chosen name appear in the game?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/956/quest-gamebook-can-i-allow-players-to-choose-their-own-name</guid>
+<pubDate>Thu, 23 Jul 2015 02:02:14 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: How to use AND OR and NOT inside an &quot;if&quot; command?</title>
+<link>http://ifanswers.com/945/quest-gamebook-how-to-use-and-or-and-not-inside-an-if-command</link>
+<description>&lt;p&gt;I am using a system where flags are set on as certain conversations are had, and then these flags are used later to make various characters dynamically aware of what has happened before, or to make some links inactive if certain conditions are or are not met. I was previously under the impression that I could use AND, OR, and NOT inside an 'if' command with impunity, but lately something hasn't been working right with an OR command. &lt;/p&gt;
+
+&lt;p&gt;So I have a room in which there are three people and you have options to go talk to each one and then possibly leave with them, depending on conditions. So when you talk to person 1, it sets a personone flag on. Person three is really picky about whether you've talked to the others, so I want him to react as follows:&lt;/p&gt;
+
+&lt;p&gt;If you go to him after talking to ONE of the others, he will talk to you, but only grudginly: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{if personone or persontwo:&quot;Okay fine, I guess.&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you go to him after talking to the others, he's more receptive: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{if personone and persontwo:&quot;Yeah, you can come with me.&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you go to him first, he outright rejects your attempts to talk: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{if not personone and not persontwo:&quot;Go away!&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But the problem I'm having is that it keeps going to the reject option when I have talked to ONE of the others. I thought that I could use the OR command to tell it to activate that option when only one of the things is true but not the other, but it detects that one of the flags isn't there and picks only the reject option. Am I going to need to nest IF commands: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{if personone:{if not persontwo:&quot;Okay fine, I guess.&quot;}}{if persontwo:{if not personone:&quot;Okay fine, I guess.&quot;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or is there an easier way to do this?&lt;/p&gt;
+
+&lt;p&gt;Thanks for any help you can offer. I'm not having luck finding it in the documentation.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/945/quest-gamebook-how-to-use-and-or-and-not-inside-an-if-command</guid>
+<pubDate>Tue, 21 Jul 2015 05:30:49 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Return to a previous page with multiple links, and make link already chosen inactive</title>
+<link>http://ifanswers.com/935/gamebook-return-previous-multiple-already-chosen-inactive</link>
+<description>&lt;p&gt;I'm new to Quest and know next to nothing about programming. I'm trying my best, but sometimes it all sounds like gibberish to me. I tried to search the forums for an answer to my probably simple question, but I think I ended up confusing myself even more. &lt;/p&gt;
+
+&lt;p&gt;I'm trying to figure out the easiest way to basically backtrack and then block out a link from a list of options when you reach that page again. For example, the player can choose to sneak into the kitchen, talk to a barmaid, or talk to an adventurer. Say the player sneaks into the kitchen first, finds out what he/she needs to, but then has nowhere else to go. So they go back out to the tavern scene they started at, and from there, I want the other two options to be still available, while the first one no longer be a clickable link (or if you click it, it gives you a message that you've already done everything here or something and takes you back to the other options again).&lt;/p&gt;
+
+&lt;p&gt;I've tried the &quot;If&quot; script hoping that I can tag each link when a player first chooses that option. Then if the player has seen the page/has a counter, when they get back to the the page that has all the choices, the link they already have followed is just text. Or if they haven't seen that page/have that counter, the link is still viable. That didn't seem to work for multiple &quot;the player has already seen page if&quot; options. It seemed to only spit out the message for the page they did see and didn't show the link for the pages they player hadn't already seen.&lt;/p&gt;
+
+&lt;p&gt;I'm wondering if I could somehow use the &quot;first time&quot; script instead to get an active link to disappear after the player has already chosen it and then circled back? &lt;/p&gt;
+
+&lt;p&gt;Also, I was wondering if somebody could explain the &quot;Add page link&quot; script, because I think I'm confusing myself over that as well. Every time I try to use it, I get nothing when I try to play through the game. (Or maybe I'm just using it wrong. I was trying to use it above with the &quot;if&quot; script. For example, if have seen page, display message. But if not seen page, add active link for an option for the player to pick.)&lt;/p&gt;
+
+&lt;p&gt;Thanks for any help, and patience, you can offer this confused newbie!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/935/gamebook-return-previous-multiple-already-chosen-inactive</guid>
+<pubDate>Sun, 19 Jul 2015 05:38:09 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Previous page links remain active?</title>
+<link>http://ifanswers.com/923/quest-gamebook-previous-page-links-remain-active</link>
+<description>&lt;p&gt;Noob question. I noticed this when using hyperlinks with the {page} command to navigate to different pages. &lt;/p&gt;
+
+&lt;p&gt;Say, the gamebook is three pages: &lt;br&gt;
+When playing on &lt;strong&gt;page1&lt;/strong&gt; I click a link to go to &lt;strong&gt;page2&lt;/strong&gt;. &lt;br&gt;
+&lt;strong&gt;Page2&lt;/strong&gt; text pops up underneath and that link on &lt;strong&gt;page1&lt;/strong&gt; deactivates and becomes regular text. This, I assume is normal behavier.&lt;/p&gt;
+
+&lt;p&gt;But, if I click a link on &lt;strong&gt;page2&lt;/strong&gt; to go to say, &lt;strong&gt;page3&lt;/strong&gt;, &lt;strong&gt;page3&lt;/strong&gt; text pops up underneath but the previous text above still contains the active links. Why are &lt;strong&gt;page2&lt;/strong&gt; links still active when I've moved on to &lt;strong&gt;page3&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;Confusing to explain I know. Only happens when I use the {page} command in the text field for navigation.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/923/quest-gamebook-previous-page-links-remain-active</guid>
+<pubDate>Wed, 15 Jul 2015 06:37:33 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>What are best practices for modifying extensions in Inform 7? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="If someone else's I7 extension doesn't do quite what you want, are you usually better off  ... disabling an entire section of code, for instance?).">
+		<meta name="keywords" content="Authoring,inform7,extensions">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="what-are-best-practices-for-modifying-extensions-in-inform.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '474\/what-are-best-practices-for-modifying-extensions-in-inform';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=474%2Fwhat-are-best-practices-for-modifying-extensions-in-inform" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374863-8bf111b6fef35aac11c947f7b34104f6fa8fe1b9" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../registerddbc.html?to=474%2Fwhat-are-best-practices-for-modifying-extensions-in-inform" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="what-are-best-practices-for-modifying-extensions-in-inform.html">
+							<span class="entry-title">What are best practices for modifying extensions in Inform 7?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q474">
+							<form method="post" action="http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_474">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_474_1_q474" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">89</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374863-ac258265be2ada52dfc78c178a969a9aaf3d94a5">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="what-are-best-practices-for-modifying-extensions-in-inform.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published updated"><span class="value-title" title="2015-04-13T20:40:15+0000">Apr 13</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">692</span><span class="qa-q-view-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="474"></a><div class="entry-content"><p>If someone else's I7 extension doesn't do quite what you want, are you usually better off modifying the extension file itself, or leaving it as-is and making changes via the code of the game? And if it's the latter, are there other ways to make the changes besides these:</p>
+
+<ul>
+<li>Individual rules in the extension, if they are named, can be referred to in the game, so you could say "The fancy title banner rule does nothing" or you could create your own rule and say it substitutes for the original rule, as in §19.5 of Writing with Inform.</li>
+<li>A text response with a letter can be changed as in §14.11 of Writing with Inform.</li>
+<li>Tables can be amended as in  §16.19 of Writing with Inform.</li>
+</ul>
+
+<p>And maybe there are other ways to make amendments (substituting or disabling an entire section of code, for instance?).</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/extensions.html" rel="tag" class="qa-tag-link">extensions</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c474_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374863-4bd91219ef90e11325502800e7a6d179d1c9a107">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">2 Answers</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a478">
+								<form method="post" action="http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform">
+									<div class="qa-voting qa-voting-net" id="voting_478">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_478_1_a478" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374863-ac258265be2ada52dfc78c178a969a9aaf3d94a5">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-avatar">
+											<a href="../user/Ryan%2bVeeder.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/54288736de1fde4e87ee176d75578784?s=40" width="40" height="40" class="qa-avatar-image" alt=""></a>
+										</span>
+										<span class="qa-a-item-meta">
+											<a href="what-are-best-practices-for-modifying-extensions-in-inform3ddb.html?show=478#a478" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-04-15T00:27:40+0000">Apr 14</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/Ryan%2bVeeder.html" class="qa-user-link url fn entry-title nickname">Ryan Veeder</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">290</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="478"></a><div class="entry-content"><p>Modifying the extension <em>file</em> is a bit messy, because now you have this modified file hanging around your hard drive, and those modifications might propagate to future projects in unforeseen ways. When I've needed to make drastic changes to an extension, I've forgone the "Include Extension Name by Extension Author" declaration and simply pasted the (modified) extension source into my project.</p>
+
+<p>Of course, this is basically plagiarism—copying and pasting the extension, except deleting the part where the author gets credited. A jerk move! But there is a workaround for giving extension authors their due:</p>
+
+<pre><code>Report requesting the story file version:
+    say "Plus modified versions of:[line break]Extension Name version X by Extension Author[line break]".
+</code></pre>
+
+<p>If you add something like this to the story file version text, you give all the credit that would automatically have been given if you really had included the extension—plus you have the caveat that the extension has not been implemented in its original form, which some authors might appreciate.</p>
+
+<p>I would be remiss (albeit in a delightfully ironic fashion) if I did not mention that I stole this trick from Emily Boegheim.</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a478_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" style="display:none;" id="c478_list">
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374863-df85af4b67087d7873b9d77207d132a506517172">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a497">
+								<form method="post" action="http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform">
+									<div class="qa-voting qa-voting-net" id="voting_497">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_497_1_a497" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374863-ac258265be2ada52dfc78c178a969a9aaf3d94a5">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="what-are-best-practices-for-modifying-extensions-in-inform32bf.html?show=497#a497" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-04-18T11:47:51+0000">Apr 18</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/Juhana.html" class="qa-user-link url fn entry-title nickname">Juhana</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">246</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="497"></a><div class="entry-content"><p>Here are the options available for modifying an extension, ordered from most to least preferred. </p>
+
+<ol>
+<li><strong>Follow instructions in the extension's documentation</strong></li>
+<li><strong>Replace messages using the responses system</strong></li>
+<li><strong>Add, remove or replace rules</strong></li>
+<li><strong>Replace chapters</strong></li>
+<li><strong>Modify the extension directly</strong></li>
+</ol>
+
+<p>Try a solution lower on the list <strong>only</strong> if none of the ones above it don't work or don't apply. Modifying the extension directly should be the <strong>absolute last resort</strong>.</p>
+
+<p>As an example let's look at a simple extension.</p>
+
+<pre><code>Version 1 of Greeter by Random Q Hacker begins here.
+
+"Automatically greeting the player when the story begins."
+
+Chapter 1 - Use Options
+
+Use excessive enthusiasm translates as (- Constant GREETER_ENTHUSIASM; -). 
+
+Chapter 2 - Greeting
+
+When play begins (this is the welcome the player rule):
+    say "Welcome! Have fun!" (A);
+    if the excessive enthusiasm option is active:
+        say "I'M SO PSYCHED!!!!!1!!" (B).
+
+Greeter ends here.
+
+
+---- DOCUMENTATION ----
+
+Add "use excessive enthusiasm" to your source text 
+to get really enthusiastic greetings.
+</code></pre>
+
+<h2>1. Follow instructions in the extension's documentation</h2>
+
+<p>Extensions ofter provide ways to modify their own behavior. Use these mechanisms whenever they’re available. In our example extension there’s a use option to change the mood of the default messages.</p>
+
+<h2>2. Replace messages using the responses system</h2>
+
+<p>From Inform release 6L02 on you can change default messages using the responses system (manual ch. 14.10.) This is the preferred way to modify what the extension prints out to the player, but it requires that the extension author has named the rules and strings so that they can be replaced.</p>
+
+<p>In the example extension, if you wanted to replace the default messages you’d do:</p>
+
+<pre><code>The welcome the player rule response (A) is "Nice to see you!"
+The welcome the player rule response (B) is "Super awesome!"
+</code></pre>
+
+<p>The &gt;RESPONSES testing command can list all the default messages that can be changed in an extension (manual ch. 14.12.)</p>
+
+<h2>3. Add, remove or replace rules</h2>
+
+<p>If you need to modify something other than printed messages, you can replace or remove the extension’s rules (manual ch. 19.5.)</p>
+
+<p>Removing rules completely:</p>
+
+<pre><code>The welcome the player rule does nothing.
+</code></pre>
+
+<p>Removing rules conditionally:</p>
+
+<pre><code>The welcome the player rule does nothing if the player’s name is "Bob".
+</code></pre>
+
+<p>Substituting rules:</p>
+
+<pre><code>This is the new welcome rule:
+    say "Hi there!"
+
+The new welcome rule substitutes for the welcome the player rule.
+</code></pre>
+
+<p>If the rules are part of a rulebook you can add more rules to it (manual ch. 19.)</p>
+
+<h2>4. Replace chapters</h2>
+
+<p>For bigger changes you can replace chapters and sections altogether (manual ch. 27.9.):</p>
+
+<pre><code>Chapter 4 - New greeting (in place of Chapter 2 - Greeting in Greeter by Random Q Hacker)
+</code></pre>
+
+<p>This will effectively make the compiler ignore Chapter 2 in the original extension.</p>
+
+<h2>5. Modify the extension directly</h2>
+
+<p>If none of the above work, the last resort is to make a copy of the extension and modify it directly. </p>
+
+<p>If you do this note that you <strong>must</strong> credit the original author of the extension, and it is preferred that you make a note that you have made modifications. Especially if you’re publishing the modified extension then crediting the author is not only basic manners but a requirement in the Creative Commons license that most extensions use.</p>
+
+<p>The preferred way to provide credits in modified extensions is to add a third paragraph in the beginning of the extension, below the extension description, that is automatically printed when the extension is listed in the &gt;VERSION info.</p>
+
+<pre><code>Version 2 of Greeter by Angela Author begins here.
+
+"Automatically greeting the player when the story begins."
+
+"based on the original extension by Random Q Hacker"
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a497_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c497_list">
+											<div class="qa-c-list-item  hentry comment" id="c498">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="what-are-best-practices-for-modifying-extensions-in-inform69ba.html?show=498#c498" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-04-18T15:29:22+0000">Apr 18</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="498"></a><div class="entry-content">Thanks! Since you mention noting that an extension has been modified--should that also be noted if you're using methods 1-4? How would you note that if you're not making a copy of the extension? (Hmm. Maybe I should have made this a separate question?)</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c499">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="what-are-best-practices-for-modifying-extensions-in-informdb81.html?show=499#c499" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-04-18T15:32:04+0000">Apr 18</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Juhana.html" class="qa-user-link url fn entry-title nickname">Juhana</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">246</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="499"></a><div class="entry-content">No, because you aren't modifying the extension itself, only its behavior.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item " id="q640">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<span class="qa-c-item-what">asked</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data">May 22</span>
+														</span>
+														<span class="qa-c-item-where">
+															<span class="qa-c-item-where-pad">in </span><span class="qa-c-item-where-data"><a href="../publishing.html" class="qa-category-link">Publishing</a></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data">May 22</span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/Dannii.html" class="qa-user-link url fn entry-title nickname">Dannii</a></span>
+														</span>
+													</span>
+												</span>
+												<a href="../640/how-should-you-attribute-extensions-youve-made-small-change.html" class="qa-c-item-link">How should you attribute an extensions you've made a small change to?</a>
+												<div class="qa-c-item-footer">
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c644">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/Dannii.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/a66cede09ad91417502051a3a146210a?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="what-are-best-practices-for-modifying-extensions-in-inform260b.html?show=644#c644" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-05-22T23:12:56+0000">May 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Dannii.html" class="qa-user-link url fn entry-title nickname">Dannii</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">329</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="644"></a><div class="entry-content">If you aren't going to publish the modified extension yourself, but are just putting it in the .Materials/Extensions folder, then don't bother renaming it, just make the change and keep the old author.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374863-e404f48c498ef5e6db1cf026417fed7c381ad8a6">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../770/when-should-you-include-extensions-in-extensions-inform-7.html">When should you include extensions in extensions? (Inform 7)</a></li>
+									<li class="qa-related-q-item"><a href="../500/best-practices-for-inform-7-code-organization-and-style.html">Best practices for Inform 7 code organization and style?</a></li>
+									<li class="qa-related-q-item"><a href="../132/what-are-some-of-the-classic-inform-7-mistakes-to-look-out-for.html">What are some of the classic Inform 7 mistakes to look out for?</a></li>
+									<li class="qa-related-q-item"><a href="../258/details-relations-concerning-player-yourself-former-inform.html">What are the exact details and relations concerning the player, yourself, and your former self in Inform 7?</a></li>
+									<li class="qa-related-q-item"><a href="../107/the-latest-inform-attack-write-first-standard_attacker-rule.html">In the latest Inform ATTACK how do you write a First standard_attacker rule?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

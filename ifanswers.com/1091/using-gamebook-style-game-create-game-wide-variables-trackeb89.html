@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Using the Gamebook style game, how do I create game-wide variables to track? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="In a Gamebook style game, how do I create game-wide variables to track? For example, if I  ... using Windows 8, downloadable version of Quest 5.6.1">
+		<meta name="keywords" content="Authoring,authoring,setting-variables,set-variables,gender,quest">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="using-gamebook-style-game-create-game-wide-variables-track.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '1091\/using-gamebook-style-game-create-game-wide-variables-track';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=1091%2Fusing-gamebook-style-game-create-game-wide-variables-track%3Fshow%3D1108" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374969-be20452a7ba2f5370285bf90efd8b8d2a18b7cc2" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register7877.html?to=1091%2Fusing-gamebook-style-game-create-game-wide-variables-track%3Fshow%3D1108" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="using-gamebook-style-game-create-game-wide-variables-track.html">
+							<span class="entry-title">Using the Gamebook style game, how do I create game-wide variables to track?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q1091">
+							<form method="post" action="http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track?show=1108">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_1091">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1091_1_q1091" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">161</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374969-fc9cba98ce386e9f45450d71a44920ae5eb847c6">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track?show=1108">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="using-gamebook-style-game-create-game-wide-variables-track.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published updated"><span class="value-title" title="2015-08-24T01:11:06+0000">Aug 23</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/ParaVox3.html" class="qa-user-link url fn entry-title nickname">ParaVox3</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">5</span><span class="qa-q-view-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="1091"></a><div class="entry-content"><p>In a Gamebook style game, how do I create game-wide variables to track?</p>
+
+<p>For example, if I want to set a player's gender, but gender doesn't exist in my game yet, how do I make a variable called gender that I can set to be male or female, then check later?</p>
+
+<p>I am using Windows 8, downloadable version of Quest 5.6.1</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/authoring.html" rel="tag" class="qa-tag-link">authoring</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/setting-variables.html" rel="tag" class="qa-tag-link">setting-variables</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/set-variables.html" rel="tag" class="qa-tag-link">set-variables</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/gender.html" rel="tag" class="qa-tag-link">gender</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/quest.html" rel="tag" class="qa-tag-link">quest</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c1091_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374969-956f26974458cc1424c6be50fb3d306c85f47aef">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer answer-selected qa-a-list-item-selected" id="a1093">
+								<form method="post" action="http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track?show=1108">
+									<div class="qa-voting qa-voting-net" id="voting_1093">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1093_1_a1093" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374969-fc9cba98ce386e9f45450d71a44920ae5eb847c6">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="using-gamebook-style-game-create-game-wide-variables-track6b7a.html?show=1093#a1093" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-08-24T22:54:31+0000">Aug 24</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">161</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">selected</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-08-26T00:10:52+0000">Aug 25</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/ParaVox3.html" class="qa-user-link url fn entry-title nickname">ParaVox3</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track?show=1108">
+										<div class="qa-a-item-selected">
+											<div class="qa-a-selection">
+												<div class="qa-a-selected">&nbsp;</div>
+												<div class="qa-a-selected-text">Best answer</div>
+											</div>
+											<div class="qa-a-item-content">
+												<a name="1093"></a><div class="entry-content"><p>Note:</p>
+
+<p>I'm not that knowledgeable with Gamebook, so I'm not sure if everything I post here applies for it.</p>
+
+<hr>
+
+<p>To set up Attributes at the beginning of your Gamebook:</p>
+
+<p>'Pages' -&gt; Page1 -&gt; 'Page' Tab -&gt; Page Type: [script] or [text+script] -&gt; (see below)</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/guides/character_creation.html">http://docs.textadventures.co.uk/quest/guides/character_creation.html</a> (for the 'add new scripts' Scripting)</p>
+
+<p>to (create~set, re-set, change-alter, etc) an Attribute:</p>
+
+<p>add new script -&gt; variables -&gt; 'set a variable or attribute' Script -&gt; (see below)</p>
+
+<pre><code>set variable Object-name.Attribute-name = [expression] Value-or-Expression
+</code></pre>
+
+<p>replace my 'Object-name' with either: 'game' or 'player', Gamebook version is limited to only these two Objects for your use.</p>
+
+<p>replace my 'Attribute-name' with whatever you want to call~name your Attribute</p>
+
+<p>replace my 'Value-or-Expression' with whatever you want, though it is based upon what Attribute Type (String, Integer~int, Boolean, etc) you want it to be and to do. Lastly, NO 'white-spaces' (spaces: the space bar keyboard key) should be used and there's some other symbols you can't use too. See below for examples of Values~Expressions</p>
+
+<p>lastly, do note that there is (MUST BE) a 'dot' that is between the 'Object-name' and 'Attribute-name' (and again: NO spaces between the 'dot' and 'Object~Attribute-names'; aka, no spaces next to the 'dot' ), which connects~attaches the Attribute to the Object (if you were using the Text Adventure version and using its GUI~Editor, this coding, is the equivalent of 'adding an Attribute to a specific Object' )</p>
+
+<p>examples:</p>
+
+<p>Integer (int) Attributes:</p>
+
+<pre><code>set variable player.strength =  [expression] 100
+
+set variable game.strength = [expression] 100
+
+set variable game.state = [expression] 0
+
+set variable player.state = [expression] 0
+
+set variable player.strength =  [expression] player.strength + 5 // this will increase your 'strength' by 5
+
+set variable player.damage = [expression] player.strength + player.endurance
+
+set variable player.damage = [expression] player.damage + player.damage * (player.strength / 100) - (game.orc_defense + game.orc_defense * (game.orc_endurance / 100))
+</code></pre>
+
+<p>Double Attributes:</p>
+
+<p>// these are just using decimal numbers, but I've never worked with them yet, laughs</p>
+
+<p>String Attributes:</p>
+
+<pre><code>set variable player.alias = [expression] "HK"
+
+set variable player.sex = [expression] "male"
+
+set variable game.sex = [expression] "male"
+
+set variable player.sex = [expression] "female"
+
+set variable game.sex = [expression] "female"
+
+set variable player.race = [expression] "human"
+
+set variable player.race = [expression] "elf"
+
+set variable game.race = [expression] "human"
+
+set variable game.race = [expression] "elf"
+
+set variable player.state = [expression] "0"
+
+set variable game.state = [expression] "0"
+
+set variable player.strength = [expression] "strong"
+
+set variable game.strength = [expression] "strong"
+
+set variable player.strength = [expression] "weak"
+
+set variable game.strength = [expression] "weak"
+
+set variable player.condition = [expression] "normal"
+
+set variable player.condition = [expression] "poisoned"
+
+set variable player.condition = [expression] "paralyzed"
+
+set variable game.condition = [expression] "normal"
+
+set variable game.static_greeting = [expression] "Welcome to this game, HK."
+
+set variable game.dynamic_greeting = [expression] "Welcome to this game, " + player.alias + "."
+
+set variable game.dynamic_greeting = [expression] "Welcome to this game, {player.alias}."
+</code></pre>
+
+<p>Boolean Attributes:</p>
+
+<pre><code>set variable game.dragon_dead = [expression] false
+
+set variable game.dragon_dead = [expression] true
+
+set variable player.dead = [expression] false
+
+set variable player.dead = [expression] true
+
+set variable player.flying = [expression] false
+
+set variable player.flying = [expression] true
+
+set variable player.poisoned = [expression] false
+
+set variable player.poisoned = [expression] true
+
+set variable game.poisoned = [expression] false
+
+set variable game.poisoned = [expression] true
+</code></pre>
+
+<p>String List Attributes:</p>
+
+<pre><code>set variable player.race = [expression] split ("human; dwarf; elf", ";")
+
+set variable game.greetings = [expression] split ("Hi, what is your name?;  Hello, what is your name?;  Howdy, what is your name?; Hola, como say llama?", ";")
+</code></pre>
+
+<hr>
+
+<p>now if you want the person playing the game to decide~select~choose their Attributes' Values ...</p>
+
+<p>there's the 'get input' Script and the 'show menu' Script</p>
+
+<p>(see the 'character creation' link above, but if you still need help, let me know)</p>
+</div>
+											</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a1093_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c1093_list">
+											<div class="qa-c-list-item  hentry comment" id="c1095">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-track36f9.html?show=1095#c1095" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-25T01:35:39+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/ParaVox3.html" class="qa-user-link url fn entry-title nickname">ParaVox3</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">5</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1095"></a><div class="entry-content">That worked until I selected set variable, then it gave me a picture:<br />
+<br />
+Set variable [empty box] = [expression drop down] [empty box drown down]<br />
+<br />
+Which empty box equals what? Otherwise, it looks as if you really do need to learn to program to use this system.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1096">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-track68d5.html?show=1096#c1096" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-25T02:10:57+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-25T02:18:53+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1096"></a><div class="entry-content">this is how it should look (type in the missing stuff into the empty boxes, so that it reads the same as below), for example:<br />
+<br />
+set variable player.sex = [expression] &quot;male&quot;<br />
+<br />
+so in the first (left most) text box, type:<br />
+<br />
+player.sex<br />
+<br />
+and for the drop down box, choose:<br />
+<br />
+[expression]<br />
+<br />
+and for the other text box (the right most one), type:<br />
+<br />
+&quot;male&quot;<br />
+<br />
+hopefully, you understand now, so go back to my big answer post, and look at the examples of Attributes I've given on how to write them correctly (syntax~format).<br />
+<br />
+-----<br />
+<br />
+let me know though if you're still confused.<br />
+<br />
+(you're learning to code by learning to write in these Attributes, hehe)<br />
+<br />
+here's how to do an Attribute in scripting (action lines) code, for example:<br />
+<br />
+player.sex = &quot;male&quot;<br />
+<br />
+and here's how it is as a 'creation' tag block in code:<br />
+<br />
+&lt;object name=&quot;player&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;sex&quot; type=&quot;string&quot;&gt;male&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+-----<br />
+<br />
+P.S.<br />
+<br />
+I don't like using 'gender' because 'gender' already exists as a built-in Attribute (and if you create your own Attribute named 'gender' it will over-ride all of the built-in programming for the built-in 'gender' Attribute):<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/attributes/gender.html" rel="nofollow">http://docs.textadventures.co.uk/quest/attributes/gender.html</a><br />
+<a href="http://docs.textadventures.co.uk/quest/attributes/article.html" rel="nofollow">http://docs.textadventures.co.uk/quest/attributes/article.html</a></div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1097">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-trackc222.html?show=1097#c1097" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-25T02:23:00+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/ParaVox3.html" class="qa-user-link url fn entry-title nickname">ParaVox3</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">5</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1097"></a><div class="entry-content">Firstly, let me say that I deeply appreciate your help. &nbsp;I also appreciate the pro-tip regarding gender being pre-defined.<br />
+<br />
+Is there a list of pre-defined attributes somewhere? When I click on the provided link, it explains the gender attribute is a string, etc, but I'd love to find out what else is pre-defined.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1098">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-track6be3.html?show=1098#c1098" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-25T02:31:45+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-25T02:50:44+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1098"></a><div class="entry-content">you can use 'genderx' if you want, if you don't like 'sex', as 'genderx' is not 'gender', they're two different~separate Attributes.<br />
+<br />
+I personally, like to do 'AttributeName_AttributeType_ElementType', in my naming~labeling of my Attributes or other Elements (though these obviously wouldn't have the 'AttributeType' in it), as it helps me, for example:<br />
+<br />
+player.gender_string_attribute = &quot;male&quot;<br />
+<br />
+game.gender_stringlist_attribute = split (&quot;male;female&quot;, &quot;;&quot;)<br />
+<br />
+player.strength_string_attribute = &quot;strong&quot;<br />
+<br />
+player.strength_integer_attribute = 100<br />
+<br />
+I can't remember (and am too lazy to look~test) in whether quest is upper~lower case senstive: I'm not sure whether 'gender', 'Gender', 'GENDER', 'gEnDeR', etc (lol), &nbsp;are seen as two different Attributes or the same Attribute.<br />
+<br />
+as for the pre-built stuff (key~reserved words~commands~names for the Elements, Functions, Attributes, Verbs, etc):<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/" rel="nofollow">http://docs.textadventures.co.uk/quest/</a><br />
+( at the top of the screen, click on 'Scripts~Functions~Types~Elements', and if need be click on the sub categories~choices within them, to see some of the built-in stuff.<br />
+<br />
+also, if you create a Text Adventure game, in the lower left corner of the GUI~Editor:<br />
+<br />
+Filter -&gt; Show Library Elements -&gt; (have it be toggle on, have the check box checked in)<br />
+<br />
+which will show all of the built-in stuff, in the 'tree of stuff' above, as the newly revealed light-grey text.<br />
+<br />
+unfortunately, the Gamebook game, doesn't have this 'Filter -&gt; Show Library Elements' toggle<br />
+<br />
+or, if you downloaded quest, you can open up the actual files themselves, looking at all the engine code directly (quest is actually a collection of library files, so if you're a good programmer, you can create an entirely new quest engine, if you wanted to).</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1099">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-trackae21.html?show=1099#c1099" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-25T02:50:01+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/ParaVox3.html" class="qa-user-link url fn entry-title nickname">ParaVox3</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">5</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1099"></a><div class="entry-content">From what I understand, Quest is built on or with Java and is case sensitive.<br />
+<br />
+I can't find the linkback to the 'gender' and 'article' page, and top-down from scripts/functions/types doesn't appear to show me how to access gender (and hence any likely list).<br />
+<br />
+However, thanks to your help, I have successfully set the Player.Sex to be both male and female in the correct decision trees. Later on, however, when I attempt to use it (mind, I'm just testing what I did earlier with feedback with in-line code, I'm getting an error:<br />
+<br />
+&nbsp;&nbsp;&nbsp;player.sex = &quot;female&quot;<br />
+<br />
+Then later:<br />
+<br />
+&nbsp;&nbsp;&nbsp;{if player.sex = &quot;female&quot;: Female!}<br />
+<br />
+But I get this error:<br />
+<br />
+Error running script: Error evaluating expression 'ToString(value) = rhs': Object reference not set to an instance of an object.<br />
+<br />
+Any thoughts?<br />
+<br />
+Thank you again for your patience and help.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1100">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-trackebbd.html?show=1100#c1100" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-25T03:02:26+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-25T03:50:57+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1100"></a><div class="entry-content">Quest uses XML (I like using notepad++), and can use JS too (via in the ' tree of stuff ' -&gt; Advanced -&gt; Javascript -&gt; add), as best as I understand it.<br />
+<br />
+-------<br />
+<br />
+'gender' and 'article' are some of the built-in Attributes for the 'Object' Element:<br />
+<br />
+quest doc page: 'Elements' -&gt; 'Objects' -&gt; 'gender', 'article', etc...<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/" rel="nofollow">http://docs.textadventures.co.uk/quest/</a><br />
+VVVVVVVVV<br />
+<a href="http://docs.textadventures.co.uk/quest/elements/" rel="nofollow">http://docs.textadventures.co.uk/quest/elements/</a><br />
+VVVVVVVVV<br />
+<a href="http://docs.textadventures.co.uk/quest/elements/object.html" rel="nofollow">http://docs.textadventures.co.uk/quest/elements/object.html</a><br />
+VVVVVVVVV<br />
+<a href="http://docs.textadventures.co.uk/quest/attributes/alias.html" rel="nofollow">http://docs.textadventures.co.uk/quest/attributes/alias.html</a><br />
+<a href="http://docs.textadventures.co.uk/quest/attributes/article.html" rel="nofollow">http://docs.textadventures.co.uk/quest/attributes/article.html</a><br />
+etc etc ect<br />
+<a href="http://docs.textadventures.co.uk/quest/attributes/gender.html" rel="nofollow">http://docs.textadventures.co.uk/quest/attributes/gender.html</a><br />
+etc etc etc<br />
+<br />
+----------<br />
+<br />
+in quest (XML), it's syntax for using Attributes is like this, an example using a Function and 'show menu' (to assign your choosen value for your 'gender' Attribute) and the 'if' Scripting (all in code ~ I'm lazy):<br />
+<br />
+// I hope there's no pre-built Function called 'gender_function', lol<br />
+&lt;function name=&quot;gender_function&quot;&gt;<br />
+&nbsp;&nbsp;show menu (&quot;Gender?&quot;, game.gender_stringlist_attribute, false) {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// for the 'get input' and 'show menu', the &nbsp;quest engine automatically (hidden from you) sets the local-temporary Variable:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// result = your_input_or_selected_choice<br />
+&nbsp;&nbsp;&nbsp;&nbsp;player.gender_string_attribute = ToString (result)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if (player.gender_string_attribute = &quot;male&quot;) {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg (&quot;You're a male.&quot;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;} else if (player.gender_string_attribute = &quot;female&quot;) {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg (&quot;You're a female.&quot;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;}<br />
+&lt;/function&gt;<br />
+<br />
+and to call~activate~execute~run a Function (in code), you literally jsut type in the Function's name as your code line, for example in Text Adventure:<br />
+<br />
+&lt;game name=&quot;xxx&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;gender_stringlist_attribute&quot; type=&quot;simplestringlist&quot;&gt;male;female&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;start&quot; type=&quot;script&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;gender_function<br />
+&nbsp;&nbsp;&lt;/attr&gt;<br />
+&lt;/game&gt;<br />
+<br />
+or, the equivalent in GameBook:<br />
+<br />
+'Pages' -&gt; 'Page1' -&gt; Page Type: [script] or [script+text] -&gt; (see below)<br />
+<br />
+add new script -&gt; scripts (I think) -&gt; 'call function' Script -&gt; Name: gender_function, (see below about Parameters)<br />
+<br />
+or, using the GUI~Editor:<br />
+<br />
+add new script -&gt; scripts (I think) -&gt; 'call function' Script -&gt; (see below)<br />
+<br />
+Name text box: gender_function<br />
+Parameters (add) box: (optional, and you got to know what you're doing, otherwise don't add in any Parameters, leave this box blank)</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1101">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-trackeff5.html?show=1101#c1101" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-25T03:37:38+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-25T03:43:51+0000">Aug 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1101"></a><div class="entry-content">oh for this attempt of yours (sorry didn't recognize it, what you were trying to do, until now):<br />
+<br />
+{if player.sex = &quot;female&quot;: Female!}<br />
+<br />
+this is a text processor command:<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/text_processor.html" rel="nofollow">http://docs.textadventures.co.uk/quest/text_processor.html</a><br />
+<br />
+// do note: text processor commands are more limited than the normal 'text+VARIABLE' scripting expressions and~or using 'if' Scripting<br />
+<br />
+and if I remember right (you don't put the double quotes on the 'female' Value of the Attribute when using text processor commands), it should be like this (in code):<br />
+<br />
+msg (&quot; You're a {if player.sex=female: Female!} {if player.sex=male: Male!} &quot;)<br />
+<br />
+or, in the GUI~Editor:<br />
+<br />
+add new script -&gt; output -&gt; 'print a message' Script -&gt; (see below)<br />
+<br />
+print [expression] &quot;You are a {if player.sex=female: Female!} {if player.sex=male: Male!}&quot;</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1104">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-trackafe4.html?show=1104#c1104" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-26T00:08:59+0000">Aug 25</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/ParaVox3.html" class="qa-user-link url fn entry-title nickname">ParaVox3</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">5</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1104"></a><div class="entry-content">I need to be able to do this in-line in the book text... isn't that how the text processor works?<br />
+<br />
+I'm getting this error: Error running script: Error evaluating expression 'ToString(value) = rhs': Object reference not set to an instance of an object.<br />
+<br />
+I have no idea what that means or how to resolve it.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1108">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="using-gamebook-style-game-create-game-wide-variables-trackeb89.html?show=1108#c1108" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-26T06:44:36+0000">Aug 26</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1108"></a><div class="entry-content">here's the in-line menu (but not sure if it's available for the Gamebook's usage):<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/functions/showmenu.html" rel="nofollow">http://docs.textadventures.co.uk/quest/functions/showmenu.html</a><br />
+<br />
+(this, the in-line menu, has no space between 'show and 'menu', while the popup window menu, has a space between the 'show' and 'menu' )<br />
+<br />
+-----------<br />
+<br />
+and sorry about the incorrect syntax example of a text processor command, I learned another thing thanks to your post and Pertex' answer on it: NO spaces (except after the 'if'), and what I previously learned from Jay+Pixie: NO double quotes on the Attribute's Value.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374969-149d3455097cb825a961a13b67a1a57779050b09">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../1141/online-version-quest-how-change-the-value-status-attributes.html">Online version of Quest: How do I change the value of Status Attributes?</a></li>
+									<li class="qa-related-q-item"><a href="../1218/does-change-user-style-hyperlinks-when-using-flexible-windows.html">How does one change the User Style for hyperlinks when using Flexible Windows?</a></li>
+									<li class="qa-related-q-item"><a href="../933/flexible-windows-extension-depict-scaled-graphics-window.html">Using the Flexible Windows extension, how can I depict a scaled image in my graphics window?</a></li>
+									<li class="qa-related-q-item"><a href="../1224/how-do-i-use-the-create-exit-command-properly-in-quest.html">How do I use the create exit command properly in Quest</a></li>
+									<li class="qa-related-q-item"><a href="../1105/gamebook-text-processor-working-properly-version-quest-think.html">In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

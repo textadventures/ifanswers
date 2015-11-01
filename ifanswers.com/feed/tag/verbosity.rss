@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged verbosity</title>
+<link>http://ifanswers.com/tag/verbosity</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I display the full / initial room description when the player looks?</title>
+<link>http://ifanswers.com/296/display-the-full-initial-room-description-when-player-looks</link>
+<description>&lt;p&gt;I want to have more descriptions of rooms when they're first entered, which is well handled by the usual [if unvisited] method.  I can then write a new, concise description in the [otherwise] section. This works well, but I want the player to be able to re-read the initial description if they want, i.e., when they explicitly ask to look at the room again. I can't seem to figure out how to reuse the initial description. I haven't tried, but I wouldn't think resetting the room to unvisited if they look is a good idea, as it might screw with other things that rely on knowing if the room is unvisited. &lt;/p&gt;
+
+&lt;p&gt;Is there a good way to get this to happen while still having all the text nicely consolidated in the room's description, or will this require special rules and conditions? &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Pretty Landscape is a room. &quot;[if set to unabbreviated room descriptions]Rich, descriptive imagery![otherwise]You are here. You can do this and that.&quot;
+
+Instead of looking:
+    now use verbose descriptions;
+    say room description;
+    now use brief descriptions;
+[this isn't flexible, it would rest whatever description setting was there initially]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/296/display-the-full-initial-room-description-when-player-looks</guid>
+<pubDate>Mon, 30 Mar 2015 02:03:04 +0000</pubDate>
+</item>
+</channel>
+</rss>

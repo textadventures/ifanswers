@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged legacy</title>
+<link>http://ifanswers.com/tag/legacy</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>In the latest Inform ATTACK how do you write a First standard_attacker rule?</title>
+<link>http://ifanswers.com/107/the-latest-inform-attack-write-first-standard_attacker-rule</link>
+<description>Converting an old project which uses ?version 3 of Inform ATTACK, to the latest Inform ATTACK (version 5). This rule is causing a problem:&lt;br /&gt;
+&lt;br /&gt;
+Problem. You wrote 'First standard_attacker rule' : again, the punctuation here ':' makes me think this should be a definition of a phrase and it doesn't begin as it should.&lt;br /&gt;
+&lt;br /&gt;
+This problem report implies that the named rule doesn't match any definition in version 5 of Inform ATTACK. I believe that there may be an equivalent rule with a different name or perhaps the rule should be written in a different way like a check rule.&lt;br /&gt;
+&lt;br /&gt;
+You can find the latest Inform ATTACK here:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/i7/ATTACK&quot; rel=&quot;nofollow&quot;&gt;https://github.com/i7/ATTACK&lt;/a&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/107/the-latest-inform-attack-write-first-standard_attacker-rule</guid>
+<pubDate>Wed, 25 Mar 2015 12:32:31 +0000</pubDate>
+</item>
+</channel>
+</rss>

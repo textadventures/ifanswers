@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged web</title>
+<link>http://ifanswers.com/tag/web</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Can I supply my own CSS to the gs.tads.io server / interpreter?</title>
+<link>http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</link>
+<description>&lt;p&gt;Now that I know that I can &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website&quot;&gt;straight up send the gs.tads.io server my games&lt;/a&gt;, can I change the output in any way, or am I stuck with it's fonts, colors, etc.?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</guid>
+<pubDate>Mon, 07 Sep 2015 06:37:15 +0000</pubDate>
+</item>
+<item>
+<title>Is there a Javascript Interpreter for TADS that I can run on my website?</title>
+<link>http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website</link>
+<description>&lt;p&gt;I have a website, and I want people to be able to play my adventure from my webpage. Is there source code available for a javascript TADS that I could run on my website? I know IFDB has a &quot;play online&quot; web interpreter, but idk what it is / where it is / how I would use it with my website&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website</guid>
+<pubDate>Tue, 16 Jun 2015 20:38:46 +0000</pubDate>
+</item>
+</channel>
+</rss>

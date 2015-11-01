@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged authoring</title>
+<link>http://ifanswers.com/tag/authoring</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How does one change the User Style for hyperlinks when using Flexible Windows?</title>
+<link>http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</link>
+<description>&lt;p&gt;I've been setting up all the styles for text (using Table of User Styles (continued) in my source, but haven't been able to figure out the style name for hyperlinks..&lt;/p&gt;
+
+&lt;p&gt;I'm primarily just trying to remove the blue colour to black, to match the rest of the text - remaining underlined is fine (though not preferable).&lt;/p&gt;
+
+&lt;p&gt;If there's no style name for hyperlinks (which is what I'm guessing now), how would one go about changing this font colour?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</guid>
+<pubDate>Tue, 06 Oct 2015 05:05:28 +0000</pubDate>
+</item>
+<item>
+<title>No new game option for the online editor?</title>
+<link>http://ifanswers.com/1193/no-new-game-option-for-the-online-editor</link>
+<description>&lt;p&gt;New user here; started today by signing in with my google account.&lt;/p&gt;
+
+&lt;p&gt;I click the 'quest' button and get taken to &lt;a rel=&quot;nofollow&quot; href=&quot;https://textadventures.co.uk/quest&quot;&gt;https://textadventures.co.uk/quest&lt;/a&gt;&lt;br&gt;
+I click the blue 'Go!' button and get taken to &lt;a rel=&quot;nofollow&quot; href=&quot;https://textadventures.co.uk/create/new&quot;&gt;https://textadventures.co.uk/create/new&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And then there isn't anything on the page. &lt;img src=&quot;http://oi57.tinypic.com/k46kr7.jpg&quot; alt=&quot;The empty page.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Tried this on both Firefox and Chrome, and tried again after disabling addons like Ghosterly and Ad Block.&lt;/p&gt;
+
+&lt;p&gt;Also a side question: How is this service for group work on a single project?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1193/no-new-game-option-for-the-online-editor</guid>
+<pubDate>Sun, 20 Sep 2015 03:42:12 +0000</pubDate>
+</item>
+<item>
+<title>Using the Gamebook style game, how do I create game-wide variables to track?</title>
+<link>http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</link>
+<description>&lt;p&gt;In a Gamebook style game, how do I create game-wide variables to track?&lt;/p&gt;
+
+&lt;p&gt;For example, if I want to set a player's gender, but gender doesn't exist in my game yet, how do I make a variable called gender that I can set to be male or female, then check later?&lt;/p&gt;
+
+&lt;p&gt;I am using Windows 8, downloadable version of Quest 5.6.1&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</guid>
+<pubDate>Mon, 24 Aug 2015 01:11:06 +0000</pubDate>
+</item>
+<item>
+<title>How would I find out what program the LIFELINE game was done/written in?</title>
+<link>http://ifanswers.com/1077/would-find-out-what-program-the-lifeline-game-was-done-written</link>
+<description>
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1077/would-find-out-what-program-the-lifeline-game-was-done-written</guid>
+<pubDate>Sat, 22 Aug 2015 16:12:41 +0000</pubDate>
+</item>
+<item>
+<title>Centering an image in Inform 7</title>
+<link>http://ifanswers.com/1062/centering-an-image-in-inform-7</link>
+<description>&lt;p&gt;Using Basic Screen Effects by Emily Short I am able to center text very easily like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;center &quot;this is some text I want centered.&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is so easy and so wonderful.&lt;/p&gt;
+
+&lt;p&gt;Say I am displaying an image called the figure of the ocean by using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;display the figure of the ocean;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there an EASY way to display that image centered, like the text?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1062/centering-an-image-in-inform-7</guid>
+<pubDate>Tue, 18 Aug 2015 19:14:27 +0000</pubDate>
+</item>
+<item>
+<title>Using the Flexible Windows extension, how can I depict a scaled image in my graphics window?</title>
+<link>http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</link>
+<description>&lt;p&gt;My game was working fine with Flexible Windows until something, somewhere broke it (it gave me errors when running, though both the I7- and I6-compilers ran fine). I updated the plugin and, after updating loads of others (dependencies, like Glulx Text Effects), finally got the thing to compile again. &lt;/p&gt;
+
+&lt;p&gt;However, the plugin has been rewritten from scratch in the meantime, improving or simplifying it in some ways but also taking away some functions (such as bordered windows). &lt;/p&gt;
+
+&lt;p&gt;Previously, I could display figures in the main window using Inform's standard &quot;display&quot;action, and depict them, scaled to fit, in my graphics window using the Flexible Windows &quot;depict&quot; action that was in one of the examples.&lt;/p&gt;
+
+&lt;p&gt;That 'depict' code no longer works. When compiling, the I6 compiler gives two errors:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;auto.inf(61696): Error:  No such constant as &quot;WindowSize&quot;
+auto.inf(61717): Error:  No such constant as &quot;ref_number&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the lump of mostly I6 code that hooks into the older version of Flexible Windows, but can't anymore because it's been rewritten.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;To depict (f - a figure-name):
+    now the current image is f;
+    follow the window-drawing rules for the graphics-window.
+
+Window-drawing rule for the graphics-window (this is the draw scaled image rule):
+    if graphics-window is g-unpresent, rule fails;
+    clear the graphics-window;
+    draw scaled copy of current image in graphics-window.
+
+To draw scaled copy of (f - a figure-name) in (g - a g-window):
+    (- DrawScaled({f}, {g}); -).
+
+Include (-
+
+    ! Doing scaling calculations in I6 lets us handle bigger numbers
+
+    [ GetImageSize curimg index result;
+        result = glk_image_get_info( ResourceIDsOfFigures--&amp;gt;curimg, gg_arguments, gg_arguments+WORDSIZE);
+        return gg_arguments--&amp;gt;index;
+    ];
+
+    [ DrawScaled figure g w_total h_total graph_height graph_width w_offset h_offset;
+    graph_height = WindowSize(g, 1);
+    graph_width = gg_arguments--&amp;gt;0;
+    w_total = GetImageSize(figure, 0);
+    h_total = gg_arguments--&amp;gt;1;
+
+    if (graph_height - h_total &amp;lt; 0) ! if the image won't fit, find the scaling factor
+    {
+        w_total = (graph_height * w_total)/h_total;
+        h_total = graph_height;
+
+    }
+
+    if (graph_width - w_total &amp;lt; 0)
+    {
+        h_total = (graph_width * h_total)/w_total;
+        w_total = graph_width;
+    }
+
+    w_offset = (graph_width - w_total)/2; if (w_offset &amp;lt; 0) w_offset = 0;
+    h_offset = (graph_height - h_total)/2; if (h_offset &amp;lt; 0) h_offset = 0;
+
+    glk_image_draw_scaled(g.ref_number, ResourceIDsOfFigures--&amp;gt;figure, w_offset, h_offset, w_total, h_total);
+    ];
+
+-).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I'm not able to write I6 code myself, my question is as follows: how do I modify this code to work with &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.com/i7/extensions/blob/master/Jon%20Ingold/Flexible%20Windows.i7x&quot;&gt;the most recent version of Flexible Windows from Github&lt;/a&gt;, or what different code can I use to get the same results?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/933/flexible-windows-extension-depict-scaled-graphics-window</guid>
+<pubDate>Fri, 17 Jul 2015 13:25:22 +0000</pubDate>
+</item>
+<item>
+<title>Why aren't &quot;if&quot; and &quot;otherwise&quot; doing what I expected in Inform 7?</title>
+<link>http://ifanswers.com/276/why-arent-if-and-otherwise-doing-what-i-expected-in-inform-7</link>
+<description>&lt;p&gt;I have a rule with &quot;if&quot; and &quot;otherwise&quot; (or &quot;else&quot;), and it's not doing what I expected. How can I troubleshoot this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/276/why-arent-if-and-otherwise-doing-what-i-expected-in-inform-7</guid>
+<pubDate>Sun, 29 Mar 2015 17:41:44 +0000</pubDate>
+</item>
+<item>
+<title>Should I credit my testers?</title>
+<link>http://ifanswers.com/86/should-i-credit-my-testers</link>
+<description>Is it expected that beta-testers will be credited in the game?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/86/should-i-credit-my-testers</guid>
+<pubDate>Tue, 24 Mar 2015 16:20:25 +0000</pubDate>
+</item>
+</channel>
+</rss>

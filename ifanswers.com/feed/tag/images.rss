@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged images</title>
+<link>http://ifanswers.com/tag/images</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do you center images in Quest?</title>
+<link>http://ifanswers.com/1237/how-do-you-center-images-in-quest</link>
+<description>&lt;p&gt;I was wondering if anyone knows the code to center images in quest? The way it is currently set up, the immage is automatically set to the left side of the screen. So if you are using small pictures, it looks kind of weird. Is there a simple code to center an image?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1237/how-do-you-center-images-in-quest</guid>
+<pubDate>Wed, 14 Oct 2015 15:15:13 +0000</pubDate>
+</item>
+<item>
+<title>Ascii Art, Images and Music when publishing</title>
+<link>http://ifanswers.com/913/ascii-art-images-and-music-when-publishing</link>
+<description>&lt;p&gt;I assume the main places for publishing IF are through the text adventures site, through ifdb (often played through frotz) or as a separate website or app(converting html to an app).&lt;/p&gt;
+
+&lt;p&gt;I was wondering about using images, ascii art and music across different publishing platforms.&lt;/p&gt;
+
+&lt;p&gt;Does Frotz for iphone, iPad and Android support audio? I haven't played any IF that has used sound , images or ascii art using Frotz but I was unsure?&lt;/p&gt;
+
+&lt;p&gt;I am considering building a text adenture that uses lots of glitchy electronic music in different sections but wanted to find out if it would translate across different platforms.&lt;/p&gt;
+
+&lt;p&gt;Has anyone tried making a quest game (with music or images), changing the html to an app through 'Phonegap'. Have you had any success with this? I was just keen to explore this and wondered if anyone had tried it so I could learn from any mistakes or limitations.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/913/ascii-art-images-and-music-when-publishing</guid>
+<pubDate>Sun, 12 Jul 2015 04:06:40 +0000</pubDate>
+</item>
+</channel>
+</rss>

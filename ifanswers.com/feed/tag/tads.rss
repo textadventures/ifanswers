@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged tads</title>
+<link>http://ifanswers.com/tag/tads</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Can I supply my own CSS to the gs.tads.io server / interpreter?</title>
+<link>http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</link>
+<description>&lt;p&gt;Now that I know that I can &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website&quot;&gt;straight up send the gs.tads.io server my games&lt;/a&gt;, can I change the output in any way, or am I stuck with it's fonts, colors, etc.?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</guid>
+<pubDate>Mon, 07 Sep 2015 06:37:15 +0000</pubDate>
+</item>
+<item>
+<title>Is there a Javascript Interpreter for TADS that I can run on my website?</title>
+<link>http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website</link>
+<description>&lt;p&gt;I have a website, and I want people to be able to play my adventure from my webpage. Is there source code available for a javascript TADS that I could run on my website? I know IFDB has a &quot;play online&quot; web interpreter, but idk what it is / where it is / how I would use it with my website&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website</guid>
+<pubDate>Tue, 16 Jun 2015 20:38:46 +0000</pubDate>
+</item>
+<item>
+<title>TADS3 - How to suppress output</title>
+<link>http://ifanswers.com/652/tads3-how-to-suppress-output</link>
+<description>&lt;p&gt;So I've migrated to TADS, and I seem to have a lot of flexibility and everything is wonderful. The trouble is, I can't seem to find the equivalent of Inform7's &quot;Reject the player's command;&quot; in TADS3. How can I suppress arbitrary outputs?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/652/tads3-how-to-suppress-output</guid>
+<pubDate>Sun, 24 May 2015 00:27:11 +0000</pubDate>
+</item>
+<item>
+<title>Can I export / translate an adventure written with I7 to TADS?</title>
+<link>http://ifanswers.com/604/can-i-export-translate-an-adventure-written-with-i7-to-tads</link>
+<description>&lt;p&gt;I wrote the first half of a game in Inform 7, but I've learned about TADS which I like so much so much so much more (I got to compile my own interpreter!). Is there a way to convert the logic of I7 &quot;code&quot; to the C-like TADS format? I presume that the parsing stage for either is probably quite different, but I6 looks kindof similar... Perhaps compiling I7 down to I6 or something. IDK. &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/604/can-i-export-translate-an-adventure-written-with-i7-to-tads</guid>
+<pubDate>Thu, 14 May 2015 18:09:58 +0000</pubDate>
+</item>
+</channel>
+</rss>

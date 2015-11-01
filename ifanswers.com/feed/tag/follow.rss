@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged follow</title>
+<link>http://ifanswers.com/tag/follow</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Ghost that follows player, after being in specific room. Stop following when player is in other specific room.</title>
+<link>http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</link>
+<description>&lt;p&gt;Hello,&lt;br&gt;
+i want to program a ghost that follows the player after going to into a specific room. &lt;br&gt;
+For example the kitchen. The ghost then follows the player until the player reaches another specific room. For example the bathroom. After entering the bathroom the ghost vanishes and is back in the kitchen.&lt;/p&gt;
+
+&lt;p&gt;This is my code right now:&lt;/p&gt;
+
+&lt;p&gt;Ghost is a man. It is in kitchen.&lt;/p&gt;
+
+&lt;p&gt;Every turn:&lt;br&gt;
+    if the location of Ghost is not the location of the player: &lt;br&gt;
+        let the way be the best route from the location of Ghost to the location of the player, using doors; &lt;br&gt;
+        try Ghost going the way;&lt;br&gt;
+    if player is in bathroom:&lt;br&gt;
+        move Geist to ktichen.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</guid>
+<pubDate>Thu, 22 Oct 2015 13:09:59 +0000</pubDate>
+</item>
+</channel>
+</rss>

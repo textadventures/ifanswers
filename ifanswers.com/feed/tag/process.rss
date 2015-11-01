@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged process</title>
+<link>http://ifanswers.com/tag/process</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I change parser error messages from sounding like smackdowns?</title>
+<link>http://ifanswers.com/48/change-parser-error-messages-from-sounding-like-smackdowns</link>
+<description>Unfortunately some defaults in Inform sound a bit harsh and/or bland. But they need to be informative in some way, and they can't be too specific. What to do?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/48/change-parser-error-messages-from-sounding-like-smackdowns</guid>
+<pubDate>Mon, 23 Mar 2015 18:29:08 +0000</pubDate>
+</item>
+<item>
+<title>How do I back up my source file without source control?</title>
+<link>http://ifanswers.com/46/how-do-i-back-up-my-source-file-without-source-control</link>
+<description>It would be nice not to rely on story.bak all the time. Maybe have dates.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/46/how-do-i-back-up-my-source-file-without-source-control</guid>
+<pubDate>Mon, 23 Mar 2015 18:18:03 +0000</pubDate>
+</item>
+<item>
+<title>How do I keep track of/prioritize bugs? Do I need to fix something right when I see it?</title>
+<link>http://ifanswers.com/36/keep-track-prioritize-bugs-need-fix-something-right-when-see</link>
+<description>Is there a non-automagical way to keep track of what I need to do?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/36/keep-track-prioritize-bugs-need-fix-something-right-when-see</guid>
+<pubDate>Mon, 23 Mar 2015 17:42:17 +0000</pubDate>
+</item>
+<item>
+<title>How do I keep testing from becoming boring, for my games or others'?</title>
+<link>http://ifanswers.com/35/how-do-keep-testing-from-becoming-boring-for-games-or-others</link>
+<description>Testing is something everyone knows needs to be done, but it can be hard to do it. There's a sameness to it that can be dreadful.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+Also I find myself thinking in &amp;quot;don't think of a bear&amp;quot; terms of this. If I worry testing will be boring, it becomes boring. So if you've thought of it this way, rephrase it into, how can I get testing to try something new?&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+(Side confession: I've put off potentially repetitive testing of my games and others' with playing FreeCell, which is itself repetitive. Even recognizing this is a help--I think.)</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/35/how-do-keep-testing-from-becoming-boring-for-games-or-others</guid>
+<pubDate>Mon, 23 Mar 2015 17:36:59 +0000</pubDate>
+</item>
+</channel>
+</rss>

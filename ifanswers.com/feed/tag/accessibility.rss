@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged accessibility</title>
+<link>http://ifanswers.com/tag/accessibility</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Is there a way to turn Squiffy passage links into a regular link for accessibility purposes?</title>
+<link>http://ifanswers.com/852/there-squiffy-passage-links-regular-accessibility-purposes</link>
+<description>&lt;p&gt;Hi everyone,&lt;br&gt;
+I just discovered Squiffy due to checking out the IFWiki. I like it's simple approach to gamebook creation, and I wonder why one would use Quest for gamebooks now unless they wanted multimedia.&lt;br&gt;
+I'm curious: since I'm using a screen reader, is there a way to modify both passage and section links to turn into regular links such as those created with the aref HTML tag rather than what it is currently using? I found that with my screen reader of choice at the moment, pressing enter on the links doesn't work and I have to route my screen reader's simulated mouse to the word and click, whereas with a regular link I can simply press enter on it.&lt;br&gt;
+The link I am talking about is, after clicking on an image to pass the title screen in Spondre, there is a &quot;click to continue&quot; link that's perfect. Though, pressing enter on the title image worked.&lt;br&gt;
+So I'm playing Spondre now and these clickable links are working great. They didn't work so well in the Squiffy documentation though, I couldn't click Roast Chicken or the other links in that scratchpad example. Also, in the examples, I get what appears to be an empty multiline text box, with numbers 1 to however many lines the example contains. I should be able to edit the example, but my screen reader thinks that text box above the example and number of lines is empty.&lt;br&gt;
+When I look at the example, I can't see where a new line ends and where a new line begins, so I thought that maybe the text box would give a clue as to how it was written.&lt;br&gt;
+Also, a design question going around in my head is, for the benefit of blind players, should I clear the screen for passages in rooms? Spondre, while playable, makes it a bit hard to find new text. I haven't found anymore Squiffy games on Textadventures.&lt;/p&gt;
+
+&lt;p&gt;Update: I'll have to see about new Squiffy games with this corrected tag. I'm more interested in creating them, though. I hope an accessible editor can be found.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/852/there-squiffy-passage-links-regular-accessibility-purposes</guid>
+<pubDate>Sat, 27 Jun 2015 04:27:02 +0000</pubDate>
+</item>
+</channel>
+</rss>

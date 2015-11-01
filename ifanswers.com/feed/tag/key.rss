@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged key</title>
+<link>http://ifanswers.com/tag/key</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Stopping timer Event with Key Press</title>
+<link>http://ifanswers.com/897/stopping-timer-event-with-key-press</link>
+<description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;I new to Quest (but really enjoying it). I would like to create really, really simple combat (much simpler than the kit). By having a turn event (with a timer) when you enter a room (e.g. 'Cyborg attacks you' - if this happens 3 times with one monster you die) and having a key press (e.g. press 'Enter' or 'x') to stop this. &lt;/p&gt;
+
+&lt;p&gt;I am having trouble finding how to do a key press to stop a timer event. Actually to be honest I don't know how to do a key press to do anything. I would also like to have key presses with sounds assigned to different keys in different rooms to trigger sounds.&lt;/p&gt;
+
+&lt;p&gt;I am hopeless with anything coding related - is there a simple way to do this. I assume there is but I just am having trouble finding it. Thanks for your help.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/897/stopping-timer-event-with-key-press</guid>
+<pubDate>Thu, 09 Jul 2015 00:45:58 +0000</pubDate>
+</item>
+</channel>
+</rss>

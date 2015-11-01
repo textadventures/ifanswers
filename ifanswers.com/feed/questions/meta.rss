@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions in Meta</title>
+<link>http://ifanswers.com/questions/meta</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Can we know a little more about the story of the Quest system? [Quest]</title>
+<link>http://ifanswers.com/1044/can-we-know-little-more-about-the-story-the-quest-system-quest</link>
+<description>&lt;p&gt;Hello, &lt;br&gt;
+I am writing a PHD dissertation about interactive fiction tools and I find it difficult to have information about Quest history.&lt;/p&gt;
+
+&lt;p&gt;On IFDB, we can see Quest is the third most used writing tool but paradoxally it's very difficult to find documentation on it and it's more easy to find documentation on EAMON, AGT, GAC, Quill, PAW etc (and obviously for Inform, TADS, Twine, Adrift...).&lt;/p&gt;
+
+&lt;p&gt;When was it created? On ifdb the first fiction begin in 2000. Who is the creator? Is there any documentation somewhere we can access?&lt;/p&gt;
+
+&lt;p&gt;Thanks for answering and sorry for my poor english (my dissertation is in french^^)&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/1044/can-we-know-little-more-about-the-story-the-quest-system-quest</guid>
+<pubDate>Wed, 12 Aug 2015 10:09:50 +0000</pubDate>
+</item>
+<item>
+<title>Is there a way to edit tags in questions other than your own?</title>
+<link>http://ifanswers.com/685/is-there-a-way-to-edit-tags-in-questions-other-than-your-own</link>
+<description>&lt;p&gt;A lot of people seem to forget to add a tag for the authoring system they're using. With enough reputation points you can edit the question text, but it seems that you can't add or edit tags. Is it possible and if not could the feature be added?&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/685/is-there-a-way-to-edit-tags-in-questions-other-than-your-own</guid>
+<pubDate>Thu, 28 May 2015 09:16:54 +0000</pubDate>
+</item>
+<item>
+<title>Can we add explanations to individual tags?</title>
+<link>http://ifanswers.com/470/can-we-add-explanations-to-individual-tags</link>
+<description>&lt;p&gt;Problem: I see questions here tagged with &quot;Squiffy&quot;, but I don't even know what &quot;squiffy&quot; is. &lt;/p&gt;
+
+&lt;p&gt;Is there some way to add an explanation to the tags? I would like it if I could hover over tags like on stackoverflow, but if there's no support for that then maybe we should just start adding questions like &quot;What is xxx?&quot; or &quot;Explain the tag xxx&quot;?&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/470/can-we-add-explanations-to-individual-tags</guid>
+<pubDate>Mon, 13 Apr 2015 04:29:58 +0000</pubDate>
+</item>
+<item>
+<title>On IF Answers, should comments be hidden after edits are made to a question or answer?</title>
+<link>http://ifanswers.com/403/answers-should-comments-hidden-after-edits-question-answer</link>
+<description>&lt;p&gt;Some of these questions are getting a lot of comments. In cases where people comment to make suggestions for a question or answer, and the question/answer is then edited accordingly, do you hide the comments?&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/403/answers-should-comments-hidden-after-edits-question-answer</guid>
+<pubDate>Thu, 02 Apr 2015 20:55:55 +0000</pubDate>
+</item>
+<item>
+<title>What is the tag for textadventures.co.uk?</title>
+<link>http://ifanswers.com/309/what-is-the-tag-for-textadventures-co-uk</link>
+<description>&lt;p&gt;I would like to know what tag is used for games created with the online creator/editor at textadventures.co.uk. Thanks, Lewis.&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/309/what-is-the-tag-for-textadventures-co-uk</guid>
+<pubDate>Mon, 30 Mar 2015 15:43:57 +0000</pubDate>
+</item>
+<item>
+<title>Should I use the forums to alert people to a bug I noticed?</title>
+<link>http://ifanswers.com/301/should-i-use-the-forums-to-alert-people-to-a-bug-i-noticed</link>
+<description>&lt;p&gt;I recently spent an hour commenting and uncommenting every block of my code trying to find the source of a &quot;bug&quot;. I just discovered it wasn't a bug. I thought I did something to cause the statusbar to disappear, but apparently, if the Inform window isn't tall enough, it will stop rendering the statusbar when text / commands reach the bottom of the space. It disappears exactly as it would if code fouled it up, but it's just the IDE.&lt;/p&gt;
+
+&lt;p&gt;Should I alert people to this really irritating &quot;bug&quot;, or is the bug report enough? There seem to be a whole lot of bugs reported, and so I'm afraid someone else might waste their time like this, because my bug report is lost in a sea of other ones. &lt;/p&gt;
+
+&lt;p&gt;(I'm still getting used to the etiquette here, so if this isn't the place for this, I apologize in advance.)&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/301/should-i-use-the-forums-to-alert-people-to-a-bug-i-noticed</guid>
+<pubDate>Mon, 30 Mar 2015 04:41:39 +0000</pubDate>
+</item>
+<item>
+<title>Site updates</title>
+<link>http://ifanswers.com/288/site-updates</link>
+<description>
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/288/site-updates</guid>
+<pubDate>Mon, 30 Mar 2015 00:21:24 +0000</pubDate>
+</item>
+<item>
+<title>On IF Answers, should the question itself mention the development system?</title>
+<link>http://ifanswers.com/266/answers-should-question-itself-mention-development-system</link>
+<description>If it would be helpful I can edit some of the existing questions to add, for instance, &amp;quot;in Inform 7&amp;quot; to the actual question, in cases where the development system is mentioned only in the tag or in the additional info.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/266/answers-should-question-itself-mention-development-system</guid>
+<pubDate>Sat, 28 Mar 2015 13:53:06 +0000</pubDate>
+</item>
+<item>
+<title>How do I use code formatting in posts on IF Answers?</title>
+<link>http://ifanswers.com/197/how-do-i-use-code-formatting-in-posts-on-if-answers</link>
+<description>&lt;p&gt;I have had not entirely an easy time figuring out how to format code properly in IFAnswers. I copied some code from the intfiction forum and it was automatically formatted as code, which was great, but then I couldn't figure out how to type anything that wasn't code &lt;em&gt;after&lt;/em&gt; that and not have it formatted as code.&lt;/p&gt;&lt;p&gt;Eventually I typed some paragraph breaks in my non-code-formatted stuff and copy-pasted that whenever I needed to start a new paragraph that wasn't formatted as code, but that was less than ideal. Is there a simple HTMLish tag I can use for code formatting when typing a question/answer?&lt;/p&gt;</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/197/how-do-i-use-code-formatting-in-posts-on-if-answers</guid>
+<pubDate>Thu, 26 Mar 2015 11:58:35 +0000</pubDate>
+</item>
+<item>
+<title>A lock icon appears to the left of some questions - what does it mean?</title>
+<link>http://ifanswers.com/185/lock-icon-appears-to-the-left-some-questions-what-does-it-mean</link>
+<description>The mouse cursor changes into a question mark over the icon but clicking did not reveal a hint.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/185/lock-icon-appears-to-the-left-some-questions-what-does-it-mean</guid>
+<pubDate>Thu, 26 Mar 2015 09:40:09 +0000</pubDate>
+</item>
+<item>
+<title>Is &quot;plot-explanation&quot; the right tag? What have you learned about the plot of Terminator that you didn't know before from reading this question?</title>
+<link>http://ifanswers.com/180/explanation-right-learned-terminator-before-reading-question</link>
+<description>Is plot-explanation an apt tag for question below:&lt;br /&gt;
+&lt;br /&gt;
+Previous discussion&lt;br /&gt;
+&lt;a href=&quot;http://ifanswers.com/114/in-terminator-are-the-crew-real-or-a-fantasy&quot; rel=&quot;nofollow&quot;&gt;http://ifanswers.com/114/in-terminator-are-the-crew-real-or-a-fantasy&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+dannii: I'm unable to make a question that links to your comment.&lt;br /&gt;
+&lt;br /&gt;
+juhanna: Sorry! I'm unable to reply to your comment. I'm unable to make a comment on that post.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/180/explanation-right-learned-terminator-before-reading-question</guid>
+<pubDate>Thu, 26 Mar 2015 09:23:57 +0000</pubDate>
+</item>
+<item>
+<title>Can I accept more than one answer?</title>
+<link>http://ifanswers.com/175/can-i-accept-more-than-one-answer</link>
+<description>Alex: I can't vote for your answer but I appreciate it.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/175/can-i-accept-more-than-one-answer</guid>
+<pubDate>Thu, 26 Mar 2015 09:10:51 +0000</pubDate>
+</item>
+<item>
+<title>Is this site accessible for vision impaired users?</title>
+<link>http://ifanswers.com/174/is-this-site-accessible-for-vision-impaired-users</link>
+<description>I noticed that there is a flash CAPTCHA to check for robots. It is a gui checkbox. I did not see any alternative controls. I fear that it is not accessible to partially-sighted and blind users. The intfiction forum is partly accessible.&lt;br /&gt;
+&lt;br /&gt;
+I'm unable to reply to your comment Alex. The reply is: This answer put my fears at rest. I hope users will comment if there are accessibility problems.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/174/is-this-site-accessible-for-vision-impaired-users</guid>
+<pubDate>Thu, 26 Mar 2015 09:09:37 +0000</pubDate>
+</item>
+<item>
+<title>I got an answer in my email but when I go to ifanswers I cant accept it?</title>
+<link>http://ifanswers.com/172/got-an-answer-in-my-email-but-when-to-ifanswers-cant-accept-it</link>
+<description>I followed the link in my email but the big tick doesn't appear. What can I do?</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/172/got-an-answer-in-my-email-but-when-to-ifanswers-cant-accept-it</guid>
+<pubDate>Thu, 26 Mar 2015 09:06:27 +0000</pubDate>
+</item>
+<item>
+<title>What are reputation points?</title>
+<link>http://ifanswers.com/166/what-are-reputation-points</link>
+<description></description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/166/what-are-reputation-points</guid>
+<pubDate>Thu, 26 Mar 2015 06:21:09 +0000</pubDate>
+</item>
+<item>
+<title>Are new users unable to upvote/downvote responses?</title>
+<link>http://ifanswers.com/159/are-new-users-unable-to-upvote-downvote-responses</link>
+<description>Using Chrome. The finger appears when mousing over the upvote/downvote buttons, but clicking has no effect.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/159/are-new-users-unable-to-upvote-downvote-responses</guid>
+<pubDate>Thu, 26 Mar 2015 01:47:04 +0000</pubDate>
+</item>
+<item>
+<title>I don't get emails / How can I find emails from ifanswers?</title>
+<link>http://ifanswers.com/130/i-dont-get-emails-how-can-i-find-emails-from-ifanswers</link>
+<description>I posted some questions and there are answers but there is nothing in my email.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/130/i-dont-get-emails-how-can-i-find-emails-from-ifanswers</guid>
+<pubDate>Wed, 25 Mar 2015 15:37:48 +0000</pubDate>
+</item>
+<item>
+<title>I got an answer! There is a big tick next to it - what does it do?</title>
+<link>http://ifanswers.com/127/i-got-an-answer-there-is-a-big-tick-next-to-it-what-does-it-do</link>
+<description></description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/127/i-got-an-answer-there-is-a-big-tick-next-to-it-what-does-it-do</guid>
+<pubDate>Wed, 25 Mar 2015 13:49:51 +0000</pubDate>
+</item>
+<item>
+<title>How can I find out in ifanswers if my question is answered?</title>
+<link>http://ifanswers.com/123/how-can-i-find-out-in-ifanswers-if-my-question-is-answered</link>
+<description>I don't have my e-mail open - it would be handy if there was a signal in the interface if there are new answers.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/123/how-can-i-find-out-in-ifanswers-if-my-question-is-answered</guid>
+<pubDate>Wed, 25 Mar 2015 13:37:11 +0000</pubDate>
+</item>
+<item>
+<title>Is &quot;ratings-recommendations-reviews&quot; too long for a tag?</title>
+<link>http://ifanswers.com/117/is-ratings-recommendations-reviews-too-long-for-a-tag</link>
+<description>dannii: I'm unable to reply to your comment.&lt;br /&gt;
+&lt;br /&gt;
+The reply is: I no longer desire to write tags.</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/117/is-ratings-recommendations-reviews-too-long-for-a-tag</guid>
+<pubDate>Wed, 25 Mar 2015 13:27:30 +0000</pubDate>
+</item>
+<item>
+<title>Do questions on a development tool need to mention the version?</title>
+<link>http://ifanswers.com/12/do-questions-on-development-tool-need-to-mention-the-version</link>
+<description>Since questions and answers are arranged topically instead of chronologically on a site like this, should questions about, say, Inform 7 mention/be tagged with the version the asker is using, for the sake of people searching the site in the future?</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/12/do-questions-on-development-tool-need-to-mention-the-version</guid>
+<pubDate>Mon, 23 Mar 2015 00:12:46 +0000</pubDate>
+</item>
+<item>
+<title>What is IF Answers?</title>
+<link>http://ifanswers.com/1/what-is-if-answers</link>
+<description>What is this site and why does it exist?</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/1/what-is-if-answers</guid>
+<pubDate>Sun, 22 Mar 2015 10:41:09 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>How do I set a variable by asking the player a question in Quest? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="for asking someone's name, then printing (&quot;hello&quot;+name)">
+		<meta name="keywords" content="Authoring,quest">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="how-do-i-set-a-variable-by-asking-the-player-question-in-quest.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '311\/how-do-i-set-a-variable-by-asking-the-player-question-in-quest';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=311%2Fhow-do-i-set-a-variable-by-asking-the-player-question-in-quest%3Fshow%3D356" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374942-1f6eaee895686358df793a4dccab33eaa7df683c" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register9cfb.html?to=311%2Fhow-do-i-set-a-variable-by-asking-the-player-question-in-quest%3Fshow%3D356" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="how-do-i-set-a-variable-by-asking-the-player-question-in-quest.html">
+							<span class="entry-title">How do I set a variable by asking the player a question in Quest?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q311">
+							<form method="post" action="http://ifanswers.com/311/how-do-i-set-a-variable-by-asking-the-player-question-in-quest?show=356">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_311">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_311_1_q311" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">228</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374942-da4811f233f85b0d8dc7888924ce9bb5e651f34f">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/311/how-do-i-set-a-variable-by-asking-the-player-question-in-quest?show=356">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="how-do-i-set-a-variable-by-asking-the-player-question-in-quest.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-03-30T16:06:43+0000">Mar 30</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/12pepjam.html" class="qa-user-link url fn entry-title nickname">12pepjam</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">1</span><span class="qa-q-view-who-points-pad"> point)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">edited</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-03-31T12:56:48+0000">Mar 31</span></span></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span><span class="qa-q-view-who-data"><a href="../user/Alex.html" class="qa-user-link url fn entry-title nickname">Alex</a></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="311"></a><div class="entry-content"><p>for asking someone's name, then printing ("hello"+name)</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/quest.html" rel="tag" class="qa-tag-link">quest</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c311_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374942-f17620a020e623f62e3fc2eaa9535783854ebc50">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">2 Answers</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a356">
+								<form method="post" action="http://ifanswers.com/311/how-do-i-set-a-variable-by-asking-the-player-question-in-quest?show=356">
+									<div class="qa-voting qa-voting-net" id="voting_356">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_356_1_a356" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374942-da4811f233f85b0d8dc7888924ce9bb5e651f34f">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="how-do-i-set-a-variable-by-asking-the-player-question-in-quest439d.html?show=356#a356" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-31T10:35:13+0000">Mar 31</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/The%2bPixie.html" class="qa-user-link url fn entry-title nickname">The Pixie</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">121</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/311/how-do-i-set-a-variable-by-asking-the-player-question-in-quest?show=356">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="356"></a><div class="entry-content"><p><em>If using the GUI:</em></p>
+
+<p>Look for "Get input" from the list of scripts (in the Output section,confusingly). You should now see you have two "Add new script" buttons. The one a little to the right and above the other is the important one - that will add stuff that happens when the player has typed his name. Click on it, and select "Print a message".</p>
+
+<p>Where it says "Print [message]" change that to "Print [expression]". Then you can type in what you want to be displayed. The value the player has typed will now be in a variable called "result", so that should be:</p>
+
+<pre><code>"Hello " + result
+</code></pre>
+
+<p>If you want Quest to remember the name, you need to assign it to an object; the player object in this case (the value of result will get lost as soon as Quest has done this bit). Quest uses names to handle everything, and would get confused if you change a name during a game so will not let you, so set it to be the alias instead.</p>
+
+<p>Click on the same  "Add new script" button, and select "Set an objects attribute (named as an expression)". Fill it in as:</p>
+
+<pre><code>Set object [name] [player]
+   Attribute: ["alias"]
+   Value [result]
+</code></pre>
+
+<p>Now anywhere in the game you can use:</p>
+
+<pre><code>"Hello " + player.alias
+</code></pre>
+
+<p><em>If using code:</em></p>
+
+<p>If you are happy to use code, just paste this in:</p>
+
+<pre><code>get input {
+  msg ("Hello" + result)
+  player.alias = result
+}
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a356_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" style="display:none;" id="c356_list">
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374942-1c58e3c4bf51ce4f76bc999a452c9dab6947affa">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a314">
+								<form method="post" action="http://ifanswers.com/311/how-do-i-set-a-variable-by-asking-the-player-question-in-quest?show=356">
+									<div class="qa-voting qa-voting-net" id="voting_314">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_314_1_a314" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374942-da4811f233f85b0d8dc7888924ce9bb5e651f34f">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="how-do-i-set-a-variable-by-asking-the-player-question-in-quest34aa.html?show=314#a314" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-03-30T18:58:33+0000">Mar 30</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">161</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-04-02T00:02:54+0000">Apr 1</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/311/how-do-i-set-a-variable-by-asking-the-player-question-in-quest?show=356">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="314"></a><div class="entry-content"><p>direct answer:</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/guides/character_creation.html">http://docs.textadventures.co.uk/quest/guides/character_creation.html</a></p>
+
+<hr>
+
+<p>long answer (all of the below):</p>
+
+<p>explanation and then at bottom, answer (in code, as the above link shows how to do it via the GUI~Editor)</p>
+
+<hr>
+
+<p>As best as I understand Quest (I'm still a newb coder ~ so I don't know how the engine is actually structured+works), so take this bit of my explanation of its structure and terms, with a 'grain of salt', but it might help, even if not correct... lol</p>
+
+<hr>
+
+<p>quest's terminology:</p>
+
+<p>VARIABLES:</p>
+
+<p>-&gt; Variables: local~temporary: can only be used within its own script block, can't be used in any other script blocks anywhere in the game.</p>
+
+<p>-&gt; Attributes: global~'permanent' (so long as the Object that holds the Attribute, exists, of course): it is 'save-able', and thus 'load-able' (reference-able ~ call upon-able), can be used in any scripting anywhere in the game.</p>
+
+<p>-&gt; Parameters: these deal with Functions, Dictionaries, Commands, and etc. They're like Variables, except that they can transfer (and optionally re-label) between scriptings</p>
+
+<hr>
+
+<p>ELEMENTS:</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/elements/">http://docs.textadventures.co.uk/quest/elements/</a></p>
+
+<p>Elements are the OBJECTS of~for its Object-Oriented Structure, which not to be confused with the 'Object' Element (ya, it gets a bit befuddled).</p>
+
+<hr>
+
+<p>my own terminology:</p>
+
+<p>'scriptings' are the action code lines which set, re-set, and~or alter Attributes and~or do conditional (if) code lines and etc, which are able to be held by (done in) these Elements: Verbs ~ Object's Script Attributes, Commands, Functions, Turnscripts, Timers, and etc</p>
+
+<hr>
+
+<p>Quest is Object-Oriented Programming structure, so:</p>
+
+<p>in scripting code:</p>
+
+<p>(look up how to write~syntax the Attribute Types: <a rel="nofollow" href="http://docs.textadventures.co.uk/quest/types/">http://docs.textadventures.co.uk/quest/types/</a> )</p>
+
+<p>Attribute VARIABLE:</p>
+
+<pre><code>Object_name.Attribute_name = Value_or_Expression
+</code></pre>
+
+<p>examples:</p>
+
+<pre><code>player.strength = 100
+game.event_flag = 0
+orc.dead = false
+player.y = x
+
+player.y = x + 5
+player.strength = player.weight + player.energy
+player.damage = player.sword.damage + player.sword.damage * player.strength / 100
+</code></pre>
+
+<p>Variable VARIABLE:</p>
+
+<pre><code>variable_string_name = Value_or_Expression
+</code></pre>
+
+<p>examples:</p>
+
+<pre><code>result = "blah"
+handled = false
+you_go_first = true
+strength = 100
+y = x
+
+damage = player.sword.damage + player.sword.damage * player.strength / 100
+y = x + 5
+</code></pre>
+
+<hr>
+
+<p>using the GUI~Editor (for initial creation~setting of Attribute VARIABLES):</p>
+
+<p>(whatever, for example: player) Object -&gt; Attributes Tab -&gt; Add -&gt; (see below example)</p>
+
+<p>(Object Name: player)<br>
+Attribute Name: strength<br>
+Attribute Type: int (integer)<br>
+Attribute Value: 100</p>
+
+<p>this is the same as, in scripting:</p>
+
+<p>player.strength = 100</p>
+
+<p>as this is the same as, in code tag blocks:</p>
+
+<pre><code>&lt;object name="player"&gt;
+  &lt;attr name="strength" type="int"&gt;100&lt;/attr&gt;
+&lt;/object&gt;
+</code></pre>
+
+<hr>
+
+<p>as for the scriptings via using the GUI~Editor:</p>
+
+<p>I'm not that familiar with it, as I do most of the stuff in code, but figure out its options, to get the same results as I do in code... someone else can maybe help you with it if you need help</p>
+
+<hr>
+
+<p>anyways..... now to your question:</p>
+
+<pre><code>get input {
+  msg ("What is your name?")
+  // I type in: HK
+  // the quest engine automatically (hidden from you) sets the variable: result = your_typed_in_input
+  // conceptually: player.alias = result = "HK"
+  player.alias = result
+  msg ("Hello" + player.alias + ".")
+  // outputs: Hello HK.
+}
+</code></pre>
+
+<hr>
+
+<p>the most challenging part is getting the syntax for the 'msg' Script's [EXPRESSION] correct</p>
+
+<p>a trick to it, is to break it into two chunks:</p>
+
+<pre><code>1. " text~strings " (including spaces as text~string characters: space bar keyboard key)
+2. + VARIABLE +
+
+for example:
+
+player.alias = "HK"
+player.sex = "male"
+player.race = "human"
+player.class = "warrior"
+
+HK is a male human warrior.
+
+msg (player.alias + " is a " + player.sex + " " + player.race + " " + player.class + ".")
+
+its chunks:
+
+(8 of them)
+
+1. player.alias +
+2. " is a " ~~~~~~~~~~ " (space) is (space) a (space) "
+3. + player.sex +
+4. " " ~~~~~~~~~~~~~ " (space) "
+5. + player.race +
+6. " " ~~~~~~~~~~~~~ " (space) "
+7. + player.class +
+8. "." ~~~~~~~~~~~~~ " (dot~period) "
+
+now, it's easy to write it correctly:
+
+msg (player.alias + " is a " + player.sex + " " + player.race + " " + player.class + ".")
+outputs: HK is a male human warrior.
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a314_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" style="display:none;" id="c314_list">
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374942-4c69799d5a76561adebf7556798ffd2086d1d583">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../1105/gamebook-text-processor-working-properly-version-quest-think.html">In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</a></li>
+									<li class="qa-related-q-item"><a href="../1053/how-can-make-use-the-health-variable-quest-through-the-editor.html">How can I make use of the health variable in Quest through the editor</a></li>
+									<li class="qa-related-q-item"><a href="../445/how-do-i-skin-the-quest-player-ui.html">How do I skin the Quest player UI?</a></li>
+									<li class="qa-related-q-item"><a href="../1102/player-dark-room-unwittingly-enters-one-without-light-source.html">How do I get the player out of a dark room if he unwittingly enters one without a light source?</a></li>
+									<li class="qa-related-q-item"><a href="../1224/how-do-i-use-the-create-exit-command-properly-in-quest.html">How do I use the create exit command properly in Quest</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

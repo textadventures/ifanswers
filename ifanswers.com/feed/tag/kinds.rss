@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged kinds</title>
+<link>http://ifanswers.com/tag/kinds</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I move an item I have more of in the world (since it's a kind of thing)?</title>
+<link>http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</link>
+<description>&lt;p&gt;I want to create something like this:&lt;/p&gt;
+
+&lt;p&gt;An apple is a kind of thing.&lt;br&gt;
+The Orchard is a room. In the Orchard is a tree. In the Orchard is a basket. &lt;br&gt;
+The basket is a container. In the basket are three apples.&lt;br&gt;
+instead of attacking the tree:&lt;br&gt;
+        now an apple is in the Orchard;&lt;br&gt;
+        say &quot;You violently shake the tree, and apple falls down!&quot;&lt;/p&gt;
+
+&lt;p&gt;But this results in an error, because &quot;now an apple is in the Orchard&quot; is not specific enough. However, I haven't been able to find a way for the game to just put a new apple in the room.&lt;br&gt;
+The compiler error can be circumvented by saying &quot;now a random apple is in the Orchard&quot;, but that will take one of the apples from the basket.&lt;/p&gt;
+
+&lt;p&gt;How can I get Inform to spawn a new apple into the orchard every time the player attacks the tree?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</guid>
+<pubDate>Wed, 08 Jul 2015 10:07:14 +0000</pubDate>
+</item>
+<item>
+<title>Is it possible to make kinds of kinds of values in inform 7?</title>
+<link>http://ifanswers.com/820/is-it-possible-to-make-kinds-of-kinds-of-values-in-inform-7</link>
+<description>&lt;p&gt;I want to do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A measurement is a kind of value.
+A waist size is a kind of measurement.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sadly, ni returns this problem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You wrote 'A waist size is a kind of measurement' ...
+but you are only allowed to create kinds of objects
+(things, rooms, and so on) and kinds of 'value' ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I take from this that it isn't possible to specialize values by making kinds of kinds of values?  How can I accomplish something similar?  My end goal is to make a property that can contain values from any of a certain set of kinds of values.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/820/is-it-possible-to-make-kinds-of-kinds-of-values-in-inform-7</guid>
+<pubDate>Mon, 22 Jun 2015 19:32:26 +0000</pubDate>
+</item>
+</channel>
+</rss>

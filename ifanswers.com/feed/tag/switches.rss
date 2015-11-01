@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged switches</title>
+<link>http://ifanswers.com/tag/switches</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>[Inform 7]Timers, daemons, switchon &amp; switchoff</title>
+<link>http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff</link>
+<description>&lt;p&gt;I'm converting an old Inform 6 game to Inform 7 but am having some trouble finding the new way of doing things.&lt;/p&gt;
+
+&lt;p&gt;For example, I previously had a button I could SwitchOn and SwitchOff, but I can't find any topic in the Index that covers the Inform7 way of handling on &amp;amp; off.  I tried looking for everything obvious such as &quot;Switches&quot;, &quot;Buttons&quot;, &quot;On-Off state&quot;, &quot;On&quot;, &quot;Off&quot;, etc, only to find nothing and remain baffled.&lt;/p&gt;
+
+&lt;p&gt;To save exasperation, can anyone please help me with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Switches - how to turn things on &amp;amp; off&lt;/li&gt;
+&lt;li&gt;Timers - how to trigger an event after a certain number of turns; also how to interrupt the timer (StopTimer in I6)&lt;/li&gt;
+&lt;li&gt;Daemons - making things happen turn-by-turn, whether &quot;on screen&quot; (e.g. telling the player footsteps are getting nearer each turn) or background stuff (calculating the amount of petrol left as the player drives about).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If someone can kindly tell me what the new equivalents are I can look them up, but any additional information/explanation is appreciated - especially if it is to say &quot;X&quot; doesn't have a direct equivalent, it's now handled by doing Y and Z.&quot;&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance. &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff</guid>
+<pubDate>Thu, 24 Sep 2015 14:22:08 +0000</pubDate>
+</item>
+</channel>
+</rss>

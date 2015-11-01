@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged relations</title>
+<link>http://ifanswers.com/tag/relations</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do get an NPC's mood to worsen if I give it something it dislikes?</title>
+<link>http://ifanswers.com/766/how-do-get-npcs-mood-to-worsen-if-give-it-something-it-dislikes</link>
+<description>&lt;p&gt;I'm trying to re-author the giving action. I want an NPC to have a mood that goes up or down, depending on whether you give it something it likes or dislikes, but it will only accept things that interest it. &lt;/p&gt;
+
+&lt;p&gt;I can't get to seem the liking/disliking relation to work with kinds of things, i.e. snacks, but I need the apples and kiwis to be kinds of snacks because the player gets them from a vending machine, which can only be coded to bring kinds of things from off-stage.&lt;/p&gt;
+
+&lt;p&gt;I'm guessing this is why I can't get the Instead rule to fire?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The block giving rule is not listed in the check giving it to rulebook.
+
+A snack is a kind of thing. A snack is always edible.
+An apple is a kind of snack.
+A kiwi is a kind of snack.
+
+Mood is a kind of value. The moods are hostile, suspicious, indifferent, friendly, and adoring. A person has a mood. A person is usually indifferent.
+
+To improve the mood of (character - a person):
+    if the mood of character is less than adoring:
+        now the mood of the character is the mood after the mood of the character.
+
+To worsen the mood of (character - a person):
+    if the mood of character is not hostile:
+        now the mood of the character is the mood before the mood of the character.
+
+To decide whether (item - a thing) interests (character - a person):
+    if the character likes the item, yes;
+    if the item is edible, yes;
+    no.
+
+Liking relates one person to various things. The verb to like means the liking relation.
+
+Disliking relates one person to various things. The verb to dislike means the disliking relation.
+
+Instead of giving something to someone:
+    if the second noun dislikes the noun:
+        worsen the mood of the second noun;
+        say &quot;[The second noun] appears to hate that! [The second noun] is [mood of the second noun].&quot; instead;
+    otherwise:
+        continue the action.
+
+Check giving something to someone:
+    unless the noun interests the second noun:
+        say &quot;[The second noun] disdainfully refuses [the noun]. [The second noun] is still [mood of the second noun].&quot; instead;
+    otherwise if the second noun dislikes the noun:
+        worsen the mood of the second noun;
+        say &quot;[The second noun] appears to hate that! [The second noun] is [mood of the second noun].&quot; instead;
+    otherwise if the second noun likes the noun:
+        improve the mood of the second noun;
+        say &quot;[The second noun] looks happy to receive that. [The second noun] is [mood of the second noun].&quot;.   
+
+
+The Testing Room is A Room. The pawn broker is a person in the testing room. The player holds a rare coin  and a straw dog and an apple and a kiwi.
+
+The pawn broker likes the straw dog.
+The pawn broker dislikes the kiwi.
+
+Test me with &quot;give dog to broker / give coin to broker / give apple to broker / give kiwi to broker&quot;.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/766/how-do-get-npcs-mood-to-worsen-if-give-it-something-it-dislikes</guid>
+<pubDate>Sun, 14 Jun 2015 19:32:26 +0000</pubDate>
+</item>
+</channel>
+</rss>

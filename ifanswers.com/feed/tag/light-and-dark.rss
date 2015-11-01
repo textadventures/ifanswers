@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged light-and-dark</title>
+<link>http://ifanswers.com/tag/light-and-dark</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Help! I need to use a candle as a light source in rooms in my Quest text adventure game</title>
+<link>http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</link>
+<description>&lt;p&gt;Hi everyone&lt;/p&gt;
+
+&lt;p&gt;I am currently making a fantasy game on Quest and a few of the rooms are dark.&lt;/p&gt;
+
+&lt;p&gt;I want them to be dark when the player enters so they will have to use a candle (from the inventory) to light the room so they can move on.&lt;/p&gt;
+
+&lt;p&gt;I don't want them to be able to move on further into the room without using the candle but I cannot find this in the help documentation (although at the moment I am now going cross eyed with all the research and screenshots!!!)&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance! :)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</guid>
+<pubDate>Wed, 07 Oct 2015 22:32:24 +0000</pubDate>
+</item>
+<item>
+<title>How do I get the player out of a dark room if he unwittingly enters one without a light source?</title>
+<link>http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source</link>
+<description>&lt;p&gt;I can't seem to find any tutorial or documentation that shows how quest handles light.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source</guid>
+<pubDate>Tue, 25 Aug 2015 05:49:11 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Multiple issues in this code about putting things under a bed. - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="I'm trying to learn Inform7, so some things here can be a little too noobish.. here is my source code  ... this looks like a bug to me. Is it? Thanks.">
+		<meta name="keywords" content="Authoring,inform7">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="multiple-issues-in-this-code-about-putting-things-under-bed.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '1076\/multiple-issues-in-this-code-about-putting-things-under-bed';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=1076%2Fmultiple-issues-in-this-code-about-putting-things-under-bed" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374744-a37ef3b616c7c76433e02936ce7ce282ef949c72" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../registerf413.html?to=1076%2Fmultiple-issues-in-this-code-about-putting-things-under-bed" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="multiple-issues-in-this-code-about-putting-things-under-bed.html">
+							<span class="entry-title">Multiple issues in this code about putting things under a bed.</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q1076">
+							<form method="post" action="http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_1076">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1076_1_q1076" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">48</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374744-cfde66fe7b893e914af19269643737cd0a52ab41">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="multiple-issues-in-this-code-about-putting-things-under-bed.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-08-22T04:38:37+0000">Aug 22</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data">eduardomezencio</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">edited</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-08-22T18:23:53+0000">Aug 22</span></span></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="1076"></a><div class="entry-content"><p>I'm trying to learn Inform7, so some things here can be a little too noobish.. here is my source code of a room with a bed that can have things on it and under it:</p>
+
+<pre><code>Room 1408 is a room.
+
+A bed is a kind of supporter. A underbed is a kind of container. It is a part of every bed.
+
+Understand "examine under [something]" as looking under.
+Instead of looking under a bed:
+    if there is nothing in a underbed (called underbed) which is part of the noun: 
+        say "There's nothing under the [noun]."; 
+    otherwise if there is something in a underbed (called underbed) which is part of the noun:
+        say "Under the [noun] you see: [list of things in underbed].".
+
+Understand "put [something] under [something]" as hiding it under.
+Understand "place [something] under [something]" as hiding it under.
+Understand "hide [something] under [something]" as hiding it under. 
+Hiding it under is an action applying to two things. Report hiding something under something: say "Under the [second noun] is probably not the best place to hide the [noun].".
+
+Instead of hiding something under a bed:
+    if there is a underbed (called underbed) which is part of the second noun:
+        now the noun is inside the underbed;
+        say "You have placed the [noun] under the [second noun].".
+
+The wooden bed is a bed in room 1408. The pillow is on the wooden bed. The ball is in the wooden bed's underbed.
+</code></pre>
+
+<p>The issues:</p>
+
+<p>1 - To make this possible, I created a strange object called underbed to represent the stuff under the bed. I would like to make it impossible for the player to refer to this object directly (e.g. examine underbed), so that the only way of interacting with it is using "under the bed". How can I do this? (EDIT: One of the things I tried was to use 'A underbed is a privately-named kind of container', but it does not work)</p>
+
+<p>2 - If I start the game and type 'take ball', it will work. But I would like to forbid this, because the player should not be able to take the ball before knowing that it is there (the ball is hidden under the bed). If the player enter 'take all', the ball should not be revealed also.. How can I do this?</p>
+
+<p>EDIT: I was able to solve the second issue myself by putting the ball under the bed only after the player looks under the bed for the first time. Still, if there's a better way to do this, I would like to know.</p>
+
+<p>3 - This is a smaller issue, but in the line that starts with 'otherwise...' I had to write all of that instead of just 'otherwise: ' because it would not recognize underbed, but I think it should, because of the "(called underbed)" in the if statement. It is working well the way it is now, but this looks like a bug to me. Is it?</p>
+
+<p>Thanks.</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c1076_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374744-b661f7a4131019a68d232058a2fe15dfbc9347a8">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">2 Answers</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a1079">
+								<form method="post" action="http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed">
+									<div class="qa-voting qa-voting-net" id="voting_1079">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1079_1_a1079" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374744-cfde66fe7b893e914af19269643737cd0a52ab41">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-avatar">
+											<a href="../user/Ryan%2bVeeder.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/54288736de1fde4e87ee176d75578784?s=40" width="40" height="40" class="qa-avatar-image" alt=""></a>
+										</span>
+										<span class="qa-a-item-meta">
+											<a href="multiple-issues-in-this-code-about-putting-things-under-bed3832.html?show=1079#a1079" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-22T19:36:34+0000">Aug 22</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/Ryan%2bVeeder.html" class="qa-user-link url fn entry-title nickname">Ryan Veeder</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">290</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="1079"></a><div class="entry-content"><p>1: To make underbeds privately-named, you can add the sentence "An underbed is usually privately-named."</p>
+
+<p>2: In a game where I only had to worry about a single item underneath a bed, I handled it like this:</p>
+
+<p>Instead of looking under the bed the first time:<br>
+    say "You poke your flashlight under the bed and wave it around. Something catches the light: a key![paragraph break]Probably pretty obvious, but to pick up the key you'll want to type in 'pick up key' or 'take key'.";<br>
+    now the brass key is in the location;</p>
+
+<p>This doesn't simulate the underside of a bed as a separate place, though. If I were making a game where there were a lot of beds that needed looking under, and where the difference between being under the bed and just lying on the floor was important, I might handle it like this:</p>
+
+<pre><code>A bed is a kind of supporter. An underbed is a kind of container. An underbed is part of every bed.
+
+Being under relates various things to one bed. The verb to be under means the being under relation.
+
+The wooden bed is a bed in room 1408.
+
+The ball is under the wooden bed.
+
+Instead of looking under a bed:
+    let underside be a random underbed that is part of the noun;
+    repeat with article running through things under the noun:
+        now article is in underside;
+        now article is not under the noun;
+    try searching underside.
+
+Instead of searching an underbed:
+    say "Under the bed you see [a list of things contained by the noun]."
+</code></pre>
+
+<p>I've created a new relation, "being under." When I say "the ball is under the wooden bed," I'm not really putting the ball under the bed; I'm "marking it" so that when I look under that bed, the ball will appear there. (The "now article is not under the noun" part is misleading: I have to delete that relationship, otherwise, if I move the ball, it'll zip back underneath the bed the next time I look there.)</p>
+
+<p>3: I <em>think</em> the thing in the "otherwise if" line is working as intended. The "(called underbed)" in the if statement only propagates that definition within its own jurisdiction. When you get to "otherwise if...", that definition no longer applies.</p>
+
+<p>There's some confusion due to the fact that your temporary name "underbed" is the same as the kind name "underbed". When the game tries to print "[list of things in underbed]" after it's forgotten your temporary definition, it produces "wooden bed's underbed."</p>
+
+<p>I thought this must be the list of things in <em>the category</em> of "underbed," that is, the list of underbeds in the game. But I was wrong! I added a "gross bed" and a "holy bed" to the game, and when I looked under the wooden bed (with the "otherwise" line reading only "otherwise:"), I got:</p>
+
+<p>"Under the wooden bed you see: wooden bed's underbed, gross bed, gross bed's underbed, holy bed and holy bed's underbed."</p>
+
+<p>So I have no idea what's going on there. But here are my tips:</p>
+
+<ul>
+<li><p>Use temporary names that are distinct from property names. This makes it a lot easier when you're diagnosing bugs, not to mention just reading your own code!</p></li>
+<li><p>Declare those temporary variables each on their own line (instead of on an "if"/"otherwise" line) if you can, and as early in the rule as possible. I had to correct myself when writing my "instead of looking under a bed" rule: I put "let underside be a random underbed that is part of the noun" inside of the "repeat" section, and then I realized I'd also need it later on.</p></li>
+</ul>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a1079_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c1079_list">
+											<div class="qa-c-list-item  hentry comment" id="c1080">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/eduardomezencio.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/4dfb76b98292d18457bf0231554ad31d?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="multiple-issues-in-this-code-about-putting-things-under-bed147f.html?show=1080#c1080" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-22T20:08:55+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/eduardomezencio.html" class="qa-user-link url fn entry-title nickname">eduardomezencio</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">36</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1080"></a><div class="entry-content">Thank you very much! It's a great answer. <br />
+About the 3rd item, this strange output you got is the same I was getting. Very strange, indeed.<br />
+Most importantly, about the first item, there is no way to make it privately-named because the underbed is a kind, not a thing. I tried it in a lot of ways to no avail. I'll put the solution that worked for me in another answer to help people with the same problem, but it is not a really great solution, just works.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1082">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/Ryan%2bVeeder.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/54288736de1fde4e87ee176d75578784?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="multiple-issues-in-this-code-about-putting-things-under-bed3cf2.html?show=1082#c1082" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-22T23:49:19+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Ryan%2bVeeder.html" class="qa-user-link url fn entry-title nickname">Ryan Veeder</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">290</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1082"></a><div class="entry-content">&quot;An underbed is a kind of thing. An underbed is usually privately-named.&quot; compiles and behaves properly in builds 6G60 and 6L38, as far as I can tell.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1083">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/eduardomezencio.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/4dfb76b98292d18457bf0231554ad31d?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="multiple-issues-in-this-code-about-putting-things-under-bed5fae.html?show=1083#c1083" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-23T02:50:38+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/eduardomezencio.html" class="qa-user-link url fn entry-title nickname">eduardomezencio</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">36</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1083"></a><div class="entry-content">You're totally right! Thanks. Sometimes inform can be quite unforgiving with syntax.<br />
+<br />
+Btw: I asked this question before creating my account, and now the option for selecting your answer as best answer does not appear anymore :(</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1084">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/Ryan%2bVeeder.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/54288736de1fde4e87ee176d75578784?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="multiple-issues-in-this-code-about-putting-things-under-bed5486.html?show=1084#c1084" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-23T02:53:25+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Ryan%2bVeeder.html" class="qa-user-link url fn entry-title nickname">Ryan Veeder</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">290</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1084"></a><div class="entry-content">That's okay. In my heart, I know that my answer is fantastic, and that's all that matters.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374744-abace9c3e728189e8d130e5c93c68566936cb4e8">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a1081">
+								<form method="post" action="http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed">
+									<div class="qa-voting qa-voting-net" id="voting_1081">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1081_1_a1081" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374744-cfde66fe7b893e914af19269643737cd0a52ab41">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-avatar">
+											<a href="../user/eduardomezencio.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/4dfb76b98292d18457bf0231554ad31d?s=40" width="40" height="40" class="qa-avatar-image" alt=""></a>
+										</span>
+										<span class="qa-a-item-meta">
+											<a href="multiple-issues-in-this-code-about-putting-things-under-bed3991.html?show=1081#a1081" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-22T20:12:49+0000">Aug 22</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/eduardomezencio.html" class="qa-user-link url fn entry-title nickname">eduardomezencio</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">36</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="1081"></a><div class="entry-content"><p>For the first problem, what I did was:</p>
+
+<pre><code>Instead of doing something to a underbed:
+    say "You can't see any such thing."
+</code></pre>
+
+<p>It solved the problem.</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a1081_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c1081_list">
+											<div class="qa-c-list-item  hentry comment" id="c1085">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/eduardomezencio.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/4dfb76b98292d18457bf0231554ad31d?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="multiple-issues-in-this-code-about-putting-things-under-bedb3f6.html?show=1085#c1085" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-23T02:53:47+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/eduardomezencio.html" class="qa-user-link url fn entry-title nickname">eduardomezencio</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">36</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1085"></a><div class="entry-content">But the way described by Ryan Veeder in a comment under his answer is better.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374744-33026e9f04d5cd2f8768614dd5c618dedad2f2b0">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../1017/how-do-i-make-this-specific-code-work.html">How do I make this specific code work?</a></li>
+									<li class="qa-related-q-item"><a href="../1113/reset-most-of-the-things-in-the-game-their-initial-conditions.html">Reset most of the things in the game to their initial conditions.</a></li>
+									<li class="qa-related-q-item"><a href="../1073/output-multiple-messages-without-allowing-actions-between.html">How to output multiple messages without allowing actions in between?</a></li>
+									<li class="qa-related-q-item"><a href="../947/inform-multiple-instances-thing-where-some-change-properties.html">Inform 7: Multiple instances of a kind of thing where some (but not all) change properties</a></li>
+									<li class="qa-related-q-item"><a href="../573/stopping-a-message-from-being-said-multiple-times-inform-7.html">Stopping a message from being said multiple times (Inform 7)?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

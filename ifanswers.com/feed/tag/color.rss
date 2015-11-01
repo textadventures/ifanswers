@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged color</title>
+<link>http://ifanswers.com/tag/color</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest: Hyperlink Text Colours</title>
+<link>http://ifanswers.com/733/quest-hyperlink-text-colours</link>
+<description>&lt;p&gt;Hey everyone.&lt;/p&gt;
+
+&lt;p&gt;I've just uploaded my Quest game to TextAdventures.co.uk, and it seems none of the hyperlink colours are working.&lt;/p&gt;
+
+&lt;p&gt;They worked in the test version, and the version I published and emailed to my testers - does anyone know why they might not be working in the uploaded version? The span=red&amp;gt; tags work, etc, just not the colors selected for the hyperlinks. &lt;/p&gt;
+
+&lt;p&gt;I'm thinking of just spanning them all, but if anyone has a solutions or theories?&lt;/p&gt;
+
+&lt;p&gt;I could post a link to the game, or my code, but I gotta' warn you though; very erotic furry content.&lt;/p&gt;
+
+&lt;p&gt;I can't post my code, it's over 8000 chars. Is there a way around this?&lt;/p&gt;
+
+&lt;p&gt;Game is here; &lt;a rel=&quot;nofollow&quot; href=&quot;http://play.textadventures.co.uk/Play.aspx?id=jbb8rbjs4e_hjp7pbkuiug&quot;&gt;http://play.textadventures.co.uk/Play.aspx?id=jbb8rbjs4e_hjp7pbkuiug&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/733/quest-hyperlink-text-colours</guid>
+<pubDate>Mon, 08 Jun 2015 07:09:45 +0000</pubDate>
+</item>
+</channel>
+</rss>

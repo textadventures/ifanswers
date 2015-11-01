@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged inform</title>
+<link>http://ifanswers.com/tag/inform</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How to cause an event to occur on every turn, but only when the action succeeds?</title>
+<link>http://ifanswers.com/1187/cause-event-occur-every-turn-but-only-when-the-action-succeeds</link>
+<description>&lt;p&gt;Suppose you have something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Every turn when monster is chasing, say &quot;He's coming!&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Out-of-game actions don't trigger this as they aren't considered turns, nor do parser errors like trying to kiss something not animate.  But checking inventory does, as well as other actions that have no real &quot;result&quot;.  How do you specify whether an action should result in a turn or not?&lt;/p&gt;
+
+&lt;p&gt;I'm thinking specifically in cases like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Instead of cutting apple with something dull, say &quot;Not sharp enough.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I wouldn't want that to take a turn because the player didn't really do anything; they were preempted by the game from taking any real action.&lt;/p&gt;
+
+&lt;p&gt;Also, how do I prevent taking inventory from counting as a turn?  I want to treat it as a report that refreshed your memory, not an &quot;action&quot; that would actually require time to go by, which is seemingly how Inform views a turn.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1187/cause-event-occur-every-turn-but-only-when-the-action-succeeds</guid>
+<pubDate>Thu, 17 Sep 2015 07:17:03 +0000</pubDate>
+</item>
+</channel>
+</rss>

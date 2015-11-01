@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged status-attributes</title>
+<link>http://ifanswers.com/tag/status-attributes</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest: if's, exits, blocking and attributes</title>
+<link>http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</link>
+<description>&lt;p&gt;So these forums have been very useful, thanks a ton for that.&lt;br&gt;
+I've tried using gamebook version, but it seems rather limited, and I couldn't find dictionary functions to make attributes work properly and still so much more the text version does better.&lt;/p&gt;
+
+&lt;p&gt;Looking for Text Adventure Answers please**&lt;/p&gt;
+
+&lt;p&gt;So First Question is:&lt;/p&gt;
+
+&lt;p&gt;How do you make page links available if a stat is high enough?&lt;/p&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;p&gt;{if player.cunning&amp;gt;25:}&lt;br&gt;
+I want the following to be displayed&lt;/p&gt;
+
+&lt;p&gt;{command:go to Room4: So cunning you get to go here!}&lt;/p&gt;
+
+&lt;p&gt;Now I'm adding the commands to the text description, and I can't quite get it right.&lt;/p&gt;
+
+&lt;p&gt;Second Question:&lt;br&gt;
+The next thing I am having trouble with is blocking a path (exit) after it has been used. &lt;br&gt;
+Player has a choice of going to Room2, Room3, or Room4, player can't go to Room4 till their cunning is increased, so that isn't displayed yet, So player picks Room2, then Room2 links back to the Original Room1, but now I want Room2 to be blocked, that choice has already been taken and is no longer valid. &lt;/p&gt;
+
+&lt;p&gt;I've dabbled in exits and if's there as well, but can't quite get that right.&lt;/p&gt;
+
+&lt;p&gt;Last Question (For Now)&lt;br&gt;
+How do you display stats on a page without using the show panes interface? I'm looking to make it feel like more of a choose your own adventure, but with stats still recorded and shown.&lt;/p&gt;
+
+&lt;p&gt;I hopefully want it in descriptions, or maybe at header.&lt;br&gt;
+ Maybe there is a way to have the option to remove inventory, compass, place and objects from the screen, but keep status?  &lt;/p&gt;
+
+&lt;p&gt;Any answer, would be very useful, thanks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</guid>
+<pubDate>Fri, 23 Oct 2015 16:06:51 +0000</pubDate>
+</item>
+<item>
+<title>Online version of Quest: How do I change the value of Status Attributes?</title>
+<link>http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</link>
+<description>&lt;p&gt;First of all, I know that someone already asked a question about changing status attributes &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/623/quest-how-do-i-change-status-attributes?show=623#q623&quot;&gt;here&lt;/a&gt;, but the answers seemed to be specifically for the Windows desktop version of Quest, which I cannot access.&lt;/p&gt;
+
+&lt;p&gt;Initially, I was having difficulty with setting up a Status Attribute for &quot;cash,&quot; but hegemonkhan's answer to &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/969/i-need-help-with-attributes?show=969#q969&quot;&gt;this question&lt;/a&gt; helped me with that. Many thanks to him.&lt;/p&gt;
+
+&lt;p&gt;But now that I've set up my status attribute for cash, I'm not sure how to change the value of the variable. I want my player to start the game with $20, so I set the variable &quot;player.cash&quot; to 20, created a new string dictionary for &quot;player.statusattributes,&quot; and then added &quot;cash&quot; to that string dictionary. Like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/o4HujGa.png&quot; alt=&quot;An effective setup for &amp;quot;cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;That worked. On the right sidebar of my game, in the &quot;status&quot; panel, it says &quot;Cash: $20.&quot; Then, in an attempt to figure out how to increase the &quot;player.cash&quot; value during gameplay, I tried to create the command &quot;increase cash&quot; which I wanted to simply add $20 to the player's &quot;cash&quot; value. But I didn't really know how to do that, as you can see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/uP0gAX8.png&quot; alt=&quot;An ineffective setup for &amp;quot;increase cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;My attempt probably looks extremely laughable to those who actually know what they're doing. Can anyone help me figure out how to increase the &quot;player.cash&quot; variable in a way that is compatible with the online version of Quest?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</guid>
+<pubDate>Fri, 04 Sep 2015 03:42:47 +0000</pubDate>
+</item>
+<item>
+<title>I need help with attributes.</title>
+<link>http://ifanswers.com/969/i-need-help-with-attributes</link>
+<description>&lt;p&gt;I am limited to the browser version of Quest, and I would like to know how to make custom status attributes that show in the menu on the side when being played.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/969/i-need-help-with-attributes</guid>
+<pubDate>Sat, 25 Jul 2015 04:34:18 +0000</pubDate>
+</item>
+</channel>
+</rss>

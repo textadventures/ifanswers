@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged verb</title>
+<link>http://ifanswers.com/tag/verb</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest: Can I hide and unhide a Verb?</title>
+<link>http://ifanswers.com/680/quest-can-i-hide-and-unhide-a-verb</link>
+<description>&lt;p&gt;Heya!&lt;/p&gt;
+
+&lt;p&gt;I'm just wondering - can I temporarily hide a Verb? So that say, I can have the Verbs &quot;Speak To&quot; and &quot;Kiss&quot;. Before the player uses &quot;Speak To&quot; they'll not see the verb &quot;Kiss&quot;, and after they use &quot;Speak To&quot; it'll show up in the Verb List?&lt;/p&gt;
+
+&lt;p&gt;I know I can make &quot;Kiss&quot; invisible, but I'd like to have it show up on the list, for player use.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/680/quest-can-i-hide-and-unhide-a-verb</guid>
+<pubDate>Wed, 27 May 2015 20:41:59 +0000</pubDate>
+</item>
+</channel>
+</rss>

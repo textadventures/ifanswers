@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged squiffy</title>
+<link>http://ifanswers.com/tag/squiffy</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Random text in Squiffy</title>
+<link>http://ifanswers.com/1175/random-text-in-squiffy</link>
+<description>&lt;p&gt;I can't seem to get my random text generator to work. I am trying to randomly create an attribute in Squiffy using &lt;/p&gt;
+
+&lt;p&gt;var randomnumber = function rng(min, max) {&lt;br&gt;
+      return Math.floor(Math.random() * (max - min) + min);&lt;br&gt;
+    }&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set (&quot;mynumber&quot;, randomnumber(1,6));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but it doesn't seem to work as a variable. All I get is null. Help! &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1175/random-text-in-squiffy</guid>
+<pubDate>Fri, 11 Sep 2015 23:37:28 +0000</pubDate>
+</item>
+<item>
+<title>Does Squiffy use the same MIT licence as Quest?</title>
+<link>http://ifanswers.com/1136/does-squiffy-use-the-same-mit-licence-as-quest</link>
+<description>&lt;p&gt;The Squiffy page doesn't seem to indicate what licence the software is under.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1136/does-squiffy-use-the-same-mit-licence-as-quest</guid>
+<pubDate>Mon, 31 Aug 2015 12:23:09 +0000</pubDate>
+</item>
+<item>
+<title>Is there a way to turn Squiffy passage links into a regular link for accessibility purposes?</title>
+<link>http://ifanswers.com/852/there-squiffy-passage-links-regular-accessibility-purposes</link>
+<description>&lt;p&gt;Hi everyone,&lt;br&gt;
+I just discovered Squiffy due to checking out the IFWiki. I like it's simple approach to gamebook creation, and I wonder why one would use Quest for gamebooks now unless they wanted multimedia.&lt;br&gt;
+I'm curious: since I'm using a screen reader, is there a way to modify both passage and section links to turn into regular links such as those created with the aref HTML tag rather than what it is currently using? I found that with my screen reader of choice at the moment, pressing enter on the links doesn't work and I have to route my screen reader's simulated mouse to the word and click, whereas with a regular link I can simply press enter on it.&lt;br&gt;
+The link I am talking about is, after clicking on an image to pass the title screen in Spondre, there is a &quot;click to continue&quot; link that's perfect. Though, pressing enter on the title image worked.&lt;br&gt;
+So I'm playing Spondre now and these clickable links are working great. They didn't work so well in the Squiffy documentation though, I couldn't click Roast Chicken or the other links in that scratchpad example. Also, in the examples, I get what appears to be an empty multiline text box, with numbers 1 to however many lines the example contains. I should be able to edit the example, but my screen reader thinks that text box above the example and number of lines is empty.&lt;br&gt;
+When I look at the example, I can't see where a new line ends and where a new line begins, so I thought that maybe the text box would give a clue as to how it was written.&lt;br&gt;
+Also, a design question going around in my head is, for the benefit of blind players, should I clear the screen for passages in rooms? Spondre, while playable, makes it a bit hard to find new text. I haven't found anymore Squiffy games on Textadventures.&lt;/p&gt;
+
+&lt;p&gt;Update: I'll have to see about new Squiffy games with this corrected tag. I'm more interested in creating them, though. I hope an accessible editor can be found.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/852/there-squiffy-passage-links-regular-accessibility-purposes</guid>
+<pubDate>Sat, 27 Jun 2015 04:27:02 +0000</pubDate>
+</item>
+<item>
+<title>Can't get game to refresh itself</title>
+<link>http://ifanswers.com/821/cant-get-game-to-refresh-itself</link>
+<description>&lt;p&gt;Squiffy 2 or 3 or 4&lt;br&gt;
+I've uploaded the game to my website. At the [[END]] section I inform the player that the game has ended and he can close his browser. Ok, When I create another tab or a new window and proceed to play the game again. The whole game is laid out before me just as it was when I ended the game and closed my browser. I tried putting @clear in the [[END]] section as the last line, but all that does is clear all the previous sections and leases the game still open so that when I open another tab and try playing the game again I am brought back to the END section and the game won't start again until I click on Restart link. What can I do that will insure a fresh start each time the game is opened?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/821/cant-get-game-to-refresh-itself</guid>
+<pubDate>Tue, 23 Jun 2015 06:46:09 +0000</pubDate>
+</item>
+<item>
+<title>Squiffy: Extracting Data From Objects Variables.</title>
+<link>http://ifanswers.com/716/squiffy-extracting-data-from-objects-variables</link>
+<description>&lt;p&gt;I have lately been looking at questions asked by people who have been using Squiffy to create their projects. It seems that Objects are the hot topic of the week. My question can be viewed here. Simply copy and paste into the Squiffy Scratchpad (&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/squiffy/scratchpad/):&quot;&gt;http://docs.textadventures.co.uk/squiffy/scratchpad/):&lt;/a&gt; &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    function item(name, amount, type, returnAmount, descri){
+        this.name = name;
+        this.itemAmount = amount;
+        this.type = type; 
+        this.returnVaule = returnAmount; 
+        this.description = descri; 
+    }
+
+    function person(name, hp, dex, str){ 
+        this.name = name; 
+        this.healthPoints = hp; 
+        this.dexPoints = dex;
+        this.strPoints = str;
+    }
+
+    var self = new person(&quot;You&quot;, 10, 5, 5)
+
+    var other = new person(&quot;Other Guy&quot;, 20, 8, 8)
+
+    var healthPotion = new item(&quot;Health Potion&quot;, 0, &quot;potion&quot;, 5, &quot;Heals you for five health points&quot;)
+
+    var strengthPotion = new item(&quot;Strength Potion&quot;, 0, &quot;potion&quot;, 3, &quot;Adds three points of Strength for one point of Dexterity&quot;)
+
+[Test]
+
+[Test]: 
+@clear
+
+Viewing the this.name of self variable: 
+[View](V1)
+
+Viewing the this.healthPoints of self variable: 
+[View](V2)
+
+Viewing the two variables together: 
+[View](V3)
+
+[V1]: 
+    alert(self.name)
+
+[V2]: 
+    alert(self.healthPoints)
+
+[V3]:
+@clear
+    alert(self.name + &quot; have &quot; + self.healthPoints + &quot; Health Tokens.&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How can I get self.name to appear here? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/716/squiffy-extracting-data-from-objects-variables</guid>
+<pubDate>Wed, 03 Jun 2015 22:17:33 +0000</pubDate>
+</item>
+<item>
+<title>Squiffy: Interaction between objects</title>
+<link>http://ifanswers.com/699/squiffy-interaction-between-objects</link>
+<description>&lt;p&gt;Hello I am creating a proof of concept of a battle system. I am curious about how to extract the values of the subnames. Seen here. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    function item(name, amount, type, return, descri){
+    this.name = name;
+    this.itemAmount = amount;
+    this.type = type; 
+    this.returnVaule = return; 
+    this.description = descri; 
+    }
+
+function person(name, hp, dex, str){ 
+    this.name = name; 
+    this.healthPoints = hp; 
+    this.dexPoints = dex;
+    this.strPoints = str;
+}
+var self = new person(&quot;You&quot;, 10, 5, 5)
+
+var other = new person(&quot;Other Guy&quot;, 20, 8, 8)
+
+var healthPotion = new item(&quot;Health Potion&quot;, potion, 5, &quot;Heals you for five health points&quot;)
+
+var strengthPotion = new item(&quot;Strength Potion&quot;, potion, 3, &quot;Adds three points of Strength for one point of Dexterity&quot;)
+[Test]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You have {self.healthPoints} health points. &lt;/p&gt;
+
+&lt;p&gt;Here are the errors I am getting: &lt;br&gt;
+Uncaught SyntaxError: Unexpected token return&lt;br&gt;
+    at Object.InjectedScript.&lt;em&gt;evaluateOn (:895:140)&lt;br&gt;
+    at Object.InjectedScript.&lt;/em&gt;evaluateAndWrap (:828:34)&lt;br&gt;
+    at Object.InjectedScript.evaluate (:694:21)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/699/squiffy-interaction-between-objects</guid>
+<pubDate>Fri, 29 May 2015 18:27:55 +0000</pubDate>
+</item>
+<item>
+<title>Squiffy: Inserting images?</title>
+<link>http://ifanswers.com/681/squiffy-inserting-images</link>
+<description>&lt;p&gt;I have no idea where to begin if one was trying to insert an image within a section and passage. The only proof I have that this is even possible is here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://play.textadventures.co.uk/Play.aspx?id=w207ce4zekubenmwgss5pa&quot;&gt;http://play.textadventures.co.uk/Play.aspx?id=w207ce4zekubenmwgss5pa&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/681/squiffy-inserting-images</guid>
+<pubDate>Wed, 27 May 2015 22:53:17 +0000</pubDate>
+</item>
+<item>
+<title>Why does this Javascript not work in squiffy but will in a js editor</title>
+<link>http://ifanswers.com/614/why-does-this-javascript-not-work-squiffy-but-will-js-editor</link>
+<description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;Why does the button execute in a js editor but not in squiffy?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i162.photobucket.com/albums/t244/Dimbobx/Dimbobx095/entername_zpsqkqxyfzx.jpg&quot; alt=&quot;codescreenshot&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Many thanks,&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/614/why-does-this-javascript-not-work-squiffy-but-will-js-editor</guid>
+<pubDate>Tue, 19 May 2015 13:05:47 +0000</pubDate>
+</item>
+<item>
+<title>Squiffy: How to force two variables to equal based off another variable?</title>
+<link>http://ifanswers.com/583/squiffy-how-force-variables-equal-based-off-another-variable</link>
+<description>&lt;p&gt;This question is a bit hard to ask so it is best if I show it instead: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@set car =
+@set color1 =
+@set color2 = 
+@set colorAll = 
+
+    if(get(&quot;car&quot;) =truck){
+        set(get(&quot;color1&quot;), get(&quot;colorAll&quot;));
+        set(get(&quot;color2&quot;), get(&quot;colorAll&quot;));
+        }else{
+            } 
+
+This is a test to make two variables the same based off of one using javascript! 
+Select a vehicle:{rotate car:truck:car:bus} 
+
+[Continue](step1) 
+
+{if car=bus: Select a color {rotate colorAll:red:yellow:orange} 
+
+[Continue](test)
+}{else: Select two colors please: 
+
+Color 1: {rotate color1:red:yellow:orange} 
+
+Color 2: {rotate color1:red:yellow:orange}
+
+[Continue](test)
+}
+
+[Javascript Test](test) 
+
+[test]: 
+
+
+You have  a {color1} car! It even has {color2} tinted windows!!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/583/squiffy-how-force-variables-equal-based-off-another-variable</guid>
+<pubDate>Thu, 07 May 2015 18:07:55 +0000</pubDate>
+</item>
+<item>
+<title>Squiffy: How to fix if else error?</title>
+<link>http://ifanswers.com/562/squiffy-how-to-fix-if-else-error</link>
+<description>&lt;pre&gt;&lt;code&gt;if ( num1 &amp;lt; num2*0.10) {
+     message = &quot;poor&quot; 
+} else if ( etc ) { 
+     etc 
+} else {
+    etc 
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following is pseudo code that did not work well in practice. Is there some special way I must put if-else statements in Squiffy? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/562/squiffy-how-to-fix-if-else-error</guid>
+<pubDate>Mon, 27 Apr 2015 21:24:19 +0000</pubDate>
+</item>
+<item>
+<title>How to compare two variables in Squiffy?</title>
+<link>http://ifanswers.com/507/how-to-compare-two-variables-in-squiffy</link>
+<description>&lt;p&gt;What would be the best way to compare two variables? &lt;/p&gt;
+
+&lt;p&gt;{ if varOne == varTwo: [blah blah]}{else: }&lt;/p&gt;
+
+&lt;p&gt;This doesnt seem to work for me in Squiffy. It pulls up an error.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/507/how-to-compare-two-variables-in-squiffy</guid>
+<pubDate>Sun, 19 Apr 2015 20:44:25 +0000</pubDate>
+</item>
+<item>
+<title>How to deal with large numbers in Squiffy?</title>
+<link>http://ifanswers.com/466/how-to-deal-with-large-numbers-in-squiffy</link>
+<description>&lt;p&gt;The follow code did not work. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function addPoints(addNum,addOn) {
+    if (addOn = selfHP)
+        return selfLus + addNum
+    else: 
+        return null 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am trying to use some outside of @dec selfHP five times.  I tried to create a function however nothing at all happened. Do anyone know how to make something like this work? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/466/how-to-deal-with-large-numbers-in-squiffy</guid>
+<pubDate>Sun, 12 Apr 2015 10:07:34 +0000</pubDate>
+</item>
+<item>
+<title>Can I add dud links and tooltips in Squiffy with Javascript?</title>
+<link>http://ifanswers.com/160/can-i-add-dud-links-and-tooltips-in-squiffy-with-javascript</link>
+<description>Dud links - A link that can be moused over but not clicked.&lt;br /&gt;
+&lt;br /&gt;
+Tooltips - The box that appear when mouse over something.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+These two things could be used in some interesting ways. I am wondering what must be done to do either of these features. Is doing this even possible?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/160/can-i-add-dud-links-and-tooltips-in-squiffy-with-javascript</guid>
+<pubDate>Thu, 26 Mar 2015 01:48:19 +0000</pubDate>
+</item>
+<item>
+<title>How to add a random number generator in Squiffy?</title>
+<link>http://ifanswers.com/27/how-to-add-a-random-number-generator-in-squiffy</link>
+<description>Hello there. I am Dandre and I am trying to create a text based game called Token Ino with Squiffy. The current problems I have been having has been using javascript to create a random number with the following psudeo code.&lt;br /&gt;
+&lt;br /&gt;
+var randomnumber = function rng(min, max) {&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;return Math.random() * (max - min) + min;&lt;br /&gt;
+}&lt;br /&gt;
+&lt;br /&gt;
+I am not sure if I am doing something wrong because if I try to call {randomnumber} or reference it in a if then statement it doesnt show a number or the vaule is equal with null. I simply want a variable that is randomly generatored. :) Also if it isnt too hard to implent is it possible for me to have chance in Squiffy implented in any kind of way using javascript? Imagine if you had a var 1 = 2 and with var 1 being to that increases your chances of succuding by 60 percent. This could also be used in the 'combat' system I am working on.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/27/how-to-add-a-random-number-generator-in-squiffy</guid>
+<pubDate>Mon, 23 Mar 2015 15:30:18 +0000</pubDate>
+</item>
+</channel>
+</rss>

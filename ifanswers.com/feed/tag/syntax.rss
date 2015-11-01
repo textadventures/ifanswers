@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged syntax</title>
+<link>http://ifanswers.com/tag/syntax</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Is there syntax to allow multiple expressions in the same script?</title>
+<link>http://ifanswers.com/846/there-syntax-to-allow-multiple-expressions-the-same-script</link>
+<description>&lt;p&gt;I'm working a Star Trek game and am using a &quot;say&quot; command for the Turblolift. Everything is working fine, but I worry I'm facing a situation where I'll need to create a new script for every possible spelling or capitalization (We're using the web GUI for this whole project and won't be copy/pasting any code).&lt;/p&gt;
+
+&lt;p&gt;If I want the commands for &quot;Deck 6, deck 6, Engineering, engineering&quot; to all send the player to the same location, is there syntax I can use to include it all on one line? Apologies if the answer is in the tutorials; everything I've found that seems relevant results in errors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/razE4sj.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/846/there-syntax-to-allow-multiple-expressions-the-same-script</guid>
+<pubDate>Thu, 25 Jun 2015 22:55:27 +0000</pubDate>
+</item>
+</channel>
+</rss>

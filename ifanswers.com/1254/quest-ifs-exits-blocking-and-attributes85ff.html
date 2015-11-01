@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Quest: if's, exits, blocking and attributes - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="So these forums have been very useful, thanks a ton for that. I've tried using gamebook version, ... status? Any answer, would be very useful, thanks.">
+		<meta name="keywords" content="Authoring,exit,status-attributes,descriptions,quest,if-script">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="quest-ifs-exits-blocking-and-attributes.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '1254\/quest-ifs-exits-blocking-and-attributes';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=1254%2Fquest-ifs-exits-blocking-and-attributes%3Fshow%3D1267" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374729-e6f8e1fb5645df64fe9cc891ae7c2a99b7c9e166" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register502a.html?to=1254%2Fquest-ifs-exits-blocking-and-attributes%3Fshow%3D1267" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="quest-ifs-exits-blocking-and-attributes.html">
+							<span class="entry-title">Quest: if's, exits, blocking and attributes</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q1254">
+							<form method="post" action="http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes?show=1267">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_1254">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1254_1_q1254" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">36</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374729-2b7156cfffe8cd5b595b42df1d1928f4c9121777">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes?show=1267">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="quest-ifs-exits-blocking-and-attributes.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-10-23T16:06:51+0000">Oct 23</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/Toris.html" class="qa-user-link url fn entry-title nickname">Toris</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">1</span><span class="qa-q-view-who-points-pad"> point)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">edited</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-10-23T18:39:01+0000">Oct 23</span></span></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span><span class="qa-q-view-who-data"><a href="../user/Toris.html" class="qa-user-link url fn entry-title nickname">Toris</a></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="1254"></a><div class="entry-content"><p>So these forums have been very useful, thanks a ton for that.<br>
+I've tried using gamebook version, but it seems rather limited, and I couldn't find dictionary functions to make attributes work properly and still so much more the text version does better.</p>
+
+<p>Looking for Text Adventure Answers please**</p>
+
+<p>So First Question is:</p>
+
+<p>How do you make page links available if a stat is high enough?</p>
+
+<p>example:</p>
+
+<p>{if player.cunning&gt;25:}<br>
+I want the following to be displayed</p>
+
+<p>{command:go to Room4: So cunning you get to go here!}</p>
+
+<p>Now I'm adding the commands to the text description, and I can't quite get it right.</p>
+
+<p>Second Question:<br>
+The next thing I am having trouble with is blocking a path (exit) after it has been used. <br>
+Player has a choice of going to Room2, Room3, or Room4, player can't go to Room4 till their cunning is increased, so that isn't displayed yet, So player picks Room2, then Room2 links back to the Original Room1, but now I want Room2 to be blocked, that choice has already been taken and is no longer valid. </p>
+
+<p>I've dabbled in exits and if's there as well, but can't quite get that right.</p>
+
+<p>Last Question (For Now)<br>
+How do you display stats on a page without using the show panes interface? I'm looking to make it feel like more of a choose your own adventure, but with stats still recorded and shown.</p>
+
+<p>I hopefully want it in descriptions, or maybe at header.<br>
+ Maybe there is a way to have the option to remove inventory, compass, place and objects from the screen, but keep status?  </p>
+
+<p>Any answer, would be very useful, thanks.</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/exit.html" rel="tag" class="qa-tag-link">exit</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/status-attributes.html" rel="tag" class="qa-tag-link">status-attributes</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/descriptions.html" rel="tag" class="qa-tag-link">descriptions</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/quest.html" rel="tag" class="qa-tag-link">quest</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/if-script.html" rel="tag" class="qa-tag-link">if-script</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" id="c1254_list">
+										<div class="qa-c-list-item  hentry comment" id="c1255">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="quest-ifs-exits-blocking-and-attributeseda6.html?show=1255#c1255" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-23T17:49:32+0000">Oct 23</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="1255"></a><div class="entry-content">Do you want our responses~answers for Gamebook version or the Text Adventure version? Which are you using? (It's unclear from your post, at least for me)</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374729-ea81f36d52233e0da6c074d4e39a516dc4184adb">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a1256">
+								<form method="post" action="http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes?show=1267">
+									<div class="qa-voting qa-voting-net" id="voting_1256">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1256_1_a1256" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374729-2b7156cfffe8cd5b595b42df1d1928f4c9121777">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="quest-ifs-exits-blocking-and-attributes50ff.html?show=1256#a1256" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-10-23T18:24:10+0000">Oct 23</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">161</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-10-23T18:29:26+0000">Oct 23</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes?show=1267">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="1256"></a><div class="entry-content"><p>if you're asking about how to do this stuff in Gamebook, I'm not that familar with it, as I've not yet used, nor studied it, much, however, hopefully this can help you with how to move amongst the Pages in code:</p>
+
+<p><a rel="nofollow" href="../1246/what-script-creates-a-link-to-a-page.html">http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</a></p>
+
+<p>for scripting in GameBook, you need to set the 'page type' to either: [script] or [script+text]</p>
+
+<p>also, if you want the scripting to be done as 'within text' (aka: 'msg' ~ 'print a message' Scripts), then you'd use the 'text prcoessor commands':</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/text_processor.html">http://docs.textadventures.co.uk/quest/text_processor.html</a></p>
+
+<p>otehrwise, the normal scripting syntax looks like this in code:</p>
+
+<pre><code>if (player.cunning &gt; 25)
+{
+        msg ("So cunning, you get to go here!")
+        // the goto page scripting shown in the link above as a text processor command, or as normal scripting: but I don't know what its syntax looks like and am too lazy to make a gamebook game to look it up
+      // in a text adventure it's:
+      // player.parent = destination_room_name
+      // or:
+      // MoveObject (name_of_object_you_want_to_move, name_of_destination_object)
+      // MoveObject (player, destination_room_name)
+}
+</code></pre>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/attributes/parent.html">http://docs.textadventures.co.uk/quest/attributes/parent.html</a><br>
+^^^^^^^^^^^<br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/elements/object.html">http://docs.textadventures.co.uk/quest/elements/object.html</a><br>
+^^^^^^^^^^<br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/elements/">http://docs.textadventures.co.uk/quest/elements/</a></p>
+
+<p>and</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/corelibrary/moveobject.html">http://docs.textadventures.co.uk/quest/functions/corelibrary/moveobject.html</a></p>
+
+<hr>
+
+<p>as for blocking, a simple way is using the 'visited' built-in Attribute (I don't know if the 'visited' Attribute exists in GameBook or not):</p>
+
+<pre><code>if (room_X.visited)
+{
+        msg ("You can't go back to that room anymore")
+}
+else
+{
+        // an example using Text Adventure code:
+        // msg ("You go to room_X")
+        // player.parent = room_X
+}
+</code></pre>
+
+<p>if the GameBook doesn't have the 'visited' Attribute, you're going to have to make your own Attribute, either a Boolean or Int (Integer) or String Attribute, to check for (not sure if you can add Attributes to the 'Page' Objects or not, I think you can though if I remember Pixie answering this for someone, but I could be wrong ~ if you can't, you can add the Attributes to the 'player' or 'game' object instead):</p>
+
+<p>before going to room_X:</p>
+
+<p>Boolean: room_X.visited (or call it something else, lol) = false</p>
+
+<p>Integer: room_X.visited = 0</p>
+
+<p>String: room_X.visited = "0"</p>
+
+<p>after going to toom_X:</p>
+
+<p>Boolean: room_X.visited = true</p>
+
+<p>Integer: room_X.visited = 1</p>
+
+<p>String: room_X.visited = "1"</p>
+
+<hr>
+
+<p>and the check for it (lazy horizontal code form, not fully explained nor all variations that you can do, just a quick brief incomplete examples):</p>
+
+<p>Boolean:</p>
+
+<p>if (room<em>X.visited = false) { player.parent room</em>X } else { msg ("You can't go back to room_X anymore") }</p>
+
+<p>Integer:</p>
+
+<p>if (room<em>X.visited = 0) { player.parent room</em>X } else { msg ("You can't go back to room_X anymore") }</p>
+
+<p>String:</p>
+
+<p>if (room<em>X.visited = "0") { player.parent room</em>X } else { msg ("You can't go back to room_X anymore") }</p>
+
+<hr>
+
+<p>a way to do it (in code for text adventure):</p>
+
+<p>during game play, you literally just type in the 'Pattern' of simple-short-ness: info</p>
+
+<pre><code>&lt;command name="character_information_screen"&gt;
+        &lt;pattern&gt;info&lt;/pattern&gt;
+        &lt;script&gt;
+                ClearScreen
+                msg ("Name: " + player.alias)
+                msg ("Sex: " + player.sex)
+                msg ("Age: " + player.age_integer + "(" + player.age_string + ")")
+                msg ("Strength: " + player.strength)
+                msg ("Endurance: " + player.endurance)
+                msg ("Agility: " + player.agility)
+                // etc stats
+                wait
+                {
+                        ClearScreen
+                }
+        &lt;/script&gt;
+&lt;/command&gt;
+</code></pre>
+
+<p>// outputs example:</p>
+
+<p>Name: HK<br>
+Sex: male<br>
+Age: 18 (adult) // I wish I was 18 still, lol<br>
+Strength: 100<br>
+Endurance: 100<br>
+etc etc etc</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a1256_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c1256_list">
+											<div class="qa-c-list-item  hentry comment" id="c1257">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes27c9.html?show=1257#c1257" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-23T18:32:07+0000">Oct 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1257"></a><div class="entry-content">ask if you got any questions, as this was a quick and incomplete, non-comprehension, non-fully-explaining, answer. So ask if you're confused by anything, or if you need any specifics on how to do something, as this answer post of mine is generalized, and won't work unless you understand scripting well, already knowing how to do exactly what I just generalize for you, lol.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1258">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributesb448.html?show=1258#c1258" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-23T19:53:45+0000">Oct 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Toris.html" class="qa-user-link url fn entry-title nickname">Toris</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1258"></a><div class="entry-content">Thanks a ton, I was able to insert the if stat statement with the following in the description. And working on Text adventure.<br />
+<br />
+{if player.gunnery&gt;30: So you can go here now {command:go to Gladius Alliance: Gladius}}<br />
+Was simply putting things in the right position.<br />
+The main problem seems to be where to put things, or where to set them.<br />
+Right now I am trying to do something like <br />
+player.strength=player.strength+player.endurance/5<br />
+player.strength int 20<br />
+player.endurance int 20<br />
+<br />
+but have it a constant game thing, so either strength can be increased on it's own, or when endurance is increased so is strength. But not sure where to place it or set it up in the player file. I was thinking as a Function but can't quite get it right.<br />
+<br />
+I'm also trying to do it without player input controls, only linking, so no commands entered, just pick/choose and go along on the story.<br />
+<br />
+I'll take a look above again soon, already was able to solve a few questions for the answers here. So thanks again!</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1259">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributesa9ec.html?show=1259#c1259" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-10-23T23:58:07+0000">Oct 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-10-24T00:28:34+0000">Oct 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1259"></a><div class="entry-content">if you simply mean as in being a constant variable, in quest those are (so long as the Object that contains them, exists, of course):<br />
+<br />
+Attributes<br />
+<br />
+simply add attributes to Objects:<br />
+<br />
+'whatever' Object -&gt; 'Attributes' Tab -&gt; Attributes -&gt; Add -&gt; (see below)<br />
+<br />
+(Object Name: whatever)<br />
+Attribute Name: whatever<br />
+Attribute Type: (string, int~integer, double~floating point~float, boolean, script, object, lists, dictionaries, etc)<br />
+Attribute Value: whatever (depends upon Attribute Type though)<br />
+<br />
+or, in code's scripting, it's just:<br />
+<br />
+Object_name.Attribute_name = Expression_or_Value<br />
+~OR~<br />
+Object_name.Attribute_name<br />
+<br />
+player.strength<br />
+<br />
+player.strength = 100<br />
+<br />
+player.strength = player.strength + 1<br />
+<br />
+game.state = 0<br />
+<br />
+game.strength = 20<br />
+<br />
+orc.damage = 10<br />
+<br />
+orc.dead = false<br />
+<br />
+orc.dead = true<br />
+<br />
+player.left_hand = shield // the 'shield' must be an existing~created Object, of course<br />
+player.right_hand = sword // same for 'sword'<br />
+<br />
+player.condition = &quot;poisoned&quot;<br />
+<br />
+player.condition = &quot;normal&quot;<br />
+<br />
+player.condition = &quot;asleep&quot;<br />
+<br />
+player.damage = player.sword.physical_damage + player.sword.physical_damage * (player.strength / 100) - (orc.mail.physical_resistance + orc.mail.physical_resistance * (orc.endurance / 100))<br />
+<br />
+or, as the 'creation' tag block, in code, some examples:<br />
+<br />
+&lt;game name=&quot;xxx&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;gameid&quot; type=&quot;string&quot;&gt;xxx&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;author&quot; type=&quot;string&quot;&gt;HegemonKhan&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;category&quot; type=&quot;string&quot;&gt;RPG&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;HK_strength&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;orc_strength&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;start&quot; type=&quot;script&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;character_creation_function()<br />
+&nbsp;&nbsp;&lt;/attr&gt;<br />
+&lt;/game&gt;<br />
+<br />
+&lt;object name=&quot;player&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;HK&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;100&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_1&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+-------------------------------<br />
+<br />
+if you mean as in a 'global event', you'd use a Turnscript or the special 'changed' Script:<br />
+<br />
+for a simple quick example (being poisoned, losing 50 life, and impractically-lol gaining +5 strength, every internal turn):<br />
+<br />
+&lt;game name=&quot;xxx&quot;&gt;<br />
+&lt;/game&gt;<br />
+<br />
+&lt;object name=&quot;room&quot;&gt;<br />
+&nbsp;&nbsp;&lt;object name=&quot;player&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;attr name=&quot;life&quot; type=&quot;int&quot;&gt;999&lt;/attr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;attr name=&quot;condition&quot; type=&quot;string&quot;&gt;poisoned&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;/object&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;turnscript name=&quot;global_turnscript&quot;&gt;<br />
+&nbsp;&nbsp;&lt;enabled /&gt;<br />
+&nbsp;&nbsp;&lt;script&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if (player.life &gt; 0 and player.condition = &quot;poisoned&quot;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;player.life = player.life - 50<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;player.strength = player.strength + 5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else if (player.life &lt;= 0 and player.condition = &quot;poisoned&quot;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg (&quot;You died from the poison in your veins&quot;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg (&quot;GAME OVER&quot;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;finish<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&lt;script&gt;<br />
+&lt;/turnscript&gt;<br />
+<br />
+OR (a completely different example, lol, dealing with leveling up, raising your strength by 5)<br />
+<br />
+&lt;object name=player&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;attr name=&quot;level&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;attr name=&quot;experience&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;attr name=&quot;changedexperience&quot; type=&quot;script&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (player.experience &gt;= player.level * 100 + 100)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;player.experience = player.experience - (player.level * 100 + 100)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;player.level = player.level + 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;invoke (player.changedexperience)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;changedlevel&quot; type=&quot;script&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;player.strength = player.strength + 5<br />
+&nbsp;&nbsp;&lt;/attr&gt;<br />
+&lt;/object&gt;</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1260">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes8fa9.html?show=1260#c1260" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-10-24T00:06:17+0000">Oct 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-10-24T00:12:59+0000">Oct 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1260"></a><div class="entry-content">here's some links for you:<br />
+<br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;t=5559" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;t=5559</a><br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;t=4988" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;t=4988</a><br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/guides/running_a_script_when_an_attribute_changes.html" rel="nofollow">http://docs.textadventures.co.uk/quest/guides/running_a_script_when_an_attribute_changes.html</a> (not that explanative, grr. check the 'library and code sections, one of pixie's threads explains the special 'changed' script much better than this link does)<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/elements/turnscript.html" rel="nofollow">http://docs.textadventures.co.uk/quest/elements/turnscript.html</a><br />
+<br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=3348&amp;start=120#p22483" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=3348&amp;start=120#p22483</a><br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=3348&amp;start=120#p22486" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=3348&amp;start=120#p22486</a> (the key~legend for it, sorry about the abrevs... is very old code, I know better now, lol)<br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/" rel="nofollow">http://docs.textadventures.co.uk/quest/</a><br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/guides/" rel="nofollow">http://docs.textadventures.co.uk/quest/guides/</a><br />
+<br />
+<a href="http://docs.textadventures.co.uk/quest/guides/character_creation.html" rel="nofollow">http://docs.textadventures.co.uk/quest/guides/character_creation.html</a><br />
+<br />
+<a href="http://forum.textadventures.co.uk/viewforum.php?f=18" rel="nofollow">http://forum.textadventures.co.uk/viewforum.php?f=18</a> (more guides: libraries and code samples)</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1261">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes178e.html?show=1261#c1261" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-24T18:51:52+0000">Oct 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Toris.html" class="qa-user-link url fn entry-title nickname">Toris</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1261"></a><div class="entry-content">So I apologize for not quite figuring it out. The changes attribute might be close to what I'm looking for. Probably a turn script.<br />
+<br />
+So under player Attribute:<br />
+<br />
+Object player<br />
+Attribute<br />
+player.strength = int 20<br />
+<br />
+Key<br />
+Strength<br />
+Strength:!<br />
+<br />
+In a room I can add in the script player.strength+5 to increase it.<br />
+<br />
+player.endurance = int 20<br />
+<br />
+Key: Endurance <br />
+Endurance:!<br />
+<br />
+Now I tried to enter a script for endurance under the player object. I wanted it to be:<br />
+player.endurance=20+player.strength/5<br />
+When I do that I just get that expression in my stat line.<br />
+<br />
+I want it so I can have endurance increased on it's own, or when strength is increased endurance is updated to increase as well. I'm not sure if it would create a loop of sorts.<br />
+<br />
+So guess the question is how do I make one stat affect another?</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1262">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes192f.html?show=1262#c1262" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-10-25T03:33:00+0000">Oct 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-10-25T03:52:29+0000">Oct 24</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1262"></a><div class="entry-content">just having a script doing what you want is only half of the job, the other half of the job is in getting that script to trigger~activate when you want it to, as having a script that does what you want, but it never triggers~activates, doesn't do you any good.<br />
+<br />
+------------<br />
+<br />
+examples of 'increaser' scripts:<br />
+<br />
+GUI~Editor: add new script -&gt; variables -&gt; 'set a variable or attribute' Script -&gt; (see below)<br />
+<br />
+in-code: player.strength = player.strength + 1<br />
+<br />
+player.strength = player.strength + 5<br />
+<br />
+player.strength = player.strength * 5 // multiplier, so not technically an addition 'increaser'<br />
+<br />
+player.strength = player.endurance + 5<br />
+<br />
+player.strength = player.endurance + player.agility<br />
+<br />
+---------<br />
+<br />
+and now, when or getting, the script to then fire~trigger~activate:<br />
+<br />
+Turnscripts (global, unless you want it locally only for certain rooms)<br />
+~OR~<br />
+the special 'changed' Script<br />
+<br />
+----------<br />
+<br />
+if you want an Attribute altered, when another Attribute alters, then you need the special 'changed' Script (well, it's easier to implement than with a Turnscript, anyways):<br />
+<br />
+&lt;object name=&quot;player&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;0&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;changedendurance&quot; type=&quot;script&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;player.strength = player.endurance<br />
+&nbsp;&nbsp;&lt;attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+about the special 'changed' Script:<br />
+<br />
+when the Attribute in the 'changedATTRIBUTE' tag, changes, the subsequent script(s) trigger~activate~fire<br />
+<br />
+so, in the example above, when the endurance changes, then its scripts activate~trigger~fire, which in the simple example above, makes the 'strength' attribute's value be equal~changed to the new value of the 'endurance' attribute.<br />
+<br />
+or, using your example of:<br />
+<br />
+player.endurance=20+player.strength/5<br />
+<br />
+&lt;object name=&quot;player&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;5&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;21&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;changedstrength&quot; type=&quot;script&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;player.endurance=20+player.strength/5<br />
+&nbsp;&nbsp;&lt;attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+when your 'strength' changes, your 'endurance' gets re-calculated~re-set to the result of the formula~expression of: 20+player.strength/5<br />
+<br />
+for example explanation:<br />
+<br />
+player.strength = 5<br />
+// 20 + (5 / 5)<br />
+player.endurance = 21<br />
+<br />
+// you drink a strength elixir that gives you +5 strength (player.strength = player.strength +5):<br />
+<br />
+player.strength = 10<br />
+<br />
+// the 'changed' Script is activated, due to your strength changing (from 5 to 5+5=10):<br />
+// 20 + (10/5) = 20 + 2 = 22<br />
+<br />
+player.endurance = 22<br />
+&nbsp;<br />
+-------<br />
+<br />
+I hope you're not using (for example) 'player.endurance = int 20' as this is incorrect syntax.<br />
+<br />
+------<br />
+<br />
+maybe you might want to post your full game code, or add it as an attachment, or if you want to keep it private, you can pm or email or whatever it to me. As I need to know exactly what you're doing, to see what you're doing right and wrong, as it's unclear from what you've been posting here so far.<br />
+<br />
+----------------<br />
+<br />
+the 'STATUS ATTRIBUTES' is merely the DISPLAYMENT of your Attributes during game play in the right side's 'status' pane.<br />
+<br />
+this 'STATUS ATTRIBUTES DISPLAYMENT', GETS updated (via an internal turn, so to update your Attribute's displayment, you need to have the altering Script put in a Turnscript or the special 'changed' Script: you do NOT put your altering script into the STATUS ATTRIBUTES), it does NOT alter your Attributes.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1263">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes117f.html?show=1263#c1263" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-10-25T04:04:06+0000">Oct 25</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-10-25T04:13:24+0000">Oct 25</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1263"></a><div class="entry-content">if you want to just increase an Attribute... you need to control it... lol<br />
+<br />
+as this isn't very practical:<br />
+<br />
+game starts -&gt; strength is increased by 1 after every internal turn -&gt; strength = 100 -&gt; strength = 10000000 -&gt; strength = 1000000000000000<br />
+<br />
+you need to control when and~or how~why it increases<br />
+<br />
+for example, limiting stat increases upon 'experience~level' stats is the most well known way (&quot;leveling up&quot;).<br />
+<br />
+another way would be to limit it based upon a multiple of some stat:<br />
+<br />
++5 strength every 100 days:<br />
+<br />
+&lt;turnscript name=&quot;global_turnscript&quot;&gt;<br />
+&nbsp;&nbsp;&lt;enabled /&gt;<br />
+&nbsp;&nbsp;&lt;script&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if (game.days % 100 = 0)<br />
+&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;player.strength = player.strength + 5<br />
+&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;game.days = game.days + 1<br />
+&nbsp;&lt;/script&gt;<br />
+&lt;/turnscript&gt;<br />
+<br />
+Turnscripts fire every internal turn, so ever action (click on something or typing and hitting enter) you do, the Turnscript's Scripts are triggering, which in this case, checks for if the game.days is a multiple of 100 (day = 100, day = 200, day = 300, etc), then it will increase your strength by 5.<br />
+<br />
+---------<br />
+<br />
+the '%' math operator is known as 'modulus', it's just a division operation, except it finds the remainder.<br />
+<br />
+and if the remainder is 0, then you've got a multiple of that number you're dividing by (100):<br />
+<br />
+99 % 100 = R: 99 -&gt; 99 is not a multiple of 100<br />
+100 % 100 = R: 0 -&gt; 100 is a multiple of 100<br />
+150 % 100 = R: 50 -&gt; 150 is not a multiple of 100<br />
+200 % 100 = R: 0 -&gt; 200 is a multiple of 100<br />
+etc etc etc</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1264">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes3a6d.html?show=1264#c1264" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-25T04:20:51+0000">Oct 25</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1264"></a><div class="entry-content">here's Pixie's guide on using the special 'changed' script:<br />
+<br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;t=5307" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;t=5307</a><br />
+<br />
+and here's my guide on STATUS ATTRIBUTES:<br />
+<br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=5387&amp;p=37393&amp;hilit=statusattributes#p37375" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=5387&amp;p=37393&amp;hilit=statusattributes#p37375</a><br />
+<br />
+(includes a full sample game for you to see~study)</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1265">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes6036.html?show=1265#c1265" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-25T15:16:55+0000">6 days</span></span></span><span class="qa-c-item-when-pad"> ago</span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Toris.html" class="qa-user-link url fn entry-title nickname">Toris</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1265"></a><div class="entry-content">Awesome Thanks a ton!<br />
+<br />
+I had to alter it a bit, and add another attribute/stat, but the changed script was exactly what I wanted to use<br />
+<br />
+So right now it goes like this<br />
+<br />
+player.endurance=0<br />
+player.strength=10<br />
+player.power=10<br />
+changed.strength=Script player.endurance=player.power+player.strength/5<br />
+changed.power=Script player.endurance=player.power+player.strength/5<br />
+So endurance would become 12<br />
+<br />
+if player chooses one path and their player.power goes up by +5, then endurance becomes 17<br />
+if player chooses another path, their player.strength goes up by +5, then power becomes 13.<br />
+Power sort of is a hidden stat, or secondary term for endurance<br />
+<br />
+<br />
+<br />
+<br />
+I was running into trouble when I used:<br />
+changedstrength Script<br />
+player.endurance= 20+player.strength/5<br />
+Every time I added to endurance or to strength it would reset to 20 and calculate, instead of being a progressive continual checking, which is understandable.<br />
+<br />
+So hopefully what I did makes sense, because it seems to be working at the moment!<br />
+Now time for me to review about blocking exits and once I firmly figure that out I'll have pretty much what I want for the adventure!</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1267">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="quest-ifs-exits-blocking-and-attributes85ff.html?show=1267#c1267" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-10-25T23:18:57+0000">6 days</span></span></span><span class="qa-c-item-when-pad"> ago</span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-10-26T07:59:06+0000">6 days</span></span></span><span class="qa-c-item-when-pad"> ago</span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1267"></a><div class="entry-content">let's call this 'setting ~ re-setting' an Attribute:<br />
+<br />
+player. strength = 10<br />
+<br />
+I (set or re-set) the player's strength to 10, replacing whatever was its value (?unknown? or 'null') beforehand<br />
+<br />
+player.strength = 3<br />
+<br />
+again, I (set'ted or re-set'ted) the player's strength to 3, replacing whatever was its value (10) beforehand.<br />
+<br />
+---------------------------<br />
+<br />
+to actually increase (or as you call it, &quot;progressive&quot;) an Attribute:<br />
+<br />
+player.strength = player.strength + 5<br />
+<br />
+// you can use multiplication (*) too, or subtraction (-), division (/), or exponentials (** or whatever the operator symbols are for it) ~ obviously subtraction~division lower your stats, whereas addition~multiplication, raises your stats.<br />
+<br />
+// also, you can use any value, not just '5', as well as using another stat's value too, actually you can do any complexity of formula~equation~expression that you want:<br />
+//<br />
+// here's my own generalized-skeleton syntax that I use to explain the syntax form:<br />
+// Object_name.Attribute_name = Object_name.Attribute_name OPERATOR Value_or_Expression<br />
+//<br />
+// (ignore the non-logic of this expression below, lol), for an example:<br />
+// player.damage = player.damage + player.weapon.damage * (player.strength / 100)<br />
+<br />
+----------------------------------------------<br />
+<br />
+sorry for not explaining this originally (in my first post on this stuff ~ I didn't have the time then, as I was in a rush ~ tons of school work to get done, lol)<br />
+<br />
+---<br />
+<br />
+the VARIABLE (with the Assignment Operator) being used:<br />
+player.strength =<br />
+<br />
+first half of the formula~expression being used:<br />
+player.strength<br />
+<br />
+last half of the formula~expression being used: <br />
++ 5<br />
+<br />
+the formula's~expression's (only) OPERATOR being used:<br />
++<br />
+<br />
+the full formula~expression being used:<br />
+player.strength + 5<br />
+<br />
+the full syntax (the entire code statement) being used:<br />
+player.strength = player.strength + 5<br />
+<br />
+-----<br />
+<br />
+anyways, here's the *CONCEPTUAL* explanation~demonstration of what is going on with it:<br />
+<br />
+----<br />
+<br />
+initial (old) value: player.strength = 0<br />
+<br />
+---<br />
+<br />
+old value: player.strength = 0<br />
+<br />
+player.strength (new) = player.strength (old: 0) + 5<br />
+player.strength (new) = (0) + 5<br />
+player.strength (new) = 5<br />
+<br />
+new value: player.strength = 5<br />
+<br />
+---<br />
+<br />
+old value: player.strength = 5<br />
+<br />
+player.strength (new) = player.strength (old: 5) + 5<br />
+player.strength (new) = (5) + 5<br />
+player.strength (new) = 10<br />
+<br />
+new value: player.strength = 10<br />
+<br />
+---<br />
+<br />
+old value: player.strength = 10<br />
+<br />
+player.strength (new) = player.strength (old: 10) + 5<br />
+player.strength (new) = (10) + 5<br />
+player.strength (new) = 15<br />
+<br />
+new value: player.strength = 15<br />
+<br />
+---<br />
+<br />
+old value: player.strength = 15<br />
+<br />
+player.strength (new) = player.strength (old: 15) + 5<br />
+player.strength (new) = (15) + 5<br />
+player.strength (new) = 20<br />
+<br />
+new value: player.strength = 20<br />
+<br />
+---<br />
+<br />
+etc etc etc<br />
+<br />
+---<br />
+<br />
+and lastly, to hopefully confirm your understanding between the two (setting~re-setting and increasing~progressing) operations:<br />
+<br />
+let's say you now just drank a stat-lowering 'poison apple' in the game, setting~re-setting your strength back to being 0:<br />
+<br />
+player.strength = 0<br />
+<br />
+---<br />
+<br />
+err... lastly, lastly, we finally found a cheat item in the game, giving us godly stats:<br />
+<br />
+player.strength = 100000000000000000000000000<br />
+<br />
+---<br />
+<br />
+lastly lastly lastly, then we level up again, gaining our +5 strength:<br />
+<br />
+player.strength = player.strength + 5<br />
+<br />
+// conceptually: player.strength = player.strength (old: 100000000000000000000000000) + 5<br />
+<br />
+// new value: player.strength = 100000000000000000000000005<br />
+<br />
+------------------<br />
+<br />
+here's another demonstration: transactions (buying~selling):<br />
+<br />
+buying:<br />
+<br />
+player.cash = 100<br />
+shop_owner.cash = 500<br />
+sword.price = 100<br />
+sword.parent = shop_owner<br />
+<br />
+player.cash = player.cash - sword.price<br />
+// player.cash = (100) - (100) = 0<br />
+<br />
+shop_owner.cash = shop_owner.cash + sword.price<br />
+// shop_owner.cash = (500) + (100) = 600<br />
+<br />
+sword.parent = player<br />
+<br />
+Selling:<br />
+<br />
+(separate example: starting over, *not* continuing from having already done the buying transaction ~ the only difference in the initial stuff~values is the ownership of the sword, obviously)<br />
+<br />
+player.cash = 100<br />
+shop_owner.cash = 500<br />
+sword.price = 100<br />
+sword.parent = player<br />
+<br />
+player.cash = player.cash + sword.price<br />
+// player.cash = (100) + (100 / 2) = 150<br />
+// you never get full price in games, lol, usually, only get half the item's worth<br />
+<br />
+shop_owner.cash = shop_owner.cash - sword.price<br />
+// shop_owner.cash = (500) - (100 / 2) = 450<br />
+<br />
+sword.parent = shop_owner</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374729-2fa6107967e0749c1a3164b7231a52cca46dbd5a">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../1141/online-version-quest-how-change-the-value-status-attributes.html">Online version of Quest: How do I change the value of Status Attributes?</a></li>
+									<li class="qa-related-q-item"><a href="../945/quest-gamebook-how-to-use-and-or-and-not-inside-an-if-command.html">Quest Gamebook: How to use AND OR and NOT inside an &quot;if&quot; command?</a></li>
+									<li class="qa-related-q-item"><a href="../935/gamebook-return-previous-multiple-already-chosen-inactive.html">Quest Gamebook: Return to a previous page with multiple links, and make link already chosen inactive</a></li>
+									<li class="qa-related-q-item"><a href="../969/i-need-help-with-attributes.html">I need help with attributes.</a></li>
+									<li class="qa-related-q-item"><a href="../978/quest-why-cant-i-unlock-the-door.html">Quest - Why can't I unlock the door?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

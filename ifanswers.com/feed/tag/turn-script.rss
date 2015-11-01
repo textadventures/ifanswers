@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged turn-script</title>
+<link>http://ifanswers.com/tag/turn-script</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Stopping timer Event with Key Press</title>
+<link>http://ifanswers.com/897/stopping-timer-event-with-key-press</link>
+<description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;I new to Quest (but really enjoying it). I would like to create really, really simple combat (much simpler than the kit). By having a turn event (with a timer) when you enter a room (e.g. 'Cyborg attacks you' - if this happens 3 times with one monster you die) and having a key press (e.g. press 'Enter' or 'x') to stop this. &lt;/p&gt;
+
+&lt;p&gt;I am having trouble finding how to do a key press to stop a timer event. Actually to be honest I don't know how to do a key press to do anything. I would also like to have key presses with sounds assigned to different keys in different rooms to trigger sounds.&lt;/p&gt;
+
+&lt;p&gt;I am hopeless with anything coding related - is there a simple way to do this. I assume there is but I just am having trouble finding it. Thanks for your help.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/897/stopping-timer-event-with-key-press</guid>
+<pubDate>Thu, 09 Jul 2015 00:45:58 +0000</pubDate>
+</item>
+<item>
+<title>Quest: Having trouble with Turn Scripts.</title>
+<link>http://ifanswers.com/896/quest-having-trouble-with-turn-scripts</link>
+<description>&lt;p&gt;Heya all&lt;/p&gt;
+
+&lt;p&gt;I've been trying to use turn scripts, to little success. I tried to make a night/day cycle, where after 5 turns it would say 'Night falls' or 'Day breaks' and then set the flag Night or day. However, it would then print 'Night falls' on every turn. I even set into the Turn Script 'Disable Turn Script 'Night' - but it still printed.&lt;/p&gt;
+
+&lt;p&gt;I solved that with instead putting a timer, for 60 seconds of day, and 60 seconds of night.&lt;/p&gt;
+
+&lt;p&gt;Now I'm trying to make a turn script so that when the player takes 5 turns, they are tired and need to sleep before they can do anything.&lt;/p&gt;
+
+&lt;p&gt;I've made a Turn Script in the game, called Tired.&lt;br&gt;
+It's script in the editor is:&lt;/p&gt;
+
+&lt;p&gt;After [number] 5 turns&lt;br&gt;
+[Run Script]&lt;br&gt;
+Print message: 'You're tired'&lt;br&gt;
+Set flag [object] [player] [flag name] Tired&lt;br&gt;
+Disable turn script [Tired]&lt;/p&gt;
+
+&lt;p&gt;Still I'm getting 'You are tired' on every turn. &lt;/p&gt;
+
+&lt;p&gt;Any advice? (If I'm making any sense here)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/896/quest-having-trouble-with-turn-scripts</guid>
+<pubDate>Wed, 08 Jul 2015 16:48:38 +0000</pubDate>
+</item>
+<item>
+<title>Is there a limit to the length of a script in Quest?</title>
+<link>http://ifanswers.com/666/is-there-a-limit-to-the-length-of-a-script-in-quest</link>
+<description>&lt;p&gt;I mean a single script like entering a room, timer, command, etc.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/666/is-there-a-limit-to-the-length-of-a-script-in-quest</guid>
+<pubDate>Mon, 25 May 2015 18:58:20 +0000</pubDate>
+</item>
+<item>
+<title>How can I check the user's command?</title>
+<link>http://ifanswers.com/533/how-can-i-check-the-users-command</link>
+<description>&lt;p&gt;I have a turn script that I need to be conditional depending on what the user's command entry is.&lt;br&gt;
+I still want to parse the command, but I want additional code to run depending on what the user just did...&lt;/p&gt;
+
+&lt;p&gt;As an arbitrary example, print a message admonishing the player for looking around idly when their life is in mortal danger this very moment.&lt;/p&gt;
+
+&lt;p&gt;Or actually in the specific case, not counting Look At [enemy] as a full turn, but counting any kid of physical action as a turn. Since looking at something doesn't necessarily take a long time, I don't want to end a player's combat turn when using Look At once. (repeated stares of course I'll punish later once I know how to differentiate)&lt;/p&gt;
+
+&lt;p&gt;I'd like to avoid passing everything through Get Input, as I've found it doesn't always work correctly. (Sometimes the text entered doesn't get processed and needs to be entered a second time. I experienced this frequently with the Character Naming script I made)&lt;/p&gt;
+
+&lt;p&gt;so can anyone help?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/533/how-can-i-check-the-users-command</guid>
+<pubDate>Thu, 23 Apr 2015 04:53:41 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Inform 7: Multiple instances of a kind of thing where some (but not all) change properties - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Just to play around beginning to learn Inform 7, I created a room, the Kitchen, in which  ... changing the properties of any individual pea or lentil.">
+		<meta name="keywords" content="Authoring,inform7">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="inform-multiple-instances-thing-where-some-change-properties.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '947\/inform-multiple-instances-thing-where-some-change-properties';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=947%2Finform-multiple-instances-thing-where-some-change-properties" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374796-41cc4a4dbb5ffde1f8e3555b23447b920655b0df" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../registerc477.html?to=947%2Finform-multiple-instances-thing-where-some-change-properties" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="inform-multiple-instances-thing-where-some-change-properties.html">
+							<span class="entry-title">Inform 7: Multiple instances of a kind of thing where some (but not all) change properties</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q947">
+							<form method="post" action="http://ifanswers.com/947/inform-multiple-instances-thing-where-some-change-properties">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_947">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_947_1_q947" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">79</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374796-e4aaab6dd10a131e9aeedf48eccc9df4e9ffb341">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/947/inform-multiple-instances-thing-where-some-change-properties">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="inform-multiple-instances-thing-where-some-change-properties.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-07-21T15:22:47+0000">Jul 21</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data">Phil C</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">edited</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-07-24T10:26:02+0000">Jul 24</span></span></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span><span class="qa-q-view-who-data"><a href="../user/Alex.html" class="qa-user-link url fn entry-title nickname">Alex</a></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="947"></a><div class="entry-content"><p>Just to play around beginning to learn Inform 7, I created a room, the Kitchen, in which there are various dishes, bowls, glasses, utensils, etc. lying around. The object of the "game" is to wash them all and put them away (in various cabinets and drawers) where they belong.</p>
+
+<p>My question relates to (for example), a fork being clean or dirty. I included an action "wash [something]" which changes this property to "clean." (The game prevents the user from putting away dirty dishes until they have been washed.)</p>
+
+<p>The problem arises when I say "On the counter are 2 forks, 3 spoons, and 7 knives." What is the best way to construct these objects so that the game will keep track of which ones are clean, and which ones the player is interacting with (examining, taking, washing, putting away, etc.) at any given time? Is there a particular chapter or example in the documentation that I should refer to for a case like this?</p>
+
+<p>I found the example in the Inform manual where the player has to sort peas and lentils (Example 87 "Sand"), but in that case, every pea and every lentil was identical to all the others, and the only thing that mattered was their quantity and which container they were placed in... it wasn't a matter of changing the properties of any individual pea or lentil.</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c947_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374796-f54c11ee1fd10bb9e71448c2677b89c070c4afe4">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a951">
+								<form method="post" action="http://ifanswers.com/947/inform-multiple-instances-thing-where-some-change-properties">
+									<div class="qa-voting qa-voting-net" id="voting_951">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_951_1_a951" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374796-e4aaab6dd10a131e9aeedf48eccc9df4e9ffb341">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="inform-multiple-instances-thing-where-some-change-propertiesf37a.html?show=951#a951" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-07-21T21:19:56+0000">Jul 21</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">692</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-07-21T23:17:43+0000">Jul 21</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/947/inform-multiple-instances-thing-where-some-change-properties">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="951"></a><div class="entry-content"><p>You could do something like this to keep track of whether a utensil is clean or dirty. I'm not sure exactly what you are going for when you say you want to keep track of which ones the player is interacting with, though.</p>
+
+<p>This is based on the "Early Childhood" examples in the manual.</p>
+
+<pre><code>Cleanliness is a kind of value. The cleanlinesses are clean and dirty.
+
+A kitchen-implement is a kind of thing.
+A spoon is a kind of kitchen-implement.
+A knife is a kind of kitchen-implement.
+A fork is a kind of kitchen-implement.
+
+A kitchen-implement has a cleanliness. The cleanliness of a kitchen-implement is usually dirty.
+
+Before printing the name of a kitchen-implement, say "[cleanliness] ".
+Before printing the plural name of a kitchen-implement, say "[cleanliness] ".
+Understand the cleanliness property as describing a kitchen-implement.
+
+Washing is an action applying to one thing.
+Understand "wash [thing]" as washing.
+
+Check washing:
+    if the noun is not a kitchen-implement:
+        say "There's no need to wash [the noun]." instead;
+    otherwise if the noun is clean:
+        say "You've already washed [the noun]." instead.
+
+Carry out washing:
+    say "You wash [the noun].";
+    now the noun is clean.
+
+Kitchen is a room.
+
+A counter is a supporter in the Kitchen.
+On the counter are 2 forks, 3 spoons, and 7 knives.
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a951_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c951_list">
+											<div class="qa-c-list-item  hentry comment" id="c953">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="inform-multiple-instances-thing-where-some-change-propertiesa381.html?show=953#c953" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-07-21T22:34:49+0000">Jul 21</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/PhilC.html" class="qa-user-link url fn entry-title nickname">PhilC</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="953"></a><div class="entry-content">That worked. What I was missing was &quot;Understand the cleanliness property as describing a kitchen-implement.&quot; Without that, at least from what I gather, there was no way to distinguish the various forks/spoons etc from one another, especially once some were washed and others weren't. THANK YOU!</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1086">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/eduardomezencio.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/4dfb76b98292d18457bf0231554ad31d?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="inform-multiple-instances-thing-where-some-change-propertiesae10.html?show=1086#c1086" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-23T03:03:18+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/eduardomezencio.html" class="qa-user-link url fn entry-title nickname">eduardomezencio</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">36</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1086"></a><div class="entry-content">I have just copied and pasted this code, and then I tried to play the 'game'. When I enter &quot;clean dirty fork&quot; it executes the action, but after that both forks are still dirty...</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1087">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="inform-multiple-instances-thing-where-some-change-propertiesc2fa.html?show=1087#c1087" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-23T03:21:05+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-23T03:32:02+0000">Aug 22</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1087"></a><div class="entry-content">In the example, the only command that will lead to the new &quot;washing&quot; action is &quot;wash.&quot;<br />
+<br />
+&quot;Clean&quot; is a built-in command that will lead to the built-in &quot;rubbing&quot; action.<br />
+<br />
+If you want to reassign &quot;clean&quot; to the washing action, you could say<br />
+<br />
+Understand the command &quot;clean&quot; as something new.<br />
+Understand &quot;clean [thing]&quot; as washing.<br />
+<br />
+Another way you could handle it is to just make &quot;wash&quot; a synonym for &quot;rub&quot; (Understand &quot;wash [thing]&quot; as rubbing) instead of creating a new washing action, and then write new rules that refer to rubbing instead of washing.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1088">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/eduardomezencio.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/4dfb76b98292d18457bf0231554ad31d?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="inform-multiple-instances-thing-where-some-change-propertiesb4f1.html?show=1088#c1088" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-23T04:19:38+0000">Aug 23</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/eduardomezencio.html" class="qa-user-link url fn entry-title nickname">eduardomezencio</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">36</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1088"></a><div class="entry-content">Oh yes. I'm feeling very stupid now :/</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374796-95d2a30a9cee1ed7a99f1956f89179e0c2ee220f">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../717/how-make-the-player-specify-which-thing-kind-they-mean-inform.html">How to make the player specify which thing of a kind they mean? (Inform 7)</a></li>
+									<li class="qa-related-q-item"><a href="../894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing.html">How do I move an item I have more of in the world (since it's a kind of thing)?</a></li>
+									<li class="qa-related-q-item"><a href="../132/what-are-some-of-the-classic-inform-7-mistakes-to-look-out-for.html">What are some of the classic Inform 7 mistakes to look out for?</a></li>
+									<li class="qa-related-q-item"><a href="../573/stopping-a-message-from-being-said-multiple-times-inform-7.html">Stopping a message from being said multiple times (Inform 7)?</a></li>
+									<li class="qa-related-q-item"><a href="../67/where-can-i-report-a-bug-in-inform-7-or-the-i7-documentation.html">Where can I report a bug in Inform 7 or the I7 documentation?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

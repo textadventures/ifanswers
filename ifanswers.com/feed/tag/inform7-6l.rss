@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged inform7-6l</title>
+<link>http://ifanswers.com/tag/inform7-6l</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do you create an item which lists all of the things you've examined so far?</title>
+<link>http://ifanswers.com/1244/how-you-create-item-which-lists-the-things-youve-examined-far</link>
+<description>&lt;p&gt;I want to create a memo basically. How would I go about having the memo being updated every-time the player interacts with something? I'd want the player to able to examine the memo at any time, at any place and have a list of things they can check again.&lt;/p&gt;
+
+&lt;p&gt;For example, if they checked a table in the game, I'd want the memo to be updated with:&lt;/p&gt;
+
+&lt;p&gt;Table&lt;br&gt;
+description&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1244/how-you-create-item-which-lists-the-things-youve-examined-far</guid>
+<pubDate>Sat, 17 Oct 2015 20:14:31 +0000</pubDate>
+</item>
+<item>
+<title>How do I change 'if the player consents'? pre-Inform 6L or post-</title>
+<link>http://ifanswers.com/33/how-do-i-change-if-the-player-consents-pre-inform-6l-or-post</link>
+<description>This is something that prompted me to look into Inform 6, which isn't critical, but just knowing you can tinker helps get rid of some helplessness.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/33/how-do-i-change-if-the-player-consents-pre-inform-6l-or-post</guid>
+<pubDate>Mon, 23 Mar 2015 17:15:59 +0000</pubDate>
+</item>
+</channel>
+</rss>

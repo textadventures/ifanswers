@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions and answers</title>
+<link>http://ifanswers.com/qa</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Answered: Use Left, Right, etc, not North South, Etc.</title>
+<link>http://ifanswers.com/1266/use-left-right-etc-not-north-south-etc?show=1270#a1270</link>
+<description>&lt;p&gt;The big problem is that you need to track which way the player is looking, and to have room descriptions change, depending on that.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You are in a room with a TV in front of you, the door to the hall is behind you and a door to the kitchen to the left.
+LEFT
+You are in a room with a TV to your right, the door to the hall is left and a door to the kitchen ahead.
+FORWARD
+You are in the kitchen; the door is behind you.
+LEFT
+You are in the kitchen; the door is to the left.
+LEFT
+You are in the kitchen; the door is ahead.
+FORWARD
+You are in a room with a TV to the left, the door to the hall is right and a door to the kitchen behind you.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Perhaps the player types left to turn left and go that way. That would be more natural, but could be more confusing.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You are in a room with a TV in front of you, the door to the hall is behind you and a door to the kitchen to the left.
+LEFT
+You are in the kitchen; the door is behind you.
+BACK
+You are in a room with a TV to the left, the door to the hall is right and a door to the kitchen behind you.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is certainly doable. The system HK describes is not going to work because it is not dynamic; you need exits to change as the player changes direction. &lt;br&gt;
+I would abandon the compass rose; that is going to be very tricking. Make your rooms with compass exits as normal, and then create new commands, LEFT, RIGHT, FORWARD and BACK, and have them calculate the compass direction, and act accordingly.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1266/use-left-right-etc-not-north-south-etc?show=1270#a1270</guid>
+<pubDate>Tue, 27 Oct 2015 12:10:30 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Quest: if's, exits, blocking and attributes</title>
+<link>http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes?show=1256#a1256</link>
+<description>&lt;p&gt;if you're asking about how to do this stuff in Gamebook, I'm not that familar with it, as I've not yet used, nor studied it, much, however, hopefully this can help you with how to move amongst the Pages in code:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/1246/what-script-creates-a-link-to-a-page&quot;&gt;http://ifanswers.com/1246/what-script-creates-a-link-to-a-page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;for scripting in GameBook, you need to set the 'page type' to either: [script] or [script+text]&lt;/p&gt;
+
+&lt;p&gt;also, if you want the scripting to be done as 'within text' (aka: 'msg' ~ 'print a message' Scripts), then you'd use the 'text prcoessor commands':&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/text_processor.html&quot;&gt;http://docs.textadventures.co.uk/quest/text_processor.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;otehrwise, the normal scripting syntax looks like this in code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if (player.cunning &amp;gt; 25)
+{
+        msg (&quot;So cunning, you get to go here!&quot;)
+        // the goto page scripting shown in the link above as a text processor command, or as normal scripting: but I don't know what its syntax looks like and am too lazy to make a gamebook game to look it up
+      // in a text adventure it's:
+      // player.parent = destination_room_name
+      // or:
+      // MoveObject (name_of_object_you_want_to_move, name_of_destination_object)
+      // MoveObject (player, destination_room_name)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/attributes/parent.html&quot;&gt;http://docs.textadventures.co.uk/quest/attributes/parent.html&lt;/a&gt;&lt;br&gt;
+^^^^^^^^^^^&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/elements/object.html&quot;&gt;http://docs.textadventures.co.uk/quest/elements/object.html&lt;/a&gt;&lt;br&gt;
+^^^^^^^^^^&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/elements/&quot;&gt;http://docs.textadventures.co.uk/quest/elements/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/moveobject.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/moveobject.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;as for blocking, a simple way is using the 'visited' built-in Attribute (I don't know if the 'visited' Attribute exists in GameBook or not):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if (room_X.visited)
+{
+        msg (&quot;You can't go back to that room anymore&quot;)
+}
+else
+{
+        // an example using Text Adventure code:
+        // msg (&quot;You go to room_X&quot;)
+        // player.parent = room_X
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if the GameBook doesn't have the 'visited' Attribute, you're going to have to make your own Attribute, either a Boolean or Int (Integer) or String Attribute, to check for (not sure if you can add Attributes to the 'Page' Objects or not, I think you can though if I remember Pixie answering this for someone, but I could be wrong ~ if you can't, you can add the Attributes to the 'player' or 'game' object instead):&lt;/p&gt;
+
+&lt;p&gt;before going to room_X:&lt;/p&gt;
+
+&lt;p&gt;Boolean: room_X.visited (or call it something else, lol) = false&lt;/p&gt;
+
+&lt;p&gt;Integer: room_X.visited = 0&lt;/p&gt;
+
+&lt;p&gt;String: room_X.visited = &quot;0&quot;&lt;/p&gt;
+
+&lt;p&gt;after going to toom_X:&lt;/p&gt;
+
+&lt;p&gt;Boolean: room_X.visited = true&lt;/p&gt;
+
+&lt;p&gt;Integer: room_X.visited = 1&lt;/p&gt;
+
+&lt;p&gt;String: room_X.visited = &quot;1&quot;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;and the check for it (lazy horizontal code form, not fully explained nor all variations that you can do, just a quick brief incomplete examples):&lt;/p&gt;
+
+&lt;p&gt;Boolean:&lt;/p&gt;
+
+&lt;p&gt;if (room&lt;em&gt;X.visited = false) { player.parent room&lt;/em&gt;X } else { msg (&quot;You can't go back to room_X anymore&quot;) }&lt;/p&gt;
+
+&lt;p&gt;Integer:&lt;/p&gt;
+
+&lt;p&gt;if (room&lt;em&gt;X.visited = 0) { player.parent room&lt;/em&gt;X } else { msg (&quot;You can't go back to room_X anymore&quot;) }&lt;/p&gt;
+
+&lt;p&gt;String:&lt;/p&gt;
+
+&lt;p&gt;if (room&lt;em&gt;X.visited = &quot;0&quot;) { player.parent room&lt;/em&gt;X } else { msg (&quot;You can't go back to room_X anymore&quot;) }&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;a way to do it (in code for text adventure):&lt;/p&gt;
+
+&lt;p&gt;during game play, you literally just type in the 'Pattern' of simple-short-ness: info&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;command name=&quot;character_information_screen&quot;&amp;gt;
+        &amp;lt;pattern&amp;gt;info&amp;lt;/pattern&amp;gt;
+        &amp;lt;script&amp;gt;
+                ClearScreen
+                msg (&quot;Name: &quot; + player.alias)
+                msg (&quot;Sex: &quot; + player.sex)
+                msg (&quot;Age: &quot; + player.age_integer + &quot;(&quot; + player.age_string + &quot;)&quot;)
+                msg (&quot;Strength: &quot; + player.strength)
+                msg (&quot;Endurance: &quot; + player.endurance)
+                msg (&quot;Agility: &quot; + player.agility)
+                // etc stats
+                wait
+                {
+                        ClearScreen
+                }
+        &amp;lt;/script&amp;gt;
+&amp;lt;/command&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;// outputs example:&lt;/p&gt;
+
+&lt;p&gt;Name: HK&lt;br&gt;
+Sex: male&lt;br&gt;
+Age: 18 (adult) // I wish I was 18 still, lol&lt;br&gt;
+Strength: 100&lt;br&gt;
+Endurance: 100&lt;br&gt;
+etc etc etc&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes?show=1256#a1256</guid>
+<pubDate>Fri, 23 Oct 2015 18:24:10 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Ghost that follows player, after being in specific room. Stop following when player is in other specific room.</title>
+<link>http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific?show=1253#a1253</link>
+<description>&lt;p&gt;If you want the ghost to always be in the same room as the player (instead of approaching from across the map) then instead of using &quot;let way be the best route...&quot; you can just move the Ghost to wherever the player is.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;Ghost Follows Around&quot;
+
+Entrance is a room.
+
+Kitchen is north of Entrance.
+
+Bathroom is south of Entrance.
+
+Ghost is a man in Kitchen.
+
+Ghost can be following.
+
+Every turn while player is in Kitchen:
+    if Ghost is not following:
+        say &quot;The ghost starts following you!&quot;;
+        now Ghost is following.
+
+Every turn while Ghost is following:
+    if Ghost is not in the location:
+        say &quot;The ghost follows you in!&quot;;
+        now Ghost is in the location.
+
+Every turn while player is in Bathroom:
+    if ghost is following:
+        say &quot;The ghost disappears!&quot;;
+        now Ghost is not following;
+        now Ghost is in Kitchen.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the ghost is &quot;following,&quot; it just pops up in the room whenever the player moves. (&quot;Now Ghost is in the location&quot; means &quot;move the ghost to the room where the player is.) We make this stop by saying that the ghost is not following anymore when the player is in the bathroom.&lt;/p&gt;
+
+&lt;p&gt;It's probably a good idea to include a message like &quot;The ghost follows you in!&quot; because otherwise the player won't know the ghost has followed her until she tries &amp;gt;LOOK again. Of course, when the player gets to the bathroom, two different messages will be triggered:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Entrance&lt;/strong&gt;&lt;br&gt;
+  The ghost follows you in!&lt;/p&gt;
+  
+  &lt;p&gt;&lt;strong&gt;&amp;gt;s&lt;/strong&gt;&lt;/p&gt;
+  
+  &lt;p&gt;&lt;strong&gt;Bathroom&lt;/strong&gt;&lt;br&gt;
+  The ghost follows you in!&lt;/p&gt;
+  
+  &lt;p&gt;The ghost disappears!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you don't want this to happen, you can insert the &quot;ghost disappears&quot; rule into the &quot;ghost follows&quot; rule:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Every turn while Ghost is following:
+    if location is Bathroom:
+        say &quot;The ghost disappears!&quot;;
+        now Ghost is not following;
+        now Ghost is in Kitchen;        
+    otherwise if Ghost is not in the location:
+        say &quot;The ghost follows you in!&quot;;
+        now Ghost is in the location.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now only one message will show up in either situation.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific?show=1253#a1253</guid>
+<pubDate>Fri, 23 Oct 2015 02:17:55 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do you create an item which lists all of the things you've examined so far?</title>
+<link>http://ifanswers.com/1244/how-you-create-item-which-lists-the-things-youve-examined-far?show=1250#a1250</link>
+<description>&lt;p&gt;I can think of a couple ways to pull this off. One is intuitive, but not very efficient. The other is unintuitive but fairly elegant.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;The Big Memo&quot;
+
+Warehouse is a room. 
+
+A winch is in warehouse. Description of winch is &quot;A rusty winch. Not worth much.&quot;
+
+A vat is in warehouse. Description of vat is &quot;A large vat, suitable for mixing deadly chemicals.&quot;
+
+A crayon is in warehouse. Description of crayon is &quot;Some kid probably dropped it.&quot;
+
+The player carries a memo.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My first idea was to store the contents of the memo as a text, one that keeps getting more entries added to it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Memo entries is text that varies.
+
+instead of examining the memo:
+    if memo entries is &quot;&quot;:
+        say &quot;The memo is blank.&quot;;
+    otherwise:
+        say &quot;Here's what you've found so far:[paragraph break][memo entries]&quot;.
+
+A thing can be exed.
+
+After examining something:
+    if the noun is not exed:
+        now the noun is exed;
+        let temp entries be text;
+        let temp entries be &quot;[memo entries]&quot;;
+        now memo entries is &quot;[temp entries][printed name of noun in title case][line break][description of the noun][paragraph break]&quot;;
+        say &quot;You make a note of it on the memo.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(I always use &quot;exed&quot; to mean &quot;has been examined.&quot;)&lt;/p&gt;
+
+&lt;p&gt;(This version caused a fatal overflow until I stored the memo entries as &quot;temp entries&quot; before adding to it. I'm not sure where the reference loop was exactly, but this is the safe way to do such things!)&lt;/p&gt;
+
+&lt;p&gt;The problem with this is that &quot;memo entries&quot; might need to get really long, and there's a limit to the length of stored text. This solution is memory-intensive! Bad!&lt;/p&gt;
+
+&lt;p&gt;Another approach is to rebuild the memo whenever it's examined:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;instead of examining the memo:
+    if the number of exed things is 0:
+        say &quot;The memo is blank.&quot;;
+    otherwise:
+        say &quot;Here's what you've found so far:[paragraph break]&quot;;
+        repeat with article running through exed things:
+            say &quot;[bold type][printed name of article in title case][roman type][line break][description of article][paragraph break]&quot;
+
+A thing can be exed.
+
+After examining something:
+    if the noun is not exed:
+        now the noun is exed;
+        say &quot;You make a note of it on the memo.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I much prefer this version. It's a bit easier to control what kind of line breaks end up where, and it's possible to put parts of the text in bold or italic type (which isn't possible in the previous example, for some reason).&lt;/p&gt;
+
+&lt;p&gt;One possible disadvantage is that, unless you include some separate code to reorder the list of exed things, the list in the memo will always display in the built-in order of the items, that is, the order in which they appear in the source text. I think it wouldn't be too difficult to make them display in alphabetical order; I think it would be a bit of an inconvenience to make them display in the order they're examined (which the first method does automatically). Overall, though, I think this generative approach is superior.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1244/how-you-create-item-which-lists-the-things-youve-examined-far?show=1250#a1250</guid>
+<pubDate>Mon, 19 Oct 2015 21:13:34 +0000</pubDate>
+</item>
+<item>
+<title>Answered: What script creates a link to a page?</title>
+<link>http://ifanswers.com/1246/what-script-creates-a-link-to-a-page?show=1247#a1247</link>
+<description>&lt;p&gt;It goes like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{page:Page2:Next page}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;... where &quot;Page2&quot; is the name of the page to go to, and &quot;Next page&quot; is the text displayed. It is the same in the GUI as in code.&lt;/p&gt;
+
+&lt;p&gt;By the way, have you thought about do this as a text adventure that looks like a game book? Sounds like you might want something a bit more advanced than the standard gamebook.&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;amp;t=4772&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;amp;t=4772&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1246/what-script-creates-a-link-to-a-page?show=1247#a1247</guid>
+<pubDate>Mon, 19 Oct 2015 07:54:59 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How does one change the User Style for hyperlinks when using Flexible Windows?</title>
+<link>http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows?show=1243#a1243</link>
+<description>&lt;p&gt;According to &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.intfic.com/t/changing-hyperlink-color-in-i7/199&quot;&gt;Draconis&lt;/a&gt;, hyperlink color is something that's controlled by the interpreter, not the story file.&lt;/p&gt;
+
+&lt;p&gt;I have not tested this, but you could try releasing along with the Quixe interpreter (see &lt;strong&gt;§25.11. A playable web page&lt;/strong&gt; in the manual):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Release along with an interpreter. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and editing the style.css file. From &lt;strong&gt;§25.13. Website templates&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We probably want to start from the &quot;Standard&quot; version of &quot;style.css&quot;&lt;br&gt;
+  and edit in a few changes; the easiest way to get a clean copy of&lt;br&gt;
+  &quot;Standard&quot;'s CSS file to work on is to release the project with a&lt;br&gt;
+  &quot;Standard&quot; template, which causes this default &quot;style.css&quot; to appear&lt;br&gt;
+  in the &quot;Release&quot; subfolder of the project's .materials folder. (But&lt;br&gt;
+  it's wise to move the file out of &quot;Release&quot; before starting to edit it&lt;br&gt;
+  - files in &quot;Release&quot; are overwritten by Inform whenever a release is made.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here's an example of setting hyperlink color in CSS:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.w3schools.com/css/css_link.asp&quot;&gt;http://www.w3schools.com/css/css_link.asp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If this works, then you could release your Quixe version, and that, at least, would have the font color you wanted.&lt;/p&gt;
+
+&lt;p&gt;Good luck!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows?show=1243#a1243</guid>
+<pubDate>Fri, 16 Oct 2015 12:00:25 +0000</pubDate>
+</item>
+<item>
+<title>How to restore previous versions in web version of quest.</title>
+<link>http://ifanswers.com/1242/how-to-restore-previous-versions-in-web-version-of-quest</link>
+<description>&lt;p&gt;I accidentally deleted a room and then my browser crashed and reloaded the page. How do I get the room back?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1242/how-to-restore-previous-versions-in-web-version-of-quest</guid>
+<pubDate>Fri, 16 Oct 2015 10:15:34 +0000</pubDate>
+</item>
+<item>
+<title>Answered: &quot;read&quot; command doesn't work?</title>
+<link>http://ifanswers.com/1002/read-command-doesnt-work?show=1241#a1241</link>
+<description>&lt;p&gt;Look under the game object; you will see a list of verbs. You probably have a &quot;read&quot; and a &quot;read;look through&quot;. it is getting confused between the two.&lt;/p&gt;
+
+&lt;p&gt;Pick which you want to keep, then for the object that uses the wrong one, copy the text from the wrong verb to the right one. Then you can delete the verb from the list under game and it should work fine.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1002/read-command-doesnt-work?show=1241#a1241</guid>
+<pubDate>Thu, 15 Oct 2015 12:21:16 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do you center images in Quest?</title>
+<link>http://ifanswers.com/1237/how-do-you-center-images-in-quest?show=1239#a1239</link>
+<description>&lt;p&gt;Try this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;msg (&quot;&amp;lt;img src=\&quot;&quot; + GetFileURL(&quot;gravestone.png&quot;) + &quot;\&quot; style=\&quot;display: block; margin-left: auto; margin-right: auto;\&quot; /&amp;gt;&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1237/how-do-you-center-images-in-quest?show=1239#a1239</guid>
+<pubDate>Thu, 15 Oct 2015 11:28:48 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I make verbs synonymous for only certain objects in Quest 5.6.1?</title>
+<link>http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest?show=1236#a1236</link>
+<description>&lt;p&gt;.1. your 'one' Verb's synonim 'open' appears to have over-ridden the built-in 'open' Verb, thus you've lost your normal 'open' functionality. Don't over-write quest's built-in features like the 'open' Verb (unless you're a good programmer), so remove your 'open' synonim for your 'one' Verb, to get back your 'open' Verb functionality. Instead, you could alter your 'open' Verb, giving &lt;em&gt;IT&lt;/em&gt; all of those synonims that you want, and use the new altered 'open' Verb for your 'book + whatever' Objects. If you use the GUI~Editor, its safe to change the built-in stuff, as you're forced to click on a 'copy' button, which makes a copy that you then adjust, preserving the built-in thing. This is done via in the lower-left corner: Filter -&amp;gt; Show Library Elements -&amp;gt; (toggle~check it, so it is toggled~checked on), what this does is reveal (unhide ~ make visible) all of the built-in stuff in the 'tree of stuff' on the left side, as light grey text. Find 'open', and click on it so it is highlighted, then on the right side, click the 'copy' button. Then, you can change the copy of 'open', though you got to know what you're doing, of course.&lt;/p&gt;
+
+&lt;p&gt;.2A. OBJECT TYPES (quest's user-level's: classes~groups):&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/elements/type.html&quot;&gt;http://docs.textadventures.co.uk/quest/elements/type.html&lt;/a&gt; (Object Types)&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/types.html&quot;&gt;http://docs.textadventures.co.uk/quest/types.html&lt;/a&gt; (Object Types)&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/tutorial/using_inherited_types.html&quot;&gt;http://docs.textadventures.co.uk/quest/tutorial/using_inherited_types.html&lt;/a&gt; (these special 'Inherited' Attributes is how you add an Object Type to an Object)&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/using_types.html&quot;&gt;http://docs.textadventures.co.uk/quest/guides/using_types.html&lt;/a&gt; (Object Types)&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/using_types_and_tabs__advanced_.html&quot;&gt;http://docs.textadventures.co.uk/quest/guides/using_types_and_tabs__advanced_.html&lt;/a&gt; (a bit on Object Types)&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/simple_combat_system__advanced_.html&quot;&gt;http://docs.textadventures.co.uk/quest/guides/simple_combat_system__advanced_.html&lt;/a&gt; (a bit on Object Types)&lt;/p&gt;
+
+&lt;p&gt;Object Types hold Attributes (including Script Attributes, or &quot;Verbs&quot; as you know them in the GUI-Editor), and~or other Object Types.&lt;/p&gt;
+
+&lt;p&gt;This &quot;basket&quot; (Object Type) of eggs (Attributes and~or other Object Types) can be given to Objects, and thus giving those Objects all of its &quot;eggs&quot;.&lt;/p&gt;
+
+&lt;p&gt;Do note that when you add~create Script Attributes in your Object Type, you need to use the special word 'this' for the 'Object_name' for the scripting, as what the 'this' does is to get the Object that has this Object Type added to it.&lt;/p&gt;
+
+&lt;p&gt;that was confusing.... maybe an example (in code for quickness) will be less confusing... lol. See below for an example of what Object Types do, and how their used.  My example is applicable to your question, though you'll probably need help in making that conversion.&lt;/p&gt;
+
+&lt;p&gt;.2B. Scripting (but this is quite advanced, requires you to not only know how to code, but code well too)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;NOT using Object Types (YUCK!):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;object name=&quot;orc_1&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;orc&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (orc.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + orc_1.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;orc_2&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;orc&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (orc.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + orc_2.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;ogre&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;ogre&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (ogre.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + ogre.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;troll&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;troll&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (troll.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + troll.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;goblin&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;goblin&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (goblin.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + goblin.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;gremlin&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;gremlin&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (gremlin.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + gremlin.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;cyclops&quot;&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;cyclops&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (cyclops.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + cyclops.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;verb&amp;gt;
+  &amp;lt;property&amp;gt;fight&amp;lt;/property&amp;gt;
+  &amp;lt;pattern&amp;gt;fight&amp;lt;/pattern&amp;gt;
+  &amp;lt;defaultexpression&amp;gt;&quot;You can't fight that&quot;&amp;lt;/defaultexpression&amp;gt;
+&amp;lt;/verb&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;VS&lt;/p&gt;
+
+&lt;p&gt;using Object Types (much better!):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;type name=&quot;monster&quot;&amp;gt;
+  &amp;lt;attr name=&quot;hostile&quot; type=&quot;boolean&quot;&amp;gt;true&amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;fight&quot; type=&quot;script&quot;&amp;gt;
+    if (this.hostile)
+    {
+      msg (&quot;You fight and kill the &quot; + this.alias + &quot;.&quot;)
+    }
+  &amp;lt;/attr&amp;gt;
+  &amp;lt;attr name=&quot;displayverbs&quot; type=&quot;simplestringlist&quot;&amp;gt;fight&amp;lt;/attr&amp;gt;
+&amp;lt;/type&amp;gt;
+
+&amp;lt;object name=&quot;orc_1&quot;&amp;gt;
+  &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+    &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;orc&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;orc_2&quot;&amp;gt;
+  &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+    &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;orc&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;ogre&quot;&amp;gt;
+  &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+   &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;ogre&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;troll&quot;&amp;gt;
+  &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;troll&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;goblin&quot;&amp;gt;
+   &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;goblin&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;gremlin&quot;&amp;gt;
+  &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;gremlin&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;object name=&quot;cyclops&quot;&amp;gt;
+  &amp;lt;inherit name=&quot;monster&quot; /&amp;gt;
+  &amp;lt;attr name=&quot;alias&quot; type=&quot;string&quot;&amp;gt;cyclops&amp;lt;/attr&amp;gt;
+&amp;lt;/object&amp;gt;
+
+&amp;lt;verb&amp;gt;
+  &amp;lt;property&amp;gt;fight&amp;lt;/property&amp;gt;
+  &amp;lt;pattern&amp;gt;fight&amp;lt;/pattern&amp;gt;
+  &amp;lt;defaultexpression&amp;gt;&quot;You can't fight that&quot;&amp;lt;/defaultexpression&amp;gt;
+&amp;lt;/verb&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest?show=1236#a1236</guid>
+<pubDate>Sun, 11 Oct 2015 09:01:12 +0000</pubDate>
+</item>
+<item>
+<title>Answered: re-arrange rooms</title>
+<link>http://ifanswers.com/1220/re-arrange-rooms?show=1235#a1235</link>
+<description>&lt;p&gt;see this thread, the question-answer is still on-going (due to enountered bugs) at the moment of this post of mine:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5528&amp;amp;p=38292#p38292&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5528&amp;amp;p=38292#p38292&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1220/re-arrange-rooms?show=1235#a1235</guid>
+<pubDate>Sun, 11 Oct 2015 01:01:19 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Help! I need to use a candle as a light source in rooms in my Quest text adventure game</title>
+<link>http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game?show=1234#a1234</link>
+<description>&lt;p&gt;resources on the 'light~dark' feature:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;amp;t=4610&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=18&amp;amp;t=4610&lt;/a&gt; (Portable Latern Library by Darkweaver)&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setlight.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setlight.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setdark.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setdark.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setobjectlightstrength.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setobjectlightstrength.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setexitlightstrength.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setexitlightstrength.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/checkdarkness.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/checkdarkness.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;the key thing is to note there's 3 states of 'lightness~darkness': &quot;weak&quot; (a limited light source), &quot;strong&quot; (light: a light source), and &quot;(empty)&quot; (dark: not a light source). Note the differences amongst the 3 states, especially take note of &quot;weak&quot;.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game?show=1234#a1234</guid>
+<pubDate>Sun, 11 Oct 2015 00:56:25 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Quest Problem with &quot;Get Input&quot; in a loop</title>
+<link>http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop?show=1233#a1233</link>
+<description>&lt;p&gt;@Pixie and DavyB:&lt;/p&gt;
+
+&lt;p&gt;I think I just thought of a way to do it (or I'm on the right track if this exact design doesn't work):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;handle1 = false
+handle2 = false
+running = true
+while (running)
+{
+        if (handle1 = false )
+        {
+                msg (&quot;Type non-integer to finish&quot;)
+                get input
+                {
+                        running = IsInt(result)
+                        handle2 = true
+                }
+                if (handle2 = false)
+                {
+                        handle1 = true
+                }
+                else if (handle2 = true)
+                {
+                        handle1 = false
+                }
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop?show=1233#a1233</guid>
+<pubDate>Sun, 11 Oct 2015 00:27:20 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Show amount of gold in inventory</title>
+<link>http://ifanswers.com/1222/show-amount-of-gold-in-inventory?show=1231#a1231</link>
+<description>&lt;p&gt;The simple way would be to have an object, called gold, in the player's inventory from the start. Set it to be undroppable, and for the &lt;em&gt;look at&lt;/em&gt; text:&lt;br&gt;
+&lt;code&gt;You have {player.gold} of gold in your inventory.&lt;/code&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1222/show-amount-of-gold-in-inventory?show=1231#a1231</guid>
+<pubDate>Fri, 09 Oct 2015 12:02:07 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I delete a game from the whole website?</title>
+<link>http://ifanswers.com/1228/how-do-i-delete-a-game-from-the-whole-website?show=1230#a1230</link>
+<description>&lt;p&gt;Fill in the contact form on the website, and include a link to the game, and I'll delete it for you.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1228/how-do-i-delete-a-game-from-the-whole-website?show=1230#a1230</guid>
+<pubDate>Fri, 09 Oct 2015 11:36:35 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I use the create exit command properly in Quest</title>
+<link>http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest?show=1229#a1229</link>
+<description>&lt;p&gt;It would be help to reproduce the error in your post.&lt;/p&gt;
+
+&lt;p&gt;Try this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;create exit (&quot;my_new_exit&quot;, null, room, second_room, &quot;northdirection&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notes on the parameters:&lt;/p&gt;
+
+&lt;p&gt;my&lt;em&gt;new&lt;/em&gt;exit is a string, the name of the exit. It can be anything you like.&lt;/p&gt;
+
+&lt;p&gt;Instead of null for the second parameter, you could have a string here that is the alias of the exit, but it is rarely useful.&lt;/p&gt;
+
+&lt;p&gt;room is the location the exit will be in. This is an object, not a string, so no quotes, and if there is no location with this name you will get an error. When the exit is created, the &quot;parent&quot; attribute will get set to this (and you can use &lt;em&gt;null&lt;/em&gt; here, and set the &quot;parent&quot; attribute later).&lt;/p&gt;
+
+&lt;p&gt;second_room is the location the exit will take the player to. It works just like the previous parameter, but with the &quot;to&quot; attribute.&lt;/p&gt;
+
+&lt;p&gt;northdirection is also a string, but has to be the name of an exit type. You can probably guess the alternatives.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest?show=1229#a1229</guid>
+<pubDate>Fri, 09 Oct 2015 08:18:59 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I find my saved Quests?</title>
+<link>http://ifanswers.com/1214/how-do-i-find-my-saved-quests?show=1215#a1215</link>
+<description>&lt;p&gt;I have Windows 7. For me, there is a Quest folder in the Documents library.  That should be the default location for Windows 7.&lt;/p&gt;
+
+&lt;p&gt;But I used the offline editor; I downloaded quest, I didn't make the games on textadventures.co.uk&lt;/p&gt;
+
+&lt;p&gt;If you still can't find your game, please tell us what operating system you are using and whether you made the game on textadventures.co.uk or locally on your computer with a downloaded Quest program.&lt;/p&gt;
+
+&lt;p&gt;By the way, I think the &quot;Meta&quot; category is for questions about this site (ifanswers.com). When you select the category for your question, a description of that category appears.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1214/how-do-i-find-my-saved-quests?show=1215#a1215</guid>
+<pubDate>Thu, 01 Oct 2015 18:48:30 +0000</pubDate>
+</item>
+<item>
+<title>Selling games?</title>
+<link>http://ifanswers.com/1212/selling-games</link>
+<description>&lt;p&gt;Basically, it says you can sell the games you make. So can the windows version export EXE's or something? Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1212/selling-games</guid>
+<pubDate>Tue, 29 Sep 2015 02:40:44 +0000</pubDate>
+</item>
+<item>
+<title>Answered: [Inform 7]Timers, daemons, switchon &amp; switchoff</title>
+<link>http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff?show=1208#a1208</link>
+<description>&lt;p&gt;I don't know whether these are exact equivalents of how things are done in I6, but this is how they are typically done in I7:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Switching on and off:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;See &lt;strong&gt;§3.14. Devices and descriptions&lt;/strong&gt; in the manual.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A &quot;device&quot; is another of the standard kinds of thing, and should be&lt;br&gt;
+  used for anything which can be switched on or off: a light switch,&lt;br&gt;
+  say, or a slide projector. Devices are generally machines, clockwork&lt;br&gt;
+  or electrical. A device is always either &quot;switched on&quot; or &quot;switched&lt;br&gt;
+  off&quot;, but is switched off unless we specify otherwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;From the example &quot;Down Below&quot;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Terrifying Basement is a room. The light switch is a switched on device in the Terrifying Basement. It is fixed in place.
+
+Carry out switching off the light switch: now the Terrifying Basement is dark. 
+
+Carry out switching on the light switch: now the Terrifying Basement is lighted.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Triggering an event to occur after x turns:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The answers to these questions may help:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/282/how-do-i-print-a-message-on-the-xth-turn-in-inform-7&quot;&gt;http://ifanswers.com/282/how-do-i-print-a-message-on-the-xth-turn-in-inform-7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/340/how-to-trigger-an-event-to-occur-x-turns-after-another-event&quot;&gt;http://ifanswers.com/340/how-to-trigger-an-event-to-occur-x-turns-after-another-event&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I don't know how interrupting a timer is done--hopefully someone else can answer that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Making things happen turn by turn:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;See &lt;strong&gt;§9.5. Every turn&lt;/strong&gt; in the manual.&lt;/p&gt;
+
+&lt;p&gt;From that section:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Every turn when the location is the Orchard, say &quot;The summer breeze shakes the apple-blossom.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff?show=1208#a1208</guid>
+<pubDate>Thu, 24 Sep 2015 14:48:35 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Loading and firing</title>
+<link>http://ifanswers.com/1191/loading-and-firing?show=1205#a1205</link>
+<description>&lt;p&gt;here's a starting point for you look at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=4946&amp;amp;hilit=magazine&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=4946&amp;amp;hilit=magazine&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1191/loading-and-firing?show=1205#a1205</guid>
+<pubDate>Wed, 23 Sep 2015 22:25:41 +0000</pubDate>
+</item>
+<item>
+<title>How To Spread Out Hyperlinks horizontally?(Quest5)</title>
+<link>http://ifanswers.com/1202/how-to-spread-out-hyperlinks-horizontally-quest5</link>
+<description>&lt;p&gt;I'm working on a game, where a lot of different dialogue choices can appear at the same time, which can get quite messy at times. I used line breaks to spread the hyperlinks out vertically, but I wonder if it was possible to also spread them out horizontally?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1202/how-to-spread-out-hyperlinks-horizontally-quest5</guid>
+<pubDate>Mon, 21 Sep 2015 15:40:56 +0000</pubDate>
+</item>
+<item>
+<title>How To Disable Automatic Jumping To The Screen Bottom If Too Much Text?(Quest5)</title>
+<link>http://ifanswers.com/1201/disable-automatic-jumping-screen-bottom-too-much-text-quest5</link>
+<description>&lt;p&gt;In Quest5, if too much text appears on screen, it automatically jumps to the bottom of the screen, which gets really annoying after awhile. Is there a way to disable that?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1201/disable-automatic-jumping-screen-bottom-too-much-text-quest5</guid>
+<pubDate>Mon, 21 Sep 2015 15:37:37 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Forcing the player to be on a vehicle when entering a room</title>
+<link>http://ifanswers.com/1196/forcing-the-player-to-be-on-a-vehicle-when-entering-a-room?show=1197#a1197</link>
+<description>&lt;p&gt;From the &quot;Vehicle Testing Center&quot; example in the extension documentation, it looks like you need to use &quot;carried by&quot; instead of &quot;on&quot; when it's an animal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Instead of going to The Wastelands when the player is not carried by the swift steed:
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1196/forcing-the-player-to-be-on-a-vehicle-when-entering-a-room?show=1197#a1197</guid>
+<pubDate>Sun, 20 Sep 2015 23:30:17 +0000</pubDate>
+</item>
+<item>
+<title>Answered: No new game option for the online editor?</title>
+<link>http://ifanswers.com/1193/no-new-game-option-for-the-online-editor?show=1194#a1194</link>
+<description>&lt;p&gt;It could be the server was overloaded, can you try again now?&lt;/p&gt;
+
+&lt;p&gt;If it's still not showing, can you see any errors in your browser console?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1193/no-new-game-option-for-the-online-editor?show=1194#a1194</guid>
+<pubDate>Sun, 20 Sep 2015 09:05:13 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How can I set the player smell in Inform 6?</title>
+<link>http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6?show=1192#a1192</link>
+<description>&lt;p&gt;First of all, you would need to create a new player object.&lt;/p&gt;
+
+&lt;p&gt;Then you would set a &lt;code&gt;newplayer.smell&lt;/code&gt; property, or a &lt;code&gt;newplayer.before[ Smell: &quot;some text here.&quot;],&lt;/code&gt; attribute.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6?show=1192#a1192</guid>
+<pubDate>Sun, 20 Sep 2015 00:03:13 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How to cause an event to occur on every turn, but only when the action succeeds?</title>
+<link>http://ifanswers.com/1187/cause-event-occur-every-turn-but-only-when-the-action-succeeds?show=1189#a1189</link>
+<description>&lt;p&gt;Sorry, I keep fiddling with this to try to get it to work right. But hopefully it gives you some ideas.&lt;/p&gt;
+
+&lt;p&gt;If you just want to be able to control when the message appears, you could adjust the message conditions rather than changing whether an action takes a turn. You could try something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include After Not Doing Something by Ron Newcomb.
+
+Did-something is a truth state that varies.
+Did-something is usually true.
+
+After not doing something:
+    now did-something is false;
+    continue the action.
+
+After taking inventory:
+    now did-something is false;
+    continue the action.
+
+Every turn:
+    if the monster is chasing and did-something is true:
+        say &quot;The monster is coming.&quot;;
+    now did-something is true.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You'd probably have to tweak this to get it to do exactly what you want.&lt;/p&gt;
+
+&lt;p&gt;But if you want to actually prevent an in-world action from taking a turn, check out Joseph Geipel's answer to this question:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/378/how-to-make-commands-timeless?show=378#q378&quot;&gt;http://ifanswers.com/378/how-to-make-commands-timeless?show=378#q378&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Maybe there's a more direct way to do what you want. If so, hopefully someone else will chime in.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1187/cause-event-occur-every-turn-but-only-when-the-action-succeeds?show=1189#a1189</guid>
+<pubDate>Thu, 17 Sep 2015 13:17:38 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Random text in Squiffy</title>
+<link>http://ifanswers.com/1175/random-text-in-squiffy?show=1186#a1186</link>
+<description>&lt;p&gt;Where are you defining your randomnumber function? If it's not in the same place as your set script then it won't be defined. You should be able to see the error in your browser console.&lt;/p&gt;
+
+&lt;p&gt;If you want to include additional global JavaScript functions, then you can put them in a separate .js file and include it using &lt;code&gt;@import&lt;/code&gt; - see &lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/squiffy/import.html.&quot;&gt;http://docs.textadventures.co.uk/squiffy/import.html.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively you could add them to JavaScript's global &lt;code&gt;window&lt;/code&gt; object in a &lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/squiffy/master.html&quot;&gt;master section&lt;/a&gt;. Add it using this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;window.randomnumber = ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;instead of&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var randomnumber = ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adding it to a master section ensures that the function will always be defined even when the game is reloaded. (If you only added it to the first section of a game, if the player reloads the browser tab, the initial section's JavaScript won't be re-run so you won't have the function defined globally any more).&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1175/random-text-in-squiffy?show=1186#a1186</guid>
+<pubDate>Tue, 15 Sep 2015 09:07:12 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Does the offline Quest interpreter offer any features to players that online play does not?</title>
+<link>http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does?show=1185#a1185</link>
+<description>&lt;p&gt;There are no additional features really - you just get the ability to play games locally, so it will work when you're offline. Also you can save files to your own machine, so you can have multiple save points whereas online you currently only get one.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does?show=1185#a1185</guid>
+<pubDate>Tue, 15 Sep 2015 08:59:41 +0000</pubDate>
+</item>
+<item>
+<title>Answered: No option to save a .quest file?</title>
+<link>http://ifanswers.com/1176/no-option-to-save-a-quest-file?show=1184#a1184</link>
+<description>&lt;p&gt;This looks like a bug in Quest where the window isn't displaying fully when you're using high DPI settings.&lt;/p&gt;
+
+&lt;p&gt;As a workaround, go into your display preferences and set display scaling to 100%. You should then be able to see the Publish button on that window.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, just hitting the Enter key when that window is open might work.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1176/no-option-to-save-a-quest-file?show=1184#a1184</guid>
+<pubDate>Tue, 15 Sep 2015 08:56:56 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Flowers for Algernon. What to do?</title>
+<link>http://ifanswers.com/1174/flowers-for-algernon-what-to-do?show=1182#a1182</link>
+<description>&lt;p&gt;IIRC:  &quot;opin dor&quot;&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1174/flowers-for-algernon-what-to-do?show=1182#a1182</guid>
+<pubDate>Mon, 14 Sep 2015 21:50:07 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I get the Inanimate Listener to respond to &quot;Computer, hello&quot;?</title>
+<link>http://ifanswers.com/1179/how-get-the-inanimate-listener-to-respond-to-computer-hello?show=1180#a1180</link>
+<description>&lt;p&gt;If you are using an extension that includes a conversation system, there might already be a way to refer to all talking-related actions--you could check the extension's documentation to find out.&lt;/p&gt;
+
+&lt;p&gt;If not, you could create a kind of action that includes the different talking-related actions. See &lt;strong&gt;§7.15. Kinds of action&lt;/strong&gt; in the manual.&lt;/p&gt;
+
+&lt;p&gt;If you use the ACTIONS command and type &quot;Computer, hello&quot;, it seems to fall under the &quot;answering it that&quot; action, so that should be included.&lt;/p&gt;
+
+&lt;p&gt;You could make a kind of action that's specific to this computer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Asking the computer about something is fruitlessly dialoguing.
+Telling the computer about something is fruitlessly dialoguing.
+Answering the computer that something is fruitlessly dialoguing.
+
+Instead of fruitlessly dialoguing:
+    say &quot;'Voice print not recognised.'&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If there are any other talking-related actions you want to include (see &quot;Actions&quot; in the Index tab), you can follow the same pattern.&lt;/p&gt;
+
+&lt;p&gt;Or if you want to be able to write rules that apply to all talking actions that are addressed to a particular thing/person, even if the action is not addressed to the computer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Asking something about something is dialoguing.
+Telling something about something is dialoguing.
+Answering something that something is dialoguing.
+
+Instead of dialoguing when the noun is the computer:
+    say &quot;'Voice print not recognised.'&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1179/how-get-the-inanimate-listener-to-respond-to-computer-hello?show=1180#a1180</guid>
+<pubDate>Sun, 13 Sep 2015 09:05:59 +0000</pubDate>
+</item>
+<item>
+<title>Answered: [Inform 7] How to implement a blanket 'not understood' comment for an Inanimate Listener</title>
+<link>http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener?show=1178#a1178</link>
+<description>&lt;p&gt;As far as I know, you should change 'anything' to 'something'&lt;/p&gt;
+
+&lt;p&gt;Instead of asking Stubborn_Computer about &lt;strong&gt;something&lt;/strong&gt;, say &quot;'Voice print not recognised.'&quot;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener?show=1178#a1178</guid>
+<pubDate>Sun, 13 Sep 2015 05:26:50 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How to make pictures show up when playing online.</title>
+<link>http://ifanswers.com/1162/how-to-make-pictures-show-up-when-playing-online?show=1166#a1166</link>
+<description>&lt;p&gt;Parchment doesn't support graphics.&lt;/p&gt;
+
+&lt;p&gt;I would try Quixe instead--see &lt;strong&gt;§25.11. A playable web page&lt;/strong&gt; in the manual to &quot;release along with an interpreter.&quot; You can try it on your own computer to see if it displays the pictures (the game doesn't have to be online--you can open it offline in a browser) and then if the pictures work, you could  ask the comp organizer whether it's possible to set up Quixe instead of Parchment for online play of your game.&lt;/p&gt;
+
+&lt;p&gt;There's a sample game here &lt;a rel=&quot;nofollow&quot; href=&quot;http://eblong.com/zarf/glulx/quixe/&quot;&gt;http://eblong.com/zarf/glulx/quixe/&lt;/a&gt; called &quot;Sensory Jam&quot; that shows graphics in Quixe, so it seems like it ought to be possible to display pictures. But the version of Quixe that comes with Inform isn't the latest, I don't think, so if that one doesn't support graphics you could try a more recent version of Quixe.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1162/how-to-make-pictures-show-up-when-playing-online?show=1166#a1166</guid>
+<pubDate>Wed, 09 Sep 2015 03:45:44 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Open container that you can't see inside in Inform 7?</title>
+<link>http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7?show=1160#a1160</link>
+<description>&lt;p&gt;Another way to hide the contents of the hat is the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rule for printing the name of the hat: 
+    say &quot;[printed name of hat]&quot;;
+    omit contents in listing.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The omit contents in listing, stops the printing of the &quot;(in which is a tiny key)&quot; phrase.&lt;/p&gt;
+
+&lt;p&gt;The second part of your question can really be done in two ways...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;move the tiny key to the location of the hat.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will do just that.&lt;/p&gt;
+
+&lt;p&gt;You can also use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;now the tiny key is in the location of the hat.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;either one will work.  I tend to use the &quot;now&quot; phrasing, but I don't know of any pitfalls to either.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7?show=1160#a1160</guid>
+<pubDate>Mon, 07 Sep 2015 13:24:12 +0000</pubDate>
+</item>
+<item>
+<title>Can I supply my own CSS to the gs.tads.io server / interpreter?</title>
+<link>http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</link>
+<description>&lt;p&gt;Now that I know that I can &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website&quot;&gt;straight up send the gs.tads.io server my games&lt;/a&gt;, can I change the output in any way, or am I stuck with it's fonts, colors, etc.?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</guid>
+<pubDate>Mon, 07 Sep 2015 06:37:15 +0000</pubDate>
+</item>
+<item>
+<title>Can I seriously not use comparatives/superlatives with enumerated values?</title>
+<link>http://ifanswers.com/1156/seriously-comparatives-superlatives-with-enumerated-values</link>
+<description>&lt;p&gt;In many cases enumerated values can be treated like numbers (like with comparisons) and successor, predecessor relations. (though you use &lt;code&gt;next ...&lt;/code&gt; instead of &lt;code&gt;increment ...&lt;/code&gt;, but it's the same basically)&lt;/p&gt;
+
+&lt;p&gt;This does not work, but I feel like it should.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Military rank is a kind of value.
+The military ranks are rank private, specialist, corporal, seargent, master seargent, seargent major.
+A person has a military rank.
+
+Definition: A person is noble if his military rank is master seargent or more.
+
+The beaches of Normandy is a room.
+
+McGilliguddy is a rank private man. He is here.
+Sarge Stewart is a master seargent man. He is here.
+
+when play begins:
+    say &quot;[the noblest man]&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is what I'm using as a work-around, but it feels janky.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Military rank is a kind of value.
+rank0 specifies a military rank.
+private rank is always rank0.
+specialist is always rank1.
+corporal is always rank2.
+seargent is always rank3.
+master seargent is always rank4.
+seargent major is always rank5.
+
+A person has a military rank.
+
+Definition: A person is noble if his military rank is rank4 or more.
+
+The beaches of Normandy is a room.
+
+McGilliguddy is a man. He is here. The military rank is private rank.
+Sarge Stewart is a man. He is here. The military rank is master seargent.
+
+when play begins:
+    say &quot;[the noblest man]&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1156/seriously-comparatives-superlatives-with-enumerated-values</guid>
+<pubDate>Mon, 07 Sep 2015 05:16:28 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Gamebook: How to include a player's attributes/stats?</title>
+<link>http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats?show=1153#a1153</link>
+<description>&lt;p&gt;read this thread:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track&quot;&gt;http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and also for more details into using Attributes, read this thread:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes&quot;&gt;http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and also any of the links found within it too&lt;/p&gt;
+
+&lt;p&gt;if you have any questions or don't understand anything, ask away!, hehe :D&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Randomization:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/diceroll.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/diceroll.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/getrandomint.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/getrandomint.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/getrandomdouble.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/getrandomdouble.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/randomchance.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/randomchance.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;other useful links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/&quot;&gt;http://docs.textadventures.co.uk/quest/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/upgrade_notes.html&quot;&gt;http://docs.textadventures.co.uk/quest/upgrade_notes.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/asl_requirements.html&quot;&gt;http://docs.textadventures.co.uk/quest/asl_requirements.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/tutorial/&quot;&gt;http://docs.textadventures.co.uk/quest/tutorial/&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/&quot;&gt;http://docs.textadventures.co.uk/quest/guides/&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/character_creation.html&quot;&gt;http://docs.textadventures.co.uk/quest/guides/character_creation.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewforum.php?f=18&amp;amp;sid=b5d87e430462d5289c1e0464a4ed4fa4&quot;&gt;http://forum.textadventures.co.uk/viewforum.php?f=18&amp;amp;sid=b5d87e430462d5289c1e0464a4ed4fa4&lt;/a&gt; (more guides: libraries and code samples)&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/elements/&quot;&gt;http://docs.textadventures.co.uk/quest/elements/&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/types/&quot;&gt;http://docs.textadventures.co.uk/quest/types/&lt;/a&gt; (Attributes)&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/scripts/&quot;&gt;http://docs.textadventures.co.uk/quest/scripts/&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/&quot;&gt;http://docs.textadventures.co.uk/quest/functions/&lt;/a&gt; (categorical order)&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/index_allfunctions.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/index_allfunctions.html&lt;/a&gt; (alphabetical order)&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/using_lists.html&quot;&gt;http://docs.textadventures.co.uk/quest/guides/using_lists.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/using_dictionaries.html&quot;&gt;http://docs.textadventures.co.uk/quest/using_dictionaries.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/scripts/foreach.html&quot;&gt;http://docs.textadventures.co.uk/quest/scripts/foreach.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/scripts/for.html&quot;&gt;http://docs.textadventures.co.uk/quest/scripts/for.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/scopes.html&quot;&gt;http://docs.textadventures.co.uk/quest/scopes.html&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/asl_requirements.html&quot;&gt;http://docs.textadventures.co.uk/quest/asl_requirements.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;etc etc etc&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats?show=1153#a1153</guid>
+<pubDate>Sun, 06 Sep 2015 22:52:25 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Online version of Quest: How do I change the value of Status Attributes?</title>
+<link>http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes?show=1143#a1143</link>
+<description>&lt;p&gt;I don't know if Commands work in Gamebook version (I've not really used Gamebook yet), but otherwise, your Command should work (note that Commands require the person playing the game to type in something that follows the syntax rules of your Command's 'pattern' text box's contents ~ see below for example)&lt;/p&gt;
+
+&lt;p&gt;and more importantly, your actual Scripts within your Command, are correct, that's how you adjust your Attributes, you got it correct, already, hehe:&lt;/p&gt;
+
+&lt;p&gt;'set a variable or attribute' Script -&amp;gt; [expression] or choose the correct drop down boxes for what you want (I don't know them that well, thus I cheat using the [expression] to type in the code, hehe) -&amp;gt; (see below)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Addition:
+
+set variable Object_name.Attribute_name = [expression] Object_name.Attribute_name + Value_or_Expression
+
+example1: set variable player.strength = [expression] player.strength + 5
+example2: set variable player.damage = [expression] player.strength + player.endurance
+
+Subtraction:
+
+set variable Object_name.Attribute_name = [expression] Object_name.Attribute_name - Value_or_Expression
+
+example1: set variable player.strength = [expression] player.strength - 5
+example2: set variable player.strength = [expression] player.damage - player.endurance
+example3: set variable player.endurance = [expression] player.damage - player.strength
+
+Multiplication:
+
+set variable Object_name.Attribute_name = [expression] Object_name.Attribute_name * Value_or_Expression
+
+examples: you get the idea...
+
+Division:
+
+set variable Object_name.Attribute_name = [expression] Object_name.Attribute_name / Value_or_Expression
+
+examples: you get the idea...
+
+Example of a complex Expression (no different than a math expression~equation~formula):
+
+player.physical_damage = (player.weapon.physical_damage + player.weapon.physical_damage * (player.strength / 100)) - (orc.armor.physical_defense + orc.armor.physical_defense * (orc.endurance / 100))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/elements/command.html&quot;&gt;http://docs.textadventures.co.uk/quest/elements/command.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Command Pattern (Type A): activator_text~string~word&lt;br&gt;
+example Command Pattern: info&lt;br&gt;
+// person types in: info&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;command name=&quot;info_command&quot;&amp;gt;
+  &amp;lt;pattern&amp;gt;info&amp;lt;/pattern&amp;gt;
+  &amp;lt;script&amp;gt;
+    ClearScreen
+    msg (&quot;Character Information:&quot;)
+    msg (&quot;&quot;)
+    msg (&quot;Name: &quot; + player.alias)
+    msg (&quot;Sex: &quot; + player.sex)
+    msg (&quot;Age Integer: &quot; + player.age_integer)
+    msg (&quot;Age String: &quot; + player.age_string)
+    msg (&quot;Height: &quot; + player.height)
+    msg (&quot;Weight: &quot; + player.weight)
+    msg (&quot;Strength: &quot; + player.strength)
+    // etc Character (player) Attributes displayment
+    wait {
+      ClearScreen
+    }
+  &amp;lt;/script&amp;gt;
+&amp;lt;/command&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Command Pattern (Type B): activator parameter&lt;br&gt;
+example Command Pattern: info #object#&lt;br&gt;
+~OR~&lt;br&gt;
+example Command Pattern: info #text#&lt;br&gt;
+// person types in: info player&lt;br&gt;
+// or, person types in: info HK&lt;br&gt;
+// or, person types in: info orc&lt;br&gt;
+// or, person types in: info brains&lt;br&gt;
+// I'm not going to get into Command Parameters here though...&lt;/p&gt;
+
+&lt;p&gt;Command Pattern (Type C): activator parameter1 grammer parameter2&lt;br&gt;
+example Command Pattern: mix #object1# and #object2#&lt;/p&gt;
+
+&lt;p&gt;and infinite other combinations types...&lt;/p&gt;
+
+&lt;p&gt;the 'get input' Script and Commands, are the two ways to get~use inputs from the person playing the game. Also, there's the 'show menu' (pop up window) or 'showmenu' (in-line~text), which gets the selection made by the person playing the game, which is a type of input by the person playing the game too, just not an input that they type in like with 'get input' Script and Commands.&lt;/p&gt;
+
+&lt;p&gt;But, Commands, aren't the only means of Scripting... (Verbs, Page Type: [script] or [text+script], Commands, Functions, an Object's Script Attributes, Turnscripts, Timers, Object Types, and etc)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;also, this link may be of help to you, as well:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track&quot;&gt;http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ask if you need help with understanding any of it.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;lastly, and very importantly !!!&lt;/p&gt;
+
+&lt;p&gt;the status pane (your statusattributes displayment), doesn't update to your new adjusted Attributes' values on its own...&lt;/p&gt;
+
+&lt;p&gt;to force the status pane (your statusattributes displayment) to update to the current~correct values:&lt;/p&gt;
+
+&lt;p&gt;(I don't know if all of these are available in Gamebook)&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;(global) Turnscript ( &lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/elements/turnscript.html&quot;&gt;http://docs.textadventures.co.uk/quest/elements/turnscript.html&lt;/a&gt; )&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;the special 'changed' Script ( &lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/running_a_script_when_an_attribute_changes.html&quot;&gt;http://docs.textadventures.co.uk/quest/guides/running_a_script_when_an_attribute_changes.html&lt;/a&gt; )&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;UpdateStatusAttributes ( &lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/asl_requirements.html&quot;&gt;http://docs.textadventures.co.uk/quest/asl_requirements.html&lt;/a&gt; )&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes?show=1143#a1143</guid>
+<pubDate>Sat, 05 Sep 2015 07:28:49 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Is there an easy way to loop text in Inform 7?</title>
+<link>http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7?show=1140#a1140</link>
+<description>&lt;p&gt;For that you use &quot;[one of],&quot; &quot;[or],&quot; and &quot;[cycling].&quot;&lt;/p&gt;
+
+&lt;p&gt;From &lt;strong&gt;§5.7. Text with random alternatives&lt;/strong&gt;, here's an example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;say &quot;The pundits discuss [one of]the weather[or]world events[or]celebrity gossip[cycling].&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7?show=1140#a1140</guid>
+<pubDate>Thu, 03 Sep 2015 16:32:32 +0000</pubDate>
+</item>
+<item>
+<title>Where does Twine delete stories to?</title>
+<link>http://ifanswers.com/1138/where-does-twine-delete-stories-to</link>
+<description>&lt;p&gt;I accidentally deleted the wrong story file in Twine (I had one that kept duplicating, I deleted the older one, and now somehow the newer one is gone). Where does the client delete the files to? So far, my undeleters have found nothing and my recycle bin has been empty all this time.&lt;/p&gt;
+
+&lt;p&gt;If I knew where the files go, I can look for it there, but it certainly isn't the recycle bin or the Twine folder in 'my documents'.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1138/where-does-twine-delete-stories-to</guid>
+<pubDate>Tue, 01 Sep 2015 22:11:07 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Does Squiffy use the same MIT licence as Quest?</title>
+<link>http://ifanswers.com/1136/does-squiffy-use-the-same-mit-licence-as-quest?show=1137#a1137</link>
+<description>&lt;p&gt;Here's the license: &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.com/textadventures/squiffy/blob/master/LICENSE&quot;&gt;https://github.com/textadventures/squiffy/blob/master/LICENSE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can usually find the license with the source code, in a file named LICENSE&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1136/does-squiffy-use-the-same-mit-licence-as-quest?show=1137#a1137</guid>
+<pubDate>Mon, 31 Aug 2015 14:19:43 +0000</pubDate>
+</item>
+<item>
+<title>Answered: In the&quot;What do you want to ... with?&quot; phrase, replace 'my' with 'your'.</title>
+<link>http://ifanswers.com/1122/in-the-what-do-you-want-to-with-phrase-replace-my-with-your?show=1132#a1132</link>
+<description>&lt;p&gt;Hmm. It looks like there's a way to set the indefinite article of a noun (&lt;strong&gt;§3.18. Articles and proper names&lt;/strong&gt;) but it doesn't seem like there's an equivalent way to set the definite article.&lt;/p&gt;
+
+&lt;p&gt;Try this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Some teeth are part of the player. The printed name of the teeth is &quot;your teeth&quot;. The teeth are proper-named.
+
+Brushing it with is an action applying to two touchable things.
+
+Understand &quot;brush [thing] with [thing]&quot; as brushing it with.
+
+Check brushing it with:
+    if the noun is the second noun:
+        say &quot;You can't brush something with itself.&quot; instead;
+    otherwise if the noun is not the teeth:
+        say &quot;You can't brush [the noun].&quot; instead.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1122/in-the-what-do-you-want-to-with-phrase-replace-my-with-your?show=1132#a1132</guid>
+<pubDate>Mon, 31 Aug 2015 02:32:53 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Copying the location of a thing to a variable when it's in something other than a room.</title>
+<link>http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room?show=1130#a1130</link>
+<description>&lt;p&gt;You could use &quot;holder&quot; instead of &quot;location&quot;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;now the initial position of x is the holder of x.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See &lt;strong&gt;§8.17. Looking at containment by hand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But it will only include the object that is directly holding x, whether that is a container, supporter, or room. It'll be &quot;box,&quot; for instance, not &quot;the box in Room 101.&quot;&lt;/p&gt;
+
+&lt;p&gt;If you want to print the text of the holder and the location, and don't need the variable to be an object, you could do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;When play begins:
+    repeat with x running through all things:
+        if the holder of x is a room:
+            now the start position of x is &quot;[the location of x]&quot;;
+        otherwise:
+            now the start position of x is &quot;[the holder of x] in [the location of x]&quot;.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room?show=1130#a1130</guid>
+<pubDate>Mon, 31 Aug 2015 01:46:43 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How does the {random} script work?</title>
+<link>http://ifanswers.com/1120/how-does-the-random-script-work?show=1121#a1121</link>
+<description>&lt;p&gt;It is documented here: &lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/text_processor.html&quot;&gt;http://docs.textadventures.co.uk/quest/text_processor.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Separate pieces of text with colons, and the text processor will choose one at random.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{random:one:two:three}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will display randomly &quot;one&quot;, &quot;two&quot; or &quot;three&quot;.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1120/how-does-the-random-script-work?show=1121#a1121</guid>
+<pubDate>Sat, 29 Aug 2015 21:54:13 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Reset most of the things in the game to their initial conditions.</title>
+<link>http://ifanswers.com/1113/reset-most-of-the-things-in-the-game-their-initial-conditions?show=1117#a1117</link>
+<description>&lt;p&gt;I don't know of any really concise way of doing this, but I'm no expert. For the rooms that things start in, I'd give every thing a room attribute and when things are reset I'd place them via setting this attribute: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The World is  a room.
+
+Every thing has a room called start position.
+
+The chest of drawers is a supporter.
+The bed is an enterable supporter.
+The alarm clock is a thing.
+
+The start position of the player is the World.
+The start position of the alarm clock is the World.
+The start position of the bed is the World.
+The start position of the chest of drawers is the World.
+
+When play begins:
+    reset the world.
+
+To reset the world:
+    repeat with x running through all things:
+        now x is in the start position of x.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this doesn't account for the state of relations, such as being on a supporter, and all the other attributes a thing might have, e.g. open or closed. Also, this way, you couldn't have an item out of play; it would have to get a starting position of &quot;a room called nowhere&quot; or some other dummy room.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1113/reset-most-of-the-things-in-the-game-their-initial-conditions?show=1117#a1117</guid>
+<pubDate>Fri, 28 Aug 2015 15:29:01 +0000</pubDate>
+</item>
+<item>
+<title>Answered: I want to make a verb that requires to things at once. How do I do this this? [internet version]</title>
+<link>http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version?show=1112#a1112</link>
+<description>&lt;p&gt;Here's one way to do it.&lt;br&gt;
+On the wolf's skin verb, set it to &quot;run a script&quot;&lt;br&gt;
+click on the &quot;code view&quot; icon that looks like a page and paste this in. change the attribute names (player.hasstone and wolf.isdead) to the ones you are using. If they are both true, it prints &quot;You skin the wolf.&quot; It also moves a wolfskin object to the player's inventory (from a 'nowhere' room)  and changes the wolf's &quot;look&quot; description.&lt;/p&gt;
+
+&lt;p&gt;switch (true) {&lt;br&gt;
+  case (not wolf.isdead and not player.hasstone) {&lt;br&gt;
+    msg (&quot;You can't skin the wolf!&quot;)&lt;br&gt;
+  }&lt;br&gt;
+  case (wolf.isdead and not player.hasstone) {&lt;br&gt;
+    msg (&quot;You need a stone to skin the wolf.&quot;)&lt;br&gt;
+  }&lt;br&gt;
+  case (not wolf.isdead and player.hasstone) {&lt;br&gt;
+    msg (&quot;The wolf won't allow you to skin it.&quot;)&lt;br&gt;
+  }&lt;br&gt;
+  case (wolf.isdead and player.hasstone) {&lt;br&gt;
+    msg (&quot;You skin the wolf.&quot;)&lt;br&gt;
+    AddToInventory (wolfskin)&lt;br&gt;
+    wolf.look = &quot;This is the skinned corpse of a wolf.&quot;&lt;br&gt;
+  }&lt;br&gt;
+}&lt;/p&gt;
+
+&lt;p&gt;Otherwise, if you have the script worked out, to require two conditions:&lt;br&gt;
+if (wolf.isdead and player.hasstone) {script}&lt;br&gt;
+You could have three conditions with another &quot;and&quot;, and there are other things you can do like:&lt;br&gt;
+if (not wolf.isalive and (player.hasstone or player.hasknife)) {script} &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version?show=1112#a1112</guid>
+<pubDate>Thu, 27 Aug 2015 20:52:18 +0000</pubDate>
+</item>
+<item>
+<title>Can the editor control elements execute scripts?</title>
+<link>http://ifanswers.com/1109/can-the-editor-control-elements-execute-scripts</link>
+<description>&lt;p&gt;For the purpose of copying a string list containing user input.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1109/can-the-editor-control-elements-execute-scripts</guid>
+<pubDate>Thu, 27 Aug 2015 02:05:49 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I get the player out of a dark room if he unwittingly enters one without a light source?</title>
+<link>http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source?show=1107#a1107</link>
+<description>&lt;p&gt;I've still not worked with the 'light~dark' feature yet, but...&lt;/p&gt;
+
+&lt;p&gt;here's the documentation:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/index_allfunctions.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/index_allfunctions.html&lt;/a&gt;&lt;br&gt;
+VVVVVV&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setdark.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setdark.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setlight.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setlight.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setobjectlightstrength.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setobjectlightstrength.html&lt;/a&gt; (this is the important one: weak, strong, null~blank~empty)&lt;br&gt;
+---- and~or ------&lt;br&gt;
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/setexitlightstrength.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/setexitlightstrength.html&lt;/a&gt;&lt;br&gt;
+(this is the important one: weak, strong, null~blank~empty)&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/functions/corelibrary/checkdarkness.html&quot;&gt;http://docs.textadventures.co.uk/quest/functions/corelibrary/checkdarkness.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;and here's the tutorial, but I'm not sure if it covers the 'light~dark' feature (and am too lazy to look):&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/tutorial/&quot;&gt;http://docs.textadventures.co.uk/quest/tutorial/&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source?show=1107#a1107</guid>
+<pubDate>Wed, 26 Aug 2015 06:40:30 +0000</pubDate>
+</item>
+<item>
+<title>Answered: In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</title>
+<link>http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think?show=1106#a1106</link>
+<description>&lt;p&gt;This has been resolved in the forum post linked above. I had blank spaces in the expression.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think?show=1106#a1106</guid>
+<pubDate>Wed, 26 Aug 2015 06:23:48 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I give an object to a character and receive something back?</title>
+<link>http://ifanswers.com/1092/how-do-give-an-object-to-character-and-receive-something-back?show=1094#a1094</link>
+<description>&lt;p&gt;here's some helpful links, if you don't already know about them:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/upgrade_notes.html&quot;&gt;http://docs.textadventures.co.uk/quest/upgrade_notes.html&lt;/a&gt;&lt;br&gt;
+// due to so many Tab cluttering up the GUI~Editor, they're now toggle'able (hidden until you toggle them on, which then reveals them)&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/&quot;&gt;http://docs.textadventures.co.uk/quest/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/tutorial/&quot;&gt;http://docs.textadventures.co.uk/quest/tutorial/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/guides/&quot;&gt;http://docs.textadventures.co.uk/quest/guides/&lt;/a&gt;&lt;br&gt;
+(note: you can scroll down to a bottom section, easy to miss it)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;use the 'use~give' Tab (you got to toggle the Tab on first by going to the 'Features' Tab of the Object you want to use), and here's the tutorial on using the use-give Tab:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://docs.textadventures.co.uk/quest/tutorial/more_things_to_do_with_objects.html&quot;&gt;http://docs.textadventures.co.uk/quest/tutorial/more_things_to_do_with_objects.html&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1092/how-do-give-an-object-to-character-and-receive-something-back?show=1094#a1094</guid>
+<pubDate>Mon, 24 Aug 2015 23:15:50 +0000</pubDate>
+</item>
+</channel>
+</rss>

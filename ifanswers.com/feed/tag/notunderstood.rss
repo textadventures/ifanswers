@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged notunderstood</title>
+<link>http://ifanswers.com/tag/notunderstood</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>[Inform 7] How to implement a blanket 'not understood' comment for an Inanimate Listener</title>
+<link>http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener</link>
+<description>&lt;p&gt;I have two computers in different locations.  Both can be talked to thanks to the Inanimate Listener extension.  My intention is to have one computer that will accept commands from the player while the other will not.&lt;/p&gt;
+
+&lt;p&gt;I can't work out how to provide a universal &quot;I can't do that&quot; response from the stubborn computer.&lt;/p&gt;
+
+&lt;p&gt;E.g.:&lt;/p&gt;
+
+&lt;p&gt;Instead of asking Stubborn_Computer about anything, say &quot;'Voice print not recognised.'&quot;&lt;/p&gt;
+
+&lt;p&gt;This doesn't work because Inform regards 'anything' as a specific topic rather than a global 'everything'.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener</guid>
+<pubDate>Sat, 12 Sep 2015 23:35:11 +0000</pubDate>
+</item>
+</channel>
+</rss>

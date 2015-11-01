@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Is there an &quot;object_is_room&quot; function? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Both &quot;room&quot; and &quot;object&quot; have &quot;type&quot; and &quot;elementtype&quot; which are all &quot;object&quot; so that doesn't help ...  unique to one or the other that I could check.">
+		<meta name="keywords" content="Authoring,quest">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="is-there-an-object_is_room-function.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '986\/is-there-an-object_is_room-function';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=986%2Fis-there-an-object_is_room-function%3Fshow%3D996" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446375239-7bec2a8565e8963513a8ecff8728853dd1c40e6c" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../registerf49f.html?to=986%2Fis-there-an-object_is_room-function%3Fshow%3D996" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="is-there-an-object_is_room-function.html">
+							<span class="entry-title">Is there an &quot;object_is_room&quot; function?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q986">
+							<form method="post" action="http://ifanswers.com/986/is-there-an-object_is_room-function?show=996">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_986">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_986_1_q986" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">119</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446375239-0d8a53b3becece444424135548f65cef84888559">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/986/is-there-an-object_is_room-function?show=996">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="is-there-an-object_is_room-function.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published updated"><span class="value-title" title="2015-08-03T00:03:50+0000">Aug 2</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data">anonymous</span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="986"></a><div class="entry-content"><p>Both "room" and "object" have "type" and "elementtype" which are all "object" so that doesn't help. I don't see any attribute which is unique to one or the other that I could check.</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/quest.html" rel="tag" class="qa-tag-link">quest</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c986_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446375239-4621013518fe389af5e054535b947c9b3476f09d">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a994">
+								<form method="post" action="http://ifanswers.com/986/is-there-an-object_is_room-function?show=996">
+									<div class="qa-voting qa-voting-net" id="voting_994">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_994_1_a994" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375239-0d8a53b3becece444424135548f65cef84888559">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="is-there-an-object_is_room-function3438.html?show=994#a994" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-08-03T11:53:07+0000">Aug 3</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">161</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-08-03T12:17:16+0000">Aug 3</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/986/is-there-an-object_is_room-function?show=996">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="994"></a><div class="entry-content"><p>unfortunately, no (at least not at the user level, no idea how the engine internally is coded).</p>
+
+<p>the built-in Object Types (or shortened as: Types) 'editor room', 'editor object', and 'editor player', as their labels suggest, is just for the GUI~Editor itself, giving you the Tabs and their options~settings within using the GUI~Editor. When you play your game, these Object Types mean nothing (as they get removed~deleted upon playing the game), so don't mistake that you can use them for making your game, you can't use them for your game's scriptings.</p>
+
+<p>fortunately, it is very easy to add~create your own such (direct) Attributes for your Objects, or (indirect Attributes, via) an Object Type (which can hold additional Attributes) which you give to your Object via its 'Inherit' Attribute, which you then check for in your scripting.</p>
+
+<p>for example:</p>
+
+<p>Using Direct Attributes:</p>
+
+<p>'whatever' Object -&gt; 'Attributes' Tab -&gt; Attributes -&gt; Add -&gt; (see below)</p>
+
+<pre><code>Attribute Name: type_of_object // you can label~name it as whatever you want
+
+Attribute Type: string // you don't have to use a String Attribute, but it's the most intuitive+practical+easy, so it's being used in this example.
+
+Attribute Value: (depends upon what the Object is that you're adding this Attribute to, for examples: room, npc, pc~player, items, equipment, weapon, armor, sword, shield, clothing, spell, furniture, table, chair, bed, tree, outdoor, environment, etc etc etc)
+</code></pre>
+
+<p>for example:</p>
+
+<pre><code>(Object Name: dungeon_1)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: room // or whatever you want: 'area', 'place', 'location', 'sector', etc etc
+
+(Object Name: player)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: pc
+
+(Object Name: HK)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: pc
+
+(Object Name: barmaid_1)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: npc
+
+(Object Name: orc_1)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: monster
+
+(Object Name: hp_potion_1)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: item
+
+(Object Name: claymore)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: weapon
+
+(Object Name: fireball)
+Attribute Name: type_of_object
+Attribute Type: string
+Attribute Value: spell
+</code></pre>
+
+<p>and your scripting:</p>
+
+<p>example (in code, sorry but it's quick and easy for me) using an Object's 'examine~look~description' Verb:</p>
+
+<pre><code>if (HasString (this, "type_of_object") and this.type_of_object = "sector") {
+  msg (this.alias + " is a location~place for you to explore, travel to, and~or travel from.")
+} else if (HasString (this, "type_of_object") and this.type_of_object = "pc") {
+  msg (this.alias + " is a party member, so you can equip~unequip gear, cast spells, and~or use items with this character.")
+} else if (HasString (this, "type_of_object") and this.type_of_object = "npc") {
+  msg (this.alias + " is a npc, and thus non-hostile, so you can talk with this character.")
+} else if (HasString (this, "type_of_object") and this.type_of_object = "monster") {
+  msg (this.alias + " is a monster, and thus hostile, so you can only fight with this character, either gaining rewards if you win or losing the game if you get killed.")
+} else if (HasString (this, "type_of_object") and this.type_of_object = "table") {
+  msg (this.alias + " is table, which you can use, place~put, or pick up~take items from it.")
+}
+// etc etc etc
+else {
+  msg ("You can't do that with " + this.alias + ".")
+}
+</code></pre>
+
+<hr>
+
+<p>or, if you want to use Object Types (sorry, I'm getting a bit tired, so this will be fast):</p>
+
+<p>(if you don't understand Object Types, then this won't help you much, as I'm assuming you do for this stuff, as I'm too tired to explain Object Types at the moment ~ ask if you need help in understanding Object Types, and I'll at a later date, help you with understanding and using them)</p>
+
+<p>it's the same as above for the most part...</p>
+
+<p>.1. create~add your Object Types (and optionally: any additional Attributes that the Object Type holds and~or other Object Types that it holds)</p>
+
+<p>.2. add the Object Types to the proper Objects in your game (based on your design)</p>
+
+<p>'whatever' Object -&gt; 'Attributes' Tab -&gt; Inherited Attributes -&gt; Add -&gt; (type in the name of your Object Type)</p>
+
+<p>.3. the scripting:</p>
+
+<p>basically it's simliar to the structure I gave above for direct Attribute usage, the only difference is that you use this:</p>
+
+<p>'DoesInherit' ( <a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/doesinherit.html">http://docs.textadventures.co.uk/quest/functions/doesinherit.html</a> )</p>
+
+<p>instead of:</p>
+
+<p>'HasAttribute', 'HasString', 'HasInteger', 'HasDouble', HasBoolean', etc etc etc</p>
+
+<p>so, using my above direct Attribute usage example for using Object Types instead:</p>
+
+<p>let's say I created Object Types named:</p>
+
+<p>'room~sector~place~location~area'<br>
+'monster'<br>
+'pc'<br>
+'npc'<br>
+'item'<br>
+'weapon'<br>
+'armor'<br>
+'spell'<br>
+etc etc etc</p>
+
+<pre><code>if (DoesInherit (this, "sector")) {
+  // blah script(s)
+} else if (DoesInherit (this, "monster")) {
+  // blah script(s)
+} else if (DoesInherit (this, "npc")) {
+  // blah script(s)
+}
+// etc etc etc
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a994_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c994_list">
+											<div class="qa-c-list-item  hentry comment" id="c996">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="is-there-an-object_is_room-functionca20.html?show=996#c996" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-03T18:07:57+0000">Aug 3</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/TM123.html" class="qa-user-link url fn entry-title nickname">TM123</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="996"></a><div class="entry-content">Thanks. Seems like a lot of work for one thing, but the object types &nbsp;would save time because I would need several attributes.<br />
+<br />
+I came up with this which is pretty close to identifying a room, there would be a few exceptions:<br />
+boolean function HasExits(object)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;return (ListCount(ScopeExitsForRoom(object)) &gt; 0)</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1004">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="is-there-an-object_is_room-functionb20f.html?show=1004#c1004" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-04T06:29:33+0000">Aug 4</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-04T07:15:12+0000">Aug 4</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1004"></a><div class="entry-content">in various situations, each of these 3 methods can be better than the other two, there's no 'always best' method, it depends.<br />
+<br />
+generally about the 3 methods:<br />
+<br />
+1. individually placing your Attributes on each of your Objects is the most work (highest character~symbol count, length~size of your game file), but it's the easiest~simpliest to do.<br />
+<br />
+2. using Object Types reduces that work to a degree, less work, less length~size of game file, less character~symbol count, but Object Types are a bit more confusing initially, and they're much more limited in use, than with using scripting.<br />
+<br />
+3. the least amount of work (in terms of character~symbol count, length~size of game file), is using the scripting to do most of the work for you, (in the most extreme usage, expert~professional level of coding ability) you'll have the quest engine set everything up for you at the beginning of the game, via scripting: Objects will be created and placed, Attributes will be created on those Objects, and etc etc etc. But, as I already mentioned, this is the most complex~challenging, you got to be really good at coding, to get it to all work correcty.<br />
+<br />
+---------------------<br />
+<br />
+about Object Types limited use:<br />
+<br />
+Object Types are great for Objects that share the same Attributes and their Values, but for Objects having Attributes with different Values, Object Types aren't of much use, see below for an example:<br />
+<br />
+---------------------<br />
+<br />
+this is much better:<br />
+<br />
+&lt;object name=&quot;orc_1&quot;&gt;<br />
+&nbsp;&nbsp;&lt;inherit name=&quot;orc_object_type&quot; /&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_2&quot;&gt;<br />
+&nbsp;&nbsp;&lt;inherit name=&quot;orc_object_type&quot; /&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_3&quot;&gt;<br />
+&nbsp;&nbsp;&lt;inherit name=&quot;orc_object_type&quot; /&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;type name=&quot;orc_object_type&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;type_of_object&quot; type=&quot;string&quot;&gt;monster&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dead&quot; type=&quot;boolean&quot;&gt;false&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&lt;/type&gt;<br />
+<br />
+--------<br />
+<br />
+than this:<br />
+<br />
+&lt;object name=&quot;orc_1&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;type_of_object&quot; type=&quot;string&quot;&gt;monster&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dead&quot; type=&quot;boolean&quot;&gt;false&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_2&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;type_of_object&quot; type=&quot;string&quot;&gt;monster&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dead&quot; type=&quot;boolean&quot;&gt;false&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_3&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;type_of_object&quot; type=&quot;string&quot;&gt;monster&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dead&quot; type=&quot;boolean&quot;&gt;false&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+--------------------<br />
+<br />
+HOWEVER, Object Types don't help much when those Attributes' Values are different:<br />
+<br />
+(Attributes added to the Object, OVER-RIDE the Inherited Attributes'~Object Types' Values)<br />
+<br />
+&lt;object name=&quot;orc_grunt_1&quot;&gt;<br />
+&nbsp;&nbsp;&lt;inherit name=&quot;orc_object_type&quot; /&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc grunt&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_chief_1&quot;&gt;<br />
+&nbsp;&nbsp;&lt;inherit name=&quot;orc_object_type&quot; /&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc chief&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;50&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;50&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;50&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;50&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;50&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;50&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;object name=&quot;orc_king_1&quot;&gt;<br />
+&nbsp;&nbsp;&lt;inherit name=&quot;orc_object_type&quot; /&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc king&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;75&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;75&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;75&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;75&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;75&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;75&lt;/attr&gt;<br />
+&lt;/object&gt;<br />
+<br />
+&lt;type name=&quot;orc_object_type&quot;&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;alias&quot; type=&quot;string&quot;&gt;orc&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;type_of_object&quot; type=&quot;string&quot;&gt;monster&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dead&quot; type=&quot;boolean&quot;&gt;false&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;strength&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;endurance&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;dexterity&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;agility&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;speed&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&nbsp;&nbsp;&lt;attr name=&quot;luck&quot; type=&quot;int&quot;&gt;25&lt;/attr&gt;<br />
+&lt;/type&gt;<br />
+<br />
+----------------<br />
+<br />
+so... Object Types are good for universal~general~same Attributes+their Values, which are more of the 'categorical grouping' type of Attributes, that are shared by Objects:<br />
+<br />
+dead = false~true<br />
+status effect~condition = &quot;normal~poisoned~petrified~paralyzed~stunned~etc&quot;<br />
+locomotion = &quot;bipedal~quadripedal~walking~standing~jumping~falling~running~etc&quot;<br />
+activity = &quot;reading~talking~sleeping~resting~fighting~stealing~bartering~etc&quot;<br />
+type_of_object = &quot;monster~item~spell~room~pc~npc~etc&quot;<br />
+race = &quot;elf~human~dwarf~etc&quot;<br />
+class = &quot;warrior~cleric~thief~mage~etc&quot;<br />
+etc ec etc<br />
+<br />
+than 'stat' type of Attributes (aka: mostly Integer Attributes), which often vary Object to Object:<br />
+<br />
+strength = 0~100<br />
+hp = 0~999<br />
+etc etc etc<br />
+<br />
+---------------------<br />
+<br />
+Object Types help with attributes that are for~shared by a type of group of objects, but not with individual~independent attributes.<br />
+<br />
+for example of groups of objects:<br />
+<br />
+'humans', 'dwarves', 'elves', 'dragons', 'animals', 'plants', 'nekos', &nbsp;'monsters', 'equipment', 'spells~magic', 'items', 'rooms', 'players~pcs', 'npcs', 'outdoor scenery: trees, plants', 'indoor scenery: furniture', etc etc etc<br />
+<br />
+characteristic~trait~appearance~etc type of attributes, which are shared by the group, is what Object Types are for, but for attributes and their values not shared by a group, than Object Types aren't of much help.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375239-b61a2ee49f26ce5009367d509e0966c95c707ce2">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../384/there-expression-script-addresses-attribute-shared-objects.html">Is there an expression or script that addresses an attribute that is shared by all objects in a room (or the game)?</a></li>
+									<li class="qa-related-q-item"><a href="../1011/is-there-any-way-to-paste-code-into-the-web-version-of-quest.html">Is there any way to paste code into the web version of Quest?</a></li>
+									<li class="qa-related-q-item"><a href="../981/scopeinventory-scopereachableinventory-includes-visible.html">Quest - Is there to &quot;ScopeInventory&quot; or &quot;ScopeReachableInventory&quot; that includes not visible items?</a></li>
+									<li class="qa-related-q-item"><a href="../846/there-syntax-to-allow-multiple-expressions-the-same-script.html">Is there syntax to allow multiple expressions in the same script?</a></li>
+									<li class="qa-related-q-item"><a href="../841/is-there-a-known-bug-with-commands-not-functioning.html">Is there a known bug with commands not functioning?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

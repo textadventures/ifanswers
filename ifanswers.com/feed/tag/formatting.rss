@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged formatting</title>
+<link>http://ifanswers.com/tag/formatting</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How does one properly format italics/bold text in title entries in Menus by Emily Short?</title>
+<link>http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</link>
+<description>&lt;p&gt;I'm noticing some odd behavior when italicizing and bolding text in the title entries of a menu  created by the Menus extension in Glulx. Consider this code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Menus by Emily Short.
+
+Blank is a room.
+
+When play begins:
+    now the current menu is the Table of Issue;
+    carry out the displaying activity;
+    clear the screen.
+
+Table of Issue
+title   subtable    description toggle
+&quot;Foo&quot;   --  &quot;&quot;  --
+&quot;[italic type]Bar[roman type]&quot;  --  &quot;&quot;  --
+&quot;Baz&quot;   --  &quot;&quot;  --
+&quot;Qux&quot;   --  &quot;&quot;  --
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the game proper, the menu titles after the italicized one have a different style and aren't indented properly. This also happens for bold text.&lt;/p&gt;
+
+&lt;p&gt;Is there are a way to use italics or bold text in titles while having the formatting remain consistent?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</guid>
+<pubDate>Sat, 09 May 2015 23:43:27 +0000</pubDate>
+</item>
+<item>
+<title>Are there any shortcuts for typing character formatting in Inform?</title>
+<link>http://ifanswers.com/349/are-there-shortcuts-for-typing-character-formatting-inform</link>
+<description>&lt;p&gt;Typing [bold text] and so forth becomes really tiresome. Can this be cut down?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/349/are-there-shortcuts-for-typing-character-formatting-inform</guid>
+<pubDate>Tue, 31 Mar 2015 10:09:29 +0000</pubDate>
+</item>
+<item>
+<title>How do I use code formatting in posts on IF Answers?</title>
+<link>http://ifanswers.com/197/how-do-i-use-code-formatting-in-posts-on-if-answers</link>
+<description>&lt;p&gt;I have had not entirely an easy time figuring out how to format code properly in IFAnswers. I copied some code from the intfiction forum and it was automatically formatted as code, which was great, but then I couldn't figure out how to type anything that wasn't code &lt;em&gt;after&lt;/em&gt; that and not have it formatted as code.&lt;/p&gt;&lt;p&gt;Eventually I typed some paragraph breaks in my non-code-formatted stuff and copy-pasted that whenever I needed to start a new paragraph that wasn't formatted as code, but that was less than ideal. Is there a simple HTMLish tag I can use for code formatting when typing a question/answer?&lt;/p&gt;</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/197/how-do-i-use-code-formatting-in-posts-on-if-answers</guid>
+<pubDate>Thu, 26 Mar 2015 11:58:35 +0000</pubDate>
+</item>
+</channel>
+</rss>

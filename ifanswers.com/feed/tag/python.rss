@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged python</title>
+<link>http://ifanswers.com/tag/python</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Alternative ways to interact with I7 stories?</title>
+<link>http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories</link>
+<description>&lt;p&gt;I would like to be able to take existing I7 stories, and play them outside of the standard I7 GUI.  The primary motivation for this is that I would like to integrate an I7 story into a chat bot.  This would allow myself and some friends to play the story together over chat.&lt;/p&gt;
+
+&lt;p&gt;I already have a chat bot which I have written in python.  I would like to be able to feed text input to I7 and have it return the response as text.  Any suggestions on which tools from the I7 toolset apply to me, or where I might start?&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories</guid>
+<pubDate>Tue, 30 Jun 2015 17:41:06 +0000</pubDate>
+</item>
+</channel>
+</rss>

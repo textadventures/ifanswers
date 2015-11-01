@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions and answers in Playing</title>
+<link>http://ifanswers.com/qa/playing</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Answered: Does the offline Quest interpreter offer any features to players that online play does not?</title>
+<link>http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does?show=1185#a1185</link>
+<description>&lt;p&gt;There are no additional features really - you just get the ability to play games locally, so it will work when you're offline. Also you can save files to your own machine, so you can have multiple save points whereas online you currently only get one.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does?show=1185#a1185</guid>
+<pubDate>Tue, 15 Sep 2015 08:59:41 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Flowers for Algernon. What to do?</title>
+<link>http://ifanswers.com/1174/flowers-for-algernon-what-to-do?show=1182#a1182</link>
+<description>&lt;p&gt;IIRC:  &quot;opin dor&quot;&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1174/flowers-for-algernon-what-to-do?show=1182#a1182</guid>
+<pubDate>Mon, 14 Sep 2015 21:50:07 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do you scroll back in Gargoyle?</title>
+<link>http://ifanswers.com/1043/how-do-you-scroll-back-in-gargoyle?show=1049#a1049</link>
+<description>&lt;p&gt;Draconis answered this here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.intfiction.org/forum/viewtopic.php?f=18&amp;amp;t=18446#p95781&quot;&gt;http://www.intfiction.org/forum/viewtopic.php?f=18&amp;amp;t=18446#p95781&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don't have a scroll wheel, you can modify the &quot;scrollwidth&quot; number in the Gargoyle configuration file to make a scroll bar appear.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1043/how-do-you-scroll-back-in-gargoyle?show=1049#a1049</guid>
+<pubDate>Wed, 12 Aug 2015 18:14:28 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Alternative ways to interact with I7 stories?</title>
+<link>http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories?show=868#a868</link>
+<description>&lt;p&gt;The way to go would be to use RemGlk I think: &lt;a rel=&quot;nofollow&quot; href=&quot;http://eblong.com/zarf/glk/remglk/docs.html&quot;&gt;http://eblong.com/zarf/glk/remglk/docs.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You would use a VM compiled with it as the Glk library, and it gives you JSON access which you can use however you like.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories?show=868#a868</guid>
+<pubDate>Tue, 30 Jun 2015 22:10:31 +0000</pubDate>
+</item>
+<item>
+<title>Answered: In Quest, will save files from an older game work with a newer verison of a game?</title>
+<link>http://ifanswers.com/803/quest-will-save-files-older-game-work-with-newer-verison-game?show=807#a807</link>
+<description>&lt;p&gt;As far as I know, a saved game contains the entire state for a game including all the code. If the author updates the original game, it will have no effect on the saved game as the saved game is, in effect, the original game plus any changes that have occurred due to it being played so far.&lt;/p&gt;
+
+&lt;p&gt;The updated game will only apply to a &lt;em&gt;new&lt;/em&gt; game. &lt;/p&gt;
+
+&lt;p&gt;This means, among other things, that there is no way for a game author to update an in-progress game.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/803/quest-will-save-files-older-game-work-with-newer-verison-game?show=807#a807</guid>
+<pubDate>Fri, 19 Jun 2015 22:15:03 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Can Parchment or Quixe run a story file from a Dropbox link?</title>
+<link>http://ifanswers.com/725/can-parchment-or-quixe-run-a-story-file-from-a-dropbox-link?show=737#a737</link>
+<description>&lt;p&gt;Toby's Nose plays (Quixe) from dropbox.&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;https://dl.dropboxusercontent.com/u/23390721/Release/play.html&quot;&gt;https://dl.dropboxusercontent.com/u/23390721/Release/play.html&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/725/can-parchment-or-quixe-run-a-story-file-from-a-dropbox-link?show=737#a737</guid>
+<pubDate>Thu, 11 Jun 2015 09:44:35 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I remove the go to or go when entering a new room?</title>
+<link>http://ifanswers.com/612/how-do-i-remove-the-go-to-or-go-when-entering-a-new-room?show=659#a659</link>
+<description>&lt;p&gt;Assuming you're asking about Quest (please edit the question to be clear if not), you can turn off displaying the commands that the player entered.&lt;/p&gt;
+
+&lt;p&gt;Select &quot;game&quot; in the tree, then go to the Room Descriptions tab and turn off &quot;Display commands entered by the player&quot;.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/612/how-do-i-remove-the-go-to-or-go-when-entering-a-new-room?show=659#a659</guid>
+<pubDate>Sun, 24 May 2015 14:12:21 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Who is the author of sample project 'Onyx' which comes with the Inform7 desktop client?</title>
+<link>http://ifanswers.com/567/author-sample-project-which-comes-with-inform7-desktop-client?show=578#a578</link>
+<description>&lt;p&gt;Emily Short has written several fractured-fairy-tale games with titles that are the names of materials: &lt;em&gt;Bronze, Glass, Indigo, Alabaster,&lt;/em&gt; and probably others. (Another uncredited example game from the recipe book, &quot;Pine&quot;, adapts the story of Sleeping Beauty; &quot;Sand&quot; is a scene from Cinderella—the Brothers Grimm version, which involves sorting peas and lentils.)&lt;/p&gt;
+
+&lt;p&gt;Based on these data I felt comfortable in concluding that she also wrote Onyx, a conclusion I &lt;a rel=&quot;nofollow&quot; href=&quot;http://twitter.com/emshort/status/594985083737636864&quot;&gt;just now confirmed using social media&lt;/a&gt;.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/567/author-sample-project-which-comes-with-inform7-desktop-client?show=578#a578</guid>
+<pubDate>Sun, 03 May 2015 21:27:38 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How can I contribute to the community without writing a game?</title>
+<link>http://ifanswers.com/459/how-can-i-contribute-to-the-community-without-writing-a-game?show=460#a460</link>
+<description>&lt;p&gt;There are several ways.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test a game. if.game-testing.org has people who need testing, as does the announcements subsection and intfiction.org.&lt;/li&gt;
+&lt;li&gt;Give a transcript for a game, especially one an author says has a post-comp release&lt;/li&gt;
+&lt;li&gt;judge in a competition, anywhere from a small game jam to IFComp&lt;/li&gt;
+&lt;li&gt;put reviews on a blog. They don't have to be fancy or formal. They can even be &quot;what I played.&quot; The blog doesn't have to be terribly visible.&lt;/li&gt;
+&lt;li&gt;see if anything at &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ifwiki.org&quot;&gt;http://www.ifwiki.org&lt;/a&gt; needs updating or expounding&lt;/li&gt;
+&lt;li&gt;see if anything at &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org&quot;&gt;http://ifdb.tads.org&lt;/a&gt; needs updating (e.g. recent competitions)&lt;/li&gt;
+&lt;li&gt;write a walkthrough or map for a game and submit it to archive.org&lt;/li&gt;
+&lt;li&gt;start a discussion about a game that confuses/intrigues you.&lt;/li&gt;
+&lt;li&gt;write an extension, if you're technically proficient&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/459/how-can-i-contribute-to-the-community-without-writing-a-game?show=460#a460</guid>
+<pubDate>Sat, 11 Apr 2015 03:18:18 +0000</pubDate>
+</item>
+<item>
+<title>How can I organize games I've played and want to play?</title>
+<link>http://ifanswers.com/458/how-can-i-organize-games-ive-played-and-want-to-play</link>
+<description>&lt;p&gt;While the simple solution is put all played games in one folder and all unplayed in another, I know that there are apps that track things, too, that allow for more detail. I'd be interested in hearing the pluses and minuses of each of those, because I don't know, and having the two folders hasn't quite worked for me.&lt;/p&gt;
+
+&lt;p&gt;(Also, IFDB is a good resource, until the list of &quot;want to play&quot; games becomes too long and unwieldy. This is a case where a good GUI would seem to help a lot.)&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/458/how-can-i-organize-games-ive-played-and-want-to-play</guid>
+<pubDate>Sat, 11 Apr 2015 03:13:47 +0000</pubDate>
+</item>
+<item>
+<title>Answered: In Chlorophyll, are there too many locations?</title>
+<link>http://ifanswers.com/115/in-chlorophyll-are-there-too-many-locations?show=409#a409</link>
+<description>&lt;p&gt;I love maps, so I always enjoy a big sprawling area to explore; it could have been pared down, but I like having some unnecessary rooms to poke around in and have connections between places be a little fleshed out.   Of course, there's something to be said for a really complicated and well-implemented single room, like the one in Oppositely Opal, too!&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/115/in-chlorophyll-are-there-too-many-locations?show=409#a409</guid>
+<pubDate>Sat, 04 Apr 2015 02:11:14 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Why doesn't clicking work in the offline Quest player?</title>
+<link>http://ifanswers.com/256/why-doesnt-clicking-work-in-the-offline-quest-player?show=264#a264</link>
+<description>&lt;p&gt;It sounds like a problem with the embedded browser CefSharp, though I haven't heard any reports of this issue in Quest before, and I can't see any reports of similar issues with CefSharp. I can only suggest the generic (and probably not very helpful) advice to try updating your graphics drivers. Also if you really are still on Win 8, you could try upgrading to Win 8.1.&lt;/p&gt;&lt;p&gt;As a workaround you could try downgrading to Quest 5.5.1 - it's behind the &quot;Previous versions&quot; button on the &lt;a rel=&quot;nofollow&quot; href=&quot;http://textadventures.co.uk/quest/desktop&quot;&gt;download page&lt;/a&gt;. This supports all the same games as Quest 5.6 but uses an earlier (and quite different) version of CefSharp, so that may work for you if the new one doesn't.&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/256/why-doesnt-clicking-work-in-the-offline-quest-player?show=264#a264</guid>
+<pubDate>Sat, 28 Mar 2015 11:07:58 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Which mapping tools work on Mac?</title>
+<link>http://ifanswers.com/202/which-mapping-tools-work-on-mac?show=207#a207</link>
+<description>I haven't experimented much with mapping software, but maybe these threads will have useful suggestions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://www.intfiction.org/forum/viewtopic.php?f=18&amp;amp;t=799&quot; rel=&quot;nofollow&quot;&gt;http://www.intfiction.org/forum/viewtopic.php?f=18&amp;amp;t=799&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.intfiction.org/forum/viewtopic.php?f=37&amp;amp;t=591&quot; rel=&quot;nofollow&quot;&gt;http://www.intfiction.org/forum/viewtopic.php?f=37&amp;amp;t=591&lt;/a&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/202/which-mapping-tools-work-on-mac?show=207#a207</guid>
+<pubDate>Thu, 26 Mar 2015 21:35:11 +0000</pubDate>
+</item>
+<item>
+<title>Answered: In Terminator are the crew real or a fantasy?</title>
+<link>http://ifanswers.com/114/in-terminator-are-the-crew-real-or-a-fantasy?show=193#a193</link>
+<description>I'm the author of Terminator. The in-game explanation for why the protagonist of Terminator barely mentions the rest of the crew (besides the captain) is that her job in this mission is to control the robots, and this is so absorbing and so time-consuming that she's entirely focused on it and can't pay any attention to the rest of the crew.&lt;br /&gt;
+&lt;br /&gt;
+The real-world answer is that I didn't have time to implement the rest of the crew or really anything else about the spaceship you're in. Also I thought that they're pretty much irrelevant to the gameplay so I shouldn't direct the player's attention toward them.</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/114/in-terminator-are-the-crew-real-or-a-fantasy?show=193#a193</guid>
+<pubDate>Thu, 26 Mar 2015 11:26:02 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Where can I find reviews and ratings of interactive fiction?</title>
+<link>http://ifanswers.com/93/where-can-i-find-reviews-and-ratings-of-interactive-fiction?show=156#a156</link>
+<description>You can also find them in the IFRO website at www.ifreviews.org</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/93/where-can-i-find-reviews-and-ratings-of-interactive-fiction?show=156#a156</guid>
+<pubDate>Wed, 25 Mar 2015 23:50:44 +0000</pubDate>
+</item>
+<item>
+<title>Answered: What is IFDB?</title>
+<link>http://ifanswers.com/116/what-is-ifdb?show=139#a139</link>
+<description>&lt;p&gt;&lt;span style=&quot;font-family:arial,helvetica,sans-serif&quot;&gt;&lt;span style=&quot;font-size:18px&quot;&gt;IFDB is the Interactive Fiction Database, found at&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org&quot;&gt;http://ifdb.tads.org&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:arial,helvetica,sans-serif&quot;&gt;&lt;span style=&quot;font-size:18px&quot;&gt;From the front page of the IFDB web site:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:arial,helvetica,sans-serif&quot;&gt;&lt;span style=&quot;font-size:18px&quot;&gt;&quot;The Interactive Fiction Database is an IF game catalog and recommendation engine. IFDB is a Wiki-style community project: members can add new game listings, write reviews, exchange game recommendations, and more.&quot;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:arial,helvetica,sans-serif&quot;&gt;&lt;span style=&quot;font-size:18px&quot;&gt;More details&amp;nbsp;here:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/tips&quot;&gt;http://ifdb.tads.org/tips&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/116/what-is-ifdb?show=139#a139</guid>
+<pubDate>Wed, 25 Mar 2015 17:26:45 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How can I find a good Twine game?</title>
+<link>http://ifanswers.com/112/how-can-i-find-a-good-twine-game?show=135#a135</link>
+<description>&lt;p&gt;One systematic way:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Go to &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org&quot;&gt;the IFDB&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Search for games tagged 'twine'. Hope like mad that you don't get stories about string.&lt;/li&gt;&lt;li&gt;In the ickle drop down menu at the top of your search results, select 'Highest Rated First'.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Hope that people's tastes are similar to yours, and are indicative of objective&amp;nbsp;quality, whatever that is in IF.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Less systematic way: look for past year IFComp games, or other competitions, and seek out highly rated Twine games. Again, assume that your idea of 'good' is similar to other people's.&amp;nbsp;&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/112/how-can-i-find-a-good-twine-game?show=135#a135</guid>
+<pubDate>Wed, 25 Mar 2015 16:33:52 +0000</pubDate>
+</item>
+<item>
+<title>In Sunburn, what happened to the protagonist last night?</title>
+<link>http://ifanswers.com/113/in-sunburn-what-happened-to-the-protagonist-last-night</link>
+<description>In the game Sunburn, the protagonist wakes up with amnesia. What happened to the protagonist last night?&lt;br /&gt;
+&lt;br /&gt;
+Sunburn on ifdb:&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://ifdb.tads.org/viewgame?id=5mmtogd6ujhe7uom&quot; rel=&quot;nofollow&quot;&gt;http://ifdb.tads.org/viewgame?id=5mmtogd6ujhe7uom&lt;/a&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/113/in-sunburn-what-happened-to-the-protagonist-last-night</guid>
+<pubDate>Wed, 25 Mar 2015 13:17:16 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I find games where you can't die or get stuck?</title>
+<link>http://ifanswers.com/91/how-do-i-find-games-where-you-cant-die-or-get-stuck?show=92#a92</link>
+<description>&lt;p&gt;The &quot;forgiveness rating&quot; of a game, or its &quot;cruelty,&quot;&amp;nbsp;will tell you whether the&amp;nbsp;game can be made unwinnable. (You can read more about the cruelty scale on IFWiki:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ifwiki.org/index.php/Cruelty_scale&quot;&gt;http://www.ifwiki.org/index.php/Cruelty_scale&lt;/a&gt;)&amp;nbsp;&lt;/p&gt;&lt;p&gt;To find games that can't be made unwinnable, look for games with a rating of&amp;nbsp;&quot;merciful.&quot;&amp;nbsp;You can search the Interactive Fiction Database for merciful&amp;nbsp;games by adding &lt;strong&gt;forgiveness:merciful&lt;/strong&gt;&amp;nbsp;to the end of your search terms:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/search?searchfor=forgiveness%3Amerciful&quot;&gt;http://ifdb.tads.org/search?searchfor=forgiveness%3Amerciful&lt;/a&gt;&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/91/how-do-i-find-games-where-you-cant-die-or-get-stuck?show=92#a92</guid>
+<pubDate>Tue, 24 Mar 2015 18:59:15 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I play a parser game or text adventure?</title>
+<link>http://ifanswers.com/83/how-do-i-play-a-parser-game-or-text-adventure?show=84#a84</link>
+<description>&lt;p&gt;There's a handy postcard with standard commands and a&amp;nbsp;strategy guide for beginners. It's&amp;nbsp;written by Andrew Plotkin and designed by Lea Albaugh, and you can&amp;nbsp;use it as a cheat sheet while you play:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://pr-if.org/doc/play-if-card/&quot;&gt;http://pr-if.org/doc/play-if-card/&lt;/a&gt;&lt;br&gt;&lt;br&gt;You can also try typing HELP in the game itself to see if the game offers any instructions.&lt;/p&gt;&lt;p&gt;There are even&amp;nbsp;some interactive fiction games that have a tutorial mode, for instance, &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/viewgame?id=3myqnrs64nbtwdaz&quot;&gt;The Dreamhold&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Here are some other games on IFDB that have been tagged &quot;tutorial mode&quot;:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/search?searchbar=tag%3Atutorial+mode&quot;&gt;http://ifdb.tads.org/search?searchbar=tag%3Atutorial+mode&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/83/how-do-i-play-a-parser-game-or-text-adventure?show=84#a84</guid>
+<pubDate>Tue, 24 Mar 2015 14:15:09 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Baf's Guide is down. What's going on?</title>
+<link>http://ifanswers.com/39/bafs-guide-is-down-whats-going-on?show=56#a56</link>
+<description>&lt;p&gt;Baf's Guide is apparently permanently offline, but when&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/&quot;&gt;IFDB&lt;/a&gt;&amp;nbsp;started it transferred everything from Baf's Guide to its own database. So while Baf's Guide is inaccessible&amp;nbsp;virtually all of its contents are available on IFDB.&lt;/p&gt;&lt;p&gt;If you have a direct link to a game on Baf's Guide, you can search the game on IFDB using Baf's identifier (in addition to the game's name of course) with the search term &lt;span style=&quot;font-family:courier new,courier,monospace&quot;&gt;&lt;strong&gt;bafs:xx&lt;/strong&gt;&lt;/span&gt;&amp;nbsp;where &lt;strong&gt;xx&lt;/strong&gt;&amp;nbsp;is the identifier. The identifier is the number in the URL.&amp;nbsp;For example, if you find a link that looks like&amp;nbsp;&lt;span style=&quot;font-family:courier new,courier,monospace&quot;&gt;&lt;a href=&quot;http://wurb.com/if/game/&quot; rel=&quot;nofollow&quot;&gt;http://wurb.com/if/game/&lt;/a&gt;&lt;strong&gt;17&lt;/strong&gt;.html&lt;/span&gt;&amp;nbsp;the identifier is 17. You can search it on IFDB with &lt;strong&gt;&lt;span style=&quot;font-family:courier new,courier,monospace&quot;&gt;bafs:17.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/39/bafs-guide-is-down-whats-going-on?show=56#a56</guid>
+<pubDate>Mon, 23 Mar 2015 19:40:33 +0000</pubDate>
+</item>
+<item>
+<title>Answered: How do I judge/review meaningfully and diplomatically?</title>
+<link>http://ifanswers.com/51/how-do-i-judge-review-meaningfully-and-diplomatically?show=52#a52</link>
+<description>&lt;p&gt;I've been on both ends, so here are some thoughts:&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;For parser games, a transcript can be extremely helpful. If you're up for it, mark comments with a semicolon (or any punctuation mark) to start. The author can search for it easily that way. (It may also lower your blood pressure to be able to vent. You can update the transcript after.) You can also give them a bunch of things to fix without putting their mistakes under a magnifying glass (e.g. ten typos, or even stylistic questions). It's not a requirement, but I think it's safe to say having a transcript for a game you bashed is a polite gesture, once you know about transcripting. It doesn't even have to be annotated.&lt;/li&gt;&lt;li&gt;A list of likes and dislikes is more helpful than you'd think, and that especially extends to changes you think would have the greatest impact for the least effort. They've helped me, as an author, realize I need to attack or change something. It gives more dimensions than just a 1-10 score.&lt;/li&gt;&lt;li&gt;Don't let a game's overall good parts make you think you can't request post-comp stuff. Sometimes authors just miss stuff.&lt;/li&gt;&lt;li&gt;Sit back and see if your points about details are really bringing out general ideas, or if they are just kvetching. I take ten minutes before hitting &quot;enter.&quot;&lt;/li&gt;&lt;li&gt;Don't feel you have to review everything. Concentrating on 1/3 of the games in IFComp is an achievable goal, and many people who try to review all the games can hit one and collapse.&lt;ul&gt;&lt;li&gt;That said, if a game blocks you, move on and come back later. It's best not to review it til the end. If the game stuck you, and you don't know why, say so.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;As an author, a pet peeve is reading &quot;How did they let this slip through?&quot; Yes, I'm wondering the same thing. Often I've checked to make sure something worked and asked testers to--but it didn't, in a special case I ignored. Once I've been on this side, I'm more sympathetic to the other side&lt;/li&gt;&lt;li&gt;I try not to talk about myself unless I recognize something biases me, or if I recognize a certain error would annoy me more than most.&lt;/li&gt;&lt;li&gt;It may be hard to be diplomatic, or even to avoid &quot;look I'm being diplomatic.&quot; I prefer a less emotional style unless a game is good, and even then, being emotional may spoil it. Don't feel you have to make a splash.&lt;/li&gt;&lt;/ul&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/51/how-do-i-judge-review-meaningfully-and-diplomatically?show=52#a52</guid>
+<pubDate>Mon, 23 Mar 2015 18:50:24 +0000</pubDate>
+</item>
+<item>
+<title>Answered: What is an interpreter?</title>
+<link>http://ifanswers.com/20/what-is-an-interpreter?show=21#a21</link>
+<description>&lt;p&gt;&quot;An&amp;nbsp;&lt;strong&gt;interpreter&lt;/strong&gt;&amp;nbsp;(or&amp;nbsp;&lt;strong&gt;terp&lt;/strong&gt;, for short) is a program which reads a&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ifwiki.org/index.php/Story_file&quot;&gt;story file&lt;/a&gt;&amp;nbsp;and presents the game contained inside that file to the&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ifwiki.org/index.php/Player&quot;&gt;player&lt;/a&gt;. The interpreter itself is not part of the game, although it may provide shortcuts to make the playing more convenient. Many interpreters allow the player to enter&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ifwiki.org/index.php/Command&quot;&gt;commands&lt;/a&gt;&amp;nbsp;(i.e., LOOK or GO NORTH) by pressing a single key combination (a &quot;hotkey&quot;). In addition, some interpreters allow the player to tweak display options to his liking (i.e., fonts and colors).&lt;/p&gt;&lt;p&gt;&quot;The interpreter's function in interactive fiction is akin to that of a movie projector in motion pictures. It translates the 'raw material'&amp;nbsp;of the work into a more palatable format for humans.&quot;&lt;/p&gt;&lt;p&gt;From IFWiki.&amp;nbsp;Read more about interpreters here:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ifwiki.org/index.php/Interpreter&quot;&gt;http://www.ifwiki.org/index.php/Interpreter&lt;/a&gt;&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/20/what-is-an-interpreter?show=21#a21</guid>
+<pubDate>Mon, 23 Mar 2015 02:19:56 +0000</pubDate>
+</item>
+<item>
+<title>Answered: Where can I find interactive fiction that has a certain feature or deals with a certain topic?</title>
+<link>http://ifanswers.com/13/where-interactive-fiction-certain-feature-deals-certain-topic?show=14#a14</link>
+<description>&lt;p&gt;You can search for games on the&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org&quot;&gt;Interactive Fiction Database&lt;/a&gt;&amp;nbsp;by tag. Example: Here's a search for entries that have been tagged &quot;I7 source available&quot;:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/search?searchfor=tag:I7+source+available&quot;&gt;http://ifdb.tads.org/search?searchfor=tag:I7+source+available&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Here's the full list of tags:&amp;nbsp;&lt;a rel=&quot;nofollow&quot; href=&quot;http://ifdb.tads.org/showtags&quot;&gt;http://ifdb.tads.org/showtags&lt;/a&gt;&lt;/p&gt;&lt;p&gt;If searching IFDB doesn't help,&amp;nbsp;you can&amp;nbsp;create a poll on&amp;nbsp;IFDB, describe what kind of IF you are looking for, and ask for recommendations.&lt;/p&gt;</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/13/where-interactive-fiction-certain-feature-deals-certain-topic?show=14#a14</guid>
+<pubDate>Mon, 23 Mar 2015 00:27:55 +0000</pubDate>
+</item>
+</channel>
+</rss>

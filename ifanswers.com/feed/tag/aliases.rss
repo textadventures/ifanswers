@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged aliases</title>
+<link>http://ifanswers.com/tag/aliases</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How to make exits with aliases, work on the nav compass?</title>
+<link>http://ifanswers.com/284/how-to-make-exits-with-aliases-work-on-the-nav-compass</link>
+<description>&lt;p&gt;I'm having a lot of difficulty getting my exits to display non-generic information.&lt;/p&gt;
+
+&lt;p&gt;My game takes place in several contexts one of which is space, which is directionally agnostic.&lt;br&gt;
+My ship is oriented along the west-east axis, but I don't want my exits to be labeled that, since those directions don't exist in context.&lt;/p&gt;
+
+&lt;p&gt;I DO want my directional compass buttons to work.&lt;br&gt;
+Therein lies the problem.&lt;/p&gt;
+
+&lt;p&gt;I can alias my exit as &quot;hallway&quot; with a prefix &quot;into the&quot; but that disables the North arrow, despite the direction type being Northdirection.&lt;/p&gt;
+
+&lt;p&gt;I want to be able to navigate with compass arrows, but have the game understand and display the exit by name, without any directional qualifiers.&lt;/p&gt;
+
+&lt;p&gt;&quot;You can go into the hallway&quot; rather than &quot;You can go north&quot; (But still understanding that it IS north)&lt;/p&gt;
+
+&lt;p&gt;Is there a way to get this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/284/how-to-make-exits-with-aliases-work-on-the-nav-compass</guid>
+<pubDate>Sun, 29 Mar 2015 23:20:37 +0000</pubDate>
+</item>
+</channel>
+</rss>

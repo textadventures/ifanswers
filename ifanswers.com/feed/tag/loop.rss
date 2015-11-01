@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged loop</title>
+<link>http://ifanswers.com/tag/loop</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest Problem with &quot;Get Input&quot; in a loop</title>
+<link>http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop</link>
+<description>&lt;p&gt;Hi,&lt;br&gt;
+I'm in the process of learning Quest so this may have a simple answer:&lt;/p&gt;
+
+&lt;p&gt;The following (on entry to room) script&lt;/p&gt;
+
+&lt;p&gt;running = true&lt;br&gt;
+while (running) {&lt;br&gt;
+  msg (&quot;Type non-integer to finish&quot;)&lt;br&gt;
+  get input {&lt;br&gt;
+    running = IsInt(result)&lt;br&gt;
+  }&lt;br&gt;
+}&lt;/p&gt;
+
+&lt;p&gt;gives the following:&lt;/p&gt;
+
+&lt;p&gt;You are in a room.&lt;br&gt;
+Type non-integer to finish&lt;br&gt;
+Type non-integer to finish&lt;br&gt;
+Error running script: Only one 'get input' can be in progress at a time&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop</guid>
+<pubDate>Thu, 17 Sep 2015 17:50:19 +0000</pubDate>
+</item>
+<item>
+<title>Is there an easy way to loop text in Inform 7?</title>
+<link>http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7</link>
+<description>&lt;p&gt;I feel like there must be some simple method and I'm missing it (as usual). What I want is something like this:&lt;/p&gt;
+
+&lt;p&gt;Grazing is an action applying to nothing. &lt;br&gt;
+Understand &quot;graze&quot; as grazing. &lt;br&gt;
+Instead of grazing, say &quot;You eat an onion.&quot; then &quot;You nibble a carrot.&quot; then &quot;You consume a turnip.&quot; then &quot;You chomp a bagel.&quot;&lt;/p&gt;
+
+&lt;p&gt;I know the programming syntax would look nothing like that, but I wrote it like that to convey the idea. After &quot;You chomp a bagel.&quot; is displayed, then it should loop back and say &quot;You eat an onion.&quot; and continue to loop indefinitely whenever the player uses the &quot;graze&quot; command. In that specific order: onion, carrot, turnip, bagel. Over and over.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7</guid>
+<pubDate>Thu, 03 Sep 2015 16:22:17 +0000</pubDate>
+</item>
+</channel>
+</rss>

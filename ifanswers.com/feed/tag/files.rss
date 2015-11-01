@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged files</title>
+<link>http://ifanswers.com/tag/files</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>No option to save a .quest file?</title>
+<link>http://ifanswers.com/1176/no-option-to-save-a-quest-file</link>
+<description>&lt;p&gt;Hi everyone. &lt;/p&gt;
+
+&lt;p&gt;This is my first time using Quest, so I apologize if this question has been asked and/or answered before. &lt;/p&gt;
+
+&lt;p&gt;I spent about 5 days coding a storybook on the offline Quest editor, and when I finalized everything this afternoon, I clicked the publish option to finally upload it. However, when I went to save it from a .aslx file to a .quest file, it didn't give me an option to save at all. &lt;/p&gt;
+
+&lt;p&gt;This is the window that the editor gives me: &lt;a rel=&quot;nofollow&quot; href=&quot;http://prntscr.com/8flx9o&quot;&gt;1&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Without the option to save the .quest file, I'm not too sure how to go about uploading it. If you have any idea about how to fix this, please let me know! Thank you!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1176/no-option-to-save-a-quest-file</guid>
+<pubDate>Sat, 12 Sep 2015 20:27:47 +0000</pubDate>
+</item>
+<item>
+<title>Where does Twine delete stories to?</title>
+<link>http://ifanswers.com/1138/where-does-twine-delete-stories-to</link>
+<description>&lt;p&gt;I accidentally deleted the wrong story file in Twine (I had one that kept duplicating, I deleted the older one, and now somehow the newer one is gone). Where does the client delete the files to? So far, my undeleters have found nothing and my recycle bin has been empty all this time.&lt;/p&gt;
+
+&lt;p&gt;If I knew where the files go, I can look for it there, but it certainly isn't the recycle bin or the Twine folder in 'my documents'.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1138/where-does-twine-delete-stories-to</guid>
+<pubDate>Tue, 01 Sep 2015 22:11:07 +0000</pubDate>
+</item>
+<item>
+<title>In Quest, will save files from an older game work with a newer verison of a game?</title>
+<link>http://ifanswers.com/803/quest-will-save-files-older-game-work-with-newer-verison-game</link>
+<description>&lt;p&gt;Let's you're playing v1.0.0 and get about halfway done and then v1.0.1 comes out, can you continue where you left off using the same file or does a save file link to a game where when you open it, it reads as the version you originally started with?&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/803/quest-will-save-files-older-game-work-with-newer-verison-game</guid>
+<pubDate>Fri, 19 Jun 2015 18:36:25 +0000</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Gamebook: How to include a player's attributes/stats? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="*I just discovered &quot;Quest&quot; and the Interactive Fictions and I am basically a complete newbie to the whole  ...  is Windows Vista, Quest is 5.6.1.*">
+		<meta name="keywords" content="Authoring,gamebook,quest">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="gamebook-how-to-include-a-players-attributes-stats.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '1150\/gamebook-how-to-include-a-players-attributes-stats';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=1150%2Fgamebook-how-to-include-a-players-attributes-stats%3Fshow%3D1154" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446374947-60de9e64feacabe807e9ca0a78fe5278b1528a10" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register4bdf.html?to=1150%2Fgamebook-how-to-include-a-players-attributes-stats%3Fshow%3D1154" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="gamebook-how-to-include-a-players-attributes-stats.html">
+							<span class="entry-title">Gamebook: How to include a player's attributes/stats?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q1150">
+							<form method="post" action="http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats?show=1154">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_1150">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1150_1_q1150" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">75</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446374947-7fe526b25e3193ec22a9aaacc627bbd5f0bdaec1">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats?show=1154">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="gamebook-how-to-include-a-players-attributes-stats.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-09-06T14:25:08+0000">Sep 6</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/Javalar.html" class="qa-user-link url fn entry-title nickname">Javalar</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">1</span><span class="qa-q-view-who-points-pad"> point)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">retagged</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-09-06T20:44:13+0000">Sep 6</span></span></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span><span class="qa-q-view-who-data"><a href="../user/Javalar.html" class="qa-user-link url fn entry-title nickname">Javalar</a></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="1150"></a><div class="entry-content"><p><em>I just discovered "Quest" and the Interactive Fictions and I am basically a complete newbie to the whole system. So please forgive me this very simple question, but the help files on the "gamebook" type seem not to be very helpful for me. In fact, I still struggle with the most basic questions on how to include simple script. If somebody could show me a few basic steps, I'd be very, very grateful. <br>
+I have two questions for the moment.</em></p>
+
+<p><strong>1.) How do I include a player's attribute into the story?</strong></p>
+
+<p>Basically, I plan the following: I want to have an attribute like "Happiness". It can start on 0. (I am already thinking of maybe including a random starting stat, but that's for later). How do I establish this in the first place? Where do I have to click to include it and what do I have to define?</p>
+
+<p>I want to have this attribute or stat to increase and decrease at certain occasions. Player experiences something nice = Happiness +1. And so on. At the moment I plan for this to be a hidden stat, but I don't mind if somebody can explain me how to make it visible.</p>
+
+<p><strong>2.)  How can I make an attribute/stat influence the text being shown?</strong></p>
+
+<p>I am pretty sure it has something to do with the "IF" command, but again, I struggle with the simple basic questions: Say the player enters a certain place, and if his happiness is &gt;5, I want to add text to the paragraph like "This is a beautiful place", whereas if his happiness is 0, the text should read "You feel depressed by the dark colours of this place."</p>
+
+<p><em>Again, I apologize for these very basic questions, and if somebody can guide me to a link with a comprehensible explanation that's just as fine. I searched the Wiki and this site here though, and most texts and answers seem to be directed at people who already know a bit what they are doing. I seem to lack the main understanding of: What do I have to click and write where to put the basic system in place.<br>
+Thank you so much in advance! :)<br>
+System is Windows Vista, Quest is 5.6.1.</em></p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/gamebook.html" rel="tag" class="qa-tag-link">gamebook</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/quest.html" rel="tag" class="qa-tag-link">quest</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c1150_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446374947-d7d34dff1bb008bd0d440f6ef4fcd0e446efe576">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a1153">
+								<form method="post" action="http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats?show=1154">
+									<div class="qa-voting qa-voting-net" id="voting_1153">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1153_1_a1153" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446374947-7fe526b25e3193ec22a9aaacc627bbd5f0bdaec1">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="gamebook-how-to-include-a-players-attributes-statsab09.html?show=1153#a1153" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-09-06T22:52:25+0000">Sep 6</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">161</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-09-06T23:08:28+0000">Sep 6</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats?show=1154">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="1153"></a><div class="entry-content"><p>read this thread:</p>
+
+<p><a rel="nofollow" href="../1091/using-gamebook-style-game-create-game-wide-variables-track.html">http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</a></p>
+
+<p>and also for more details into using Attributes, read this thread:</p>
+
+<p><a rel="nofollow" href="../1141/online-version-quest-how-change-the-value-status-attributes.html">http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</a></p>
+
+<p>and also any of the links found within it too</p>
+
+<p>if you have any questions or don't understand anything, ask away!, hehe :D</p>
+
+<hr>
+
+<p>Randomization:</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/corelibrary/diceroll.html">http://docs.textadventures.co.uk/quest/functions/corelibrary/diceroll.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/getrandomint.html">http://docs.textadventures.co.uk/quest/functions/getrandomint.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/getrandomdouble.html">http://docs.textadventures.co.uk/quest/functions/getrandomdouble.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/corelibrary/randomchance.html">http://docs.textadventures.co.uk/quest/functions/corelibrary/randomchance.html</a></p>
+
+<hr>
+
+<p>other useful links:</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/">http://docs.textadventures.co.uk/quest/</a></p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/upgrade_notes.html">http://docs.textadventures.co.uk/quest/upgrade_notes.html</a></p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/asl_requirements.html">http://docs.textadventures.co.uk/quest/asl_requirements.html</a></p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/tutorial/">http://docs.textadventures.co.uk/quest/tutorial/</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/guides/">http://docs.textadventures.co.uk/quest/guides/</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/guides/character_creation.html">http://docs.textadventures.co.uk/quest/guides/character_creation.html</a><br>
+<a rel="nofollow" href="http://forum.textadventures.co.uk/viewforum.php?f=18&amp;sid=b5d87e430462d5289c1e0464a4ed4fa4">http://forum.textadventures.co.uk/viewforum.php?f=18&amp;sid=b5d87e430462d5289c1e0464a4ed4fa4</a> (more guides: libraries and code samples)</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/elements/">http://docs.textadventures.co.uk/quest/elements/</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/types/">http://docs.textadventures.co.uk/quest/types/</a> (Attributes)</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/scripts/">http://docs.textadventures.co.uk/quest/scripts/</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/">http://docs.textadventures.co.uk/quest/functions/</a> (categorical order)<br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/functions/index_allfunctions.html">http://docs.textadventures.co.uk/quest/functions/index_allfunctions.html</a> (alphabetical order)</p>
+
+<p><a rel="nofollow" href="http://docs.textadventures.co.uk/quest/guides/using_lists.html">http://docs.textadventures.co.uk/quest/guides/using_lists.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/using_dictionaries.html">http://docs.textadventures.co.uk/quest/using_dictionaries.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/scripts/foreach.html">http://docs.textadventures.co.uk/quest/scripts/foreach.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/scripts/for.html">http://docs.textadventures.co.uk/quest/scripts/for.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/scopes.html">http://docs.textadventures.co.uk/quest/scopes.html</a><br>
+<a rel="nofollow" href="http://docs.textadventures.co.uk/quest/asl_requirements.html">http://docs.textadventures.co.uk/quest/asl_requirements.html</a></p>
+
+<p>etc etc etc</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a1153_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c1153_list">
+											<div class="qa-c-list-item  hentry comment" id="c1154">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="gamebook-how-to-include-a-players-attributes-stats738f.html?show=1154#c1154" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-09-06T23:20:51+0000">Sep 6</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/hegemonkhan.html" class="qa-user-link url fn entry-title nickname">hegemonkhan</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">161</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1154"></a><div class="entry-content">here's a link for creating a sample game you can test-play involving statusattributes:<br />
+<br />
+<a href="http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=5387&amp;hilit=statusattributes" rel="nofollow">http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;t=5387&amp;hilit=statusattributes</a><br />
+<br />
+--------<br />
+<br />
+'statusattributes' is for the DISPLAYMENT of your Game Object's and~or Player Object's Attributes on the right side's status pane during game play. You can't display something that doesn't exist...<br />
+<br />
+'attributes' creates your Attributes<br />
+<br />
+it's a bit confusing at first between 'attributes' and 'statusattributes'</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1163">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="gamebook-how-to-include-a-players-attributes-statsce89.html?show=1163#c1163" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-09-08T20:46:17+0000">Sep 8</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Javalar.html" class="qa-user-link url fn entry-title nickname">Javalar</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1163"></a><div class="entry-content">Thank you very much for your help.<br />
+<br />
+I had read the first link already, but from what I saw it covered the topic of gender and that was not what I had in mind. I realized now that it basically doesn't matter what type of attribute you tackle, because they can be defined differently along the String or Bolean, etc type.<br />
+<br />
+So I did set up an attribute like &quot;pain&quot; via the &quot;Set new script -&gt; Set a variable or attribute.<br />
+<br />
+player.pain = 0<br />
+game.pain = 100<br />
+<br />
+I checked the other link for an example for statusattributes. The user who wanted to set up a &quot;player.cash&quot;, where you mentiond that his initial setting is correct. I can't duplicate the initial setting though:<br />
+<br />
+I found the script to add player.statusattributes to the dictionary.<br />
+<br />
+dictionary add (player.statusattributes, &quot;pain&quot;, &quot;Pain&quot; + player.pain)<br />
+<br />
+But the user seems to have done something like [Set variable] player.statusattributes = [New String Dictionary] first.<br />
+<br />
+I don't find this script anywhere, and I also don't find any example on how it would look like in code.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1249">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="gamebook-how-to-include-a-players-attributes-stats953a.html?show=1249#c1249" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-10-19T20:30:19+0000">Oct 19</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Toris.html" class="qa-user-link url fn entry-title nickname">Toris</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1249"></a><div class="entry-content">Same, as above, I don't get a New String Dictionary option. &nbsp;Not sure how to get it in gamebook</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446374947-8f58b7c636aaec0a816cda5ba6fe61f3ca290926">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../956/quest-gamebook-can-i-allow-players-to-choose-their-own-name.html">Quest Gamebook: Can I allow players to choose their own name?</a></li>
+									<li class="qa-related-q-item"><a href="../935/gamebook-return-previous-multiple-already-chosen-inactive.html">Quest Gamebook: Return to a previous page with multiple links, and make link already chosen inactive</a></li>
+									<li class="qa-related-q-item"><a href="../1105/gamebook-text-processor-working-properly-version-quest-think.html">In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</a></li>
+									<li class="qa-related-q-item"><a href="../945/quest-gamebook-how-to-use-and-or-and-not-inside-an-if-command.html">Quest Gamebook: How to use AND OR and NOT inside an &quot;if&quot; command?</a></li>
+									<li class="qa-related-q-item"><a href="../1246/what-script-creates-a-link-to-a-page.html">What script creates a link to a page?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

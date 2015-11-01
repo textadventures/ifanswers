@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged panes</title>
+<link>http://ifanswers.com/tag/panes</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How can I modify or create new status panes?</title>
+<link>http://ifanswers.com/461/how-can-i-modify-or-create-new-status-panes</link>
+<description>&lt;p&gt;I want to modify the panes on the right of the Quest user interface.&lt;br&gt;
+I'd like it to display some extra information, or images, or something of that nature.&lt;/p&gt;
+
+&lt;p&gt;For example I'd like to show an icon next to items in the inventory, or to display a portrait of the character in the status pane.&lt;/p&gt;
+
+&lt;p&gt;I can't seem to track down what actually sends any of the CSS or JS info to them however. (In fact, some of the style IDs listed in the HTML Helper don't seem to appear in any quest files at all according to a mass file search!)&lt;/p&gt;
+
+&lt;p&gt;I've also been considering attempting some semblance of a healthbar, but I'll get to that later, once I actually figure out how to do anything at all to the panes.&lt;/p&gt;
+
+&lt;p&gt;The most important thing is, I'd like to be able to inject different things based on Quest object attributes, so just setting up static styles for the panes won't be enough.&lt;/p&gt;
+
+&lt;p&gt;Even if it's nothing more than using square bullet points for some objects and diamond ones for others, it would be a start.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/461/how-can-i-modify-or-create-new-status-panes</guid>
+<pubDate>Sat, 11 Apr 2015 06:47:47 +0000</pubDate>
+</item>
+</channel>
+</rss>

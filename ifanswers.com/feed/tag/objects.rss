@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged objects</title>
+<link>http://ifanswers.com/tag/objects</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Help! I need to use a candle as a light source in rooms in my Quest text adventure game</title>
+<link>http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</link>
+<description>&lt;p&gt;Hi everyone&lt;/p&gt;
+
+&lt;p&gt;I am currently making a fantasy game on Quest and a few of the rooms are dark.&lt;/p&gt;
+
+&lt;p&gt;I want them to be dark when the player enters so they will have to use a candle (from the inventory) to light the room so they can move on.&lt;/p&gt;
+
+&lt;p&gt;I don't want them to be able to move on further into the room without using the candle but I cannot find this in the help documentation (although at the moment I am now going cross eyed with all the research and screenshots!!!)&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance! :)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</guid>
+<pubDate>Wed, 07 Oct 2015 22:32:24 +0000</pubDate>
+</item>
+<item>
+<title>Copying the location of a thing to a variable when it's in something other than a room.</title>
+<link>http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</link>
+<description>&lt;p&gt;I'm using this to get the place where each object start the game and save to a variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A thing have an object called initial position.
+
+When play begins:
+    repeat with x running through all things:
+        now the initial position of x is the location of x.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, take a look at what this does then the thing is in a container, on a supporter, etc...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;showme ball
+...
+location: in the box in Room 101
+...
+initial position: Room 101
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;it only copies only the room, not the entire location. Is there a way to make this work?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</guid>
+<pubDate>Sun, 30 Aug 2015 23:09:04 +0000</pubDate>
+</item>
+<item>
+<title>How do I move an item I have more of in the world (since it's a kind of thing)?</title>
+<link>http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</link>
+<description>&lt;p&gt;I want to create something like this:&lt;/p&gt;
+
+&lt;p&gt;An apple is a kind of thing.&lt;br&gt;
+The Orchard is a room. In the Orchard is a tree. In the Orchard is a basket. &lt;br&gt;
+The basket is a container. In the basket are three apples.&lt;br&gt;
+instead of attacking the tree:&lt;br&gt;
+        now an apple is in the Orchard;&lt;br&gt;
+        say &quot;You violently shake the tree, and apple falls down!&quot;&lt;/p&gt;
+
+&lt;p&gt;But this results in an error, because &quot;now an apple is in the Orchard&quot; is not specific enough. However, I haven't been able to find a way for the game to just put a new apple in the room.&lt;br&gt;
+The compiler error can be circumvented by saying &quot;now a random apple is in the Orchard&quot;, but that will take one of the apples from the basket.&lt;/p&gt;
+
+&lt;p&gt;How can I get Inform to spawn a new apple into the orchard every time the player attacks the tree?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/894/how-move-an-item-have-more-of-the-world-since-its-kind-of-thing</guid>
+<pubDate>Wed, 08 Jul 2015 10:07:14 +0000</pubDate>
+</item>
+<item>
+<title>What's a good method when dealing with a ton of objects in Quest?</title>
+<link>http://ifanswers.com/782/whats-a-good-method-when-dealing-with-ton-of-objects-in-quest</link>
+<description>&lt;p&gt;My game is gonna have a ton of objects but having them all displayed on the side is gonna be a nuisance, even with collapsed menus... is there a better method when dealing with a ton of objects? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/782/whats-a-good-method-when-dealing-with-ton-of-objects-in-quest</guid>
+<pubDate>Thu, 18 Jun 2015 05:03:42 +0000</pubDate>
+</item>
+<item>
+<title>How do I force Inform's listing to separate out identical items?</title>
+<link>http://ifanswers.com/508/how-do-force-informs-listing-to-separate-out-identical-items</link>
+<description>&lt;p&gt;I have a stock of non-descript items of a kind which are given attributes on set-up to differentiate them. They have specific names via a &quot;printing the name of&quot; rule. But when I try to list of the items, I get &quot;You can see two foo here&quot; -- because Inform thinks they are nondescript items. &lt;/p&gt;
+
+&lt;p&gt;So how do I force Inform to not group them together?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/508/how-do-force-informs-listing-to-separate-out-identical-items</guid>
+<pubDate>Sun, 19 Apr 2015 21:45:14 +0000</pubDate>
+</item>
+<item>
+<title>How can I prevent appending (open), (closed) etc. to an object in Inform 7?</title>
+<link>http://ifanswers.com/489/how-can-prevent-appending-open-closed-etc-an-object-in-inform</link>
+<description>&lt;p&gt;There are some cases where they work, but other cases where appending (open) and similar descriptions are unnecessary, and at least one point in the game I'm working on where having an object obviously be a container gives away a puzzle.  How can I stop Inform 7 from describing the state of an object this way?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/489/how-can-prevent-appending-open-closed-etc-an-object-in-inform</guid>
+<pubDate>Fri, 17 Apr 2015 16:02:34 +0000</pubDate>
+</item>
+</channel>
+</rss>

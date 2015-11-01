@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged javascript</title>
+<link>http://ifanswers.com/tag/javascript</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>In Quest, how do I send an integer from javascript to Quest and keep it an integer?</title>
+<link>http://ifanswers.com/783/quest-how-send-integer-from-javascript-quest-and-keep-integer</link>
+<description>&lt;p&gt;Let's say I have a Javascript function that gets the date, I used ParseInt but it still sends the variable as a string even though Javascript reads it as a variable but Quest reads it as a string.&lt;br&gt;
+Is there a way to keep it as an integer or will anything Javascript sends to Quest be converted to a string?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/783/quest-how-send-integer-from-javascript-quest-and-keep-integer</guid>
+<pubDate>Thu, 18 Jun 2015 05:48:11 +0000</pubDate>
+</item>
+</channel>
+</rss>

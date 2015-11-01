@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged first-time</title>
+<link>http://ifanswers.com/tag/first-time</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>What script creates a link to a page?</title>
+<link>http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</link>
+<description>&lt;p&gt;Simple question. What script do I need to write to add a link to the current page which will take the player to the specified page if they click on it?&lt;/p&gt;
+
+&lt;p&gt;I am using Quest in gamebook mode and writing my pages as scripts and ignoring all the gibberish of the G.U.I. and just typing the code directly, nice and simple like, but I don't know how to add text that links to another page.&lt;/p&gt;
+
+&lt;p&gt;I don't want to just use text+script pages and add the links down at the bottom, because that's weak, as I can't put the link inside of other code to make it only run under certain circumstances. (approximate example: if object.attribute=1 { (link: &quot;this string&quot;, to page5) } )&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</guid>
+<pubDate>Sun, 18 Oct 2015 23:22:52 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Can I allow players to choose their own name?</title>
+<link>http://ifanswers.com/956/quest-gamebook-can-i-allow-players-to-choose-their-own-name</link>
+<description>&lt;p&gt;As far as I can tell, gamebooks don't rely on any typing input by the players and all the players have to do is click links to go to the next page therefore I don't even know if this is possible at all.&lt;/p&gt;
+
+&lt;p&gt;I am super new to writing interactive fiction and my knowledge on script writing is slim to nil and I was wondering if it is possible to allow a player to input their name at the beginning of a gamebook and if so, how would I go about making it happen (like the code/script necessary). And then what kind of script would I need to make their chosen name appear in the game?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/956/quest-gamebook-can-i-allow-players-to-choose-their-own-name</guid>
+<pubDate>Thu, 23 Jul 2015 02:02:14 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Return to a previous page with multiple links, and make link already chosen inactive</title>
+<link>http://ifanswers.com/935/gamebook-return-previous-multiple-already-chosen-inactive</link>
+<description>&lt;p&gt;I'm new to Quest and know next to nothing about programming. I'm trying my best, but sometimes it all sounds like gibberish to me. I tried to search the forums for an answer to my probably simple question, but I think I ended up confusing myself even more. &lt;/p&gt;
+
+&lt;p&gt;I'm trying to figure out the easiest way to basically backtrack and then block out a link from a list of options when you reach that page again. For example, the player can choose to sneak into the kitchen, talk to a barmaid, or talk to an adventurer. Say the player sneaks into the kitchen first, finds out what he/she needs to, but then has nowhere else to go. So they go back out to the tavern scene they started at, and from there, I want the other two options to be still available, while the first one no longer be a clickable link (or if you click it, it gives you a message that you've already done everything here or something and takes you back to the other options again).&lt;/p&gt;
+
+&lt;p&gt;I've tried the &quot;If&quot; script hoping that I can tag each link when a player first chooses that option. Then if the player has seen the page/has a counter, when they get back to the the page that has all the choices, the link they already have followed is just text. Or if they haven't seen that page/have that counter, the link is still viable. That didn't seem to work for multiple &quot;the player has already seen page if&quot; options. It seemed to only spit out the message for the page they did see and didn't show the link for the pages they player hadn't already seen.&lt;/p&gt;
+
+&lt;p&gt;I'm wondering if I could somehow use the &quot;first time&quot; script instead to get an active link to disappear after the player has already chosen it and then circled back? &lt;/p&gt;
+
+&lt;p&gt;Also, I was wondering if somebody could explain the &quot;Add page link&quot; script, because I think I'm confusing myself over that as well. Every time I try to use it, I get nothing when I try to play through the game. (Or maybe I'm just using it wrong. I was trying to use it above with the &quot;if&quot; script. For example, if have seen page, display message. But if not seen page, add active link for an option for the player to pick.)&lt;/p&gt;
+
+&lt;p&gt;Thanks for any help, and patience, you can offer this confused newbie!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/935/gamebook-return-previous-multiple-already-chosen-inactive</guid>
+<pubDate>Sun, 19 Jul 2015 05:38:09 +0000</pubDate>
+</item>
+</channel>
+</rss>

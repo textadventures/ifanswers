@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged glulx-text-effects</title>
+<link>http://ifanswers.com/tag/glulx-text-effects</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I update code to use version 5 of Glulx Text Effects?</title>
+<link>http://ifanswers.com/417/how-do-i-update-code-to-use-version-5-of-glulx-text-effects</link>
+<description>&lt;p&gt;I'm using Inform 7 version 6L38, Glulx Text Effects version 5 by Emily Short, rewritten by Dannii Willis, and Keyword Interface version Version 9/140501 by Aaron Reed, which is the version available through the Inform IDE in the Public Library.&lt;/p&gt;
+
+&lt;p&gt;I tried compiling the &quot;Gnome's Holiday&quot; example that comes with Aaron Reed's Keyword Interface extension, but got the following errors.&lt;/p&gt;
+
+&lt;p&gt;First, a discrepancy between the &quot;Table of User Styles&quot; in Glulx Text Effects and the &quot;Table of User Styles (continued)&quot; in Keyword Interface:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Problem. The table 'Table of User Styles (continued)'   won't work as&lt;br&gt;
+  a continuation, because it contains columns not found in the original&lt;br&gt;
+  'Table of User Styles'  .&lt;/p&gt;
+  
+  &lt;p&gt;The old table has columns: style name, background color, color, first&lt;br&gt;
+  line indentation, fixed width, font weight, indentation, italic,&lt;br&gt;
+  justification, relative size, reversed.&lt;/p&gt;
+  
+  &lt;p&gt;The new table has columns: style name, fixed width, boldness, relative&lt;br&gt;
+  size, glulx color.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Second error: Keyword Interface has a &quot;Table of Common Color Values (continued)&quot; but the original table doesn't seem to appear anywhere.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Problem. It looks as if 'Table of Common Color Values (continued)'  &lt;br&gt;
+  is meant to be related to an existing table, but I can't find one if&lt;br&gt;
+  it is. &lt;/p&gt;
+  
+  &lt;p&gt;Perhaps you've put the new part before the original? The original has&lt;br&gt;
+  to be earlier in the source text.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is the table from Glulx Text Effects:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[ This table is given its own section so that it can be replaced to add extra columns needed by other extensions (such as Flexible Windows) ]
+
+Table of User Styles
+style name (a glulx text style) background color (a text)   color (a text)  first line indentation (a number)   fixed width (a truth state) font weight (a font weight) indentation (a number)  italic (a truth state)  justification (a text justification)    relative size (a number)    reversed (a truth state)
+with 1 blank row
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here are the tables from Keyword Interface:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Table of User Styles (continued)
+style name  fixed width boldness    relative size   glulx color
+special-style-1 proportional-font   bold-weight 0   g-color1
+special-style-2 proportional-font   bold-weight 0   g-color2
+
+Table of Common Color Values (continued)
+glulx color value   assigned number   
+g-color1    255 [blue]
+g-color2    3381555 [green]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/417/how-do-i-update-code-to-use-version-5-of-glulx-text-effects</guid>
+<pubDate>Sun, 05 Apr 2015 17:30:28 +0000</pubDate>
+</item>
+</channel>
+</rss>

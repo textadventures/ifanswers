@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged community</title>
+<link>http://ifanswers.com/tag/community</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Who is the author of sample project 'Onyx' which comes with the Inform7 desktop client?</title>
+<link>http://ifanswers.com/567/author-sample-project-which-comes-with-inform7-desktop-client</link>
+<description>&lt;p&gt;I am referring to the short sample based on that Slavic folk tale. I'd just love to read more IF by the same author.&lt;/p&gt;
+
+&lt;p&gt;I managed to find out that the other sample project ('Disenchantment Bay') was written by Emily Short. I would assume same goes for Onyx but it seems impossible to confirm. Does anybody know for sure?&lt;/p&gt;
+
+&lt;p&gt;Thank you.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/567/author-sample-project-which-comes-with-inform7-desktop-client</guid>
+<pubDate>Tue, 28 Apr 2015 15:34:34 +0000</pubDate>
+</item>
+<item>
+<title>How can I contribute to the community without writing a game?</title>
+<link>http://ifanswers.com/459/how-can-i-contribute-to-the-community-without-writing-a-game</link>
+<description>
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/459/how-can-i-contribute-to-the-community-without-writing-a-game</guid>
+<pubDate>Sat, 11 Apr 2015 03:14:53 +0000</pubDate>
+</item>
+<item>
+<title>Should I use the forums to alert people to a bug I noticed?</title>
+<link>http://ifanswers.com/301/should-i-use-the-forums-to-alert-people-to-a-bug-i-noticed</link>
+<description>&lt;p&gt;I recently spent an hour commenting and uncommenting every block of my code trying to find the source of a &quot;bug&quot;. I just discovered it wasn't a bug. I thought I did something to cause the statusbar to disappear, but apparently, if the Inform window isn't tall enough, it will stop rendering the statusbar when text / commands reach the bottom of the space. It disappears exactly as it would if code fouled it up, but it's just the IDE.&lt;/p&gt;
+
+&lt;p&gt;Should I alert people to this really irritating &quot;bug&quot;, or is the bug report enough? There seem to be a whole lot of bugs reported, and so I'm afraid someone else might waste their time like this, because my bug report is lost in a sea of other ones. &lt;/p&gt;
+
+&lt;p&gt;(I'm still getting used to the etiquette here, so if this isn't the place for this, I apologize in advance.)&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/301/should-i-use-the-forums-to-alert-people-to-a-bug-i-noticed</guid>
+<pubDate>Mon, 30 Mar 2015 04:41:39 +0000</pubDate>
+</item>
+<item>
+<title>What is IFDB?</title>
+<link>http://ifanswers.com/116/what-is-ifdb</link>
+<description></description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/116/what-is-ifdb</guid>
+<pubDate>Wed, 25 Mar 2015 13:26:06 +0000</pubDate>
+</item>
+<item>
+<title>How can I find a good Twine game?</title>
+<link>http://ifanswers.com/112/how-can-i-find-a-good-twine-game</link>
+<description></description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/112/how-can-i-find-a-good-twine-game</guid>
+<pubDate>Wed, 25 Mar 2015 13:09:03 +0000</pubDate>
+</item>
+<item>
+<title>What is IFComp?</title>
+<link>http://ifanswers.com/110/what-is-ifcomp</link>
+<description>Several answers mention this subject.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/110/what-is-ifcomp</guid>
+<pubDate>Wed, 25 Mar 2015 12:47:32 +0000</pubDate>
+</item>
+<item>
+<title>What debugging/research should I try before asking for help on the various technical forums?</title>
+<link>http://ifanswers.com/70/debugging-research-before-asking-various-technical-forums</link>
+<description>It's tough to balance doing enough checking vs finally asking the question. Roadblocks appear when we don't ask a timely question, but we all recognize asking repeated frivolous/trivial questions can be annoying. How can we find a happy medium?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/70/debugging-research-before-asking-various-technical-forums</guid>
+<pubDate>Tue, 24 Mar 2015 01:45:09 +0000</pubDate>
+</item>
+<item>
+<title>How do I judge/review meaningfully and diplomatically?</title>
+<link>http://ifanswers.com/51/how-do-i-judge-review-meaningfully-and-diplomatically</link>
+<description>I think we need more people in the community willing to do this. It's not easy, but it's good to have. But it is easy to worry you don't have anything to say, or even that you might be too harsh.</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/51/how-do-i-judge-review-meaningfully-and-diplomatically</guid>
+<pubDate>Mon, 23 Mar 2015 18:40:41 +0000</pubDate>
+</item>
+<item>
+<title>Where can I find news about interactive fiction?</title>
+<link>http://ifanswers.com/24/where-can-i-find-news-about-interactive-fiction</link>
+<description>How can I keep up with what's going on in the interactive fiction world?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/24/where-can-i-find-news-about-interactive-fiction</guid>
+<pubDate>Mon, 23 Mar 2015 02:48:45 +0000</pubDate>
+</item>
+<item>
+<title>How can I get involved in the interactive fiction community?</title>
+<link>http://ifanswers.com/22/how-can-i-get-involved-in-the-interactive-fiction-community</link>
+<description>What can I do to get involved in the IF community, beyond just playing the games?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/22/how-can-i-get-involved-in-the-interactive-fiction-community</guid>
+<pubDate>Mon, 23 Mar 2015 02:35:54 +0000</pubDate>
+</item>
+<item>
+<title>Where can I find testers?</title>
+<link>http://ifanswers.com/18/where-can-i-find-testers</link>
+<description>How do I find people to beta-test my interactive fiction game?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/18/where-can-i-find-testers</guid>
+<pubDate>Mon, 23 Mar 2015 01:37:08 +0000</pubDate>
+</item>
+</channel>
+</rss>

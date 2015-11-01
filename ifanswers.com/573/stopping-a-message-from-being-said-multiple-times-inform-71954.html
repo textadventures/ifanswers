@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Stopping a message from being said multiple times (Inform 7)? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="My code is probably pretty atrocious because I'm just learning Inform 7 and messing around by expanding ...  to have a finite number of fishing rods.">
+		<meta name="keywords" content="Authoring,inventory,inform7,programming,messages">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="stopping-a-message-from-being-said-multiple-times-inform-7.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '573\/stopping-a-message-from-being-said-multiple-times-inform-7';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=573%2Fstopping-a-message-from-being-said-multiple-times-inform-7%3Fshow%3D638" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446375034-eb7a9819e76aaeda5c39a3a05d27dfb83c8b9749" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../registere43f.html?to=573%2Fstopping-a-message-from-being-said-multiple-times-inform-7%3Fshow%3D638" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="stopping-a-message-from-being-said-multiple-times-inform-7.html">
+							<span class="entry-title">Stopping a message from being said multiple times (Inform 7)?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q573">
+							<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_573">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_573_1_q573" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">191</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446375034-f3eab2980312efaa4e94d3cd6023b72eddd04ee2">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="stopping-a-message-from-being-said-multiple-times-inform-7.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published updated"><span class="value-title" title="2015-04-30T20:17:21+0000">Apr 30</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data">Leah</span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="573"></a><div class="entry-content"><p>My code is probably pretty atrocious because I'm just learning Inform 7 and messing around by expanding some of the examples in the documentation, so pardon that.</p>
+
+<p>I have a case which contains multiple fishing rods and I don't want the player to be able to take a second one if they've already got one in their inventory, so this is the code I've written:</p>
+
+<pre><code>Before taking a fishing rod:
+    if the player carries a fishing rod:
+        say "You only need one fishing rod.";
+        stop the action.
+</code></pre>
+
+<p>This works really well unless the player wants to take more than one fishing rod at once. If, for instance, the player types "take all fishing rods", it will only place one in their inventory, but it will print out one success message and then a message of "You only need one fishing rod" for each remaining fishing rod in the case.</p>
+
+<pre><code>fishing rod: Taken.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+</code></pre>
+
+<p>This isn't world-ending, especially since there are only six, but it is a little sloppy. Is there a way to stop it after one print and/or a better way around it? The examples in the documentation about dispensers weren't very helpful because I want the case to have a finite number of fishing rods.</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/inventory.html" rel="tag" class="qa-tag-link">inventory</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/programming.html" rel="tag" class="qa-tag-link">programming</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/messages.html" rel="tag" class="qa-tag-link">messages</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c573_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446375034-b234add032b140d04ea675c078a0709cd6a8ed49">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">3 Answers</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a574">
+								<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+									<div class="qa-voting qa-voting-net" id="voting_574">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_574_1_a574" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375034-f3eab2980312efaa4e94d3cd6023b72eddd04ee2">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="stopping-a-message-from-being-said-multiple-times-inform-7a256.html?show=574#a574" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-04-30T20:50:04+0000">Apr 30</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">692</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-05-09T13:34:23+0000">May 9</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="574"></a><div class="entry-content"><p>I would suggest checking out the extension Consolidated Multiple Actions by John Clemens, which was recently updated for version 6L38 of Inform 7. In the list of extensions that you see if you click on the extensions tab, then the public library tab in the Inform IDE, this extension is listed under the "§5.7 Remembering, Converting and Combining Actions" subcategory, which is under the Commands category.</p>
+
+<p>Here's one way of doing the failure messages, also using Ron Newcomb's "After Not Doing Something" extension (also in the §5.7 subcategory of the extensions list).</p>
+
+<pre><code>"Tackle Shop"
+
+Include Consolidated Multiple Actions by John Clemens.
+Include After Not Doing Something by Ron Newcomb.
+
+Tackle Shop is a room.
+
+A fishing rod is a kind of thing.
+6 fishing rods are here.
+
+Instead of taking a fishing rod when the player carries a fishing rod:
+    indicate noteworthy consolidation.
+
+Rod-Failure-Printed is a truth state that varies. Rod-Failure-Printed is false. 
+
+After not taking a fishing rod when Rod-Failure-Printed is false:
+        say "You only need one fishing rod.";
+        now Rod-Failure-Printed is true;
+        say conditional paragraph break.
+
+Every turn when Rod-Failure-Printed is true:
+    now Rod-Failure-Printed is false.
+</code></pre>
+
+<p>If you don't need all the fishing rods to function as separate objects, you could try doing it in a less literal way, along the lines of what The Pixie suggested:</p>
+
+<pre><code>"Tackle Shop 2"
+
+Tackle Shop is a room.
+
+A case is a fixed in place thing in Tackle Shop. The printed name of the case is "case of fishing rods". The description of the case is "A case containing several fishing rods." Understand "fishing" and "rods" and "rod" and "case of fishing rods" as the case.
+
+A new fishing rod is nowhere. The new fishing rod can be cased or uncased. The new fishing rod is cased.
+
+Does the player mean taking the new fishing rod: it is likely.
+
+Instead of taking the case:
+    if the new fishing rod is cased:
+        now the player carries the new fishing rod;
+        now the new fishing rod is uncased;
+        say "You take a fishing rod from the case.";
+    otherwise:
+        say "You only need one fishing rod."
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a574_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c574_list">
+											<div class="qa-c-list-item  hentry comment" id="c577">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="stopping-a-message-from-being-said-multiple-times-inform-7f385.html?show=577#c577" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-05-02T23:50:04+0000">May 2</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/chronoimp.html" class="qa-user-link url fn entry-title nickname">chronoimp</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">1</span><span class="qa-c-item-who-points-pad"> point)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="577"></a><div class="entry-content">I installed the extension and was trying to implement it, but because I have the failure message created before the action of taking the rod and then it stops the action, it doesn't get far enough along in the execution for the multiple action code to take over. Which is to say, it still printed six messages.<br />
+<br />
+I was trying to figure out how to move the failure message into a report or after rule, but then I couldn't figure out how to get it to print at all. I almost had success with using the &quot;the number of multiple actions so far this turn&quot; variable to stop printing messages after the first, but then I couldn't find a way to just make it print if the player tries to take one extra rod instead of all of them, because that variable doesn't reset to zero until the start of the next multiple action.<br />
+<br />
+I feel like I should be able to do it with this extension, but I can't quite get it to work.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c586">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="stopping-a-message-from-being-said-multiple-times-inform-76c9d.html?show=586#c586" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-05-08T16:43:55+0000">May 8</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="586"></a><div class="entry-content">I've edited the answer to add some more info and examples.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375034-ea2f6f44061bd7e5b13add949ea1e90a4bc4b853">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a638">
+								<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+									<div class="qa-voting qa-voting-net" id="voting_638">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_638_1_a638" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375034-f3eab2980312efaa4e94d3cd6023b72eddd04ee2">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="stopping-a-message-from-being-said-multiple-times-inform-71954.html?show=638#a638" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-05-22T00:57:21+0000">May 21</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">121</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-05-25T17:56:07+0000">May 25</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="638"></a><div class="entry-content"><p>The issue here is that when you have a command on multiple items, it's processed as an action on each item--so a taking action is generated for each fishing rod, with its appropriate messages.</p>
+
+<p>Since all these actions take place in the same turn, we can use a flag (which we reset every turn) to keep track of whether we've already printed the "You only need one" message once this turn. But there's also an "announce items from multiple object lists" rule, which is what prints "fishing rod:" for each of the multiple items--and that works outside of the action machinery, so we have to modify that too. </p>
+
+<p>So:</p>
+
+<pre><code>Tackle Box is a room. 
+
+A fishing rod is a kind of thing. There are six fishing rods in Tackle Box. A rock is in Tackle Box.
+
+Already printed the fishing rod message is a truth state that varies.
+
+Last every turn: now already printed the fishing rod message is false.
+
+This is the modified announce items from multiple object lists rule:
+    if the current item from the multiple object list is not nothing:
+        if the current item from the multiple object list is not a fishing rod or already printed the fishing rod message is false:
+            say "[current item from the multiple object list]: [run paragraph on]".
+
+The modified announce items from multiple object lists rule is listed instead of the announce items from multiple object lists rule in the action-processing rules.
+
+Before taking a fishing rod when the player carries a fishing rod:
+    if already printed the fishing rod message is false:    
+        say "You only need one fishing rod.";
+        now already printed the fishing rod message is true;
+    stop the action.
+</code></pre>
+
+<p>This is based on code from the examples in the Inform documentation "The Left Hand of Autumn" and "The Facts Were These." (Also, when you try "take all rods" it doesn't print a blank line before the command prompt. Someone who understands I7's line spacing might be able to help with that.)</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a638_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" style="display:none;" id="c638_list">
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375034-7f960f41afc878476238f4abea9c31f6f85c9bc6">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a576">
+								<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+									<div class="qa-voting qa-voting-net" id="voting_576">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_576_1_a576" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375034-f3eab2980312efaa4e94d3cd6023b72eddd04ee2">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="stopping-a-message-from-being-said-multiple-times-inform-73398.html?show=576#a576" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-05-02T07:48:38+0000">May 2</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/The%2bPixie.html" class="qa-user-link url fn entry-title nickname">The Pixie</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">121</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7?show=638">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="576"></a><div class="entry-content"><p>I do not know Inform at all, but a possible approach might be to just have one fishing rod in the case, but set up the description of the case so it says there are six before the rod is removed, and five after it is removed.</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a576_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" style="display:none;" id="c576_list">
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375034-11d93003cafcefc6bd39df543e6f011721b3b5f6">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../387/there-reduce-right-margin-browser-website-released-inform.html">Is there a way to reduce the right margin for a play-in-browser website released by Inform 7?</a></li>
+									<li class="qa-related-q-item"><a href="../282/how-do-i-print-a-message-on-the-xth-turn-in-inform-7.html">how do I print a message on the Xth turn in inform 7?</a></li>
+									<li class="qa-related-q-item"><a href="../103/inform-is-there-way-to-detect-which-interpreter-is-being-used.html">In Inform 7, is there a way to detect which interpreter is being used?</a></li>
+									<li class="qa-related-q-item"><a href="../947/inform-multiple-instances-thing-where-some-change-properties.html">Inform 7: Multiple instances of a kind of thing where some (but not all) change properties</a></li>
+									<li class="qa-related-q-item"><a href="../503/how-to-make-a-thing-that-can-be-seen-from-every-room.html">How to make a thing that can be seen from every room?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

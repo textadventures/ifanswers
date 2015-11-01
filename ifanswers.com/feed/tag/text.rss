@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged text</title>
+<link>http://ifanswers.com/tag/text</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do you make choices in Quest?</title>
+<link>http://ifanswers.com/763/how-do-you-make-choices-in-quest</link>
+<description>&lt;p&gt;I'm currently working on a text game in Quest, however I was wondering how you make a sort of multiple choice dialogue list.  Like, a list of hyperlinks that lead to different paths of dialouge.  I know it seems like a simple question, but the process of solving it has evaded me.  Thank you in advance to whoever answers my question.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/763/how-do-you-make-choices-in-quest</guid>
+<pubDate>Sun, 14 Jun 2015 03:42:06 +0000</pubDate>
+</item>
+<item>
+<title>Changing the subject of a verb</title>
+<link>http://ifanswers.com/684/changing-the-subject-of-a-verb</link>
+<description>&lt;p&gt;In inform 7, how can I manually change the subject of the a verb in adaptive text, in a situation where the assumed subject is incorrect?&lt;/p&gt;
+
+&lt;p&gt;And can I set the subject to be a counted number of things? IE, &quot;[Number of people in the room] set[s] of eyes [stare] accusingly at you.&quot; It does not seem to do this by default.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/684/changing-the-subject-of-a-verb</guid>
+<pubDate>Thu, 28 May 2015 02:39:59 +0000</pubDate>
+</item>
+<item>
+<title>How can I change the interface to look like Beyond Zork?</title>
+<link>http://ifanswers.com/370/how-can-i-change-the-interface-to-look-like-beyond-zork</link>
+<description>&lt;p&gt;&lt;img src=&quot;http://s13.postimg.org/4w0e6t1l3/SCPR_2015_04_01_at_12_10_37_PM.png&quot; alt=&quot;enter image description here&quot;&gt;Remember Beyond Zork? It's pretty much everything I want in my text adventure engine, but I can't figure out how to put the room description / inventory in a box at the top using Basic Screen Effects. It's just like display the boxed quotation format, but I can't seem to figure it out. Any help would be appreciated. &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/370/how-can-i-change-the-interface-to-look-like-beyond-zork</guid>
+<pubDate>Tue, 31 Mar 2015 21:36:41 +0000</pubDate>
+</item>
+<item>
+<title>Inform: How do I get the player to input a name for themselves? The name keeps changing to whatever the player typed last!</title>
+<link>http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed</link>
+<description>&lt;p&gt;In Inform 7, there is a way to get the player to input a name at the first prompt with code like this, but if you use this exact code in Inform 6L02 and later then the player's name will always appear as the last command typed.&lt;/p&gt;&lt;pre&gt;the player name is some text that varies. 
+
+
+To decide whether collecting names:
+	if the command prompt is &quot;What will your name be?  &quot;, yes;
+	 no.
+
+When play begins:
+	now the command prompt is &quot;What will your name be?  &quot;;
+	
+After reading a command when collecting names:
+	now the player name is &quot;[the player's command in title case]&quot;;	
+	now the command prompt is &quot;&amp;gt; &quot;;
+	move the player to the location;
+	reject the player's command.
+
+&lt;/pre&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/194/inform-player-themselves-keeps-changing-whatever-player-typed</guid>
+<pubDate>Thu, 26 Mar 2015 11:37:30 +0000</pubDate>
+</item>
+</channel>
+</rss>

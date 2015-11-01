@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged text-processor</title>
+<link>http://ifanswers.com/tag/text-processor</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Help! I need to use a candle as a light source in rooms in my Quest text adventure game</title>
+<link>http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</link>
+<description>&lt;p&gt;Hi everyone&lt;/p&gt;
+
+&lt;p&gt;I am currently making a fantasy game on Quest and a few of the rooms are dark.&lt;/p&gt;
+
+&lt;p&gt;I want them to be dark when the player enters so they will have to use a candle (from the inventory) to light the room so they can move on.&lt;/p&gt;
+
+&lt;p&gt;I don't want them to be able to move on further into the room without using the candle but I cannot find this in the help documentation (although at the moment I am now going cross eyed with all the research and screenshots!!!)&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance! :)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</guid>
+<pubDate>Wed, 07 Oct 2015 22:32:24 +0000</pubDate>
+</item>
+<item>
+<title>I want to make a verb that requires to things at once. How do I do this this? [internet version]</title>
+<link>http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version</link>
+<description>&lt;p&gt;Specifically, I want it to be that the player can only skin the wolf if:&lt;br&gt;
+1. The wolf is dead&lt;br&gt;
+AND&lt;br&gt;
+2. The player has a stone&lt;/p&gt;
+
+&lt;p&gt;Using flags, I can make the wolf dead, and I can make it so that the wolf must be dead for skinning. I can also make it so that a stone is needed for skinning. The problem is, I cannot make it so that BOTH of these is required. Any help is welcome, thanks in advance&lt;/p&gt;
+
+&lt;p&gt;-- Plink333&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version</guid>
+<pubDate>Thu, 27 Aug 2015 16:57:01 +0000</pubDate>
+</item>
+<item>
+<title>In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</title>
+<link>http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</link>
+<description>&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As per the above forum topic, it appears that I'm receiving errors when Quest parses my game file that other people cannot reproduce (ie, it appears that Quest dislikes my syntax or something, but others don't know why). &lt;/p&gt;
+
+&lt;p&gt;I've uninstalled and reinstalled Quest to try to resolve the issue, but I continue to have the error. Maybe there's something I failed to initialize or a game setting I've failed to properly set?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</guid>
+<pubDate>Wed, 26 Aug 2015 04:47:12 +0000</pubDate>
+</item>
+</channel>
+</rss>

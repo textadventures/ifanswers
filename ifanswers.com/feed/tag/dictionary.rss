@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged dictionary</title>
+<link>http://ifanswers.com/tag/dictionary</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I retrieve values from a dictionary in Quest 5.6?</title>
+<link>http://ifanswers.com/261/how-do-i-retrieve-values-from-a-dictionary-in-quest-5-6</link>
+<description>While I have created a string dictionary to hold a rather large list of options, I cannot figure out how to actually retrieve values from it. The command given on the documentation for &amp;quot;using dictionaries&amp;quot; is apparently undefined, and I can only find options for add and remove values in the GUI. I'm probably missing something obvious, but my goal is to get an element from the dictionary and place it into another, which would be checked to allow the player to use certain actions/commands. I'm considering switching it to an object dictionary.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/261/how-do-i-retrieve-values-from-a-dictionary-in-quest-5-6</guid>
+<pubDate>Sat, 28 Mar 2015 05:17:26 +0000</pubDate>
+</item>
+</channel>
+</rss>

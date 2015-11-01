@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged bugs</title>
+<link>http://ifanswers.com/tag/bugs</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Should I use the forums to alert people to a bug I noticed?</title>
+<link>http://ifanswers.com/301/should-i-use-the-forums-to-alert-people-to-a-bug-i-noticed</link>
+<description>&lt;p&gt;I recently spent an hour commenting and uncommenting every block of my code trying to find the source of a &quot;bug&quot;. I just discovered it wasn't a bug. I thought I did something to cause the statusbar to disappear, but apparently, if the Inform window isn't tall enough, it will stop rendering the statusbar when text / commands reach the bottom of the space. It disappears exactly as it would if code fouled it up, but it's just the IDE.&lt;/p&gt;
+
+&lt;p&gt;Should I alert people to this really irritating &quot;bug&quot;, or is the bug report enough? There seem to be a whole lot of bugs reported, and so I'm afraid someone else might waste their time like this, because my bug report is lost in a sea of other ones. &lt;/p&gt;
+
+&lt;p&gt;(I'm still getting used to the etiquette here, so if this isn't the place for this, I apologize in advance.)&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/301/should-i-use-the-forums-to-alert-people-to-a-bug-i-noticed</guid>
+<pubDate>Mon, 30 Mar 2015 04:41:39 +0000</pubDate>
+</item>
+<item>
+<title>Where can I report a bug in Inform 7 or the I7 documentation?</title>
+<link>http://ifanswers.com/67/where-can-i-report-a-bug-in-inform-7-or-the-i7-documentation</link>
+<description></description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/67/where-can-i-report-a-bug-in-inform-7-or-the-i7-documentation</guid>
+<pubDate>Mon, 23 Mar 2015 23:45:17 +0000</pubDate>
+</item>
+</channel>
+</rss>

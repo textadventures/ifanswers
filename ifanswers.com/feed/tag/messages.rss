@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged messages</title>
+<link>http://ifanswers.com/tag/messages</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Stopping a message from being said multiple times (Inform 7)?</title>
+<link>http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7</link>
+<description>&lt;p&gt;My code is probably pretty atrocious because I'm just learning Inform 7 and messing around by expanding some of the examples in the documentation, so pardon that.&lt;/p&gt;
+
+&lt;p&gt;I have a case which contains multiple fishing rods and I don't want the player to be able to take a second one if they've already got one in their inventory, so this is the code I've written:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Before taking a fishing rod:
+    if the player carries a fishing rod:
+        say &quot;You only need one fishing rod.&quot;;
+        stop the action.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works really well unless the player wants to take more than one fishing rod at once. If, for instance, the player types &quot;take all fishing rods&quot;, it will only place one in their inventory, but it will print out one success message and then a message of &quot;You only need one fishing rod&quot; for each remaining fishing rod in the case.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;fishing rod: Taken.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+fishing rod: You only need one fishing rod.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This isn't world-ending, especially since there are only six, but it is a little sloppy. Is there a way to stop it after one print and/or a better way around it? The examples in the documentation about dispensers weren't very helpful because I want the case to have a finite number of fishing rods.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/573/stopping-a-message-from-being-said-multiple-times-inform-7</guid>
+<pubDate>Thu, 30 Apr 2015 20:17:21 +0000</pubDate>
+</item>
+</channel>
+</rss>

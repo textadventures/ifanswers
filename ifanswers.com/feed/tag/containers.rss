@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged containers</title>
+<link>http://ifanswers.com/tag/containers</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Open container that you can't see inside in Inform 7?</title>
+<link>http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7</link>
+<description>&lt;p&gt;Hi, I'm trying to have a small object which is inside another object that the player can't see. &lt;br&gt;
+However when looked at in game the &quot;container&quot; object is shown as either (closed) or the player can see what's inside it.&lt;/p&gt;
+
+&lt;p&gt;Here is my code for the objects in question:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;There is an object called a hat. a hat is wearable. a hat is opaque.
+
+There is an object called a tiny key. a tiny key is inside a hat.
+
+Before taking the hat:
+    if the tiny key is in the hat or a tiny key is not on the player:
+        move a tiny key to the bedroom;
+        say &quot;As you pick the hat up, a tiny key falls out of the hat and clatters on the floor.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In game it looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You can see a hat (in which is a tiny key) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I make the hat closed, then it shows it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You can see a hat (closed)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which I feel gives away that there's something hidden in the hat. Is there a way to show no suffix as to whether the hat is a container or not?&lt;/p&gt;
+
+&lt;p&gt;Another small question I had relates to moving the key to the same location as the hat. Obviously the current design of the puzzle means that attempting to move the hat would cause the key to drop, but what if I wanted the code to recognise what room the hat is in and then transport it's contents to that same room?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7</guid>
+<pubDate>Sun, 06 Sep 2015 17:55:57 +0000</pubDate>
+</item>
+</channel>
+</rss>

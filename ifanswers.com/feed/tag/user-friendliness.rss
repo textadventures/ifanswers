@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged user-friendliness</title>
+<link>http://ifanswers.com/tag/user-friendliness</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Is it against the player's expectation to have examine do more senses than just sight?</title>
+<link>http://ifanswers.com/233/against-players-expectation-examine-senses-than-just-sight</link>
+<description>&lt;p&gt;EXAMINE THING and LOOK AT THING are conventionally the same command, and they conventionally give you the description of the thing.&lt;/p&gt;
+
+&lt;p&gt;What I’m wondering is whether descriptions should focus solely on sight, or if descriptions ought to include noises and possibly odor as well (provided it isn’t an odor you would have to sniff up close to observe, perhaps). It feels odd to me to have to use up two turns to X THING and then LISTEN TO THING when if you were really there you’d experience both at once, but at the same time I’m sure some players would find it odd to see non-sight information after examining, and if it is all bundled into one command what is the point of the others?&lt;/p&gt;
+
+&lt;p&gt;One of the reasons I’m asking this is because I’m experimenting with alternate primary senses as well. If you were, say, a dog whose primary sense is smell but who still sees, it would seem unusual to have to use up two turns to SMELL THING and then LOOK AT THING to get all the info, even if both are timeless. It feels to me that EXAMINE THING would best fuse both together, but then you have to consider what SMELL THING and LOOK AT THING do.&lt;/p&gt;
+
+&lt;p&gt;What do you feel you would want as a player, and why? What would you think naturally and what would you require ABOUT text guidance to understand?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/233/against-players-expectation-examine-senses-than-just-sight</guid>
+<pubDate>Fri, 27 Mar 2015 17:58:34 +0000</pubDate>
+</item>
+<item>
+<title>How do I change parser error messages from sounding like smackdowns?</title>
+<link>http://ifanswers.com/48/change-parser-error-messages-from-sounding-like-smackdowns</link>
+<description>Unfortunately some defaults in Inform sound a bit harsh and/or bland. But they need to be informative in some way, and they can't be too specific. What to do?</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/48/change-parser-error-messages-from-sounding-like-smackdowns</guid>
+<pubDate>Mon, 23 Mar 2015 18:29:08 +0000</pubDate>
+</item>
+</channel>
+</rss>

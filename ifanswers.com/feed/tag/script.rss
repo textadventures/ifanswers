@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged script</title>
+<link>http://ifanswers.com/tag/script</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How can I run a command via script? [Quest]</title>
+<link>http://ifanswers.com/1025/how-can-i-run-a-command-via-script-quest</link>
+<description>&lt;p&gt;Title is quite self-explanatory. I want to have a script that runs a command for me so the user doesn't have to type it. More specifically I want it to use the &quot;look&quot; command so all the information about the room I defined in the game settings is displayed over again.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1025/how-can-i-run-a-command-via-script-quest</guid>
+<pubDate>Fri, 07 Aug 2015 18:54:11 +0000</pubDate>
+</item>
+</channel>
+</rss>

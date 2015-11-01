@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged gender</title>
+<link>http://ifanswers.com/tag/gender</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Using the Gamebook style game, how do I create game-wide variables to track?</title>
+<link>http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</link>
+<description>&lt;p&gt;In a Gamebook style game, how do I create game-wide variables to track?&lt;/p&gt;
+
+&lt;p&gt;For example, if I want to set a player's gender, but gender doesn't exist in my game yet, how do I make a variable called gender that I can set to be male or female, then check later?&lt;/p&gt;
+
+&lt;p&gt;I am using Windows 8, downloadable version of Quest 5.6.1&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</guid>
+<pubDate>Mon, 24 Aug 2015 01:11:06 +0000</pubDate>
+</item>
+</channel>
+</rss>

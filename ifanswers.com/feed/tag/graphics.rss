@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged graphics</title>
+<link>http://ifanswers.com/tag/graphics</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How can I add changing maps or inventories to a Twine game?</title>
+<link>http://ifanswers.com/584/how-can-i-add-changing-maps-or-inventories-to-a-twine-game</link>
+<description>&lt;p&gt;I was thinking of having a changing map in a Twine  story. Something like a diagram which will change according to the passages you've visited, like a roguelike. Alternatively, I want to have a sidebar which will display an inventory or something like that, like in Kerkerkruip or in RPGs such as Sil. &lt;/p&gt;
+
+&lt;p&gt;Is this feasible and/or possible? Do you have any ideas how I might go about doing it? (Would it be a lot easier in another language like Inform 7?) Thanks!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/584/how-can-i-add-changing-maps-or-inventories-to-a-twine-game</guid>
+<pubDate>Fri, 08 May 2015 11:11:50 +0000</pubDate>
+</item>
+</channel>
+</rss>

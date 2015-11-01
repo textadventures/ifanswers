@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged checklist</title>
+<link>http://ifanswers.com/tag/checklist</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I find the default parser verbs in Quest?</title>
+<link>http://ifanswers.com/247/how-do-i-find-the-default-parser-verbs-in-quest</link>
+<description>Is there anywhere in the documentation? It would be nice to have a checklist, so I don't surprise the player with generic responses that don't work with the game.</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/247/how-do-i-find-the-default-parser-verbs-in-quest</guid>
+<pubDate>Fri, 27 Mar 2015 23:57:35 +0000</pubDate>
+</item>
+<item>
+<title>How do I find the default parser verbs in Inform?</title>
+<link>http://ifanswers.com/245/how-do-i-find-the-default-parser-verbs-in-inform</link>
+<description></description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/245/how-do-i-find-the-default-parser-verbs-in-inform</guid>
+<pubDate>Fri, 27 Mar 2015 23:56:34 +0000</pubDate>
+</item>
+</channel>
+</rss>

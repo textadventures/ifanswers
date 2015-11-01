@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>Centering an image in Inform 7 - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Using Basic Screen Effects by Emily Short I am able to center text very easily like this: center  ...  to display that image centered, like the text?">
+		<meta name="keywords" content="Authoring,inform7,authoring">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="centering-an-image-in-inform-7.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '1062\/centering-an-image-in-inform-7';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=1062%2Fcentering-an-image-in-inform-7%3Fshow%3D1072" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446375010-9fea94f7910f7b0bc1c2ecb16beae2570bc1350c" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register3178.html?to=1062%2Fcentering-an-image-in-inform-7%3Fshow%3D1072" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="centering-an-image-in-inform-7.html">
+							<span class="entry-title">Centering an image in Inform 7</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q1062">
+							<form method="post" action="http://ifanswers.com/1062/centering-an-image-in-inform-7?show=1072">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_1062">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1062_1_q1062" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+2<span class="votes-up"><span class="value-title" title="2"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">119</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446375010-1c6b82ea8f68b30c2db0c126bde3271d45bf0e5e">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/1062/centering-an-image-in-inform-7?show=1072">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="centering-an-image-in-inform-7.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published updated"><span class="value-title" title="2015-08-18T19:14:27+0000">Aug 18</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/borabosna.html" class="qa-user-link url fn entry-title nickname">borabosna</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">11</span><span class="qa-q-view-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="1062"></a><div class="entry-content"><p>Using Basic Screen Effects by Emily Short I am able to center text very easily like this:</p>
+
+<pre><code>center "this is some text I want centered.";
+</code></pre>
+
+<p>This is so easy and so wonderful.</p>
+
+<p>Say I am displaying an image called the figure of the ocean by using:</p>
+
+<pre><code>display the figure of the ocean;
+</code></pre>
+
+<p>Is there an EASY way to display that image centered, like the text?</p>
+</div>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/authoring.html" rel="tag" class="qa-tag-link">authoring</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" style="display:none;" id="c1062_list">
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446375010-88d1cbfea454385c9d4a5663be0cc3aa8cef6f0a">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">1 Answer</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a1063">
+								<form method="post" action="http://ifanswers.com/1062/centering-an-image-in-inform-7?show=1072">
+									<div class="qa-voting qa-voting-net" id="voting_1063">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_1063_1_a1063" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375010-1c6b82ea8f68b30c2db0c126bde3271d45bf0e5e">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="centering-an-image-in-inform-73f8f.html?show=1063#a1063" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-08-18T20:50:40+0000">Aug 18</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">692</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-08-18T21:36:48+0000">Aug 18</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/1062/centering-an-image-in-inform-7?show=1072">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="1063"></a><div class="entry-content"><p>Hmm. According to  §23.6. in the manual,</p>
+
+<pre><code>display (figure name)
+</code></pre>
+
+<p>"causes the figure to be displayed in the centre of the screen visible to the player."</p>
+
+<p>But when I try it, it doesn't center the image--it just puts it on the left side. Is that what it does for you? Maybe it's an Inform bug.</p>
+
+<p>EDIT: Ok, from what Draconis said <a rel="nofollow" href="http://www.intfiction.org/forum/viewtopic.php?f=7&amp;p=95964#p95961">here</a>, you have to include an extension in order to center the image. But the built-in extension that's supposed to do this needs updating. Here's the <a rel="nofollow" href="http://inform7.com/mantis/view.php?id=1633">bug report</a>.</p>
+
+<p>If you don't want to wait for the bug to be fixed, there might be a way to update the extension yourself, and <a rel="nofollow" href="../417/how-do-i-update-code-to-use-version-5-of-glulx-text-effectsc59b.html?show=417#q417">this answer</a> might be of help.</p>
+
+<p>I don't know how one goes about modifying a built-in extension, though.</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a1063_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c1063_list">
+											<div class="qa-c-list-item  hentry comment" id="c1065">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="centering-an-image-in-inform-74098.html?show=1065#c1065" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-08-19T06:20:44+0000">Aug 19</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/borabosna.html" class="qa-user-link url fn entry-title nickname">borabosna</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">11</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-08-19T07:22:17+0000">Aug 19</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/borabosna.html" class="qa-user-link url fn entry-title nickname">borabosna</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1065"></a><div class="entry-content">Yes, it puts the image on the left. I guess I will just have to do with the left image then.<br />
+<br />
+EDIT: I was able to modify the two extensions &quot;Glulx Image Centering by Emily Short&quot; and &quot;Glulx Text Effects by Emily Short&quot; to make it work. Inform does not allow editing a built-in extension but it allows me to save the edited extension in the Inform folder under My Documents/Extensions/(author name) and then uses that version instead of the built-in one.<br />
+<br />
+In &quot;Glulx Image Centering&quot; I changed the table &quot;Table of User Styles (continued) to:<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Table of User Styles (continued)<br />
+style name&nbsp; &nbsp; justification&nbsp; &nbsp; obliquity&nbsp; &nbsp; indentation&nbsp; &nbsp; first line indentation&nbsp; &nbsp; boldness&nbsp; &nbsp; fixed width&nbsp; &nbsp; relative size<br />
+special-style-1&nbsp; &nbsp; center-justified&nbsp; &nbsp; false&nbsp; &nbsp; 0&nbsp; &nbsp; 0&nbsp; &nbsp; regular-weight&nbsp; &nbsp; true&nbsp; &nbsp; 0<br />
+<br />
+In &quot;Glulx Text Effects&quot; I changed the table &quot;Table of User Styles&quot; to:<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Table of User Styles<br />
+style name (a glulx text style)&nbsp; &nbsp; background color (a text)&nbsp; &nbsp; color (a text)&nbsp; &nbsp; first line indentation (a number)&nbsp; &nbsp; fixed width (a truth state)&nbsp; &nbsp; font weight (a font weight)&nbsp; &nbsp; indentation (a number)&nbsp; &nbsp; italic (a truth state)&nbsp; &nbsp; justification (a text justification)&nbsp; &nbsp; relative size (a number)&nbsp; &nbsp; reversed (a truth state)&nbsp; &nbsp; obliquity (a truth state)&nbsp; &nbsp; boldness (a font weight)<br />
+with 1 blank row<br />
+<br />
+Now, using<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;display the figure of the ocean centered;<br />
+<br />
+displays the image centered!</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1068">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/Ryan%2bVeeder.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/54288736de1fde4e87ee176d75578784?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="centering-an-image-in-inform-7e561.html?show=1068#c1068" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-20T03:20:28+0000">Aug 19</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Ryan%2bVeeder.html" class="qa-user-link url fn entry-title nickname">Ryan Veeder</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">290</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1068"></a><div class="entry-content">I spent about an hour and a half last night trying to figure this out. I didn't realize I also had to edit Glulx Text Effects.<br />
+<br />
+But the upshot is that I'm super impressed with your success! Nice job!!!</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1069">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="centering-an-image-in-inform-74787.html?show=1069#c1069" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-20T04:46:29+0000">Aug 20</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/borabosna.html" class="qa-user-link url fn entry-title nickname">borabosna</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">11</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1069"></a><div class="entry-content">Thanks Ryan! I'm glad my solution helped you out. I believe there is an even simpler solution, just deleting &quot;obliquity&quot; and &quot;boldness&quot; columns from &quot;Table of User Styles (continued)&quot; in Glulx Image Centering should do the job; so editing Glulx Text Effects may be unnecessary after all.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c1072">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-avatar">
+														<a href="../user/Dannii.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/a66cede09ad91417502051a3a146210a?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+													</span>
+													<span class="qa-c-item-meta">
+														<a href="centering-an-image-in-inform-76814.html?show=1072#c1072" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-08-20T22:41:00+0000">Aug 20</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Dannii.html" class="qa-user-link url fn entry-title nickname">Dannii</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">329</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="1072"></a><div class="entry-content">You only need to include the relevant columns, so Glulx Image Centering should be edited to just have 'style name' and 'justification'.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375010-641a59e8d8f5a5c76f1e69a4b1d8b73b5bc474a9">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../276/why-arent-if-and-otherwise-doing-what-i-expected-in-inform-7.html">Why aren't &quot;if&quot; and &quot;otherwise&quot; doing what I expected in Inform 7?</a></li>
+									<li class="qa-related-q-item"><a href="../933/flexible-windows-extension-depict-scaled-graphics-window.html">Using the Flexible Windows extension, how can I depict a scaled image in my graphics window?</a></li>
+									<li class="qa-related-q-item"><a href="../1139/is-there-an-easy-way-to-loop-text-in-inform-7.html">Is there an easy way to loop text in Inform 7?</a></li>
+									<li class="qa-related-q-item"><a href="../489/how-can-prevent-appending-open-closed-etc-an-object-in-inform.html">How can I prevent appending (open), (closed) etc. to an object in Inform 7?</a></li>
+									<li class="qa-related-q-item"><a href="../1177/implement-blanket-understood-comment-inanimate-listener.html">[Inform 7] How to implement a blanket 'not understood' comment for an Inanimate Listener</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

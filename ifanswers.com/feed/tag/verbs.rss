@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged verbs</title>
+<link>http://ifanswers.com/tag/verbs</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I make verbs synonymous for only certain objects in Quest 5.6.1?</title>
+<link>http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest</link>
+<description>&lt;p&gt;I'm a beginner at this. And I just discovered library elements as I was typing this question, so I'm sorry if I'm right at the answer now. But I've spent too much time on this already and I think other people would wonder this, too. I'll post the answer if I figure it out.&lt;/p&gt;
+
+&lt;p&gt;I'm using the Quest 5.6.1 windows program, I'm not using the browser version.&lt;/p&gt;
+
+&lt;p&gt;In my game, there is a book. I've given the book &quot;one&quot; verb that has many synonyms. It's this:&lt;/p&gt;
+
+&lt;p&gt;turn through; flip through; scan; read; open; thumb through; page through; look in; look inside&lt;/p&gt;
+
+&lt;p&gt;Please note that one of the synonyms is &quot;open&quot;. More recently, I added my first container object to the game. One of it's default verbs is &quot;open&quot;.&lt;/p&gt;
+
+&lt;p&gt;When I try to open it with the &quot;open&quot; verb, it says this:&lt;/p&gt;
+
+&lt;p&gt;You can't turn through; flip through; scan; read; open; thumb through; page through; look in; look inside it.&lt;/p&gt;
+
+&lt;p&gt;As an experiment, I wanted to try giving the verb &quot;open&quot; to an object that isn't a container and see if I have the same problem, but when I type &quot;open&quot; and click the ok button, it comes up as &quot;turn through; flip through; scan; read; open; thumb through; page through; look in; look inside&quot;, even though I only typed &quot;open&quot;.&lt;/p&gt;
+
+&lt;p&gt;So, I think you can tell what my intentions are. I would like for the player to be able to use any of those words to open; read; etc. the book. I don't want the player to type something that to a human being clearly means that they want to open the book and read its pages and have the game tell them that it doesn't know how to do that.&lt;/p&gt;
+
+&lt;p&gt;How do I make the words in my verb string synonymous only for one object, in this case, the book?&lt;/p&gt;
+
+&lt;p&gt;It would be nice if I could create a designation (a flag, maybe?) for every object that I would want this string to apply to, in other words, books, magazines; any reading material composed of pages.&lt;/p&gt;
+
+&lt;p&gt;I hope this isn't a stupid question. I've been looking all over the place to solve this.&lt;/p&gt;
+
+&lt;p&gt;Thanks for giving me your time.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest</guid>
+<pubDate>Wed, 30 Sep 2015 16:49:27 +0000</pubDate>
+</item>
+<item>
+<title>Quest - why does the # disappear when I add a verb?</title>
+<link>http://ifanswers.com/942/quest-why-does-the-%23-disappear-when-i-add-a-verb</link>
+<description>&lt;p&gt;I have added this verb to a switchable object:&lt;/p&gt;
+
+&lt;p&gt;doe aan; doe #object# aan&lt;/p&gt;
+
+&lt;p&gt;Works fine.&lt;/p&gt;
+
+&lt;p&gt;Then I add this verb to the object:&lt;/p&gt;
+
+&lt;p&gt;doe uit; doe #object# uit&lt;/p&gt;
+
+&lt;p&gt;But when I hit the okay-button, the last # suddenly decides to disappear and the verb doesn't work at all. What do I do wrong here and how can I solve it?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/942/quest-why-does-the-%23-disappear-when-i-add-a-verb</guid>
+<pubDate>Mon, 20 Jul 2015 19:10:47 +0000</pubDate>
+</item>
+<item>
+<title>Changing the subject of a verb</title>
+<link>http://ifanswers.com/684/changing-the-subject-of-a-verb</link>
+<description>&lt;p&gt;In inform 7, how can I manually change the subject of the a verb in adaptive text, in a situation where the assumed subject is incorrect?&lt;/p&gt;
+
+&lt;p&gt;And can I set the subject to be a counted number of things? IE, &quot;[Number of people in the room] set[s] of eyes [stare] accusingly at you.&quot; It does not seem to do this by default.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/684/changing-the-subject-of-a-verb</guid>
+<pubDate>Thu, 28 May 2015 02:39:59 +0000</pubDate>
+</item>
+<item>
+<title>Quest: Can I hide and unhide a Verb?</title>
+<link>http://ifanswers.com/680/quest-can-i-hide-and-unhide-a-verb</link>
+<description>&lt;p&gt;Heya!&lt;/p&gt;
+
+&lt;p&gt;I'm just wondering - can I temporarily hide a Verb? So that say, I can have the Verbs &quot;Speak To&quot; and &quot;Kiss&quot;. Before the player uses &quot;Speak To&quot; they'll not see the verb &quot;Kiss&quot;, and after they use &quot;Speak To&quot; it'll show up in the Verb List?&lt;/p&gt;
+
+&lt;p&gt;I know I can make &quot;Kiss&quot; invisible, but I'd like to have it show up on the list, for player use.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/680/quest-can-i-hide-and-unhide-a-verb</guid>
+<pubDate>Wed, 27 May 2015 20:41:59 +0000</pubDate>
+</item>
+</channel>
+</rss>

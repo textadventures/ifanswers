@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged hyperlinks</title>
+<link>http://ifanswers.com/tag/hyperlinks</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Disable hyperlinks?</title>
+<link>http://ifanswers.com/988/disable-hyperlinks</link>
+<description>&lt;p&gt;How can I make my games NOT use hyperlinks at all? Sort of like &quot;The Lost Orb&quot;?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/988/disable-hyperlinks</guid>
+<pubDate>Mon, 03 Aug 2015 01:45:52 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Previous page links remain active?</title>
+<link>http://ifanswers.com/923/quest-gamebook-previous-page-links-remain-active</link>
+<description>&lt;p&gt;Noob question. I noticed this when using hyperlinks with the {page} command to navigate to different pages. &lt;/p&gt;
+
+&lt;p&gt;Say, the gamebook is three pages: &lt;br&gt;
+When playing on &lt;strong&gt;page1&lt;/strong&gt; I click a link to go to &lt;strong&gt;page2&lt;/strong&gt;. &lt;br&gt;
+&lt;strong&gt;Page2&lt;/strong&gt; text pops up underneath and that link on &lt;strong&gt;page1&lt;/strong&gt; deactivates and becomes regular text. This, I assume is normal behavier.&lt;/p&gt;
+
+&lt;p&gt;But, if I click a link on &lt;strong&gt;page2&lt;/strong&gt; to go to say, &lt;strong&gt;page3&lt;/strong&gt;, &lt;strong&gt;page3&lt;/strong&gt; text pops up underneath but the previous text above still contains the active links. Why are &lt;strong&gt;page2&lt;/strong&gt; links still active when I've moved on to &lt;strong&gt;page3&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;Confusing to explain I know. Only happens when I use the {page} command in the text field for navigation.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/923/quest-gamebook-previous-page-links-remain-active</guid>
+<pubDate>Wed, 15 Jul 2015 06:37:33 +0000</pubDate>
+</item>
+<item>
+<title>When using hyperlinks, how do you make the command appear appear next to the &gt; instead of on the following line? (Inform 7)</title>
+<link>http://ifanswers.com/761/hyperlinks-command-appear-appear-instead-following-inform</link>
+<description>&lt;p&gt;I ran into this issue with three different extensions that support hyperlinks: Basic Hyperlinks by Emily Short, Inline Hyperlinks by Erik Temple, and Flexible Windows.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to make the text appear next to the &amp;gt; instead of on the following line?&lt;/p&gt;
+
+&lt;p&gt;Sample transcript of current behavior:&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;&lt;br&gt;
+take&lt;br&gt;
+What do you want to take?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/761/hyperlinks-command-appear-appear-instead-following-inform</guid>
+<pubDate>Sun, 14 Jun 2015 03:34:49 +0000</pubDate>
+</item>
+<item>
+<title>How do you use a hyperlink to paste text without (in effect) pressing enter? (Flexible Windows, Inform 7)</title>
+<link>http://ifanswers.com/750/hyperlink-without-effect-pressing-flexible-windows-inform</link>
+<description>&lt;p&gt;I'd like to use hyperlinks to paste partial commands at the prompt, and allow the player to finish typing the command, but when I use the built-in hyperlink behavior of Flexible Windows, clicking the link automatically submits the text as a complete command. Is there a way to just paste the text and leave it be?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/750/hyperlink-without-effect-pressing-flexible-windows-inform</guid>
+<pubDate>Fri, 12 Jun 2015 02:58:34 +0000</pubDate>
+</item>
+<item>
+<title>Quest: Hyperlink Text Colours</title>
+<link>http://ifanswers.com/733/quest-hyperlink-text-colours</link>
+<description>&lt;p&gt;Hey everyone.&lt;/p&gt;
+
+&lt;p&gt;I've just uploaded my Quest game to TextAdventures.co.uk, and it seems none of the hyperlink colours are working.&lt;/p&gt;
+
+&lt;p&gt;They worked in the test version, and the version I published and emailed to my testers - does anyone know why they might not be working in the uploaded version? The span=red&amp;gt; tags work, etc, just not the colors selected for the hyperlinks. &lt;/p&gt;
+
+&lt;p&gt;I'm thinking of just spanning them all, but if anyone has a solutions or theories?&lt;/p&gt;
+
+&lt;p&gt;I could post a link to the game, or my code, but I gotta' warn you though; very erotic furry content.&lt;/p&gt;
+
+&lt;p&gt;I can't post my code, it's over 8000 chars. Is there a way around this?&lt;/p&gt;
+
+&lt;p&gt;Game is here; &lt;a rel=&quot;nofollow&quot; href=&quot;http://play.textadventures.co.uk/Play.aspx?id=jbb8rbjs4e_hjp7pbkuiug&quot;&gt;http://play.textadventures.co.uk/Play.aspx?id=jbb8rbjs4e_hjp7pbkuiug&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/733/quest-hyperlink-text-colours</guid>
+<pubDate>Mon, 08 Jun 2015 07:09:45 +0000</pubDate>
+</item>
+<item>
+<title>How to make a &quot;continue&quot; hyperlink in a Quest game?</title>
+<link>http://ifanswers.com/419/how-to-make-a-continue-hyperlink-in-a-quest-game</link>
+<description>&lt;p&gt;I switched from gamebooks to text game and I wanted to basically type in a bunch of stuff, and have a &quot;continue&quot; button which would take them to the start of the game. &lt;/p&gt;
+
+&lt;p&gt;Basically, I want to do what this game did&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://play.textadventures.co.uk/Play.aspx?id=vpf7vh9mfusdg4mta1u76g&quot;&gt;http://play.textadventures.co.uk/Play.aspx?id=vpf7vh9mfusdg4mta1u76g&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/419/how-to-make-a-continue-hyperlink-in-a-quest-game</guid>
+<pubDate>Sun, 05 Apr 2015 22:41:09 +0000</pubDate>
+</item>
+</channel>
+</rss>

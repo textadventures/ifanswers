@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged error</title>
+<link>http://ifanswers.com/tag/error</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest: Game won't open for edit?</title>
+<link>http://ifanswers.com/823/quest-game-wont-open-for-edit</link>
+<description>&lt;p&gt;I've been working on a Quest game for about  a month, and today have come to edit it, and it won't open. I get;&lt;/p&gt;
+
+&lt;p&gt;Failed to load game due to the following errors;&lt;br&gt;
+* Error: Error adding type 'editor&lt;em&gt;room' to element 'Crash Site': No element 'editor&lt;/em&gt;room' of type 'ObjectType'&lt;/p&gt;
+
+&lt;p&gt;My previous edit didn't add much, or particularly change much. Crash Site is the starting room for the player.&lt;/p&gt;
+
+&lt;p&gt;If I could open the Quest file, I could undo anything I did, or at least save most of the harder work.&lt;/p&gt;
+
+&lt;p&gt;Does anyone know how I can get it to open, in any way?&lt;/p&gt;
+
+&lt;p&gt;And I can't give the code, as I can't get it to open at all D:&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/823/quest-game-wont-open-for-edit</guid>
+<pubDate>Tue, 23 Jun 2015 16:40:54 +0000</pubDate>
+</item>
+</channel>
+</rss>

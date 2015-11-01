@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged exit</title>
+<link>http://ifanswers.com/tag/exit</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Quest: if's, exits, blocking and attributes</title>
+<link>http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</link>
+<description>&lt;p&gt;So these forums have been very useful, thanks a ton for that.&lt;br&gt;
+I've tried using gamebook version, but it seems rather limited, and I couldn't find dictionary functions to make attributes work properly and still so much more the text version does better.&lt;/p&gt;
+
+&lt;p&gt;Looking for Text Adventure Answers please**&lt;/p&gt;
+
+&lt;p&gt;So First Question is:&lt;/p&gt;
+
+&lt;p&gt;How do you make page links available if a stat is high enough?&lt;/p&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;p&gt;{if player.cunning&amp;gt;25:}&lt;br&gt;
+I want the following to be displayed&lt;/p&gt;
+
+&lt;p&gt;{command:go to Room4: So cunning you get to go here!}&lt;/p&gt;
+
+&lt;p&gt;Now I'm adding the commands to the text description, and I can't quite get it right.&lt;/p&gt;
+
+&lt;p&gt;Second Question:&lt;br&gt;
+The next thing I am having trouble with is blocking a path (exit) after it has been used. &lt;br&gt;
+Player has a choice of going to Room2, Room3, or Room4, player can't go to Room4 till their cunning is increased, so that isn't displayed yet, So player picks Room2, then Room2 links back to the Original Room1, but now I want Room2 to be blocked, that choice has already been taken and is no longer valid. &lt;/p&gt;
+
+&lt;p&gt;I've dabbled in exits and if's there as well, but can't quite get that right.&lt;/p&gt;
+
+&lt;p&gt;Last Question (For Now)&lt;br&gt;
+How do you display stats on a page without using the show panes interface? I'm looking to make it feel like more of a choose your own adventure, but with stats still recorded and shown.&lt;/p&gt;
+
+&lt;p&gt;I hopefully want it in descriptions, or maybe at header.&lt;br&gt;
+ Maybe there is a way to have the option to remove inventory, compass, place and objects from the screen, but keep status?  &lt;/p&gt;
+
+&lt;p&gt;Any answer, would be very useful, thanks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</guid>
+<pubDate>Fri, 23 Oct 2015 16:06:51 +0000</pubDate>
+</item>
+<item>
+<title>Quest - Why can't I unlock the door?</title>
+<link>http://ifanswers.com/978/quest-why-cant-i-unlock-the-door</link>
+<description>&lt;p&gt;I have created a locked exit and the following script:&lt;/p&gt;
+
+&lt;p&gt;if (not Got(sleutel)) {&lt;br&gt;
+  firsttime {&lt;br&gt;
+    msg (&quot;Dit is de slaapkamer van Maartje, je huisgenote. Ze vermoordt je levend als je hier naar binnen gaat. &quot;)&lt;br&gt;
+    LockExit (Maartjes kamer)&lt;br&gt;
+  }&lt;br&gt;
+  otherwise {&lt;br&gt;
+    msg (&quot;Deze deur zit op slot. &quot;)&lt;br&gt;
+  }&lt;br&gt;
+}&lt;br&gt;
+else {&lt;br&gt;
+  msg (&quot;Behoedzaam open je de deur en loop je de kamer van je huisgenote in.&quot;)&lt;br&gt;
+  UnlockExit (Maartjes kamer)&lt;br&gt;
+  MoveObject (player, tweede slaapkamer)&lt;br&gt;
+}&lt;/p&gt;
+
+&lt;p&gt;I also have created an object sleutel. But when the player first tries to enter this room (tweede slaapkamer) but does not have the key (sleutel) yet, and then when they try later when they have the key, the exit remains closed and the only message you get is 'Deze deur zit op slot'. However, when they already have the key they will succeed in unlocking the door. I really don't get what I'm doing wrong here. &lt;/p&gt;
+
+&lt;p&gt;I have used a locked door before, I looked up how I did it there but then I created a verb: 'open door with'. I assume this was a workaround. &lt;/p&gt;
+
+&lt;p&gt;I hope the situation is clear enough, if not, please tell me. Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/978/quest-why-cant-i-unlock-the-door</guid>
+<pubDate>Tue, 28 Jul 2015 18:45:35 +0000</pubDate>
+</item>
+</channel>
+</rss>

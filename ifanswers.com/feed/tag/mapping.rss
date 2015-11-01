@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged mapping</title>
+<link>http://ifanswers.com/tag/mapping</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How to show unexplored map nodes at the start?</title>
+<link>http://ifanswers.com/371/how-to-show-unexplored-map-nodes-at-the-start</link>
+<description>&lt;p&gt;For example purposes, the player has a home, where they should be aware of the existence of all rooms on the map, without having to go there to reveal them.&lt;/p&gt;
+
+&lt;p&gt;Other locations may require exploring, but this one should be visible.&lt;br&gt;
+Some of the rooms have {once} text in them, so setting them to already visited might interfere with that.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/371/how-to-show-unexplored-map-nodes-at-the-start</guid>
+<pubDate>Wed, 01 Apr 2015 00:03:56 +0000</pubDate>
+</item>
+<item>
+<title>Is there any way to see the map of a story?</title>
+<link>http://ifanswers.com/223/is-there-any-way-to-see-the-map-of-a-story</link>
+<description>&lt;p&gt;Another words I&amp;nbsp;want to get the graph of story &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.berksan.com/images/sitemap.jpg&quot;&gt;like that&lt;/a&gt;&lt;/p&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/223/is-there-any-way-to-see-the-map-of-a-story</guid>
+<pubDate>Fri, 27 Mar 2015 11:28:04 +0000</pubDate>
+</item>
+<item>
+<title>Which mapping tools work on Mac?</title>
+<link>http://ifanswers.com/202/which-mapping-tools-work-on-mac</link>
+<description>&lt;p&gt;What software or tools do you use to map out rooms in IF? Both when you're playing and when you're writing. It's been hard to find something which works on Mac natively, and I would love some kind of tool which can produce a map like &lt;a rel=&quot;nofollow&quot; href=&quot;http://daftjunk.com/dw/Ankh-Morpork.png&quot;&gt;this&lt;/a&gt;. Have tried Inform 7's tool but I'd like something which I can draft out spaces with before writing them in.&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/202/which-mapping-tools-work-on-mac</guid>
+<pubDate>Thu, 26 Mar 2015 16:24:03 +0000</pubDate>
+</item>
+</channel>
+</rss>

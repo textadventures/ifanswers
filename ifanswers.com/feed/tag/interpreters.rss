@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged interpreters</title>
+<link>http://ifanswers.com/tag/interpreters</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Does the offline Quest interpreter offer any features to players that online play does not?</title>
+<link>http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does</link>
+<description>&lt;p&gt;IFDB doesn't seem to have instructions for how to play Quest story files, but I assume this is what you'd use--desktop version of Quest: &lt;a rel=&quot;nofollow&quot; href=&quot;http://textadventures.co.uk/quest/desktop&quot;&gt;http://textadventures.co.uk/quest/desktop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(If not, please let me know!)&lt;/p&gt;
+
+&lt;p&gt;Does the desktop interpreter offer any features to players that you don't get when you play a Quest game online?&lt;/p&gt;
+
+&lt;p&gt;In other words, is there any special reason to download the desktop interpreter if you're just planning to play a Quest game, not make one?&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does</guid>
+<pubDate>Mon, 14 Sep 2015 14:37:06 +0000</pubDate>
+</item>
+<item>
+<title>Can I supply my own CSS to the gs.tads.io server / interpreter?</title>
+<link>http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</link>
+<description>&lt;p&gt;Now that I know that I can &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website&quot;&gt;straight up send the gs.tads.io server my games&lt;/a&gt;, can I change the output in any way, or am I stuck with it's fonts, colors, etc.?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1158/can-i-supply-my-own-css-to-the-gs-tads-io-server-interpreter</guid>
+<pubDate>Mon, 07 Sep 2015 06:37:15 +0000</pubDate>
+</item>
+<item>
+<title>Alternative ways to interact with I7 stories?</title>
+<link>http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories</link>
+<description>&lt;p&gt;I would like to be able to take existing I7 stories, and play them outside of the standard I7 GUI.  The primary motivation for this is that I would like to integrate an I7 story into a chat bot.  This would allow myself and some friends to play the story together over chat.&lt;/p&gt;
+
+&lt;p&gt;I already have a chat bot which I have written in python.  I would like to be able to feed text input to I7 and have it return the response as text.  Any suggestions on which tools from the I7 toolset apply to me, or where I might start?&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/867/alternative-ways-to-interact-with-i7-stories</guid>
+<pubDate>Tue, 30 Jun 2015 17:41:06 +0000</pubDate>
+</item>
+<item>
+<title>Is there a Javascript Interpreter for TADS that I can run on my website?</title>
+<link>http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website</link>
+<description>&lt;p&gt;I have a website, and I want people to be able to play my adventure from my webpage. Is there source code available for a javascript TADS that I could run on my website? I know IFDB has a &quot;play online&quot; web interpreter, but idk what it is / where it is / how I would use it with my website&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/774/there-javascript-interpreter-for-tads-that-can-run-website</guid>
+<pubDate>Tue, 16 Jun 2015 20:38:46 +0000</pubDate>
+</item>
+<item>
+<title>Can Parchment or Quixe run a story file from a Dropbox link?</title>
+<link>http://ifanswers.com/725/can-parchment-or-quixe-run-a-story-file-from-a-dropbox-link</link>
+<description>&lt;p&gt;Can Parchment or Quixe run a story file from a Dropbox link?&lt;/p&gt;
+
+&lt;p&gt;E.g.&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://iplayif.com/?story=DROPBOX-LINK-GOES-HERE.gblorb&quot;&gt;http://iplayif.com/?story=DROPBOX-LINK-GOES-HERE.gblorb&lt;/a&gt;&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/725/can-parchment-or-quixe-run-a-story-file-from-a-dropbox-link</guid>
+<pubDate>Sat, 06 Jun 2015 02:55:35 +0000</pubDate>
+</item>
+</channel>
+</rss>

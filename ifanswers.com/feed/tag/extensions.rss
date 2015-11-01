@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged extensions</title>
+<link>http://ifanswers.com/tag/extensions</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>When should you include extensions in extensions? (Inform 7)</title>
+<link>http://ifanswers.com/770/when-should-you-include-extensions-in-extensions-inform-7</link>
+<description>&lt;p&gt;If you're writing an extension and it includes some optional features A and B that make use of other extensions (C and D), but some people may not want to use features A and B, do you go ahead and include extensions C and D, or not? On one hand, you want things to work out of the box. On the other hand, if you're a game author who doesn't want features A and B, there's no good way (that I know of) to un-include C and D without modifying the including extension directly.&lt;/p&gt;
+
+&lt;p&gt;Or is this a case where feature B should really be in a separate little add-on extension that can be used with the main extension, and the add-on extension would include the necessary other extension (D)?&lt;/p&gt;
+
+&lt;p&gt;In this case the extensions &quot;C&quot; and &quot;D&quot; are Basic Screen Effects by Emily Short and Rewrite the Command Line by Ron Newcomb, if that makes a difference.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/770/when-should-you-include-extensions-in-extensions-inform-7</guid>
+<pubDate>Mon, 15 Jun 2015 20:00:30 +0000</pubDate>
+</item>
+<item>
+<title>How should you attribute an extensions you've made a small change to?</title>
+<link>http://ifanswers.com/640/how-should-you-attribute-extensions-youve-made-small-change</link>
+<description>&lt;p&gt;Regarding the previous answer about modifying extensions (linked below):&lt;/p&gt;
+
+&lt;p&gt;What if you'd otherwise be able to follow steps one through four to handle most of the changes, but one small thing is preventing that? For instance, there's one inclusion that must be commented out in order for the extension to be compatible with something else, or there's a single bug in the original extension that prevents it from compiling.&lt;/p&gt;
+
+&lt;p&gt;If the only thing you change about the whole extension is a bug fix or inclusion,  it seems to me that attributing the modified version to a new author as in the example for number 5 above&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Version 2 of Greeter by Angela Author begins here.
+
+&quot;Automatically greeting the player when the story begins.&quot;
+
+&quot;based on the original extension by Random Q Hacker&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;isn't quite fair to the original author, who did 99% of the work.&lt;/p&gt;
+
+&lt;p&gt;I suppose it may be different if there are semi-substantial, non-bug-related changes in addition to that single bug or inclusion that requires direct editing? Or in that case would you just fix the extension directly, leave it attributed to the original author, and then make the other, bigger changes in one of the preferred ways (#1-4)?&lt;/p&gt;
+
+&lt;p&gt;Either way, I'm curious if the &quot;small edit&quot; aspect affects the example given previously (where, since the extension is modified directly, it has been copied to a new extension, modified, and attributed to the modifying author).&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/640/how-should-you-attribute-extensions-youve-made-small-change</guid>
+<pubDate>Fri, 22 May 2015 13:58:18 +0000</pubDate>
+</item>
+<item>
+<title>How does one properly format italics/bold text in title entries in Menus by Emily Short?</title>
+<link>http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</link>
+<description>&lt;p&gt;I'm noticing some odd behavior when italicizing and bolding text in the title entries of a menu  created by the Menus extension in Glulx. Consider this code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Menus by Emily Short.
+
+Blank is a room.
+
+When play begins:
+    now the current menu is the Table of Issue;
+    carry out the displaying activity;
+    clear the screen.
+
+Table of Issue
+title   subtable    description toggle
+&quot;Foo&quot;   --  &quot;&quot;  --
+&quot;[italic type]Bar[roman type]&quot;  --  &quot;&quot;  --
+&quot;Baz&quot;   --  &quot;&quot;  --
+&quot;Qux&quot;   --  &quot;&quot;  --
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the game proper, the menu titles after the italicized one have a different style and aren't indented properly. This also happens for bold text.&lt;/p&gt;
+
+&lt;p&gt;Is there are a way to use italics or bold text in titles while having the formatting remain consistent?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/590/properly-format-italics-text-title-entries-menus-emily-short</guid>
+<pubDate>Sat, 09 May 2015 23:43:27 +0000</pubDate>
+</item>
+<item>
+<title>What are best practices for modifying extensions in Inform 7?</title>
+<link>http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform</link>
+<description>&lt;p&gt;If someone else's I7 extension doesn't do quite what you want, are you usually better off modifying the extension file itself, or leaving it as-is and making changes via the code of the game? And if it's the latter, are there other ways to make the changes besides these:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Individual rules in the extension, if they are named, can be referred to in the game, so you could say &quot;The fancy title banner rule does nothing&quot; or you could create your own rule and say it substitutes for the original rule, as in §19.5 of Writing with Inform.&lt;/li&gt;
+&lt;li&gt;A text response with a letter can be changed as in §14.11 of Writing with Inform.&lt;/li&gt;
+&lt;li&gt;Tables can be amended as in  §16.19 of Writing with Inform.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And maybe there are other ways to make amendments (substituting or disabling an entire section of code, for instance?).&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/474/what-are-best-practices-for-modifying-extensions-in-inform</guid>
+<pubDate>Mon, 13 Apr 2015 20:40:15 +0000</pubDate>
+</item>
+<item>
+<title>In the latest Inform ATTACK how do you write a First standard_attacker rule?</title>
+<link>http://ifanswers.com/107/the-latest-inform-attack-write-first-standard_attacker-rule</link>
+<description>Converting an old project which uses ?version 3 of Inform ATTACK, to the latest Inform ATTACK (version 5). This rule is causing a problem:&lt;br /&gt;
+&lt;br /&gt;
+Problem. You wrote 'First standard_attacker rule' : again, the punctuation here ':' makes me think this should be a definition of a phrase and it doesn't begin as it should.&lt;br /&gt;
+&lt;br /&gt;
+This problem report implies that the named rule doesn't match any definition in version 5 of Inform ATTACK. I believe that there may be an equivalent rule with a different name or perhaps the rule should be written in a different way like a check rule.&lt;br /&gt;
+&lt;br /&gt;
+You can find the latest Inform ATTACK here:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/i7/ATTACK&quot; rel=&quot;nofollow&quot;&gt;https://github.com/i7/ATTACK&lt;/a&gt;</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/107/the-latest-inform-attack-write-first-standard_attacker-rule</guid>
+<pubDate>Wed, 25 Mar 2015 12:32:31 +0000</pubDate>
+</item>
+<item>
+<title>Where can I find the latest version of an I7 extension?</title>
+<link>http://ifanswers.com/16/where-can-i-find-the-latest-version-of-an-i7-extension</link>
+<description>&lt;p&gt;I just upgraded to a new version of Inform 7 and one of the extensions I installed doesn't work any more. Where should I look to see if it has been updated?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/16/where-can-i-find-the-latest-version-of-an-i7-extension</guid>
+<pubDate>Mon, 23 Mar 2015 00:44:51 +0000</pubDate>
+</item>
+</channel>
+</rss>

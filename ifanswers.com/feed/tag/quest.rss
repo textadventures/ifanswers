@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged quest</title>
+<link>http://ifanswers.com/tag/quest</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Use Left, Right, etc, not North South, Etc.</title>
+<link>http://ifanswers.com/1266/use-left-right-etc-not-north-south-etc</link>
+<description>&lt;p&gt;I want to use left and right instead of  west and east for my &quot;You can go west.&quot; Prompt that it gives you when you play.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1266/use-left-right-etc-not-north-south-etc</guid>
+<pubDate>Sun, 25 Oct 2015 15:52:47 +0000</pubDate>
+</item>
+<item>
+<title>Quest: if's, exits, blocking and attributes</title>
+<link>http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</link>
+<description>&lt;p&gt;So these forums have been very useful, thanks a ton for that.&lt;br&gt;
+I've tried using gamebook version, but it seems rather limited, and I couldn't find dictionary functions to make attributes work properly and still so much more the text version does better.&lt;/p&gt;
+
+&lt;p&gt;Looking for Text Adventure Answers please**&lt;/p&gt;
+
+&lt;p&gt;So First Question is:&lt;/p&gt;
+
+&lt;p&gt;How do you make page links available if a stat is high enough?&lt;/p&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;p&gt;{if player.cunning&amp;gt;25:}&lt;br&gt;
+I want the following to be displayed&lt;/p&gt;
+
+&lt;p&gt;{command:go to Room4: So cunning you get to go here!}&lt;/p&gt;
+
+&lt;p&gt;Now I'm adding the commands to the text description, and I can't quite get it right.&lt;/p&gt;
+
+&lt;p&gt;Second Question:&lt;br&gt;
+The next thing I am having trouble with is blocking a path (exit) after it has been used. &lt;br&gt;
+Player has a choice of going to Room2, Room3, or Room4, player can't go to Room4 till their cunning is increased, so that isn't displayed yet, So player picks Room2, then Room2 links back to the Original Room1, but now I want Room2 to be blocked, that choice has already been taken and is no longer valid. &lt;/p&gt;
+
+&lt;p&gt;I've dabbled in exits and if's there as well, but can't quite get that right.&lt;/p&gt;
+
+&lt;p&gt;Last Question (For Now)&lt;br&gt;
+How do you display stats on a page without using the show panes interface? I'm looking to make it feel like more of a choose your own adventure, but with stats still recorded and shown.&lt;/p&gt;
+
+&lt;p&gt;I hopefully want it in descriptions, or maybe at header.&lt;br&gt;
+ Maybe there is a way to have the option to remove inventory, compass, place and objects from the screen, but keep status?  &lt;/p&gt;
+
+&lt;p&gt;Any answer, would be very useful, thanks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</guid>
+<pubDate>Fri, 23 Oct 2015 16:06:51 +0000</pubDate>
+</item>
+<item>
+<title>What script creates a link to a page?</title>
+<link>http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</link>
+<description>&lt;p&gt;Simple question. What script do I need to write to add a link to the current page which will take the player to the specified page if they click on it?&lt;/p&gt;
+
+&lt;p&gt;I am using Quest in gamebook mode and writing my pages as scripts and ignoring all the gibberish of the G.U.I. and just typing the code directly, nice and simple like, but I don't know how to add text that links to another page.&lt;/p&gt;
+
+&lt;p&gt;I don't want to just use text+script pages and add the links down at the bottom, because that's weak, as I can't put the link inside of other code to make it only run under certain circumstances. (approximate example: if object.attribute=1 { (link: &quot;this string&quot;, to page5) } )&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</guid>
+<pubDate>Sun, 18 Oct 2015 23:22:52 +0000</pubDate>
+</item>
+<item>
+<title>How to restore previous versions in web version of quest.</title>
+<link>http://ifanswers.com/1242/how-to-restore-previous-versions-in-web-version-of-quest</link>
+<description>&lt;p&gt;I accidentally deleted a room and then my browser crashed and reloaded the page. How do I get the room back?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1242/how-to-restore-previous-versions-in-web-version-of-quest</guid>
+<pubDate>Fri, 16 Oct 2015 10:15:34 +0000</pubDate>
+</item>
+<item>
+<title>How do you center images in Quest?</title>
+<link>http://ifanswers.com/1237/how-do-you-center-images-in-quest</link>
+<description>&lt;p&gt;I was wondering if anyone knows the code to center images in quest? The way it is currently set up, the immage is automatically set to the left side of the screen. So if you are using small pictures, it looks kind of weird. Is there a simple code to center an image?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1237/how-do-you-center-images-in-quest</guid>
+<pubDate>Wed, 14 Oct 2015 15:15:13 +0000</pubDate>
+</item>
+<item>
+<title>How do I delete a game from the whole website?</title>
+<link>http://ifanswers.com/1228/how-do-i-delete-a-game-from-the-whole-website</link>
+<description>&lt;p&gt;I have a game I published to Textadventures,But need to delete it completely from the web.How do I do that?I use quest.&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1228/how-do-i-delete-a-game-from-the-whole-website</guid>
+<pubDate>Fri, 09 Oct 2015 00:13:36 +0000</pubDate>
+</item>
+<item>
+<title>How do I use the create exit command properly in Quest</title>
+<link>http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</link>
+<description>&lt;p&gt;The code I'm using gives me an error when I play my game and doesn't create the exit.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</guid>
+<pubDate>Wed, 07 Oct 2015 23:53:15 +0000</pubDate>
+</item>
+<item>
+<title>Help! I need to use a candle as a light source in rooms in my Quest text adventure game</title>
+<link>http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</link>
+<description>&lt;p&gt;Hi everyone&lt;/p&gt;
+
+&lt;p&gt;I am currently making a fantasy game on Quest and a few of the rooms are dark.&lt;/p&gt;
+
+&lt;p&gt;I want them to be dark when the player enters so they will have to use a candle (from the inventory) to light the room so they can move on.&lt;/p&gt;
+
+&lt;p&gt;I don't want them to be able to move on further into the room without using the candle but I cannot find this in the help documentation (although at the moment I am now going cross eyed with all the research and screenshots!!!)&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance! :)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</guid>
+<pubDate>Wed, 07 Oct 2015 22:32:24 +0000</pubDate>
+</item>
+<item>
+<title>Show amount of gold in inventory</title>
+<link>http://ifanswers.com/1222/show-amount-of-gold-in-inventory</link>
+<description>&lt;p&gt;Hey there!&lt;/p&gt;
+
+&lt;p&gt;Can anyone tell me what code should i write for showing the amount of gold in my inventory upon looking at it? The way I added gold into my game was via attributes/integrers. Whenever I find gold I just write the following code: &lt;br&gt;
+player.gold = player.gold + 100 -&amp;gt; And then i get 100 gold. &lt;/p&gt;
+
+&lt;p&gt;It appears neatly in my bar under the health, but I wish to be able to write a command: &quot;examine gold/look at gold&quot; and then get a description: &quot;You have xx amount of gold in your inventory.&quot;&lt;/p&gt;
+
+&lt;p&gt;Can anyone help me with that? There has to be a simple code to show this. I tried ListObjectContents (this), but this only gives me a list of objects i am carrying in my inventory. Basically it just tells me &quot;You are carrying gold&quot;, but it doesnt tell me the amount. Thanks in advance.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1222/show-amount-of-gold-in-inventory</guid>
+<pubDate>Wed, 07 Oct 2015 20:07:05 +0000</pubDate>
+</item>
+<item>
+<title>re-arrange rooms</title>
+<link>http://ifanswers.com/1220/re-arrange-rooms</link>
+<description>&lt;p&gt;How do I re-arrange rooms on the Web-Based software? I.e. I have a room, but want another room to be the starting room. How can I make it so?&lt;/p&gt;
+
+&lt;p&gt;In Quest mind you***&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1220/re-arrange-rooms</guid>
+<pubDate>Wed, 07 Oct 2015 02:58:22 +0000</pubDate>
+</item>
+<item>
+<title>How do I find my saved Quests?</title>
+<link>http://ifanswers.com/1214/how-do-i-find-my-saved-quests</link>
+<description>&lt;p&gt;I made a game but didn't publish it. It said saved before I closed the screen. I don't know how to find that saved game now.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1214/how-do-i-find-my-saved-quests</guid>
+<pubDate>Wed, 30 Sep 2015 21:05:19 +0000</pubDate>
+</item>
+<item>
+<title>How do I make verbs synonymous for only certain objects in Quest 5.6.1?</title>
+<link>http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest</link>
+<description>&lt;p&gt;I'm a beginner at this. And I just discovered library elements as I was typing this question, so I'm sorry if I'm right at the answer now. But I've spent too much time on this already and I think other people would wonder this, too. I'll post the answer if I figure it out.&lt;/p&gt;
+
+&lt;p&gt;I'm using the Quest 5.6.1 windows program, I'm not using the browser version.&lt;/p&gt;
+
+&lt;p&gt;In my game, there is a book. I've given the book &quot;one&quot; verb that has many synonyms. It's this:&lt;/p&gt;
+
+&lt;p&gt;turn through; flip through; scan; read; open; thumb through; page through; look in; look inside&lt;/p&gt;
+
+&lt;p&gt;Please note that one of the synonyms is &quot;open&quot;. More recently, I added my first container object to the game. One of it's default verbs is &quot;open&quot;.&lt;/p&gt;
+
+&lt;p&gt;When I try to open it with the &quot;open&quot; verb, it says this:&lt;/p&gt;
+
+&lt;p&gt;You can't turn through; flip through; scan; read; open; thumb through; page through; look in; look inside it.&lt;/p&gt;
+
+&lt;p&gt;As an experiment, I wanted to try giving the verb &quot;open&quot; to an object that isn't a container and see if I have the same problem, but when I type &quot;open&quot; and click the ok button, it comes up as &quot;turn through; flip through; scan; read; open; thumb through; page through; look in; look inside&quot;, even though I only typed &quot;open&quot;.&lt;/p&gt;
+
+&lt;p&gt;So, I think you can tell what my intentions are. I would like for the player to be able to use any of those words to open; read; etc. the book. I don't want the player to type something that to a human being clearly means that they want to open the book and read its pages and have the game tell them that it doesn't know how to do that.&lt;/p&gt;
+
+&lt;p&gt;How do I make the words in my verb string synonymous only for one object, in this case, the book?&lt;/p&gt;
+
+&lt;p&gt;It would be nice if I could create a designation (a flag, maybe?) for every object that I would want this string to apply to, in other words, books, magazines; any reading material composed of pages.&lt;/p&gt;
+
+&lt;p&gt;I hope this isn't a stupid question. I've been looking all over the place to solve this.&lt;/p&gt;
+
+&lt;p&gt;Thanks for giving me your time.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest</guid>
+<pubDate>Wed, 30 Sep 2015 16:49:27 +0000</pubDate>
+</item>
+<item>
+<title>How To Spread Out Hyperlinks horizontally?(Quest5)</title>
+<link>http://ifanswers.com/1202/how-to-spread-out-hyperlinks-horizontally-quest5</link>
+<description>&lt;p&gt;I'm working on a game, where a lot of different dialogue choices can appear at the same time, which can get quite messy at times. I used line breaks to spread the hyperlinks out vertically, but I wonder if it was possible to also spread them out horizontally?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1202/how-to-spread-out-hyperlinks-horizontally-quest5</guid>
+<pubDate>Mon, 21 Sep 2015 15:40:56 +0000</pubDate>
+</item>
+<item>
+<title>How To Disable Automatic Jumping To The Screen Bottom If Too Much Text?(Quest5)</title>
+<link>http://ifanswers.com/1201/disable-automatic-jumping-screen-bottom-too-much-text-quest5</link>
+<description>&lt;p&gt;In Quest5, if too much text appears on screen, it automatically jumps to the bottom of the screen, which gets really annoying after awhile. Is there a way to disable that?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1201/disable-automatic-jumping-screen-bottom-too-much-text-quest5</guid>
+<pubDate>Mon, 21 Sep 2015 15:37:37 +0000</pubDate>
+</item>
+<item>
+<title>No new game option for the online editor?</title>
+<link>http://ifanswers.com/1193/no-new-game-option-for-the-online-editor</link>
+<description>&lt;p&gt;New user here; started today by signing in with my google account.&lt;/p&gt;
+
+&lt;p&gt;I click the 'quest' button and get taken to &lt;a rel=&quot;nofollow&quot; href=&quot;https://textadventures.co.uk/quest&quot;&gt;https://textadventures.co.uk/quest&lt;/a&gt;&lt;br&gt;
+I click the blue 'Go!' button and get taken to &lt;a rel=&quot;nofollow&quot; href=&quot;https://textadventures.co.uk/create/new&quot;&gt;https://textadventures.co.uk/create/new&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And then there isn't anything on the page. &lt;img src=&quot;http://oi57.tinypic.com/k46kr7.jpg&quot; alt=&quot;The empty page.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Tried this on both Firefox and Chrome, and tried again after disabling addons like Ghosterly and Ad Block.&lt;/p&gt;
+
+&lt;p&gt;Also a side question: How is this service for group work on a single project?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1193/no-new-game-option-for-the-online-editor</guid>
+<pubDate>Sun, 20 Sep 2015 03:42:12 +0000</pubDate>
+</item>
+<item>
+<title>Loading and firing</title>
+<link>http://ifanswers.com/1191/loading-and-firing</link>
+<description>&lt;p&gt;In text adventure, I want to create a firearm that requires object magazine to shoot. How would I make the gun only work with the magazine. I don't get the whole require object thing. Thanks in advance&lt;/p&gt;
+
+&lt;p&gt;-reKall&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1191/loading-and-firing</guid>
+<pubDate>Thu, 17 Sep 2015 18:17:51 +0000</pubDate>
+</item>
+<item>
+<title>Quest Problem with &quot;Get Input&quot; in a loop</title>
+<link>http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop</link>
+<description>&lt;p&gt;Hi,&lt;br&gt;
+I'm in the process of learning Quest so this may have a simple answer:&lt;/p&gt;
+
+&lt;p&gt;The following (on entry to room) script&lt;/p&gt;
+
+&lt;p&gt;running = true&lt;br&gt;
+while (running) {&lt;br&gt;
+  msg (&quot;Type non-integer to finish&quot;)&lt;br&gt;
+  get input {&lt;br&gt;
+    running = IsInt(result)&lt;br&gt;
+  }&lt;br&gt;
+}&lt;/p&gt;
+
+&lt;p&gt;gives the following:&lt;/p&gt;
+
+&lt;p&gt;You are in a room.&lt;br&gt;
+Type non-integer to finish&lt;br&gt;
+Type non-integer to finish&lt;br&gt;
+Error running script: Only one 'get input' can be in progress at a time&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop</guid>
+<pubDate>Thu, 17 Sep 2015 17:50:19 +0000</pubDate>
+</item>
+<item>
+<title>Does the offline Quest interpreter offer any features to players that online play does not?</title>
+<link>http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does</link>
+<description>&lt;p&gt;IFDB doesn't seem to have instructions for how to play Quest story files, but I assume this is what you'd use--desktop version of Quest: &lt;a rel=&quot;nofollow&quot; href=&quot;http://textadventures.co.uk/quest/desktop&quot;&gt;http://textadventures.co.uk/quest/desktop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(If not, please let me know!)&lt;/p&gt;
+
+&lt;p&gt;Does the desktop interpreter offer any features to players that you don't get when you play a Quest game online?&lt;/p&gt;
+
+&lt;p&gt;In other words, is there any special reason to download the desktop interpreter if you're just planning to play a Quest game, not make one?&lt;/p&gt;
+</description>
+<category>Playing</category>
+<guid isPermaLink="true">http://ifanswers.com/1181/offline-quest-interpreter-offer-features-players-online-does</guid>
+<pubDate>Mon, 14 Sep 2015 14:37:06 +0000</pubDate>
+</item>
+<item>
+<title>No option to save a .quest file?</title>
+<link>http://ifanswers.com/1176/no-option-to-save-a-quest-file</link>
+<description>&lt;p&gt;Hi everyone. &lt;/p&gt;
+
+&lt;p&gt;This is my first time using Quest, so I apologize if this question has been asked and/or answered before. &lt;/p&gt;
+
+&lt;p&gt;I spent about 5 days coding a storybook on the offline Quest editor, and when I finalized everything this afternoon, I clicked the publish option to finally upload it. However, when I went to save it from a .aslx file to a .quest file, it didn't give me an option to save at all. &lt;/p&gt;
+
+&lt;p&gt;This is the window that the editor gives me: &lt;a rel=&quot;nofollow&quot; href=&quot;http://prntscr.com/8flx9o&quot;&gt;1&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Without the option to save the .quest file, I'm not too sure how to go about uploading it. If you have any idea about how to fix this, please let me know! Thank you!&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1176/no-option-to-save-a-quest-file</guid>
+<pubDate>Sat, 12 Sep 2015 20:27:47 +0000</pubDate>
+</item>
+<item>
+<title>Gamebook: How to include a player's attributes/stats?</title>
+<link>http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats</link>
+<description>&lt;p&gt;&lt;em&gt;I just discovered &quot;Quest&quot; and the Interactive Fictions and I am basically a complete newbie to the whole system. So please forgive me this very simple question, but the help files on the &quot;gamebook&quot; type seem not to be very helpful for me. In fact, I still struggle with the most basic questions on how to include simple script. If somebody could show me a few basic steps, I'd be very, very grateful. &lt;br&gt;
+I have two questions for the moment.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.) How do I include a player's attribute into the story?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically, I plan the following: I want to have an attribute like &quot;Happiness&quot;. It can start on 0. (I am already thinking of maybe including a random starting stat, but that's for later). How do I establish this in the first place? Where do I have to click to include it and what do I have to define?&lt;/p&gt;
+
+&lt;p&gt;I want to have this attribute or stat to increase and decrease at certain occasions. Player experiences something nice = Happiness +1. And so on. At the moment I plan for this to be a hidden stat, but I don't mind if somebody can explain me how to make it visible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.)  How can I make an attribute/stat influence the text being shown?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am pretty sure it has something to do with the &quot;IF&quot; command, but again, I struggle with the simple basic questions: Say the player enters a certain place, and if his happiness is &amp;gt;5, I want to add text to the paragraph like &quot;This is a beautiful place&quot;, whereas if his happiness is 0, the text should read &quot;You feel depressed by the dark colours of this place.&quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Again, I apologize for these very basic questions, and if somebody can guide me to a link with a comprehensible explanation that's just as fine. I searched the Wiki and this site here though, and most texts and answers seem to be directed at people who already know a bit what they are doing. I seem to lack the main understanding of: What do I have to click and write where to put the basic system in place.&lt;br&gt;
+Thank you so much in advance! :)&lt;br&gt;
+System is Windows Vista, Quest is 5.6.1.&lt;/em&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats</guid>
+<pubDate>Sun, 06 Sep 2015 14:25:08 +0000</pubDate>
+</item>
+<item>
+<title>Online version of Quest: How do I change the value of Status Attributes?</title>
+<link>http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</link>
+<description>&lt;p&gt;First of all, I know that someone already asked a question about changing status attributes &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/623/quest-how-do-i-change-status-attributes?show=623#q623&quot;&gt;here&lt;/a&gt;, but the answers seemed to be specifically for the Windows desktop version of Quest, which I cannot access.&lt;/p&gt;
+
+&lt;p&gt;Initially, I was having difficulty with setting up a Status Attribute for &quot;cash,&quot; but hegemonkhan's answer to &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/969/i-need-help-with-attributes?show=969#q969&quot;&gt;this question&lt;/a&gt; helped me with that. Many thanks to him.&lt;/p&gt;
+
+&lt;p&gt;But now that I've set up my status attribute for cash, I'm not sure how to change the value of the variable. I want my player to start the game with $20, so I set the variable &quot;player.cash&quot; to 20, created a new string dictionary for &quot;player.statusattributes,&quot; and then added &quot;cash&quot; to that string dictionary. Like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/o4HujGa.png&quot; alt=&quot;An effective setup for &amp;quot;cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;That worked. On the right sidebar of my game, in the &quot;status&quot; panel, it says &quot;Cash: $20.&quot; Then, in an attempt to figure out how to increase the &quot;player.cash&quot; value during gameplay, I tried to create the command &quot;increase cash&quot; which I wanted to simply add $20 to the player's &quot;cash&quot; value. But I didn't really know how to do that, as you can see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/uP0gAX8.png&quot; alt=&quot;An ineffective setup for &amp;quot;increase cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;My attempt probably looks extremely laughable to those who actually know what they're doing. Can anyone help me figure out how to increase the &quot;player.cash&quot; variable in a way that is compatible with the online version of Quest?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</guid>
+<pubDate>Fri, 04 Sep 2015 03:42:47 +0000</pubDate>
+</item>
+<item>
+<title>How does the {random} script work?</title>
+<link>http://ifanswers.com/1120/how-does-the-random-script-work</link>
+<description>&lt;p&gt;How does the {random} script work?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1120/how-does-the-random-script-work</guid>
+<pubDate>Sat, 29 Aug 2015 19:01:21 +0000</pubDate>
+</item>
+<item>
+<title>I want to make a verb that requires to things at once. How do I do this this? [internet version]</title>
+<link>http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version</link>
+<description>&lt;p&gt;Specifically, I want it to be that the player can only skin the wolf if:&lt;br&gt;
+1. The wolf is dead&lt;br&gt;
+AND&lt;br&gt;
+2. The player has a stone&lt;/p&gt;
+
+&lt;p&gt;Using flags, I can make the wolf dead, and I can make it so that the wolf must be dead for skinning. I can also make it so that a stone is needed for skinning. The problem is, I cannot make it so that BOTH of these is required. Any help is welcome, thanks in advance&lt;/p&gt;
+
+&lt;p&gt;-- Plink333&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version</guid>
+<pubDate>Thu, 27 Aug 2015 16:57:01 +0000</pubDate>
+</item>
+<item>
+<title>Can the editor control elements execute scripts?</title>
+<link>http://ifanswers.com/1109/can-the-editor-control-elements-execute-scripts</link>
+<description>&lt;p&gt;For the purpose of copying a string list containing user input.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1109/can-the-editor-control-elements-execute-scripts</guid>
+<pubDate>Thu, 27 Aug 2015 02:05:49 +0000</pubDate>
+</item>
+<item>
+<title>In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</title>
+<link>http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</link>
+<description>&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As per the above forum topic, it appears that I'm receiving errors when Quest parses my game file that other people cannot reproduce (ie, it appears that Quest dislikes my syntax or something, but others don't know why). &lt;/p&gt;
+
+&lt;p&gt;I've uninstalled and reinstalled Quest to try to resolve the issue, but I continue to have the error. Maybe there's something I failed to initialize or a game setting I've failed to properly set?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</guid>
+<pubDate>Wed, 26 Aug 2015 04:47:12 +0000</pubDate>
+</item>
+<item>
+<title>How do I get the player out of a dark room if he unwittingly enters one without a light source?</title>
+<link>http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source</link>
+<description>&lt;p&gt;I can't seem to find any tutorial or documentation that shows how quest handles light.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source</guid>
+<pubDate>Tue, 25 Aug 2015 05:49:11 +0000</pubDate>
+</item>
+<item>
+<title>How do I give an object to a character and receive something back?</title>
+<link>http://ifanswers.com/1092/how-do-give-an-object-to-character-and-receive-something-back</link>
+<description>&lt;p&gt;Beginner question alert!&lt;/p&gt;
+
+&lt;p&gt;I've just started using Quest and have a situation where I want to give a character something in my inventory and in return get another object back from them. I've had a look through the FAQs but couldn't find anything - I could just be being dumb though!&lt;/p&gt;
+
+&lt;p&gt;Can anyone point me in the right direction or give me a hand?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1092/how-do-give-an-object-to-character-and-receive-something-back</guid>
+<pubDate>Mon, 24 Aug 2015 06:47:38 +0000</pubDate>
+</item>
+<item>
+<title>Using the Gamebook style game, how do I create game-wide variables to track?</title>
+<link>http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</link>
+<description>&lt;p&gt;In a Gamebook style game, how do I create game-wide variables to track?&lt;/p&gt;
+
+&lt;p&gt;For example, if I want to set a player's gender, but gender doesn't exist in my game yet, how do I make a variable called gender that I can set to be male or female, then check later?&lt;/p&gt;
+
+&lt;p&gt;I am using Windows 8, downloadable version of Quest 5.6.1&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</guid>
+<pubDate>Mon, 24 Aug 2015 01:11:06 +0000</pubDate>
+</item>
+<item>
+<title>Printing a random sentence</title>
+<link>http://ifanswers.com/1061/printing-a-random-sentence</link>
+<description>&lt;p&gt;Hello! I was wondering if it was possible in Quest to have the game print out a sentence compiled randomly of predetermined components?&lt;/p&gt;
+
+&lt;p&gt;Let's say for example's sake I was making a game where I would want the description of a TV screen to change every time the player looked at it.  I want the description to be &quot;X is doing Y to Z&quot;, where the words for X, Y, and Z are randomly chosen from a list of possible phrases. The choices for X could include &quot;the dog&quot;, &quot;the cat&quot;, and &quot;the giraffe&quot;; for Y, &quot;is eating&quot;, &quot;is chasing&quot;, and &quot;is jumping on&quot;; and for Z, &quot;a man&quot;, &quot;an apple&quot;, and &quot;a car&quot;. So the description for the programme playing on the TV could be &quot;The dog is chasing a car&quot;, or &quot;The giraffe is eating a man&quot;, or &quot;The cat is jumping on an apple&quot;, or any other combination - always different, but always in the same order.&lt;/p&gt;
+
+&lt;p&gt;Sorry for the convoluted explanation, but I hope you get what I mean! I don't think this should be too complicated or completely out of Quest's wheelhouse, but I just don't know how I can do it.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1061/printing-a-random-sentence</guid>
+<pubDate>Tue, 18 Aug 2015 15:36:59 +0000</pubDate>
+</item>
+<item>
+<title>How can I make use of the health variable in Quest through the editor</title>
+<link>http://ifanswers.com/1053/how-can-make-use-the-health-variable-quest-through-the-editor</link>
+<description>&lt;p&gt;The player attribute 'health' can be turned on using the game features tab in the editor. It then displays 100% in the status window, and I can find how to raise or lower it using scripts, but when it reaches 0 nothing happens, and I want to be able to print a message and end the game when that happens.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1053/how-can-make-use-the-health-variable-quest-through-the-editor</guid>
+<pubDate>Sat, 15 Aug 2015 01:56:25 +0000</pubDate>
+</item>
+<item>
+<title>QUEST: Missing tabs in object view</title>
+<link>http://ifanswers.com/1051/quest-missing-tabs-in-object-view</link>
+<description>&lt;p&gt;I have been using quest for a little while now and running through the tutorial that comes with it. &lt;/p&gt;
+
+&lt;p&gt;My issue is that it mentions an options tab on the object view, but I am missing that and a few other tabs that are supposed to be available with your objects. I've checked to make sure that I have the latest version of quest installed and there doesn't seem to be any where else that I can add more tabs from. &lt;/p&gt;
+
+&lt;p&gt;Also I checked out google and nowhere seemed to have answers for me, not even the IF forums or here. &lt;/p&gt;
+
+&lt;p&gt;Any help? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1051/quest-missing-tabs-in-object-view</guid>
+<pubDate>Fri, 14 Aug 2015 03:54:31 +0000</pubDate>
+</item>
+<item>
+<title>Can we know a little more about the story of the Quest system? [Quest]</title>
+<link>http://ifanswers.com/1044/can-we-know-little-more-about-the-story-the-quest-system-quest</link>
+<description>&lt;p&gt;Hello, &lt;br&gt;
+I am writing a PHD dissertation about interactive fiction tools and I find it difficult to have information about Quest history.&lt;/p&gt;
+
+&lt;p&gt;On IFDB, we can see Quest is the third most used writing tool but paradoxally it's very difficult to find documentation on it and it's more easy to find documentation on EAMON, AGT, GAC, Quill, PAW etc (and obviously for Inform, TADS, Twine, Adrift...).&lt;/p&gt;
+
+&lt;p&gt;When was it created? On ifdb the first fiction begin in 2000. Who is the creator? Is there any documentation somewhere we can access?&lt;/p&gt;
+
+&lt;p&gt;Thanks for answering and sorry for my poor english (my dissertation is in french^^)&lt;/p&gt;
+</description>
+<category>Meta</category>
+<guid isPermaLink="true">http://ifanswers.com/1044/can-we-know-little-more-about-the-story-the-quest-system-quest</guid>
+<pubDate>Wed, 12 Aug 2015 10:09:50 +0000</pubDate>
+</item>
+<item>
+<title>Can I sort pages?</title>
+<link>http://ifanswers.com/1041/can-i-sort-pages</link>
+<description>&lt;p&gt;I am using the following syntax for my pages: Act#-Scene##-[place]-[Page Number]. Example: ActI-Scene01-Tavern-001. &lt;br&gt;
+However, every now and then I want to change a number of a scene or page. for example, Scene01 becomes Scene02 and Scene02 becomes Scene01. The problem is that the pages are sorted on when it's build. so when I rename something, then scene02 is above scene01. It makes finding the right pages difficult... &lt;/p&gt;
+
+&lt;p&gt;I hope it is clear enough... Any idea on how to sort those pages?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1041/can-i-sort-pages</guid>
+<pubDate>Tue, 11 Aug 2015 14:08:00 +0000</pubDate>
+</item>
+<item>
+<title>Endless Loading [Quest]</title>
+<link>http://ifanswers.com/1039/endless-loading-quest</link>
+<description>&lt;p&gt;I pressed 'Edit Game', as usual, expecting for the editor to pop up again.  It did, but it was completely blank and grayed out, with a big &quot;Loading . . . &quot; in the middle.  I can't work on it at all; I tried waiting, refreshing, re-logging, and even shutting off my computer, yet nothing will work.  It still says &quot;Loading . . .&quot; right now, how do I get my project back?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1039/endless-loading-quest</guid>
+<pubDate>Tue, 11 Aug 2015 02:41:58 +0000</pubDate>
+</item>
+<item>
+<title>Can I share an unfinished game?</title>
+<link>http://ifanswers.com/1032/can-i-share-an-unfinished-game</link>
+<description>&lt;p&gt;Is there a way that I can share an unfinished story with friends so that they can play the game without me having to publish it fully?&lt;/p&gt;
+</description>
+<category>Publishing</category>
+<guid isPermaLink="true">http://ifanswers.com/1032/can-i-share-an-unfinished-game</guid>
+<pubDate>Sun, 09 Aug 2015 03:07:28 +0000</pubDate>
+</item>
+<item>
+<title>Map drawing and offset bugs [Quest] [Game breaking]</title>
+<link>http://ifanswers.com/1031/map-drawing-and-offset-bugs-quest-game-breaking</link>
+<description>&lt;p&gt;Here is a video describing all the problems and a download link to the aslx file in the desc. of the video: &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.youtube.com/watch?v=9Q_Dex6j_Ww&amp;amp;feature=youtu.be&quot;&gt;https://www.youtube.com/watch?v=9Q_Dex6j_Ww&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically my map is drawing all weird like and the exit parent&lt;em&gt;offset&lt;/em&gt;x isn't doing what it should. I have grid&lt;em&gt;parent&lt;/em&gt;offset_auto turned off for all rooms which didn't really do anything.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1031/map-drawing-and-offset-bugs-quest-game-breaking</guid>
+<pubDate>Sun, 09 Aug 2015 03:04:08 +0000</pubDate>
+</item>
+<item>
+<title>help changing map color via code. [Quest]</title>
+<link>http://ifanswers.com/1028/help-changing-map-color-via-code-quest</link>
+<description>&lt;p&gt;I am newer to the syntax of Quest so forgive me if I as a lot of questions.&lt;/p&gt;
+
+&lt;p&gt;I am looking to change the grid&lt;em&gt;fill color of a specific room's map. I have tried changing the color via interacting with an object withing the room which grid&lt;/em&gt;fill color I want to change. &lt;/p&gt;
+
+&lt;p&gt;I have tries this:&lt;br&gt;
+exampleRoom.grid_fill=&quot;Green&quot;&lt;/p&gt;
+
+&lt;p&gt;no error pops up but the room color ceases to change. I have also tried RGB numbers and hex, thought I might try everything before I ask. I am obviously referring incorrectly to the specific attribute I want to change, or Quest is giving me the bird so to speak :D&lt;/p&gt;
+
+&lt;p&gt;EDIT: I have fount that this code works, but the map color won't update. Is there some type of refresh or reload function for maps that will still keep the user's map data?&lt;/p&gt;
+
+&lt;p&gt;Help would be much appreciated!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1028/help-changing-map-color-via-code-quest</guid>
+<pubDate>Sat, 08 Aug 2015 15:29:32 +0000</pubDate>
+</item>
+<item>
+<title>How can I run a command via script? [Quest]</title>
+<link>http://ifanswers.com/1025/how-can-i-run-a-command-via-script-quest</link>
+<description>&lt;p&gt;Title is quite self-explanatory. I want to have a script that runs a command for me so the user doesn't have to type it. More specifically I want it to use the &quot;look&quot; command so all the information about the room I defined in the game settings is displayed over again.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1025/how-can-i-run-a-command-via-script-quest</guid>
+<pubDate>Fri, 07 Aug 2015 18:54:11 +0000</pubDate>
+</item>
+<item>
+<title>Do I have to specify difficulty and cruelty in Quest?</title>
+<link>http://ifanswers.com/1021/do-i-have-to-specify-difficulty-and-cruelty-in-quest</link>
+<description>
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1021/do-i-have-to-specify-difficulty-and-cruelty-in-quest</guid>
+<pubDate>Fri, 07 Aug 2015 08:42:23 +0000</pubDate>
+</item>
+<item>
+<title>How do you create a multiplayer game?</title>
+<link>http://ifanswers.com/1012/how-do-you-create-a-multiplayer-game</link>
+<description>
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1012/how-do-you-create-a-multiplayer-game</guid>
+<pubDate>Tue, 04 Aug 2015 21:05:06 +0000</pubDate>
+</item>
+<item>
+<title>Is there any way to paste code into the web version of Quest?</title>
+<link>http://ifanswers.com/1011/is-there-any-way-to-paste-code-into-the-web-version-of-quest</link>
+<description>&lt;p&gt;I have a lot of rooms that were much much easier to  modify in a text document than the GUI,  but I'm using a mac and want to get this code back into the web client of Quest.  Is there some way to do this?&lt;/p&gt;
+
+&lt;p&gt;If not, is it possible to do this on a (short-termed borrowed) windows client to upload and then be able to modify back on the web client later before publishing?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1011/is-there-any-way-to-paste-code-into-the-web-version-of-quest</guid>
+<pubDate>Tue, 04 Aug 2015 19:24:53 +0000</pubDate>
+</item>
+<item>
+<title>&quot;read&quot; command doesn't work?</title>
+<link>http://ifanswers.com/1002/read-command-doesnt-work</link>
+<description>&lt;p&gt;So in my game, there is a note and a notebook so far. I gave the notebook the &quot;read&quot; command (and also gave the option to say &quot;look through&quot; using the semicolon), and everything worked smoothly.&lt;/p&gt;
+
+&lt;p&gt;When I gave the &quot;read&quot; command to the notebook, I left out the &quot;look through&quot; command, and didn't think it would be a problem. But when I played through the game (what I have so far), both the notebook and the note displayed the message &quot;you can't read; look through that.&quot;.&lt;/p&gt;
+
+&lt;p&gt;Did making the notebook the extra option to say &quot;look through&quot; in addition to &quot;read&quot; mess with the program? Nothing I do helps. Is there any way to fix this?&lt;/p&gt;
+
+&lt;p&gt;I'm mostly concerned the player will never be able to use the command &quot;read&quot;. Any help would be appreciated.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1002/read-command-doesnt-work</guid>
+<pubDate>Tue, 04 Aug 2015 02:07:31 +0000</pubDate>
+</item>
+<item>
+<title>Disable hyperlinks?</title>
+<link>http://ifanswers.com/988/disable-hyperlinks</link>
+<description>&lt;p&gt;How can I make my games NOT use hyperlinks at all? Sort of like &quot;The Lost Orb&quot;?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/988/disable-hyperlinks</guid>
+<pubDate>Mon, 03 Aug 2015 01:45:52 +0000</pubDate>
+</item>
+<item>
+<title>Is there an &quot;object_is_room&quot; function?</title>
+<link>http://ifanswers.com/986/is-there-an-object_is_room-function</link>
+<description>&lt;p&gt;Both &quot;room&quot; and &quot;object&quot; have &quot;type&quot; and &quot;elementtype&quot; which are all &quot;object&quot; so that doesn't help. I don't see any attribute which is unique to one or the other that I could check.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/986/is-there-an-object_is_room-function</guid>
+<pubDate>Mon, 03 Aug 2015 00:03:50 +0000</pubDate>
+</item>
+<item>
+<title>Quest - Is there to &quot;ScopeInventory&quot; or &quot;ScopeReachableInventory&quot; that includes not visible items?</title>
+<link>http://ifanswers.com/981/scopeinventory-scopereachableinventory-includes-visible</link>
+<description>
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/981/scopeinventory-scopereachableinventory-includes-visible</guid>
+<pubDate>Sat, 01 Aug 2015 03:29:57 +0000</pubDate>
+</item>
+<item>
+<title>Placing an object at random</title>
+<link>http://ifanswers.com/979/placing-an-object-at-random</link>
+<description>&lt;p&gt;I've created my adventure world. I can see how to place the objects but I want to have two of them placed in random locations. How do I do this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/979/placing-an-object-at-random</guid>
+<pubDate>Wed, 29 Jul 2015 19:42:29 +0000</pubDate>
+</item>
+<item>
+<title>Quest - Why can't I unlock the door?</title>
+<link>http://ifanswers.com/978/quest-why-cant-i-unlock-the-door</link>
+<description>&lt;p&gt;I have created a locked exit and the following script:&lt;/p&gt;
+
+&lt;p&gt;if (not Got(sleutel)) {&lt;br&gt;
+  firsttime {&lt;br&gt;
+    msg (&quot;Dit is de slaapkamer van Maartje, je huisgenote. Ze vermoordt je levend als je hier naar binnen gaat. &quot;)&lt;br&gt;
+    LockExit (Maartjes kamer)&lt;br&gt;
+  }&lt;br&gt;
+  otherwise {&lt;br&gt;
+    msg (&quot;Deze deur zit op slot. &quot;)&lt;br&gt;
+  }&lt;br&gt;
+}&lt;br&gt;
+else {&lt;br&gt;
+  msg (&quot;Behoedzaam open je de deur en loop je de kamer van je huisgenote in.&quot;)&lt;br&gt;
+  UnlockExit (Maartjes kamer)&lt;br&gt;
+  MoveObject (player, tweede slaapkamer)&lt;br&gt;
+}&lt;/p&gt;
+
+&lt;p&gt;I also have created an object sleutel. But when the player first tries to enter this room (tweede slaapkamer) but does not have the key (sleutel) yet, and then when they try later when they have the key, the exit remains closed and the only message you get is 'Deze deur zit op slot'. However, when they already have the key they will succeed in unlocking the door. I really don't get what I'm doing wrong here. &lt;/p&gt;
+
+&lt;p&gt;I have used a locked door before, I looked up how I did it there but then I created a verb: 'open door with'. I assume this was a workaround. &lt;/p&gt;
+
+&lt;p&gt;I hope the situation is clear enough, if not, please tell me. Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/978/quest-why-cant-i-unlock-the-door</guid>
+<pubDate>Tue, 28 Jul 2015 18:45:35 +0000</pubDate>
+</item>
+<item>
+<title>I need help with attributes.</title>
+<link>http://ifanswers.com/969/i-need-help-with-attributes</link>
+<description>&lt;p&gt;I am limited to the browser version of Quest, and I would like to know how to make custom status attributes that show in the menu on the side when being played.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/969/i-need-help-with-attributes</guid>
+<pubDate>Sat, 25 Jul 2015 04:34:18 +0000</pubDate>
+</item>
+<item>
+<title>Quest Gamebook: Can I allow players to choose their own name?</title>
+<link>http://ifanswers.com/956/quest-gamebook-can-i-allow-players-to-choose-their-own-name</link>
+<description>&lt;p&gt;As far as I can tell, gamebooks don't rely on any typing input by the players and all the players have to do is click links to go to the next page therefore I don't even know if this is possible at all.&lt;/p&gt;
+
+&lt;p&gt;I am super new to writing interactive fiction and my knowledge on script writing is slim to nil and I was wondering if it is possible to allow a player to input their name at the beginning of a gamebook and if so, how would I go about making it happen (like the code/script necessary). And then what kind of script would I need to make their chosen name appear in the game?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/956/quest-gamebook-can-i-allow-players-to-choose-their-own-name</guid>
+<pubDate>Thu, 23 Jul 2015 02:02:14 +0000</pubDate>
+</item>
+<item>
+<title>Name choice for players</title>
+<link>http://ifanswers.com/954/name-choice-for-players</link>
+<description>&lt;p&gt;Hello!&lt;br&gt;
+I'm new here and I would like to create a text adventure with Quest where the player is asked what kind of character name he wants to have (a geeky one, a funny one, etc.) and then according to what the player is choosing, the character name will be set (for each kind of character type (funny, geeky, ...) there will be a predefined name). How can I do this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/954/name-choice-for-players</guid>
+<pubDate>Wed, 22 Jul 2015 19:03:34 +0000</pubDate>
+</item>
+</channel>
+</rss>

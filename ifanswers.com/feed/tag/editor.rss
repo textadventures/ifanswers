@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged editor</title>
+<link>http://ifanswers.com/tag/editor</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do you center images in Quest?</title>
+<link>http://ifanswers.com/1237/how-do-you-center-images-in-quest</link>
+<description>&lt;p&gt;I was wondering if anyone knows the code to center images in quest? The way it is currently set up, the immage is automatically set to the left side of the screen. So if you are using small pictures, it looks kind of weird. Is there a simple code to center an image?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1237/how-do-you-center-images-in-quest</guid>
+<pubDate>Wed, 14 Oct 2015 15:15:13 +0000</pubDate>
+</item>
+<item>
+<title>How do I use the create exit command properly in Quest</title>
+<link>http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</link>
+<description>&lt;p&gt;The code I'm using gives me an error when I play my game and doesn't create the exit.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</guid>
+<pubDate>Wed, 07 Oct 2015 23:53:15 +0000</pubDate>
+</item>
+</channel>
+</rss>

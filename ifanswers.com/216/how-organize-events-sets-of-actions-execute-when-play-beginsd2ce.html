@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>How do I organize events / sets of actions to execute when play begins? - IF Answers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="How can I encapsulate stuff that I want to do when play begins? Can I structure an order of  ... the main title / room description shows up just fine.">
+		<meta name="keywords" content="Authoring,screen-effects,startup,inform7,text-input">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles6a15.css?1.7.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+			.qa-sidepanel { width: 25%; padding: 0px; float: right; overflow: hidden; *zoom: 1; }
+		</style>
+		<link rel="canonical" href="how-organize-events-sets-of-actions-execute-when-play-begins.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="IF Answers" href="../opensearch.xml">
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '216\/how-organize-events-sets-of-actions-execute-when-play-begins';
+		</script>
+		<script src="../qa-content/jquery-1.11.2.min.js"></script>
+		<script src="../qa-content/qa-page6a15.js?1.7.0"></script>
+		<script src="../qa-content/qa-question6a15.js?1.7.0"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core6a15.js?1.7.0"></script>
+		<style>
+.wmd-button > span { background-image: url('../qa-plugin/q2a-markdown-editor-master/pagedown/wmd-buttons.png') }
+
+		/* Markdown editor styles */
+
+.wmd-button-bar {
+	width: 100%;
+	padding: 5px 0;
+}
+.wmd-input {
+	/* 604 */
+	width: 598px;
+	height: 250px;
+	margin: 0 0 10px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.wmd-preview {
+	/* 604 */
+	width: 584px;
+	margin: 10px 0;
+	padding: 8px;
+	border: 2px dashed #ccc;
+}
+
+.qa-q-view-content pre,
+.qa-a-item-content pre,
+.wmd-preview pre {
+	overflow: auto;
+	width: 100%;
+	max-height: 400px;
+	padding: 0;
+	border-width: 1px 1px 1px 3px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #eee;
+}
+pre code {
+	display: block;
+	padding: 8px;
+}
+
+.wmd-button-row {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.wmd-spacer {
+	width: 1px;
+	height: 20px;
+	margin-left: 14px;
+	position: absolute;
+	background-color: Silver;
+	display: inline-block;
+	list-style: none;
+}
+
+.wmd-button {
+	width: 20px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 3px;
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.wmd-button > span {
+	/* note: background-image is set in plugin script */
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.wmd-spacer1 {
+	left: 50px;
+}
+.wmd-spacer2 {
+	left: 175px;
+}
+.wmd-spacer3 {
+	left: 300px;
+}
+
+.wmd-prompt-background {
+	background-color: #000;
+}
+.wmd-prompt-dialog {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999;
+	color: black;
+}
+.wmd-prompt-dialog > form > input[type="button"] {
+	border: 1px solid #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+		</style>
+
+
+	</head>
+	<body
+		class="qa-template-question qa-category-5 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<!--[Begin: login form]-->
+						<form id="qa-loginform" action="http://ifanswers.com/login?to=216%2Fhow-organize-events-sets-of-actions-execute-when-play-begins%3Fshow%3D324" method="post">
+							<input type="text" id="qa-userid" name="emailhandle" placeholder="Email or Username" >
+							<input type="password" id="qa-password" name="password" placeholder="Password" >
+							<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1" >
+							<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+							<input type="hidden" name="code" value="0-1446375187-493c4b02360f1980c3b8a6302d360bf6b110d1b1" >
+							<input type="submit" value="Login" id="qa-login" name="dologin" >
+						</form>
+						<!--[End: login form]-->
+						<div class="qa-nav-user">
+							
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register72fb.html?to=216%2Fhow-organize-events-sets-of-actions-execute-when-play-begins%3Fshow%3D324" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link">IF Answers</a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div><!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="">Ask a Question</a></div><div class="qam-search-mobile " id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top"  id="the-top-search" >
+			<div class="qa-search">
+				<form method="get" action="http://ifanswers.com/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="how-organize-events-sets-of-actions-execute-when-play-begins.html">
+							<span class="entry-title">How do I organize events / sets of actions to execute when play begins?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q216">
+							<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_216">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_216_1_q216" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">276</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1446375187-014dd7816aaf812e0d608b2bf12253fd732329c6">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-meta">
+											<a href="how-organize-events-sets-of-actions-execute-when-play-begins.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published"><span class="value-title" title="2015-03-27T01:42:53+0000">Mar 26</span></span></span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../authoring.html" class="qa-category-link">Authoring</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+												<span class="qa-q-view-who-points">
+													<span class="qa-q-view-who-points-pad">(</span><span class="qa-q-view-who-points-data">39</span><span class="qa-q-view-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-q-view-what">edited</span>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="updated"><span class="value-title" title="2015-03-30T05:12:19+0000">Mar 30</span></span></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span><span class="qa-q-view-who-data"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="216"></a><div class="entry-content"><p>How can I encapsulate stuff that I want to do when play begins? Can I structure an order of events to follow each other? Using 'when play begins' at different places in the text is unreliable, and is prone to executing out of order, or clearing things inappropriately. Even stringing scenes together at the start doesn't work. </p>
+
+<pre><code>"Weird Stuff" by Writer.
+Include Basic Screen Effects by Emily Short.
+The player forename is some text that varies.
+The player name is some text that varies.
+To decide whether collecting names:
+    if the command prompt is "What will your name be?  ", yes;
+     no.
+
+Gender is a kind of value. The genders are masculine, feminine, and unknown. 
+Understand "male", "man", "boy" or "m" as masculine. 
+Understand "female", "woman", "girl" or "f" as feminine.
+A person has a gender. The gender of the player is unknown.
+
+To decide whether the gender of the player is unknown:
+    if the command prompt is "Are you male or female?  ", yes;
+     no.
+
+Prologue is a Scene. Prologue begins when play begins.
+Prologue ends when Prologue Flag is zero.
+Prologue Flag is a number that varies. Prologue Flag is one.
+To End Prologue:
+    Now the Next Flag is one;
+    now the Prologue Flag is zero.
+[I could set the next one to start when this ends]
+[but that doesn't seem to stop the title / first room text from getting cleared]
+
+Next Scene is a Scene. "I come next!" Next Scene begins when Next Flag is one.
+Next Scene ends when Next Flag is zero.
+Next Flag is a number that varies.
+To End Next Scene: Now the Next Flag is zero.
+
+When Prologue begins:
+    display the boxed quotation "Fancy Title Box Text";
+    show the current quotation;
+    wait for any key;
+    clear the screen;
+    say "ominous introduction text";
+    wait for any key;
+    clear the screen;
+    End Prologue.
+
+When Next Scene begins: Now the command prompt is "What will your name be?  ";
+    After reading a command when collecting names:
+        now the player name is the substituted form of "[the player's command]" in title case;
+        now the player forename is word number 1 in the player name;
+        now the command prompt is "Are you male or female?  ";
+        Reject the player's command;
+        End Next Scene.
+
+After reading a command when the gender of the player is unknown:
+    if the player's command includes "[gender]":
+        now the command prompt is "&gt; ";
+        now the gender of the player is the gender understood;
+        if the gender of the player is masculine, now the player is male;
+        if the gender of the player is feminine, now the player is female;
+        wait for any key;
+        Reject the player's command;
+        End Next Scene;
+
+Instead of looking when collecting names: do nothing.
+Rule for printing the banner text when collecting names: do nothing.
+Rule for constructing the status line when collecting names: do nothing.
+Instead of looking when the gender of the player is unknown: do nothing.
+Rule for printing the banner text when the gender of the player is unknown: do nothing.
+Rule for constructing the status line when the gender of the player is unknown: do nothing.
+
+Place is a room. "This might not show up, or it might show up prematurely!".
+</code></pre>
+
+<p>et cetera. There doesn't seem to be a concise way to end scenes with a statement, but that's another issue. This appears to remedy the order of the events, but it only goes so far. I can't seem to make more than a few events happen before the player is put in the first room.</p>
+
+<p>Edit: Upon further review, I think I've found the culprit. The "reject the player's command" statements seem to screw with things that come afterwords. The "End Next Scene" doesn't work properly, possibly because of this. If I comment out the player input stuff, it all executes in order, and then the main title / room description shows up just fine.</p>
+</div>
+									</div>
+									<div class="qa-q-view-follows">
+										related to an answer for:
+										<a href="../194/inform-player-themselves-keeps-changing-whatever-player-typed1a9b.html?show=195#a195" class="qa-q-view-follows-link">Inform: How do I get the player to input a name for themselves? The name keeps changing to whatever the player typed last!</a>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/screen-effects.html" rel="tag" class="qa-tag-link">screen-effects</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/startup.html" rel="tag" class="qa-tag-link">startup</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/inform7.html" rel="tag" class="qa-tag-link">inform7</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/text-input.html" rel="tag" class="qa-tag-link">text-input</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+									</div>
+									
+									<div class="qa-q-view-c-list" id="c216_list">
+										<div class="qa-c-list-item  hentry comment" id="c218">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-avatar">
+													<a href="../user/Ryan%2bVeeder.html" class="qa-avatar-link"><img src="http://www.gravatar.com/avatar/54288736de1fde4e87ee176d75578784?s=20" width="20" height="20" class="qa-avatar-image" alt=""></a>
+												</span>
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-begins0d3c.html?show=218#c218" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-27T02:01:57+0000">Mar 26</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Ryan%2bVeeder.html" class="qa-user-link url fn entry-title nickname">Ryan Veeder</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">290</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="218"></a><div class="entry-content">In the Paragraph Format drop-down of the submission interface (it says &quot;Normal&quot;, which is the most average and unassuming paragraph format), you can select &quot;Pre-formatted&quot; to make your code display a little more pleasantly.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c219">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-beginsb3d9.html?show=219#c219" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-27T02:03:05+0000">Mar 26</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="219"></a><div class="entry-content">I used the formatted option, and the double spacing made it look worse than this. I'll look again.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c221">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-begins0bbf.html?show=221#c221" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-27T03:03:05+0000">Mar 26</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/AndrewS.html" class="qa-user-link url fn entry-title nickname">AndrewS</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">250</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="221"></a><div class="entry-content">The sample code from &quot;Identity Theft&quot; seems to work okay for me in 6L02. How are you compiling it?<br />
+<br />
+Also, your code seems to work ok when I build in the IDE on Windows. So I'm not sure how you're getting the reject message--&quot;reject the player's command&quot; should take care of it.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c222">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-beginscb59.html?show=222#c222" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-27T03:07:01+0000">Mar 26</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="222"></a><div class="entry-content">I also have an input for gender, which if not entered properly, says the same &quot;what are these verbs&quot; thing, but that message isn't the main problem here: I can't get these things to happen without clearing some of the starting text.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c244">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-beginsf563.html?show=244#c244" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-27T23:54:09+0000">Mar 27</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="244"></a><div class="entry-content">I suppose the problem could be generalized, doing any special startup stuff seems to interrupt the first bit of text printed, your titles and room descriptions and such.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c249">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-beginse677.html?show=249#c249" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-03-28T00:25:03+0000">Mar 27</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+													<br>
+													<span class="qa-c-item-what">reshown</span>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-04-02T21:41:34+0000">Apr 2</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="249"></a><div class="entry-content">Are you saying you want the name prompt, etc. to happen before the title banner and first room appear on the screen?</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c273">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-begins4b4e.html?show=273#c273" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-03-28T23:56:05+0000">Mar 28</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+													<br>
+													<span class="qa-c-item-what">edited</span>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-03-30T05:01:52+0000">Mar 30</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="273"></a><div class="entry-content"><p></p><p>So, this question, in a more general sense, is about the ordering of events, which I have recently learned is handled really well by scenes. For instance,</p><pre>Prologue is a Scene. Prologue begins when play begins.
+
+When Prologue begins:<br>
+    display the boxed quotation "Title";<br>
+    show the current quotation;<br>
+    wait for any key;<br>
+    clear the screen.
+
+Player survey is a Scene. Player survey begins when Prologue ends.<br>
+When Player Survey begins: Now the command prompt is "What will your name be?  "; </pre><p> </p><p>et cetera. There doesn't seem to be a concise way to end scenes with a statement, but that's another issue. I'll revise the question to reflect this.</p>
+</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c302">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-begins96a9.html?show=302#c302" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-30T05:02:58+0000">Mar 30</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="302"></a><div class="entry-content">^ I accepted the answer, and then hid it because it wasn't a good solution, but it still showed that the question had a confirmed answer, which is weird.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c360">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-begins6969.html?show=360#c360" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-31T14:39:15+0000">Mar 31</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">121</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="360"></a><div class="entry-content">Given your problem with &quot;reject the player's command,&quot; it seems likely that the phrase &quot;reject the player's command&quot; causes the rule to stop running (looking at its definition in the Standard Rules, it seems to be invoking an Inform 6 command that causes the rulebook to fail, and when the rulebook fails the rule stops running right away). So the code after &quot;reject the player's command&quot; is just ignored.<br />
+<br />
+A possible solution would be to put &quot;End Next Scene&quot; and &quot;End Prologue&quot; before &quot;reject the player's command&quot; in their respective rules.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+										<div class="qa-c-list-item  hentry comment" id="c363">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-meta">
+													<a href="how-organize-events-sets-of-actions-execute-when-play-begins2c8f.html?show=363#c363" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-31T19:17:43+0000">Mar 31</span></span></span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+														<span class="qa-c-item-who-points">
+															<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="363"></a><div class="entry-content">I did try that, but it still seemed to fall through and put the player on the map / start the game anyways.<br />
+<br />
+I also noticed that having scenes start at the end of other scenes might be problematic for this same sort of rulebook-stopping thing, but it's avoidable by having a rule for ending scenes that turns on the new scene's flag before turning off the old one.</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1446375187-e4c78cea3805305b336d321248207d346ecb02d5">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form">
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title">4 Answers</h2>
+						<div class="qa-a-list" id="a_list">
+							
+							<div class="qa-a-list-item  hentry answer" id="a322">
+								<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+									<div class="qa-voting qa-voting-net" id="voting_322">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_322_1_a322" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375187-014dd7816aaf812e0d608b2bf12253fd732329c6">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="how-organize-events-sets-of-actions-execute-when-play-begins92e7.html?show=322#a322" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-03-30T21:56:33+0000">Mar 30</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">692</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-03-30T22:06:14+0000">Mar 30</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="322"></a><div class="entry-content"><p>I'm not sure if this will work for your situation, but I've done this kind of thing:</p>
+
+<pre><code>When play begins:
+    cue the sound check;
+    cue the prologue;
+    [etc.]
+
+To cue the sound check:
+    [etc.]
+
+To cue the prologue:
+    [etc.]
+</code></pre>
+
+<p>In general, I tried to keep all but the most minor "when play begins" stuff in one section of the code, triggering various events from a single "when play begins" rule.</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a322_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c322_list">
+											<div class="qa-c-list-item  hentry comment" id="c324">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-beginsd2ce.html?show=324#c324" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-30T22:44:34+0000">Mar 30</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="324"></a><div class="entry-content">Yeah, that's all well and good, and it WORKS, don't get me wrong. The issue I'm having is that the &quot;reject the player's command&quot; lines seem to cause the initial text to fall through / happen before it should. It MIGHT not be that particular command, but using scenes works perfectly, but dealing with player input for name and gender breaks it.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c327">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-beginscb8f.html?show=327#c327" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-30T23:03:10+0000">Mar 30</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="327"></a><div class="entry-content">My code above doesn't use separate scenes, at least not the way Inform understands scenes. But hopefully someone more experienced will be able to help you.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c328">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-begins7311.html?show=328#c328" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-30T23:15:30+0000">Mar 30</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="328"></a><div class="entry-content">The closest I've come so far is to nest each successive set of actions in the previous. <br />
+<br />
+After reading a command when the gender of the player is unknown:<br />
+&nbsp; &nbsp; if the player's command includes &quot;[gender]&quot;:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[start of what should be a scene, but is instead just a sloppily inserted set of commands]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clear screen;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;say &quot;Here's some dramatic text for the next scene.&quot;</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375187-c43c1dc97ad7d9c181d6d86458352837d0f9e08e">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a330">
+								<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+									<div class="qa-voting qa-voting-net" id="voting_330">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_330_1_a330" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375187-014dd7816aaf812e0d608b2bf12253fd732329c6">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="how-organize-events-sets-of-actions-execute-when-play-begins3108.html?show=330#a330" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-30T23:37:12+0000">Mar 30</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">692</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="330"></a><div class="entry-content"><p>One other idea: maybe it would make your life easier to use an extension for the text input.</p>
+
+<p><a rel="nofollow" href="http://inform7.com/extensions/Michael Callaghan/Questions/index.html">http://inform7.com/extensions/Michael%20Callaghan/Questions/index.html</a></p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a330_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c330_list">
+											<div class="qa-c-list-item  hentry comment" id="c332">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-begins3b1b.html?show=332#c332" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-31T00:06:05+0000">Mar 30</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="332"></a><div class="entry-content">I'll try that one out soon. It might be fancy packaging of the same methods I'm using, but maybe not.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375187-fefa66e8651a4fd4b5ce8b520d6f7b419ef88655">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a359">
+								<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+									<div class="qa-voting qa-voting-net" id="voting_359">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_359_1_a359" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375187-014dd7816aaf812e0d608b2bf12253fd732329c6">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="how-organize-events-sets-of-actions-execute-when-play-begins8eb5.html?show=359#a359" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-31T14:33:37+0000">Mar 31</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">121</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="359"></a><div class="entry-content"><p>One thing about using "when play begins" rules in different places in the source text is that you can explicitly reorder the rules if they're running in the wrong order. Something like:</p>
+
+<pre><code>When play begins (this is the put things on the map rule):
+...
+
+When play begins (this is the make the map rule):
+...
+The make the map rule is listed before the put things on the map rule in the When Play Begins rulebook. 
+</code></pre>
+
+<p>Sometimes this can create unexpected results (the compiler goes through the "is listed before..." declarations in order and moves the appropriate rule so that it's satisfied, so it's not guaranteed that any individual declaration will still be respected after all the declarations are run. But with some trial and error (and use of the Rules tab of the Index to see what the order is) you should be able to get the rules in the order you want.</p>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a359_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" id="c359_list">
+											<div class="qa-c-list-item  hentry comment" id="c362">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-beginsc249.html?show=362#c362" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-03-31T19:14:23+0000">Mar 31</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="362"></a><div class="entry-content">Are these specific commands, &quot;this is the put things on the map rule&quot;? I can go in and find what those things are now that I know what to look for, but for the completeness of the question, you could use the real thing... and then I wouldn't have to do work... (:<br />
+<br />
+(I'm pretending I'm concerned about the completeness of the answer because I don't want to have to go digging, but presumably, it'd be a good thing to do for people with this same problem in the future.)</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c367">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-beginsb3cc.html?show=367#c367" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-03-31T19:56:45+0000">Mar 31</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">692</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-03-31T20:08:37+0000">Mar 31</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="367"></a><div class="entry-content">I'm pretty sure &quot;this is the put things on the map rule&quot; is a rule name mattweiner made up as an example. You can give names to rules using the syntax &quot;(this is the x rule)&quot; where x is pretty much any name you want (as in §19.3 in Writing with Inform). Then you can use &quot;the x rule is listed before the y rule&quot; to put them in order.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c375">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-beginsafc6.html?show=375#c375" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published updated"><span class="value-title" title="2015-04-01T04:09:30+0000">Apr 1</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/mattweiner.html" class="qa-user-link url fn entry-title nickname">mattweiner</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">121</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="375"></a><div class="entry-content">bg is correct--those are just example names for rules. Thanks for the link to §19.3, and §19.4 tells you about &quot;listed before,&quot; &quot;listed after,&quot; &quot;listed first&quot; etc. declarations.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+											<div class="qa-c-list-item  hentry comment" id="c398">
+												<span class="qa-c-item-avatar-meta">
+													<span class="qa-c-item-meta">
+														<a href="how-organize-events-sets-of-actions-execute-when-play-beginsc890.html?show=398#c398" class="qa-c-item-what">commented</a>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2015-04-02T01:27:06+0000">Apr 1</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span>
+															<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span></span>
+															<span class="qa-c-item-who-points">
+																<span class="qa-c-item-who-points-pad">(</span><span class="qa-c-item-who-points-data">39</span><span class="qa-c-item-who-points-pad"> points)</span>
+															</span>
+														</span>
+														<br>
+														<span class="qa-c-item-what">edited</span>
+														<span class="qa-c-item-when">
+															<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2015-04-02T01:40:52+0000">Apr 1</span></span></span>
+														</span>
+														<span class="qa-c-item-who">
+															<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/Paul_Erdos.html" class="qa-user-link url fn entry-title nickname">Paul_Erdos</a></span>
+														</span>
+													</span>
+												</span>
+												<div class="qa-c-item-content">
+													<a name="398"></a><div class="entry-content">I'm a bit foggy as to how I should go about this. I can put things before play begins, but &quot;when play begins&quot; itself doesn't seem to contain any more discrete rules, so I don't really know what I'm replacing. Further, I'm not completely sure how to use scenes and rules together appropriately, but maybe that will clear up once I figure out the first part.<br />
+<br />
+Edit: Even with the rules, it blows right through them! &nbsp;I get to the command prompt change and waiting for input, and everything just goes! They're going in the right order, and I think they were before, but the input... maybe it's not stopping the rest of the stuff, and all the rules at the start just flash by after running the command prompt loop once, which I might be able to fix.</div>
+												</div>
+												<div class="qa-c-item-footer">
+													<div class="qa-c-item-buttons">
+													</div>
+												</div>
+												<div class="qa-c-item-clear">
+												</div>
+											</div> <!-- END qa-c-item -->
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375187-57ae85abbeca787439ea3c3c6ff13967ffc0295f">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+							<div class="qa-a-list-item  hentry answer" id="a400">
+								<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+									<div class="qa-voting qa-voting-net" id="voting_400">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_400_1_a400" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Voting down is only available to some users" type="submit" value="" class="qa-vote-second-button qa-vote-down-disabled" disabled="disabled"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">0<span class="votes-up"><span class="value-title" title="0"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> votes</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<input type="hidden" name="code" value="0-1446375187-014dd7816aaf812e0d608b2bf12253fd732329c6">
+								</form>
+								<div class="qa-a-item-main">
+									<span class="qa-a-item-avatar-meta">
+										<span class="qa-a-item-meta">
+											<a href="how-organize-events-sets-of-actions-execute-when-play-begins54cc.html?show=400#a400" class="qa-a-item-what">answered</a>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="published"><span class="value-title" title="2015-04-02T03:53:26+0000">Apr 1</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span>
+												<span class="qa-a-item-who-data"><span class="vcard author"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span></span>
+												<span class="qa-a-item-who-points">
+													<span class="qa-a-item-who-points-pad">(</span><span class="qa-a-item-who-points-data">692</span><span class="qa-a-item-who-points-pad"> points)</span>
+												</span>
+											</span>
+											<br>
+											<span class="qa-a-item-what">edited</span>
+											<span class="qa-a-item-when">
+												<span class="qa-a-item-when-data"><span class="updated"><span class="value-title" title="2015-04-02T15:36:29+0000">Apr 2</span></span></span>
+											</span>
+											<span class="qa-a-item-who">
+												<span class="qa-a-item-who-pad">by </span><span class="qa-a-item-who-data"><a href="../user/bg.html" class="qa-user-link url fn entry-title nickname">bg</a></span>
+											</span>
+										</span>
+									</span>
+									<form method="post" action="http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins?show=324">
+										<div class="qa-a-selection">
+										</div>
+										<div class="qa-a-item-content">
+											<a name="400"></a><div class="entry-content"><p>While this answer doesn't directly answer the main question ("How do I organize events / sets of actions to execute when play begins?") I think it addresses the issue that prompted that question: "I can't seem to make more than a few events happen before the player is put in the first room" and concerns about "clearing things inappropriately."</p>
+
+<p>The final chunk of your code is (among other things) telling Inform not to print the banner text and not to look during the opening questions.  (Looking is the action used to display the room name and room description when you enter a room.) So it's not that the title banner and room description are displaying and then getting cleared inappropriately--it's that they're being prevented from displaying in the first place. By the time the questions are finished, the usual moment for displaying the the title banner and initial room description has already come and gone, so they won't display at all unless you trigger them manually.</p>
+
+<p>My guess is that it's not possible to ask a bunch of text input questions (at least, not the way they're set up here) before the first turn of the game, because the text input normally used for player commands is set up to happen in individual turns of the game. So rather than trying to squeeze in all the questions into that "when play begins" period (i.e. before the usual time when the title banner is displayed), I think what would work is to ask the questions in individual turns, but delay displaying the title banner and room description until the questions are finished.</p>
+
+<p>Since your code already suppresses the title banner and initial room description during the questions, I just added in two lines to display the title banner and room description after the second question is answered.</p>
+
+<p>I bracketed out the "wait for any key" line because I couldn't figure out its purpose and it seemed to delay the title banner. But maybe you just wanted a pause there.</p>
+
+<p>I also altered the indentation, etc. of "When Next Scene begins: Now the command prompt is "What will your name be?  " section, just because the indentation looked odd to me.</p>
+
+<p>So, try this code and see if it does what you want. This doesn't address later additions/comments about the "reject the player's command" line (it looks like Next Scene doesn't actually end) but I hope it helps with the interruption issue.</p>
+
+<pre><code>Include Basic Screen Effects by Emily Short.
+The player forename is some text that varies.
+The player name is some text that varies.
+
+To decide whether collecting names:
+    if the command prompt is "What will your name be?  ", yes;
+     no.
+
+Gender is a kind of value. The genders are masculine, feminine, and unknown. 
+Understand "male", "man", "boy" or "m" as masculine. 
+Understand "female", "woman", "girl" or "f" as feminine.
+A person has a gender. The gender of the player is unknown.
+
+To decide whether the gender of the player is unknown:
+    if the command prompt is "Are you male or female?  ", yes;
+     no.
+
+Prologue is a Scene. Prologue begins when play begins.
+Prologue ends when Prologue Flag is zero.
+Prologue Flag is a number that varies. Prologue Flag is one.
+To End Prologue:
+    Now the Next Flag is one;
+    now the Prologue Flag is zero.
+[I could set the next one to start when this ends]
+[but that doesn't seem to stop the title / first room text from getting cleared]
+
+Next Scene is a Scene. "I come next!" Next Scene begins when Next Flag is one.
+Next Scene ends when Next Flag is zero.
+Next Flag is a number that varies.
+To End Next Scene: Now the Next Flag is zero.
+
+When Prologue begins:
+    display the boxed quotation "Fancy Title Box Text";
+    show the current quotation;
+    wait for any key;
+    clear the screen;
+    say "ominous introduction text";
+    wait for any key;
+    clear the screen;
+    End Prologue.
+
+When Next Scene begins: Now the command prompt is "What will your name be?  ";
+
+After reading a command when collecting names:
+    now the player name is the substituted form of "[the player's command]" in title case;
+    now the player forename is word number 1 in the player name;
+    now the command prompt is "Are you male or female?  ";
+    Reject the player's command;
+    End Next Scene.
+
+After reading a command when the gender of the player is unknown:
+    if the player's command includes "[gender]":
+        now the command prompt is "&gt; ";
+        now the gender of the player is the gender understood;
+        if the gender of the player is masculine, now the player is male;
+        if the gender of the player is feminine, now the player is female;
+        Say "[line break][the banner text]"; [* new line]
+        Try looking; [* new line]
+        [wait for any key;]
+        Reject the player's command;
+        End Next Scene;
+
+Instead of looking when collecting names: do nothing.
+Rule for printing the banner text when collecting names: do nothing.
+Rule for constructing the status line when collecting names: do nothing.
+Instead of looking when the gender of the player is unknown: do nothing.
+Rule for printing the banner text when the gender of the player is unknown: do nothing.
+Rule for constructing the status line when the gender of the player is unknown: do nothing.
+
+Place is a room. "This might not show up, or it might show up prematurely!".
+</code></pre>
+</div>
+										</div>
+										<div class="qa-a-item-buttons">
+											<input name="a400_dofollow" value="ask related question" title="Ask a new question relating to this answer" type="submit" class="qa-form-light-button qa-form-light-button-follow">
+										</div>
+										
+										<div class="qa-a-item-c-list" style="display:none;" id="c400_list">
+										</div> <!-- END qa-c-list -->
+										
+										<input type="hidden" name="code" value="0-1446375187-edaa9b9cfb6f71a81de6294d54fdcdf7b16f426e">
+										<input type="hidden" name="qa_click" value="">
+									</form>
+									<div class="qa-c-form">
+									</div> <!-- END qa-c-form -->
+									
+								</div> <!-- END qa-a-item-main -->
+								<div class="qa-a-item-clear">
+								</div>
+							</div> <!-- END qa-a-list-item -->
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div class="qa-sidepanel">
+					<div class="qam-search turquoise "  >
+						<div class="qa-search">
+							<form method="get" action="http://ifanswers.com/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt ">
+						<span style="font-size:220%"><b>This site is now closed.</b></span><br/>
+As of 1st November 2015, this site is a read-only archive. For more information see the <a href="http://www.intfiction.org/forum/viewtopic.php?f=4&amp;t=18932">intfiction forum post</a><br/>
+
+<hr/>
+
+Welcome to IF Answers, a site for questions and answers about Interactive Fiction.<br/><br/>
+
+Technical questions about interactive fiction development tools such as Inform, Twine, Quest, QuestKit, Squiffy, Adrift, TADS etc. are all on-topic here.<br/><br/>
+
+Non-technical questions about interactive fiction are also on-topic. These questions could be about general IF design, specific games, entering the IF Comp etc.
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../761/hyperlinks-command-appear-appear-instead-following-inform.html">When using hyperlinks, how do you make the command appear appear next to the &gt; instead of on the following line? (Inform 7)</a></li>
+									<li class="qa-related-q-item"><a href="../936/how-get-rid-rule-thats-blocking-what-want-the-player-do-inform.html">How to get rid of a rule that's blocking what I want the player to do?  (Inform 7)</a></li>
+									<li class="qa-related-q-item"><a href="../417/how-do-i-update-code-to-use-version-5-of-glulx-text-effects.html">How do I update code to use version 5 of Glulx Text Effects?</a></li>
+									<li class="qa-related-q-item"><a href="../36/keep-track-prioritize-bugs-need-fix-something-right-when-see.html">How do I keep track of/prioritize bugs? Do I need to fix something right when I see it?</a></li>
+									<li class="qa-related-q-item"><a href="../296/display-the-full-initial-room-description-when-player-looks.html">How do I display the full / initial room description when the player looks?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-playing">
+								<a href="../playing.html" class="qa-nav-cat-link" title="Questions about playing Interactive Fiction">Playing</a>
+								<span class="qa-nav-cat-note">(24)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-authoring">
+								<a href="../authoring.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about creating Interactive Fiction">Authoring</a>
+								<span class="qa-nav-cat-note">(248)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-publishing">
+								<a href="../publishing.html" class="qa-nav-cat-link" title="Questions on how to publish and distribute works of IF">Publishing</a>
+								<span class="qa-nav-cat-note">(18)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-meta">
+								<a href="../meta.html" class="qa-nav-cat-link" title="Questions about the IF Answers site">Meta</a>
+								<span class="qa-nav-cat-note">(22)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-user-contributions">
+							<a href="../user-contributions.html" class="qa-nav-footer-link">User contributions CC-BY-SA 4.0</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+</html>

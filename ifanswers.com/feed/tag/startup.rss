@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged startup</title>
+<link>http://ifanswers.com/tag/startup</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>How do I organize events / sets of actions to execute when play begins?</title>
+<link>http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins</link>
+<description>&lt;p&gt;How can I encapsulate stuff that I want to do when play begins? Can I structure an order of events to follow each other? Using 'when play begins' at different places in the text is unreliable, and is prone to executing out of order, or clearing things inappropriately. Even stringing scenes together at the start doesn't work. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;Weird Stuff&quot; by Writer.
+Include Basic Screen Effects by Emily Short.
+The player forename is some text that varies.
+The player name is some text that varies.
+To decide whether collecting names:
+    if the command prompt is &quot;What will your name be?  &quot;, yes;
+     no.
+
+Gender is a kind of value. The genders are masculine, feminine, and unknown. 
+Understand &quot;male&quot;, &quot;man&quot;, &quot;boy&quot; or &quot;m&quot; as masculine. 
+Understand &quot;female&quot;, &quot;woman&quot;, &quot;girl&quot; or &quot;f&quot; as feminine.
+A person has a gender. The gender of the player is unknown.
+
+To decide whether the gender of the player is unknown:
+    if the command prompt is &quot;Are you male or female?  &quot;, yes;
+     no.
+
+Prologue is a Scene. Prologue begins when play begins.
+Prologue ends when Prologue Flag is zero.
+Prologue Flag is a number that varies. Prologue Flag is one.
+To End Prologue:
+    Now the Next Flag is one;
+    now the Prologue Flag is zero.
+[I could set the next one to start when this ends]
+[but that doesn't seem to stop the title / first room text from getting cleared]
+
+Next Scene is a Scene. &quot;I come next!&quot; Next Scene begins when Next Flag is one.
+Next Scene ends when Next Flag is zero.
+Next Flag is a number that varies.
+To End Next Scene: Now the Next Flag is zero.
+
+When Prologue begins:
+    display the boxed quotation &quot;Fancy Title Box Text&quot;;
+    show the current quotation;
+    wait for any key;
+    clear the screen;
+    say &quot;ominous introduction text&quot;;
+    wait for any key;
+    clear the screen;
+    End Prologue.
+
+When Next Scene begins: Now the command prompt is &quot;What will your name be?  &quot;;
+    After reading a command when collecting names:
+        now the player name is the substituted form of &quot;[the player's command]&quot; in title case;
+        now the player forename is word number 1 in the player name;
+        now the command prompt is &quot;Are you male or female?  &quot;;
+        Reject the player's command;
+        End Next Scene.
+
+After reading a command when the gender of the player is unknown:
+    if the player's command includes &quot;[gender]&quot;:
+        now the command prompt is &quot;&amp;gt; &quot;;
+        now the gender of the player is the gender understood;
+        if the gender of the player is masculine, now the player is male;
+        if the gender of the player is feminine, now the player is female;
+        wait for any key;
+        Reject the player's command;
+        End Next Scene;
+
+Instead of looking when collecting names: do nothing.
+Rule for printing the banner text when collecting names: do nothing.
+Rule for constructing the status line when collecting names: do nothing.
+Instead of looking when the gender of the player is unknown: do nothing.
+Rule for printing the banner text when the gender of the player is unknown: do nothing.
+Rule for constructing the status line when the gender of the player is unknown: do nothing.
+
+Place is a room. &quot;This might not show up, or it might show up prematurely!&quot;.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;et cetera. There doesn't seem to be a concise way to end scenes with a statement, but that's another issue. This appears to remedy the order of the events, but it only goes so far. I can't seem to make more than a few events happen before the player is put in the first room.&lt;/p&gt;
+
+&lt;p&gt;Edit: Upon further review, I think I've found the culprit. The &quot;reject the player's command&quot; statements seem to screw with things that come afterwords. The &quot;End Next Scene&quot; doesn't work properly, possibly because of this. If I comment out the player input stuff, it all executes in order, and then the main title / room description shows up just fine.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/216/how-organize-events-sets-of-actions-execute-when-play-begins</guid>
+<pubDate>Fri, 27 Mar 2015 01:42:53 +0000</pubDate>
+</item>
+</channel>
+</rss>

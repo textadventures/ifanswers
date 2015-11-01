@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions in Authoring</title>
+<link>http://ifanswers.com/questions/authoring</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Use Left, Right, etc, not North South, Etc.</title>
+<link>http://ifanswers.com/1266/use-left-right-etc-not-north-south-etc</link>
+<description>&lt;p&gt;I want to use left and right instead of  west and east for my &quot;You can go west.&quot; Prompt that it gives you when you play.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1266/use-left-right-etc-not-north-south-etc</guid>
+<pubDate>Sun, 25 Oct 2015 15:52:47 +0000</pubDate>
+</item>
+<item>
+<title>Quest: if's, exits, blocking and attributes</title>
+<link>http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</link>
+<description>&lt;p&gt;So these forums have been very useful, thanks a ton for that.&lt;br&gt;
+I've tried using gamebook version, but it seems rather limited, and I couldn't find dictionary functions to make attributes work properly and still so much more the text version does better.&lt;/p&gt;
+
+&lt;p&gt;Looking for Text Adventure Answers please**&lt;/p&gt;
+
+&lt;p&gt;So First Question is:&lt;/p&gt;
+
+&lt;p&gt;How do you make page links available if a stat is high enough?&lt;/p&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;p&gt;{if player.cunning&amp;gt;25:}&lt;br&gt;
+I want the following to be displayed&lt;/p&gt;
+
+&lt;p&gt;{command:go to Room4: So cunning you get to go here!}&lt;/p&gt;
+
+&lt;p&gt;Now I'm adding the commands to the text description, and I can't quite get it right.&lt;/p&gt;
+
+&lt;p&gt;Second Question:&lt;br&gt;
+The next thing I am having trouble with is blocking a path (exit) after it has been used. &lt;br&gt;
+Player has a choice of going to Room2, Room3, or Room4, player can't go to Room4 till their cunning is increased, so that isn't displayed yet, So player picks Room2, then Room2 links back to the Original Room1, but now I want Room2 to be blocked, that choice has already been taken and is no longer valid. &lt;/p&gt;
+
+&lt;p&gt;I've dabbled in exits and if's there as well, but can't quite get that right.&lt;/p&gt;
+
+&lt;p&gt;Last Question (For Now)&lt;br&gt;
+How do you display stats on a page without using the show panes interface? I'm looking to make it feel like more of a choose your own adventure, but with stats still recorded and shown.&lt;/p&gt;
+
+&lt;p&gt;I hopefully want it in descriptions, or maybe at header.&lt;br&gt;
+ Maybe there is a way to have the option to remove inventory, compass, place and objects from the screen, but keep status?  &lt;/p&gt;
+
+&lt;p&gt;Any answer, would be very useful, thanks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1254/quest-ifs-exits-blocking-and-attributes</guid>
+<pubDate>Fri, 23 Oct 2015 16:06:51 +0000</pubDate>
+</item>
+<item>
+<title>Ghost that follows player, after being in specific room. Stop following when player is in other specific room.</title>
+<link>http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</link>
+<description>&lt;p&gt;Hello,&lt;br&gt;
+i want to program a ghost that follows the player after going to into a specific room. &lt;br&gt;
+For example the kitchen. The ghost then follows the player until the player reaches another specific room. For example the bathroom. After entering the bathroom the ghost vanishes and is back in the kitchen.&lt;/p&gt;
+
+&lt;p&gt;This is my code right now:&lt;/p&gt;
+
+&lt;p&gt;Ghost is a man. It is in kitchen.&lt;/p&gt;
+
+&lt;p&gt;Every turn:&lt;br&gt;
+    if the location of Ghost is not the location of the player: &lt;br&gt;
+        let the way be the best route from the location of Ghost to the location of the player, using doors; &lt;br&gt;
+        try Ghost going the way;&lt;br&gt;
+    if player is in bathroom:&lt;br&gt;
+        move Geist to ktichen.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1252/ghost-follows-player-specific-following-player-other-specific</guid>
+<pubDate>Thu, 22 Oct 2015 13:09:59 +0000</pubDate>
+</item>
+<item>
+<title>What script creates a link to a page?</title>
+<link>http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</link>
+<description>&lt;p&gt;Simple question. What script do I need to write to add a link to the current page which will take the player to the specified page if they click on it?&lt;/p&gt;
+
+&lt;p&gt;I am using Quest in gamebook mode and writing my pages as scripts and ignoring all the gibberish of the G.U.I. and just typing the code directly, nice and simple like, but I don't know how to add text that links to another page.&lt;/p&gt;
+
+&lt;p&gt;I don't want to just use text+script pages and add the links down at the bottom, because that's weak, as I can't put the link inside of other code to make it only run under certain circumstances. (approximate example: if object.attribute=1 { (link: &quot;this string&quot;, to page5) } )&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1246/what-script-creates-a-link-to-a-page</guid>
+<pubDate>Sun, 18 Oct 2015 23:22:52 +0000</pubDate>
+</item>
+<item>
+<title>How do you create an item which lists all of the things you've examined so far?</title>
+<link>http://ifanswers.com/1244/how-you-create-item-which-lists-the-things-youve-examined-far</link>
+<description>&lt;p&gt;I want to create a memo basically. How would I go about having the memo being updated every-time the player interacts with something? I'd want the player to able to examine the memo at any time, at any place and have a list of things they can check again.&lt;/p&gt;
+
+&lt;p&gt;For example, if they checked a table in the game, I'd want the memo to be updated with:&lt;/p&gt;
+
+&lt;p&gt;Table&lt;br&gt;
+description&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1244/how-you-create-item-which-lists-the-things-youve-examined-far</guid>
+<pubDate>Sat, 17 Oct 2015 20:14:31 +0000</pubDate>
+</item>
+<item>
+<title>How to restore previous versions in web version of quest.</title>
+<link>http://ifanswers.com/1242/how-to-restore-previous-versions-in-web-version-of-quest</link>
+<description>&lt;p&gt;I accidentally deleted a room and then my browser crashed and reloaded the page. How do I get the room back?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1242/how-to-restore-previous-versions-in-web-version-of-quest</guid>
+<pubDate>Fri, 16 Oct 2015 10:15:34 +0000</pubDate>
+</item>
+<item>
+<title>How do you center images in Quest?</title>
+<link>http://ifanswers.com/1237/how-do-you-center-images-in-quest</link>
+<description>&lt;p&gt;I was wondering if anyone knows the code to center images in quest? The way it is currently set up, the immage is automatically set to the left side of the screen. So if you are using small pictures, it looks kind of weird. Is there a simple code to center an image?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1237/how-do-you-center-images-in-quest</guid>
+<pubDate>Wed, 14 Oct 2015 15:15:13 +0000</pubDate>
+</item>
+<item>
+<title>How do I use the create exit command properly in Quest</title>
+<link>http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</link>
+<description>&lt;p&gt;The code I'm using gives me an error when I play my game and doesn't create the exit.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1224/how-do-i-use-the-create-exit-command-properly-in-quest</guid>
+<pubDate>Wed, 07 Oct 2015 23:53:15 +0000</pubDate>
+</item>
+<item>
+<title>Help! I need to use a candle as a light source in rooms in my Quest text adventure game</title>
+<link>http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</link>
+<description>&lt;p&gt;Hi everyone&lt;/p&gt;
+
+&lt;p&gt;I am currently making a fantasy game on Quest and a few of the rooms are dark.&lt;/p&gt;
+
+&lt;p&gt;I want them to be dark when the player enters so they will have to use a candle (from the inventory) to light the room so they can move on.&lt;/p&gt;
+
+&lt;p&gt;I don't want them to be able to move on further into the room without using the candle but I cannot find this in the help documentation (although at the moment I am now going cross eyed with all the research and screenshots!!!)&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance! :)&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1223/help-need-candle-light-source-rooms-quest-text-adventure-game</guid>
+<pubDate>Wed, 07 Oct 2015 22:32:24 +0000</pubDate>
+</item>
+<item>
+<title>Show amount of gold in inventory</title>
+<link>http://ifanswers.com/1222/show-amount-of-gold-in-inventory</link>
+<description>&lt;p&gt;Hey there!&lt;/p&gt;
+
+&lt;p&gt;Can anyone tell me what code should i write for showing the amount of gold in my inventory upon looking at it? The way I added gold into my game was via attributes/integrers. Whenever I find gold I just write the following code: &lt;br&gt;
+player.gold = player.gold + 100 -&amp;gt; And then i get 100 gold. &lt;/p&gt;
+
+&lt;p&gt;It appears neatly in my bar under the health, but I wish to be able to write a command: &quot;examine gold/look at gold&quot; and then get a description: &quot;You have xx amount of gold in your inventory.&quot;&lt;/p&gt;
+
+&lt;p&gt;Can anyone help me with that? There has to be a simple code to show this. I tried ListObjectContents (this), but this only gives me a list of objects i am carrying in my inventory. Basically it just tells me &quot;You are carrying gold&quot;, but it doesnt tell me the amount. Thanks in advance.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1222/show-amount-of-gold-in-inventory</guid>
+<pubDate>Wed, 07 Oct 2015 20:07:05 +0000</pubDate>
+</item>
+<item>
+<title>re-arrange rooms</title>
+<link>http://ifanswers.com/1220/re-arrange-rooms</link>
+<description>&lt;p&gt;How do I re-arrange rooms on the Web-Based software? I.e. I have a room, but want another room to be the starting room. How can I make it so?&lt;/p&gt;
+
+&lt;p&gt;In Quest mind you***&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1220/re-arrange-rooms</guid>
+<pubDate>Wed, 07 Oct 2015 02:58:22 +0000</pubDate>
+</item>
+<item>
+<title>How does one change the User Style for hyperlinks when using Flexible Windows?</title>
+<link>http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</link>
+<description>&lt;p&gt;I've been setting up all the styles for text (using Table of User Styles (continued) in my source, but haven't been able to figure out the style name for hyperlinks..&lt;/p&gt;
+
+&lt;p&gt;I'm primarily just trying to remove the blue colour to black, to match the rest of the text - remaining underlined is fine (though not preferable).&lt;/p&gt;
+
+&lt;p&gt;If there's no style name for hyperlinks (which is what I'm guessing now), how would one go about changing this font colour?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1218/does-change-user-style-hyperlinks-when-using-flexible-windows</guid>
+<pubDate>Tue, 06 Oct 2015 05:05:28 +0000</pubDate>
+</item>
+<item>
+<title>How do I find my saved Quests?</title>
+<link>http://ifanswers.com/1214/how-do-i-find-my-saved-quests</link>
+<description>&lt;p&gt;I made a game but didn't publish it. It said saved before I closed the screen. I don't know how to find that saved game now.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1214/how-do-i-find-my-saved-quests</guid>
+<pubDate>Wed, 30 Sep 2015 21:05:19 +0000</pubDate>
+</item>
+<item>
+<title>How do I make verbs synonymous for only certain objects in Quest 5.6.1?</title>
+<link>http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest</link>
+<description>&lt;p&gt;I'm a beginner at this. And I just discovered library elements as I was typing this question, so I'm sorry if I'm right at the answer now. But I've spent too much time on this already and I think other people would wonder this, too. I'll post the answer if I figure it out.&lt;/p&gt;
+
+&lt;p&gt;I'm using the Quest 5.6.1 windows program, I'm not using the browser version.&lt;/p&gt;
+
+&lt;p&gt;In my game, there is a book. I've given the book &quot;one&quot; verb that has many synonyms. It's this:&lt;/p&gt;
+
+&lt;p&gt;turn through; flip through; scan; read; open; thumb through; page through; look in; look inside&lt;/p&gt;
+
+&lt;p&gt;Please note that one of the synonyms is &quot;open&quot;. More recently, I added my first container object to the game. One of it's default verbs is &quot;open&quot;.&lt;/p&gt;
+
+&lt;p&gt;When I try to open it with the &quot;open&quot; verb, it says this:&lt;/p&gt;
+
+&lt;p&gt;You can't turn through; flip through; scan; read; open; thumb through; page through; look in; look inside it.&lt;/p&gt;
+
+&lt;p&gt;As an experiment, I wanted to try giving the verb &quot;open&quot; to an object that isn't a container and see if I have the same problem, but when I type &quot;open&quot; and click the ok button, it comes up as &quot;turn through; flip through; scan; read; open; thumb through; page through; look in; look inside&quot;, even though I only typed &quot;open&quot;.&lt;/p&gt;
+
+&lt;p&gt;So, I think you can tell what my intentions are. I would like for the player to be able to use any of those words to open; read; etc. the book. I don't want the player to type something that to a human being clearly means that they want to open the book and read its pages and have the game tell them that it doesn't know how to do that.&lt;/p&gt;
+
+&lt;p&gt;How do I make the words in my verb string synonymous only for one object, in this case, the book?&lt;/p&gt;
+
+&lt;p&gt;It would be nice if I could create a designation (a flag, maybe?) for every object that I would want this string to apply to, in other words, books, magazines; any reading material composed of pages.&lt;/p&gt;
+
+&lt;p&gt;I hope this isn't a stupid question. I've been looking all over the place to solve this.&lt;/p&gt;
+
+&lt;p&gt;Thanks for giving me your time.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1213/how-do-make-verbs-synonymous-for-only-certain-objects-quest</guid>
+<pubDate>Wed, 30 Sep 2015 16:49:27 +0000</pubDate>
+</item>
+<item>
+<title>[Inform 7]Timers, daemons, switchon &amp; switchoff</title>
+<link>http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff</link>
+<description>&lt;p&gt;I'm converting an old Inform 6 game to Inform 7 but am having some trouble finding the new way of doing things.&lt;/p&gt;
+
+&lt;p&gt;For example, I previously had a button I could SwitchOn and SwitchOff, but I can't find any topic in the Index that covers the Inform7 way of handling on &amp;amp; off.  I tried looking for everything obvious such as &quot;Switches&quot;, &quot;Buttons&quot;, &quot;On-Off state&quot;, &quot;On&quot;, &quot;Off&quot;, etc, only to find nothing and remain baffled.&lt;/p&gt;
+
+&lt;p&gt;To save exasperation, can anyone please help me with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Switches - how to turn things on &amp;amp; off&lt;/li&gt;
+&lt;li&gt;Timers - how to trigger an event after a certain number of turns; also how to interrupt the timer (StopTimer in I6)&lt;/li&gt;
+&lt;li&gt;Daemons - making things happen turn-by-turn, whether &quot;on screen&quot; (e.g. telling the player footsteps are getting nearer each turn) or background stuff (calculating the amount of petrol left as the player drives about).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If someone can kindly tell me what the new equivalents are I can look them up, but any additional information/explanation is appreciated - especially if it is to say &quot;X&quot; doesn't have a direct equivalent, it's now handled by doing Y and Z.&quot;&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance. &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1207/inform-7-timers-daemons-switchon-%26-switchoff</guid>
+<pubDate>Thu, 24 Sep 2015 14:22:08 +0000</pubDate>
+</item>
+<item>
+<title>How To Spread Out Hyperlinks horizontally?(Quest5)</title>
+<link>http://ifanswers.com/1202/how-to-spread-out-hyperlinks-horizontally-quest5</link>
+<description>&lt;p&gt;I'm working on a game, where a lot of different dialogue choices can appear at the same time, which can get quite messy at times. I used line breaks to spread the hyperlinks out vertically, but I wonder if it was possible to also spread them out horizontally?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1202/how-to-spread-out-hyperlinks-horizontally-quest5</guid>
+<pubDate>Mon, 21 Sep 2015 15:40:56 +0000</pubDate>
+</item>
+<item>
+<title>How To Disable Automatic Jumping To The Screen Bottom If Too Much Text?(Quest5)</title>
+<link>http://ifanswers.com/1201/disable-automatic-jumping-screen-bottom-too-much-text-quest5</link>
+<description>&lt;p&gt;In Quest5, if too much text appears on screen, it automatically jumps to the bottom of the screen, which gets really annoying after awhile. Is there a way to disable that?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1201/disable-automatic-jumping-screen-bottom-too-much-text-quest5</guid>
+<pubDate>Mon, 21 Sep 2015 15:37:37 +0000</pubDate>
+</item>
+<item>
+<title>Forcing the player to be on a vehicle when entering a room</title>
+<link>http://ifanswers.com/1196/forcing-the-player-to-be-on-a-vehicle-when-entering-a-room</link>
+<description>&lt;p&gt;I want the player to only be able to enter the Wastelands if he's on the horse, however it won't let me enter the Wastelands whether I'm mounted or not.&lt;/p&gt;
+
+&lt;p&gt;I've included all code I think is possibly relevant. I've split it down to this barebones model and it still won't work. It's practically a direct copy of the Peugeot example from the documentation so I'm clueless as to why it's not working.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Include Rideable Vehicles by Graham Nelson.
+
+The Ruins of Dundee is a room. &quot;Everyone's dead yo.&quot;
+
+A rideable animal called swift steed is here. &quot;Your swift steed rests here.&quot; The indefinite article of the swift steed is &quot;your&quot;. Understand &quot;horse&quot; as the swift steed.
+
+The Wastelands is north of Ruins of Dundee. &quot;To the north you see the Faraway Mountains. To the south, you see the burning rubble of Dundee.&quot;
+
+Instead of going to The Wastelands when the player is not on the swift steed:
+    say &quot;You should get on your horse if you're going to be traveling very far.&quot;
+
+test me with &quot;mount horse /  n&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1196/forcing-the-player-to-be-on-a-vehicle-when-entering-a-room</guid>
+<pubDate>Sun, 20 Sep 2015 20:39:52 +0000</pubDate>
+</item>
+<item>
+<title>No new game option for the online editor?</title>
+<link>http://ifanswers.com/1193/no-new-game-option-for-the-online-editor</link>
+<description>&lt;p&gt;New user here; started today by signing in with my google account.&lt;/p&gt;
+
+&lt;p&gt;I click the 'quest' button and get taken to &lt;a rel=&quot;nofollow&quot; href=&quot;https://textadventures.co.uk/quest&quot;&gt;https://textadventures.co.uk/quest&lt;/a&gt;&lt;br&gt;
+I click the blue 'Go!' button and get taken to &lt;a rel=&quot;nofollow&quot; href=&quot;https://textadventures.co.uk/create/new&quot;&gt;https://textadventures.co.uk/create/new&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And then there isn't anything on the page. &lt;img src=&quot;http://oi57.tinypic.com/k46kr7.jpg&quot; alt=&quot;The empty page.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Tried this on both Firefox and Chrome, and tried again after disabling addons like Ghosterly and Ad Block.&lt;/p&gt;
+
+&lt;p&gt;Also a side question: How is this service for group work on a single project?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1193/no-new-game-option-for-the-online-editor</guid>
+<pubDate>Sun, 20 Sep 2015 03:42:12 +0000</pubDate>
+</item>
+<item>
+<title>Loading and firing</title>
+<link>http://ifanswers.com/1191/loading-and-firing</link>
+<description>&lt;p&gt;In text adventure, I want to create a firearm that requires object magazine to shoot. How would I make the gun only work with the magazine. I don't get the whole require object thing. Thanks in advance&lt;/p&gt;
+
+&lt;p&gt;-reKall&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1191/loading-and-firing</guid>
+<pubDate>Thu, 17 Sep 2015 18:17:51 +0000</pubDate>
+</item>
+<item>
+<title>Quest Problem with &quot;Get Input&quot; in a loop</title>
+<link>http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop</link>
+<description>&lt;p&gt;Hi,&lt;br&gt;
+I'm in the process of learning Quest so this may have a simple answer:&lt;/p&gt;
+
+&lt;p&gt;The following (on entry to room) script&lt;/p&gt;
+
+&lt;p&gt;running = true&lt;br&gt;
+while (running) {&lt;br&gt;
+  msg (&quot;Type non-integer to finish&quot;)&lt;br&gt;
+  get input {&lt;br&gt;
+    running = IsInt(result)&lt;br&gt;
+  }&lt;br&gt;
+}&lt;/p&gt;
+
+&lt;p&gt;gives the following:&lt;/p&gt;
+
+&lt;p&gt;You are in a room.&lt;br&gt;
+Type non-integer to finish&lt;br&gt;
+Type non-integer to finish&lt;br&gt;
+Error running script: Only one 'get input' can be in progress at a time&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1190/quest-problem-with-get-input-in-a-loop</guid>
+<pubDate>Thu, 17 Sep 2015 17:50:19 +0000</pubDate>
+</item>
+<item>
+<title>How can I set the player smell in Inform 6?</title>
+<link>http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6</link>
+<description>&lt;p&gt;I can set the player description using, well, &lt;code&gt;player.description&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;But how can I set the smell? As in &lt;code&gt;&amp;gt; smell self&lt;/code&gt;.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1188/how-can-i-set-the-player-smell-in-inform-6</guid>
+<pubDate>Thu, 17 Sep 2015 10:36:32 +0000</pubDate>
+</item>
+<item>
+<title>How to cause an event to occur on every turn, but only when the action succeeds?</title>
+<link>http://ifanswers.com/1187/cause-event-occur-every-turn-but-only-when-the-action-succeeds</link>
+<description>&lt;p&gt;Suppose you have something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Every turn when monster is chasing, say &quot;He's coming!&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Out-of-game actions don't trigger this as they aren't considered turns, nor do parser errors like trying to kiss something not animate.  But checking inventory does, as well as other actions that have no real &quot;result&quot;.  How do you specify whether an action should result in a turn or not?&lt;/p&gt;
+
+&lt;p&gt;I'm thinking specifically in cases like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Instead of cutting apple with something dull, say &quot;Not sharp enough.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I wouldn't want that to take a turn because the player didn't really do anything; they were preempted by the game from taking any real action.&lt;/p&gt;
+
+&lt;p&gt;Also, how do I prevent taking inventory from counting as a turn?  I want to treat it as a report that refreshed your memory, not an &quot;action&quot; that would actually require time to go by, which is seemingly how Inform views a turn.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1187/cause-event-occur-every-turn-but-only-when-the-action-succeeds</guid>
+<pubDate>Thu, 17 Sep 2015 07:17:03 +0000</pubDate>
+</item>
+<item>
+<title>How do I get the Inanimate Listener to respond to &quot;Computer, hello&quot;?</title>
+<link>http://ifanswers.com/1179/how-get-the-inanimate-listener-to-respond-to-computer-hello</link>
+<description>&lt;p&gt;Thank you - &lt;/p&gt;
+
+&lt;p&gt;Instead of asking Computer about something, say &quot;'Voice print not recognised.'&quot;&lt;/p&gt;
+
+&lt;p&gt;works.&lt;/p&gt;
+
+&lt;p&gt;I was expecting however that it would work for any comments directed at the computer, but it doesn't.&lt;/p&gt;
+
+&lt;p&gt;ASK COMPUTER ABOUT THE DOOR gets the right response but&lt;/p&gt;
+
+&lt;p&gt;COMPUTER, HELLO does not.&lt;/p&gt;
+
+&lt;p&gt;I can see that the second command is not an asking-type action.  I assume this is why it falls outside the rule we've made.&lt;/p&gt;
+
+&lt;p&gt;Is there a simple way to get the computer to respond to anything said to it?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1179/how-get-the-inanimate-listener-to-respond-to-computer-hello</guid>
+<pubDate>Sun, 13 Sep 2015 06:00:21 +0000</pubDate>
+</item>
+<item>
+<title>[Inform 7] How to implement a blanket 'not understood' comment for an Inanimate Listener</title>
+<link>http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener</link>
+<description>&lt;p&gt;I have two computers in different locations.  Both can be talked to thanks to the Inanimate Listener extension.  My intention is to have one computer that will accept commands from the player while the other will not.&lt;/p&gt;
+
+&lt;p&gt;I can't work out how to provide a universal &quot;I can't do that&quot; response from the stubborn computer.&lt;/p&gt;
+
+&lt;p&gt;E.g.:&lt;/p&gt;
+
+&lt;p&gt;Instead of asking Stubborn_Computer about anything, say &quot;'Voice print not recognised.'&quot;&lt;/p&gt;
+
+&lt;p&gt;This doesn't work because Inform regards 'anything' as a specific topic rather than a global 'everything'.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1177/implement-blanket-understood-comment-inanimate-listener</guid>
+<pubDate>Sat, 12 Sep 2015 23:35:11 +0000</pubDate>
+</item>
+<item>
+<title>Random text in Squiffy</title>
+<link>http://ifanswers.com/1175/random-text-in-squiffy</link>
+<description>&lt;p&gt;I can't seem to get my random text generator to work. I am trying to randomly create an attribute in Squiffy using &lt;/p&gt;
+
+&lt;p&gt;var randomnumber = function rng(min, max) {&lt;br&gt;
+      return Math.floor(Math.random() * (max - min) + min);&lt;br&gt;
+    }&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set (&quot;mynumber&quot;, randomnumber(1,6));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but it doesn't seem to work as a variable. All I get is null. Help! &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1175/random-text-in-squiffy</guid>
+<pubDate>Fri, 11 Sep 2015 23:37:28 +0000</pubDate>
+</item>
+<item>
+<title>Can I seriously not use comparatives/superlatives with enumerated values?</title>
+<link>http://ifanswers.com/1156/seriously-comparatives-superlatives-with-enumerated-values</link>
+<description>&lt;p&gt;In many cases enumerated values can be treated like numbers (like with comparisons) and successor, predecessor relations. (though you use &lt;code&gt;next ...&lt;/code&gt; instead of &lt;code&gt;increment ...&lt;/code&gt;, but it's the same basically)&lt;/p&gt;
+
+&lt;p&gt;This does not work, but I feel like it should.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Military rank is a kind of value.
+The military ranks are rank private, specialist, corporal, seargent, master seargent, seargent major.
+A person has a military rank.
+
+Definition: A person is noble if his military rank is master seargent or more.
+
+The beaches of Normandy is a room.
+
+McGilliguddy is a rank private man. He is here.
+Sarge Stewart is a master seargent man. He is here.
+
+when play begins:
+    say &quot;[the noblest man]&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is what I'm using as a work-around, but it feels janky.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Military rank is a kind of value.
+rank0 specifies a military rank.
+private rank is always rank0.
+specialist is always rank1.
+corporal is always rank2.
+seargent is always rank3.
+master seargent is always rank4.
+seargent major is always rank5.
+
+A person has a military rank.
+
+Definition: A person is noble if his military rank is rank4 or more.
+
+The beaches of Normandy is a room.
+
+McGilliguddy is a man. He is here. The military rank is private rank.
+Sarge Stewart is a man. He is here. The military rank is master seargent.
+
+when play begins:
+    say &quot;[the noblest man]&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1156/seriously-comparatives-superlatives-with-enumerated-values</guid>
+<pubDate>Mon, 07 Sep 2015 05:16:28 +0000</pubDate>
+</item>
+<item>
+<title>Open container that you can't see inside in Inform 7?</title>
+<link>http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7</link>
+<description>&lt;p&gt;Hi, I'm trying to have a small object which is inside another object that the player can't see. &lt;br&gt;
+However when looked at in game the &quot;container&quot; object is shown as either (closed) or the player can see what's inside it.&lt;/p&gt;
+
+&lt;p&gt;Here is my code for the objects in question:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;There is an object called a hat. a hat is wearable. a hat is opaque.
+
+There is an object called a tiny key. a tiny key is inside a hat.
+
+Before taking the hat:
+    if the tiny key is in the hat or a tiny key is not on the player:
+        move a tiny key to the bedroom;
+        say &quot;As you pick the hat up, a tiny key falls out of the hat and clatters on the floor.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In game it looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You can see a hat (in which is a tiny key) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I make the hat closed, then it shows it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You can see a hat (closed)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which I feel gives away that there's something hidden in the hat. Is there a way to show no suffix as to whether the hat is a container or not?&lt;/p&gt;
+
+&lt;p&gt;Another small question I had relates to moving the key to the same location as the hat. Obviously the current design of the puzzle means that attempting to move the hat would cause the key to drop, but what if I wanted the code to recognise what room the hat is in and then transport it's contents to that same room?&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1151/open-container-that-you-cant-see-inside-in-inform-7</guid>
+<pubDate>Sun, 06 Sep 2015 17:55:57 +0000</pubDate>
+</item>
+<item>
+<title>Gamebook: How to include a player's attributes/stats?</title>
+<link>http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats</link>
+<description>&lt;p&gt;&lt;em&gt;I just discovered &quot;Quest&quot; and the Interactive Fictions and I am basically a complete newbie to the whole system. So please forgive me this very simple question, but the help files on the &quot;gamebook&quot; type seem not to be very helpful for me. In fact, I still struggle with the most basic questions on how to include simple script. If somebody could show me a few basic steps, I'd be very, very grateful. &lt;br&gt;
+I have two questions for the moment.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.) How do I include a player's attribute into the story?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically, I plan the following: I want to have an attribute like &quot;Happiness&quot;. It can start on 0. (I am already thinking of maybe including a random starting stat, but that's for later). How do I establish this in the first place? Where do I have to click to include it and what do I have to define?&lt;/p&gt;
+
+&lt;p&gt;I want to have this attribute or stat to increase and decrease at certain occasions. Player experiences something nice = Happiness +1. And so on. At the moment I plan for this to be a hidden stat, but I don't mind if somebody can explain me how to make it visible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.)  How can I make an attribute/stat influence the text being shown?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am pretty sure it has something to do with the &quot;IF&quot; command, but again, I struggle with the simple basic questions: Say the player enters a certain place, and if his happiness is &amp;gt;5, I want to add text to the paragraph like &quot;This is a beautiful place&quot;, whereas if his happiness is 0, the text should read &quot;You feel depressed by the dark colours of this place.&quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Again, I apologize for these very basic questions, and if somebody can guide me to a link with a comprehensible explanation that's just as fine. I searched the Wiki and this site here though, and most texts and answers seem to be directed at people who already know a bit what they are doing. I seem to lack the main understanding of: What do I have to click and write where to put the basic system in place.&lt;br&gt;
+Thank you so much in advance! :)&lt;br&gt;
+System is Windows Vista, Quest is 5.6.1.&lt;/em&gt;&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1150/gamebook-how-to-include-a-players-attributes-stats</guid>
+<pubDate>Sun, 06 Sep 2015 14:25:08 +0000</pubDate>
+</item>
+<item>
+<title>Online version of Quest: How do I change the value of Status Attributes?</title>
+<link>http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</link>
+<description>&lt;p&gt;First of all, I know that someone already asked a question about changing status attributes &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/623/quest-how-do-i-change-status-attributes?show=623#q623&quot;&gt;here&lt;/a&gt;, but the answers seemed to be specifically for the Windows desktop version of Quest, which I cannot access.&lt;/p&gt;
+
+&lt;p&gt;Initially, I was having difficulty with setting up a Status Attribute for &quot;cash,&quot; but hegemonkhan's answer to &lt;a rel=&quot;nofollow&quot; href=&quot;http://ifanswers.com/969/i-need-help-with-attributes?show=969#q969&quot;&gt;this question&lt;/a&gt; helped me with that. Many thanks to him.&lt;/p&gt;
+
+&lt;p&gt;But now that I've set up my status attribute for cash, I'm not sure how to change the value of the variable. I want my player to start the game with $20, so I set the variable &quot;player.cash&quot; to 20, created a new string dictionary for &quot;player.statusattributes,&quot; and then added &quot;cash&quot; to that string dictionary. Like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/o4HujGa.png&quot; alt=&quot;An effective setup for &amp;quot;cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;That worked. On the right sidebar of my game, in the &quot;status&quot; panel, it says &quot;Cash: $20.&quot; Then, in an attempt to figure out how to increase the &quot;player.cash&quot; value during gameplay, I tried to create the command &quot;increase cash&quot; which I wanted to simply add $20 to the player's &quot;cash&quot; value. But I didn't really know how to do that, as you can see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/uP0gAX8.png&quot; alt=&quot;An ineffective setup for &amp;quot;increase cash.&amp;quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;My attempt probably looks extremely laughable to those who actually know what they're doing. Can anyone help me figure out how to increase the &quot;player.cash&quot; variable in a way that is compatible with the online version of Quest?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1141/online-version-quest-how-change-the-value-status-attributes</guid>
+<pubDate>Fri, 04 Sep 2015 03:42:47 +0000</pubDate>
+</item>
+<item>
+<title>Is there an easy way to loop text in Inform 7?</title>
+<link>http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7</link>
+<description>&lt;p&gt;I feel like there must be some simple method and I'm missing it (as usual). What I want is something like this:&lt;/p&gt;
+
+&lt;p&gt;Grazing is an action applying to nothing. &lt;br&gt;
+Understand &quot;graze&quot; as grazing. &lt;br&gt;
+Instead of grazing, say &quot;You eat an onion.&quot; then &quot;You nibble a carrot.&quot; then &quot;You consume a turnip.&quot; then &quot;You chomp a bagel.&quot;&lt;/p&gt;
+
+&lt;p&gt;I know the programming syntax would look nothing like that, but I wrote it like that to convey the idea. After &quot;You chomp a bagel.&quot; is displayed, then it should loop back and say &quot;You eat an onion.&quot; and continue to loop indefinitely whenever the player uses the &quot;graze&quot; command. In that specific order: onion, carrot, turnip, bagel. Over and over.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1139/is-there-an-easy-way-to-loop-text-in-inform-7</guid>
+<pubDate>Thu, 03 Sep 2015 16:22:17 +0000</pubDate>
+</item>
+<item>
+<title>Where does Twine delete stories to?</title>
+<link>http://ifanswers.com/1138/where-does-twine-delete-stories-to</link>
+<description>&lt;p&gt;I accidentally deleted the wrong story file in Twine (I had one that kept duplicating, I deleted the older one, and now somehow the newer one is gone). Where does the client delete the files to? So far, my undeleters have found nothing and my recycle bin has been empty all this time.&lt;/p&gt;
+
+&lt;p&gt;If I knew where the files go, I can look for it there, but it certainly isn't the recycle bin or the Twine folder in 'my documents'.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1138/where-does-twine-delete-stories-to</guid>
+<pubDate>Tue, 01 Sep 2015 22:11:07 +0000</pubDate>
+</item>
+<item>
+<title>Copying the location of a thing to a variable when it's in something other than a room.</title>
+<link>http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</link>
+<description>&lt;p&gt;I'm using this to get the place where each object start the game and save to a variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A thing have an object called initial position.
+
+When play begins:
+    repeat with x running through all things:
+        now the initial position of x is the location of x.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, take a look at what this does then the thing is in a container, on a supporter, etc...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;showme ball
+...
+location: in the box in Room 101
+...
+initial position: Room 101
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;it only copies only the room, not the entire location. Is there a way to make this work?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1128/copying-location-thing-variable-something-other-than-room</guid>
+<pubDate>Sun, 30 Aug 2015 23:09:04 +0000</pubDate>
+</item>
+<item>
+<title>In the&quot;What do you want to ... with?&quot; phrase, replace 'my' with 'your'.</title>
+<link>http://ifanswers.com/1122/in-the-what-do-you-want-to-with-phrase-replace-my-with-your</link>
+<description>&lt;p&gt;I have this in my source:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Understand &quot;brush my teeth with [something]&quot; as brushing teeth with.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, this happens:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;brush my teeth
+What do you want to brush my teeth with?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This question &quot;What do you want...&quot;, I could not find it in the Rules, using the index. I would like it to change &quot;What do you want to brush MY teeth with?&quot; to &quot;What do you want to brush YOUR teeth with?&quot;. How can I fix this?&lt;/p&gt;
+
+&lt;p&gt;PS: I'm totally aware that expecting the player to brush his teeth in a game usually sucks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1122/in-the-what-do-you-want-to-with-phrase-replace-my-with-your</guid>
+<pubDate>Sun, 30 Aug 2015 05:33:17 +0000</pubDate>
+</item>
+<item>
+<title>How does the {random} script work?</title>
+<link>http://ifanswers.com/1120/how-does-the-random-script-work</link>
+<description>&lt;p&gt;How does the {random} script work?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1120/how-does-the-random-script-work</guid>
+<pubDate>Sat, 29 Aug 2015 19:01:21 +0000</pubDate>
+</item>
+<item>
+<title>Reset most of the things in the game to their initial conditions.</title>
+<link>http://ifanswers.com/1113/reset-most-of-the-things-in-the-game-their-initial-conditions</link>
+<description>&lt;p&gt;I'm working on a game where it's possible to go back in time. When it happens, things must all reset their position and properties. I created an activiy to reset stuff:&lt;/p&gt;
+
+&lt;p&gt;(just to be clear, you can only go back to the starting point, so there's no need to remember the position of things in a given time, just put them back on their initial positions)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Resetting the world is an activity.
+
+For resetting the world:
+    now the player is on your bed;
+    now the alarm clock is on the chest of drawers;
+    now your room's door is closed;
+    now ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem is, when the game is finished, this will probably have hundreds and hundreds of lines and will be quite hard to maintain. Is there a better way to do this?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1113/reset-most-of-the-things-in-the-game-their-initial-conditions</guid>
+<pubDate>Thu, 27 Aug 2015 23:17:44 +0000</pubDate>
+</item>
+<item>
+<title>I want to make a verb that requires to things at once. How do I do this this? [internet version]</title>
+<link>http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version</link>
+<description>&lt;p&gt;Specifically, I want it to be that the player can only skin the wolf if:&lt;br&gt;
+1. The wolf is dead&lt;br&gt;
+AND&lt;br&gt;
+2. The player has a stone&lt;/p&gt;
+
+&lt;p&gt;Using flags, I can make the wolf dead, and I can make it so that the wolf must be dead for skinning. I can also make it so that a stone is needed for skinning. The problem is, I cannot make it so that BOTH of these is required. Any help is welcome, thanks in advance&lt;/p&gt;
+
+&lt;p&gt;-- Plink333&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1110/want-make-that-requires-things-once-this-this-internet-version</guid>
+<pubDate>Thu, 27 Aug 2015 16:57:01 +0000</pubDate>
+</item>
+<item>
+<title>Can the editor control elements execute scripts?</title>
+<link>http://ifanswers.com/1109/can-the-editor-control-elements-execute-scripts</link>
+<description>&lt;p&gt;For the purpose of copying a string list containing user input.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1109/can-the-editor-control-elements-execute-scripts</guid>
+<pubDate>Thu, 27 Aug 2015 02:05:49 +0000</pubDate>
+</item>
+<item>
+<title>In a Gamebook, how do I fix that the text processor is not working properly on my version of Quest (I think)?</title>
+<link>http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</link>
+<description>&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&quot;&gt;http://forum.textadventures.co.uk/viewtopic.php?f=10&amp;amp;t=5444&amp;amp;p=37779#p37779&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As per the above forum topic, it appears that I'm receiving errors when Quest parses my game file that other people cannot reproduce (ie, it appears that Quest dislikes my syntax or something, but others don't know why). &lt;/p&gt;
+
+&lt;p&gt;I've uninstalled and reinstalled Quest to try to resolve the issue, but I continue to have the error. Maybe there's something I failed to initialize or a game setting I've failed to properly set?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1105/gamebook-text-processor-working-properly-version-quest-think</guid>
+<pubDate>Wed, 26 Aug 2015 04:47:12 +0000</pubDate>
+</item>
+<item>
+<title>How do I get the player out of a dark room if he unwittingly enters one without a light source?</title>
+<link>http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source</link>
+<description>&lt;p&gt;I can't seem to find any tutorial or documentation that shows how quest handles light.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1102/player-dark-room-unwittingly-enters-one-without-light-source</guid>
+<pubDate>Tue, 25 Aug 2015 05:49:11 +0000</pubDate>
+</item>
+<item>
+<title>How do I give an object to a character and receive something back?</title>
+<link>http://ifanswers.com/1092/how-do-give-an-object-to-character-and-receive-something-back</link>
+<description>&lt;p&gt;Beginner question alert!&lt;/p&gt;
+
+&lt;p&gt;I've just started using Quest and have a situation where I want to give a character something in my inventory and in return get another object back from them. I've had a look through the FAQs but couldn't find anything - I could just be being dumb though!&lt;/p&gt;
+
+&lt;p&gt;Can anyone point me in the right direction or give me a hand?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1092/how-do-give-an-object-to-character-and-receive-something-back</guid>
+<pubDate>Mon, 24 Aug 2015 06:47:38 +0000</pubDate>
+</item>
+<item>
+<title>Using the Gamebook style game, how do I create game-wide variables to track?</title>
+<link>http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</link>
+<description>&lt;p&gt;In a Gamebook style game, how do I create game-wide variables to track?&lt;/p&gt;
+
+&lt;p&gt;For example, if I want to set a player's gender, but gender doesn't exist in my game yet, how do I make a variable called gender that I can set to be male or female, then check later?&lt;/p&gt;
+
+&lt;p&gt;I am using Windows 8, downloadable version of Quest 5.6.1&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1091/using-gamebook-style-game-create-game-wide-variables-track</guid>
+<pubDate>Mon, 24 Aug 2015 01:11:06 +0000</pubDate>
+</item>
+<item>
+<title>Make the player start the game on a supporter without showing anything before the banner.</title>
+<link>http://ifanswers.com/1089/player-start-supporter-without-showing-anything-before-banner</link>
+<description>&lt;p&gt;Here's a very small example code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Bedroom is a room. &quot;This is your bedroom.&quot;
+
+The bed is a scenery enterable supporter in the bedroom.
+
+When play begins:
+    now the player is on the bed.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The result is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Bedroom (on the bed)
+This is your bedroom.
+
+Welcome
+An Interactive Fiction
+Release 1 / Serial number 150823 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Bedroom (on the bed)
+This is your bedroom.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It shows Bedroom description twice when I put the player on the bed.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1089/player-start-supporter-without-showing-anything-before-banner</guid>
+<pubDate>Sun, 23 Aug 2015 16:27:08 +0000</pubDate>
+</item>
+<item>
+<title>How would I find out what program the LIFELINE game was done/written in?</title>
+<link>http://ifanswers.com/1077/would-find-out-what-program-the-lifeline-game-was-done-written</link>
+<description>
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1077/would-find-out-what-program-the-lifeline-game-was-done-written</guid>
+<pubDate>Sat, 22 Aug 2015 16:12:41 +0000</pubDate>
+</item>
+<item>
+<title>Multiple issues in this code about putting things under a bed.</title>
+<link>http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed</link>
+<description>&lt;p&gt;I'm trying to learn Inform7, so some things here can be a little too noobish.. here is my source code of a room with a bed that can have things on it and under it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Room 1408 is a room.
+
+A bed is a kind of supporter. A underbed is a kind of container. It is a part of every bed.
+
+Understand &quot;examine under [something]&quot; as looking under.
+Instead of looking under a bed:
+    if there is nothing in a underbed (called underbed) which is part of the noun: 
+        say &quot;There's nothing under the [noun].&quot;; 
+    otherwise if there is something in a underbed (called underbed) which is part of the noun:
+        say &quot;Under the [noun] you see: [list of things in underbed].&quot;.
+
+Understand &quot;put [something] under [something]&quot; as hiding it under.
+Understand &quot;place [something] under [something]&quot; as hiding it under.
+Understand &quot;hide [something] under [something]&quot; as hiding it under. 
+Hiding it under is an action applying to two things. Report hiding something under something: say &quot;Under the [second noun] is probably not the best place to hide the [noun].&quot;.
+
+Instead of hiding something under a bed:
+    if there is a underbed (called underbed) which is part of the second noun:
+        now the noun is inside the underbed;
+        say &quot;You have placed the [noun] under the [second noun].&quot;.
+
+The wooden bed is a bed in room 1408. The pillow is on the wooden bed. The ball is in the wooden bed's underbed.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The issues:&lt;/p&gt;
+
+&lt;p&gt;1 - To make this possible, I created a strange object called underbed to represent the stuff under the bed. I would like to make it impossible for the player to refer to this object directly (e.g. examine underbed), so that the only way of interacting with it is using &quot;under the bed&quot;. How can I do this? (EDIT: One of the things I tried was to use 'A underbed is a privately-named kind of container', but it does not work)&lt;/p&gt;
+
+&lt;p&gt;2 - If I start the game and type 'take ball', it will work. But I would like to forbid this, because the player should not be able to take the ball before knowing that it is there (the ball is hidden under the bed). If the player enter 'take all', the ball should not be revealed also.. How can I do this?&lt;/p&gt;
+
+&lt;p&gt;EDIT: I was able to solve the second issue myself by putting the ball under the bed only after the player looks under the bed for the first time. Still, if there's a better way to do this, I would like to know.&lt;/p&gt;
+
+&lt;p&gt;3 - This is a smaller issue, but in the line that starts with 'otherwise...' I had to write all of that instead of just 'otherwise: ' because it would not recognize underbed, but I think it should, because of the &quot;(called underbed)&quot; in the if statement. It is working well the way it is now, but this looks like a bug to me. Is it?&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1076/multiple-issues-in-this-code-about-putting-things-under-bed</guid>
+<pubDate>Sat, 22 Aug 2015 04:38:37 +0000</pubDate>
+</item>
+<item>
+<title>How to output multiple messages without allowing actions in between?</title>
+<link>http://ifanswers.com/1073/output-multiple-messages-without-allowing-actions-between</link>
+<description>&lt;p&gt;I would like to make some parts in my game have long conversations happening. I would like it to print the conversation divided into parts and waiting for a keypress between them, but it's obviously important that the player can't type commands until the entire conversation is finished. Is there a way to do that in inform?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1073/output-multiple-messages-without-allowing-actions-between</guid>
+<pubDate>Fri, 21 Aug 2015 03:26:20 +0000</pubDate>
+</item>
+<item>
+<title>Centering an image in Inform 7</title>
+<link>http://ifanswers.com/1062/centering-an-image-in-inform-7</link>
+<description>&lt;p&gt;Using Basic Screen Effects by Emily Short I am able to center text very easily like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;center &quot;this is some text I want centered.&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is so easy and so wonderful.&lt;/p&gt;
+
+&lt;p&gt;Say I am displaying an image called the figure of the ocean by using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;display the figure of the ocean;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there an EASY way to display that image centered, like the text?&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1062/centering-an-image-in-inform-7</guid>
+<pubDate>Tue, 18 Aug 2015 19:14:27 +0000</pubDate>
+</item>
+<item>
+<title>Printing a random sentence</title>
+<link>http://ifanswers.com/1061/printing-a-random-sentence</link>
+<description>&lt;p&gt;Hello! I was wondering if it was possible in Quest to have the game print out a sentence compiled randomly of predetermined components?&lt;/p&gt;
+
+&lt;p&gt;Let's say for example's sake I was making a game where I would want the description of a TV screen to change every time the player looked at it.  I want the description to be &quot;X is doing Y to Z&quot;, where the words for X, Y, and Z are randomly chosen from a list of possible phrases. The choices for X could include &quot;the dog&quot;, &quot;the cat&quot;, and &quot;the giraffe&quot;; for Y, &quot;is eating&quot;, &quot;is chasing&quot;, and &quot;is jumping on&quot;; and for Z, &quot;a man&quot;, &quot;an apple&quot;, and &quot;a car&quot;. So the description for the programme playing on the TV could be &quot;The dog is chasing a car&quot;, or &quot;The giraffe is eating a man&quot;, or &quot;The cat is jumping on an apple&quot;, or any other combination - always different, but always in the same order.&lt;/p&gt;
+
+&lt;p&gt;Sorry for the convoluted explanation, but I hope you get what I mean! I don't think this should be too complicated or completely out of Quest's wheelhouse, but I just don't know how I can do it.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1061/printing-a-random-sentence</guid>
+<pubDate>Tue, 18 Aug 2015 15:36:59 +0000</pubDate>
+</item>
+<item>
+<title>How can I make use of the health variable in Quest through the editor</title>
+<link>http://ifanswers.com/1053/how-can-make-use-the-health-variable-quest-through-the-editor</link>
+<description>&lt;p&gt;The player attribute 'health' can be turned on using the game features tab in the editor. It then displays 100% in the status window, and I can find how to raise or lower it using scripts, but when it reaches 0 nothing happens, and I want to be able to print a message and end the game when that happens.&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1053/how-can-make-use-the-health-variable-quest-through-the-editor</guid>
+<pubDate>Sat, 15 Aug 2015 01:56:25 +0000</pubDate>
+</item>
+<item>
+<title>QUEST: Missing tabs in object view</title>
+<link>http://ifanswers.com/1051/quest-missing-tabs-in-object-view</link>
+<description>&lt;p&gt;I have been using quest for a little while now and running through the tutorial that comes with it. &lt;/p&gt;
+
+&lt;p&gt;My issue is that it mentions an options tab on the object view, but I am missing that and a few other tabs that are supposed to be available with your objects. I've checked to make sure that I have the latest version of quest installed and there doesn't seem to be any where else that I can add more tabs from. &lt;/p&gt;
+
+&lt;p&gt;Also I checked out google and nowhere seemed to have answers for me, not even the IF forums or here. &lt;/p&gt;
+
+&lt;p&gt;Any help? &lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1051/quest-missing-tabs-in-object-view</guid>
+<pubDate>Fri, 14 Aug 2015 03:54:31 +0000</pubDate>
+</item>
+</channel>
+</rss>

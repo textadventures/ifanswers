@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>IF Answers - Recent questions tagged rules</title>
+<link>http://ifanswers.com/tag/rules</link>
+<description>Powered by Question2Answer</description>
+<item>
+<title>Is there a maximum rules limit in Inform 6?</title>
+<link>http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</link>
+<description>&lt;p&gt;I have a very large inform 7 project (378k words &amp;amp; 4 years in the making), the support for developing which I use to live off!  And I have today hit a huge huge block - I can't make any more rules.  Whenever I try to make a new rule, regardless of how simple or complex the rule is, regardless of whether is it's a &quot;To&quot; rule, a &quot;To say&quot; rule, or four or more &quot;This is the bla bla bla rule&quot;s, Inform 7 successfully compiles, telling me that the code is fine, but then it comes up with an error: &lt;em&gt;&quot;Translating the Source - Failed&lt;br&gt;
+The application ran your source text through the Inform 7 compiler, as usual, and it found no problems translating the source. Something must have gone wrong all the same, because the second stage of the process - using the Inform 6 compiler to turn this translated source into a viable story file - turned up errors. This should not happen. The errors are written out on the Progress tab, but will only make sense to experienced Inform 6 users (if even to them).&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The error is simply &lt;em&gt;&quot;C:\Program Files (x86)\Inform 7\Compilers\inform-632 \&lt;br&gt;
+    -kwSDG +include_path=..\Source,.\ auto.inf output.ulx&lt;br&gt;
+Compiler finished with code 10&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How do I know the issue is specifically rules?&lt;/p&gt;
+
+&lt;p&gt;If I comment out a rule in my code, it will let me add one or more rules before this appears.&lt;/p&gt;
+
+&lt;p&gt;The complexity and size of the rule seems to have some impact, but the number of rules seems to be the biggest limiting factor.&lt;/p&gt;
+
+&lt;p&gt;I have tried this on 3 different machines, with different specifications and running different OSs: Windows 7 and 8 and 10 and the result is always the same, so the computer is not to blame.&lt;/p&gt;
+
+&lt;p&gt;NB. I am using 6G60 because the latest version broke several extensions that my game relies on.  So if the latest version does fix this issue, then please let me know and I guess I can work hard to resolve the migration issues, but it looks to me like a hard limit of i6?&lt;/p&gt;
+
+&lt;p&gt;Anyway, this is awful awful news for me since I rely on this game's development to support living at the moment.  Any answers, advice or other inputs people have as to how best I should try and resolve this issue, please do reply!!!&lt;/p&gt;
+</description>
+<category>Authoring</category>
+<guid isPermaLink="true">http://ifanswers.com/1022/is-there-a-maximum-rules-limit-in-inform-6</guid>
+<pubDate>Fri, 07 Aug 2015 10:15:23 +0000</pubDate>
+</item>
+</channel>
+</rss>
